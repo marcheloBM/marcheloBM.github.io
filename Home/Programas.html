@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+    <head>
+        <title>MarcheBMPC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript">
+			var plataforma = navigator.platform  ;
+			//alert("Dispositivo Detectado: "+plataforma);
+			  if(plataforma=="Win32"){
+                  window.location.href ="Programas/ProgramasWindows.html";
+			  }else if (plataforma=="Linux x86_64") {
+                  window.location.href ="Programas/ProgramasUbuntu.html";
+			  }else if (plataforma=="Linux armv8l") {
+                  //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
+                  window.location.href ="Programas/ProgramasAndroid.html";
+              }else if (plataforma=="Linux aarch64") {
+                  //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
+                  window.location.href ="Programas/ProgramasAndroid.html";
+              }else if (plataforma=="Linux i686") {
+                  //Para Emulador Android
+                  //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
+                  window.location.href ="Programas/ProgramasAndroid.html";
+              }else{
+                  alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
+                  alert("Puede mandar un pantallazo para poder integrar nuevos dispositivos compatibles a nuestra WEB ");
+                  window.location.href ="../Info/index.html";
+              }
+		</script>
+    </head>
+    <body>
+	<!--Pagina principal
+        <script>document.location.href="Home/index.html"</script>-->
+	<!--Mantenedor
+		<script>document.location.href="Mantenedor/index.html"</script>-->
+	<!--Mantenedor de prueba
+		<script>document.location.href="mantenedor.html"</script> -->
+    </body>
+</html>

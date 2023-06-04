@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html lang="es">
+    <head>
+        <title>MarcheBMPC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script type="text/javascript">
+			var plataforma = navigator.platform  ;
+			//var ua = navigator.userAgent;
+			//var uaStringCheck = ua.substring(ua.indexOf("5.0 (") + 5, ua.indexOf(") Apple") - 5);
+			if(plataforma=="PlayStation 3"){
+				//document.write( "Informacion Dispositivo: "+plataforma+" <p />" );
+				//alert("Dispositivo Detectado: "+plataforma);
+				window.location.href ="PS3/index.html";
+			}else if(plataforma=="PSP"){
+				//document.write( "Informacion Dispositivo: "+plataforma+" <p />" );
+				//alert("Dispositivo Detectado: "+plataforma);
+				window.location.href ="PSP/index.html";
+			}else if(plataforma=="PlayStation Vita"){
+				//document.write( "Informacion Dispositivo: "+plataforma+" <p />" );
+				//alert("Dispositivo Detectado: "+plataforma);
+				window.location.href ="PSVita/index.html";
+			}else if(plataforma=="PlayStation 4"){
+				//alert("Dispositivo Detectado: "+plataforma);
+				window.location.href ="PS4/index.html";
+			}else{
+				//document.write( "Informacion Dispositivo: "+plataforma+" <p />" );
+				//alert("Dispositivo Detectado: "+plataforma);
+				//window.location.href ="Mantenedor/index.html";
+				window.location.href ="Home/index.html";
+				
+			}
+		</script>
+    </head>
+    <body>
+	<!--Pagina principal 
+        <script>document.location.href="Home/index.html"</script>-->
+	<!--Mantenedor
+		<script>document.location.href="Mantenedor/index.html"</script>-->
+	<!--Mantenedor de prueba
+		<script>document.location.href="mantenedor.html"</script> -->
+    </body>
+</html>

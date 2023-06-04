@@ -1,0 +1,215 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PS3 Artemis</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>PS3 Artemis</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Artemis, un sistema de trampas para videojuegos de Playstation 3 de código abierto creado bajo la iniciativa Project Artemis. Podemos colocar muchos trucos para nuestros juegos de PS3</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PS3/Artemis.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>USB en formato FAT32</li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <!--<a name="ProFT" id="ProFT"></a>-->
+                                            <ol>
+                                                <li>PKG: <a href="../../Consolas/PS3.html#Artemis">Artemis</a></li>
+                                                <li>WEB Oficial:<a href="https://github.com/bucanero/ArtemisPS3">Artemis</a></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Empezando este Tutorial </p>
+                                            <ol>
+                                                <li>Descargamos el archivo .pkg y el archivo .rar el archivo .rar lo descomprimimos y lo copiamos </li>
+                                                <li>A la USB</li>
+                                                <ul>
+                                                    <li>Copiamos a raíz de nuestro USB la carpeta llamada <b>USERLIST</b> con todo su contenido</li>
+                                                    <li>Y después Inserte la unidad USB en la ranura USB derecha de su PS3 e inicie Artemis PS3</li>
+                                                </ul>
+                                                <li>A la Consola PS3</li>
+                                                <ul>
+                                                    <li>Abriremos un programa en PC para gestionar el FTP por Ej: <a href="../../ProgramasWindows.html#FiZi">FileZilla</a> </li>
+                                                    <li>Para este método debemos tener la consola y nuestro equipo conectado a la misma RED</li>
+                                                    <img src="../../images/Tutotiales/PS3/FileZilla.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    <li>Una vez dentro colocamos la IP de nuestra consola </li>
+                                                    <ol>
+                                                        <li>Para saber la ip de nuestra consola nos vamos <b>Ajustes/Ajustes de red</b></li>
+                                                        <li>Y en <b>ajuste y lista de estado de conexión</b> nos saldrá toda la información de la red de nuestra consola </li>
+                                                        <li>Solo necesitamos <b>Direccion IP</b> </li>
+                                                        <li>Colocamos los datos</li>
+                                                        <ul>
+                                                            <li>Servidor: la IP de nuestra consola ej: <b>192.168.0.16</b></li>
+                                                            <li>Puerto: el puerto sería el <b>21</b></li>
+                                                            <li>Y listo a conexión rápida</li>
+                                                        </ul>
+                                                    </ol>
+                                                    <li>Solo nos queda buscar la ruta para copiar los archivos </li>
+                                                    <ol>
+                                                        <li>La ruta a navegar a <code>/dev_hdd0/game/ARTPS3001/USRDIR/</code></li>
+                                                        <li>Y copiamos carpeta <b>USERLIST</b> dentro de USRDIR </li>
+                                                        <li>Y listo podemos cerrar todo y usar nuestra consola con la aplicación</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>Iniciamos nuestra aplicación de Artemis</li>
+                                                <ul>
+                                                    <li>Dependiendo si hay actualizaciones o si es la primera vez que lo ejecutamos le damos aceptar todo para quedar al día la aplicación con <img src="../../images/ControlSony/equis.jpg" width=20 height=20 alt="Imagen No Disponible" /> </li>
+                                                    <li>Para comenzar solo debemos ir al menú <b>Cheats</b> </li>
+                                                    <li>Dentro buscamos el ID del juego que queremos cargar los trucos </li>
+                                                    <ol>
+                                                        <li>Cuando encontremos el juego le damos a la <img src="../../images/ControlSony/equis.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+                                                        <li>Nos mostrara todos los trucos disponibles para el juego </li>
+                                                        <li>Marcamos los trucos que queremos activar con <img src="../../images/ControlSony/equis.jpg" width=20 height=20 alt="Imagen No Disponible" /> </li>
+                                                        <li>Una vez listo le damos a <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para volver al menú anterior y <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para volver al menú principal </li>
+                                                        <li>Una vez en este menú le damos a <b>Start Game</b> la consola emite un pitido </li>
+                                                    </ol>
+                                                    <li>Ahora solo vamos al juego que seleccionamos y le damos a botón <img src="../../images/ControlSony/PS.jpg" width=20 height=20 alt="Imagen No Disponible" /> y después al botón <img src="../../images/ControlSony/Start.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+                                                    <li>Nos notificara con Artemis PS3 Attached and Wrote y listo</li>
+                                                    <li>Y volvemos a presionar el botón PS y listo solo probamos los trucos</li>
+                                                </ul>
+                                                <li>Y listo probamos nuestros juegos con los trucos recién cargados algunos trucos pueden no funcionar solo hay que ir probando</li>
+                                            </ol>
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

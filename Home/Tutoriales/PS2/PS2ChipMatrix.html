@@ -1,0 +1,288 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PS2 Chip Matrix</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>PS2 Chip Matrix v1.93</h1>
+									</header>
+
+									<!-- Content -->
+										<p>El modchip es utilizado para modificar o desactivar las restricciones y limitaciones impuestas por las empresas fabricantes de consolas de videojuegos más populares (PlayStation, etc).</p>
+                                    <a name="ChipMatrix" id="ChipMatrix"></a>
+                                    <span class="image main"><img src="../../images/Tutotiales/PS2/ChipMatrixPS2.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    <h2>Como desactivar el chip matiz </h2>
+                                    <div class="row gtr-200">
+                                        <li>Presionamos el botón start hasta que aparezca en nuestra consola</li>
+                                        <div class="col-4"><span class="image fit"><img src="../../images/Tutotiales/PS2/ControlPS2.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer"  onclick="onClick(this)" /></span></div>
+                                    </div>
+                                    
+                                    <hr class="major" />
+                                    
+                                    <h2>Matrix v1.93</h2>
+                                    <p>Para iniciar El menú de Matrix v1.93 debemos encender nuestra consola de PS2 presionamos <img src="../../images/ControlSony/Triangulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> + <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" />.</p>
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Infinity configuration Menu</p>
+                                            <ol>
+                                                <li>PS2 SREEN FIX:</li>
+                                                <ul>
+                                                    <li>Posee Salida NTSC / PAL60 / VGA / OFF / COLOR / PAL, Cuando compramos un juego en castellano, mayormente poseen un sistema PAL, el cual en nuestra Tv se vería en blanco y negro, gracias al menú configurable, podemos ver TODOS los juegos a color.</li>
+                                                    <ol>
+                                                        <li>OFF:No parchea nada de los juegos sea NTSC o PAL total mente apagado</li>
+                                                        <li>COLOR: forzar los juegos que salen a blanco y negro a correrlos a color</li>
+                                                        <li>PAL: forzar los juegos de NTSC por correrlos en PAL</li>
+                                                        <li>NTSC: forzar los juegos de PAL por correrlos en NTSC</li>
+                                                        <li>PAL60: corre juegos que tiene una resolución de 576i a 480i sin quitar el formato PAL</li>
+                                                        <li>VGA: salen a una resolución de 640*480p de video</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>Y SCREEN FIX</li>
+                                                <ul>
+                                                    <li>Esta opción nueve la salida de video de la pantalla (centrar en la pantalla) depende de la salida de video seleccionada</li>
+                                                    <ol>
+                                                        <li>OFF: no pache la pantalla </li>
+                                                        <li>AUTO: el mismo chip centra la pantalla</li>
+                                                        <li>+5,-5,+10,-10,+15,-15,+20,-20: mover manualmente estas opciones de la pantalla</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>PSX SCREEN FIX</li>
+                                                <ul>
+                                                    <li>Centra la pantalla del juego de PSX</li>
+                                                    <ol>
+                                                        <li>ON: detecta automáticamente la salida de video y lo centrara</li>
+                                                        <li>OFF: opción apagada</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>PSX MULTI DISK</li>
+                                                <ul>
+                                                    <li>Podemos leer juegos multi disco de PSX (varios juegos de PSX en un solo Disco)</li>
+                                                    <ol>
+                                                        <li>ON: opción encendida </li>
+                                                        <li>OFF: opción apagada</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>MC16 PATCH</li>
+                                                <ul>
+                                                    <li>Te permite utilizar memory card de 64 MB o más sin ayuda de ningún disco</li>
+                                                    <ol>
+                                                        <li>ON: opción encendida </li>
+                                                        <li>OFF: opción apagada</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>ATAD AUTO PATCH</li>
+                                                <ul>
+                                                    <li>Nos permite evitar errores en nuestro disco duro (HDD) utilizar cualquier disco duro cono su fuera el original de SONY</li>
+                                                    <ol>
+                                                        <li>ON: opción encendida </li>
+                                                        <li>OFF: opción apagada</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>MACROVISION FIX</li>
+                                                <ul>
+                                                    <li>Reproducir películas en nuestra PS2 (sin problemas en nuestros videos con protección MACROVISION) mantener en OFF para no tener problemas con algunas aplicaciones </li>
+                                                    <ol>
+                                                        <li>ON: opción encendida </li>
+                                                        <li>OFF: opción apagada</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>GREEN FIX</li>
+                                                <ul>
+                                                    <li>Nos permite ver películas en PS2 sin que se vea en verde </li>
+                                                    <ol>
+                                                        <li>ON: opción encendida </li>
+                                                        <li>OFF: opción apagada</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>DVDVIDEO REGION</li>
+                                                <ul>
+                                                    <li>Te permite poder ver cualquier zona sin importar de que parte del mundo sea.</li>
+                                                    <ol>
+                                                        <li>Región 1 - Canadá, Estados Unidos y territorios de EE.UU.</li>
+                                                        <li>Región 2 - Japón, Europa, Sur África, el Oriente Medio (incluyendo Egipto) y Groenlandia.</li>
+                                                        <li>Región 3 - Sudeste de Asia y Este de Asia (incluyendo Hong Kong).</li>
+                                                        <li>Región 4 - Australia, Nueva Zelanda, las Islas del Pacífico, América Central, México, Sudamérica y el Caribe.</li>
+                                                        <li>Región 5 - Europa del Este, Rusia, el subcontinente Indio, África, Corea del Norte y Mongolia</li>
+                                                        <li>Región 6 - China.</li>
+                                                        <li>Región 7 - Reservado para uso especial no especificado.</li>
+                                                        <li>Región 8 - Medios internacionales especiales para el transporte aéreo y oceánico.</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>DVD9 DL SUPPORT</li>
+                                                <ul>
+                                                    <li>Te permite utilizar discos doble capa de 9GB de capacidad </li>
+                                                    <ol>
+                                                        <li>ON: opción encendida </li>
+                                                        <li>OFF: opción apagada</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>BOOT MODE</li>
+                                                <ul>
+                                                    <li>Posee 5 modos de booteo (Fast, infman, Dev1, Dev2, AUTO Y Dvdv)</li>
+                                                    <ol>
+                                                        <li>AUTO: Permite corres de forma automática (a menos que presiones alguna tecla en espefico)</li>
+                                                        <li>FAST: Te permite ingresar a un juego automáticamente salteando la presentación de PS2</li>
+                                                        <li>*INFMAN: ingresa a un programa previamente instalado en la memory card</li>
+                                                        <li>*DEV1 y DEV2: Son utilizados para ejecutar programas en la memory card o un disco rígido</li>
+                                                        <li>*DVDV: Es el modo DVD video para ver películas</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>PAD DETECT TIME</li>
+                                                <ul>
+                                                    <li>Tiempo para conectar otro mando de PS2 </li>
+                                                    <ol>
+                                                        <li>Entre las Opciones son (2, 4, 6, 8, 10)</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>BOOT LOGO</li>
+                                                <ul>
+                                                    <li>Como activar o desactivar el logo del chip matix </li>
+                                                    <ol>
+                                                        <li>ON: opción encendida </li>
+                                                        <li>OFF: opción apagada</li>
+                                                    </ol>
+                                                </ul>
+                                            </ol>
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2XtremeEliteBootPS2SX.html">PS2 XtremeEliteBoot + PS2SX</a></li>
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+                                        <li><a href="PS2FreeDVDBoot.html">PS2 FreeDVDBoot</a></li>
+                                        <li><a href="PS2FunTuna.html">PS2 FunTuna</a></li>
+                                        <li><a href="PS2OPLActConfig.html">PS2 OPL Actualizar/Configurar </a></li>
+                                        <li><a href="PS2RetroArch.html">PS2 RetroArch</a></li>
+                                        <li><a href="PS2PS1EnPS2.html">PS1 en PS2</a></li>
+                                        <li><a href="PS2Juegos.html">PS2 Añadir Juegos</a></li>
+                                        <li><a href="PS2OPLServer.html">PS2 OPL Server</a></li>
+                                        <li><a href="PS2FormaMemCardPS2.html">PS2 Formatiar Memory Card PS2</a></li>
+                                        <li><a href="PS2APPSUSB.html">PS2 APPS USB</a></li>
+                                        <li><a href="PS2Temas.html">PS2 Temas</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

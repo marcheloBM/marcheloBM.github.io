@@ -1,0 +1,675 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Programas Ubuntu</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../ico/favicon.png" />
+        <!-- Detecta el sistema y la Arquitectura del PC -->
+		<script src="../js/detectar.js"></script>
+		<!-- Para el Encabezado -->
+        <script src="../js/InfoWebMenu.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Programas Ubuntu</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Algunos de los programas o comandos que mostramos a continuación son más que nada para ayudar con algunas necesidades que se presenten. </p>
+										<p>Nos puede recomendar algunos programas para subir a nuestra WEB o si encuentra algún problema con algunos links o comandos le agradecemos informar para mantener esta página activa. igual todos los comandos y los link fueron actualizados el <b>13-06-2022</b>.</p>
+										<p>Sistema Operativo: <b id="os"></b></p>
+										<!--<p>Arquitectura: <b id="arqui"></b></p>-->
+                                    
+                                    <hr class="major" />
+
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+												<h4>Neofetch</h4>
+												<p><span class="image right"><img src="../images/ubuntu/neofetch.jpg" alt="Imagen No Disponible" /></span>Neofetch muestra información en el terminal sobre su sistema junto a una imagen, el logotipo de su sistema operativo o cualquier archivo ASCII de su elección. </p>
+                                            <ul>
+                                                <li>Instalamos neofetch</li>
+                                                <code>sudo apt install neofetch</code>
+                                                <li>Ejecutar neofetch al abrir la terminal</li>
+                                                <code>sudo gedit /etc/bash.bashrc</code>
+                                                <li>Al final del documento agregamos el nombre del programa</li>
+                                                <code>neofetch</code>
+                                            </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+												<h4>grub customizer</h4>
+												<p><span class="image right"><img src="../images/ubuntu/grubcustomizer.jpg" alt="Imagen No Disponible" /></span>Grub Customizer es una interfaz gráfica para configurar los ajustes y las entradas de menú de GRUB2/BURG</p>
+                                            <ul>
+                                                <li>Agremamos el Repositorio</li>
+                                                <code>sudo add-apt-repository ppa:trebelnik-stefina/grub-customizer</code>
+                                                <li>Actualizamos</li>
+                                                <code>sudo apt update</code>
+                                                <li>Instalamos grub customizer</li>
+                                                <code>sudo apt install grub-customizer</code>
+                                                <li>Pagina de temas</li>
+                                                <a href="https://www.gnome-look.org/browse?cat=109&ord=latest" target="_blank">gnome-look.org</a>
+                                                <li>Crear carpeta Themes</li>
+                                                <code>sudo mkdir /boot/grub/themes</code>
+                                                <li>comprobamos que se creo la carpeta</li>
+                                                <code>ls /boot/grub</code>
+                                                <li>Extraer y mover el tema a la carpeta themes</li>
+                                                <li>Ej: <code>sudo cp -R [ruta del tema descargado] /boot/grub/themes/</code></li>
+                                                <code>sudo cp -R /home/usuario/Descargas/toshiba /boot/grub/themes/</code>
+                                                <li>Editar el archivo /etc/default/grub</li>
+                                                <code>sudo gedit /etc/default/grub</code>
+                                                <li>Buscamos la linea #GRUB_THEME, de no existir hay que crearla. Tiene que quedar asi: GRUB_THEME=/boot/grub/themes/[nombre de la carpeta]/[nombre del archivo de texto dentro de la carpeta]</li>
+                                                <code>GRUB_THEME=/boot/grub/themes/toshiba/theme.txt</code>
+                                                <li>Por último actualizamos el grub</li>
+                                                <code>sudo update-grub</code>
+                                            </ul>
+										</div>
+									</div>
+
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+												<h4>Bleachbit</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/bleachBit.jpg" alt="Imagen No Disponible" /></span>BleachBit es una herramienta gratuita y de código abierto para ayudarlo a deshacerse de los archivos basura en su máquina . Es potente y fácil de usar, lo que le permite no solo eliminar archivos basura, sino también triturar y borrar archivos.</p>
+                                            <ul>
+                                                <li>Descargar el Instalador deb desde la Pagina Web Official</li>
+                                                <a href="https://www.bleachbit.org/download" target="_blank">bleachbit.org</a>
+                                                <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.dev</a></li>
+                                                <code>sudo dpkg -i Descargas/bleachbit_4.4.2-0_all_ubuntu2104.deb</code>
+                                            </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+											<div class="table-wrapper">
+												<h4>Google Chrome</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/googlechrome.jpg" alt="Imagen No Disponible" /></span>Google Chrome es un navegador web de código cerrado desarrollado por Google</p>
+                                                <ul>
+                                                    <li>Descargar el Instalador deb desde la Pagina Web Official</li>
+                                                    <a href="https://www.google.com/intl/es-419/chrome/dev/" target="_blank">Google Chrome</a>
+                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.dev</a></li>
+                                                    <code>sudo dpkg -i Descargas/google-chrome-stable_current_amd64.deb</code>
+                                                </ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+											<div class="table-wrapper">
+												<h4>Chromium</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/chromium.jpg" alt="Imagen No Disponible" /></span>Chromium es una base de código abierto para desarrollar un navegador web, mantenida por diversas compañías que posteriormente usan el código fuente para crear su propia versión de navegador con características adicionales</p>
+                                                <ul>
+                                                    <li>Ejecutamos el comando desde la Terminal</li>
+                                                    <code>sudo apt install chromium-browser</code>
+                                                </ul>
+											</div>
+										</div>
+
+										<div class="col-6 col-12-medium">
+											<div class="table-wrapper">
+												<h4>foxit reader | PDF</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/foxitreaderpdf.jpg" alt="Imagen No Disponible" /></span>Foxit Reader es un lector PDF multilingüe. Tanto la versión completa, como la básica pueden descargarse gratis. Este software es notable por su corto tiempo para cargar y el tamaño pequeño de sus archivos. Ha sido favorablemente comparado con Adobe Reader. No puede leer archivos PDX.</p>
+                                                <ul>
+                                                    <li>Descargar el Instalador deb desde la Pagina Web Official</li>
+                                                    <a href="https://www.foxit.com/es-la/pdf-reader/" target="_blank">foxit.com</a>
+                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#run.tar.gz">run.tar.gz</a></li>
+                                                    <li>Descomprimir el archivo, buscamos el archivo .run para ejecutarlo</li>
+                                                    <li>Dentro de la carpeta desde la terminal le damos los permisos para el archivo</li>
+                                                    <code>sudo chmod 777 "nombre del archivo"</code>
+                                                    <li>Para ejecutarlo desde la Terminal</li>
+                                                    <code>sudo ./"nombre del archivo"</code>
+                                                    <li>Listo</li>
+                                                </ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+											<div class="table-wrapper">
+												<h4>Codecs y software de terceros</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/codecs.jpg" alt="Imagen No Disponible" /></span>Si no se instalan desde la instalacion de ubuntu o para actualizar. Los códecs de vídeo más populares actualmente son Theora, VP8, MPEG-2, h. 264, Xvid y Divx. Respecto a los códecs de audio: AAC, FLAC, MP3, Vorbis (ogg) y WMA son los que más abundan. Los contenedores más utilizados son AVI, Divx, Matroska, Flash video, MP4, MPEG, Ogg, Quicktime, MXF y WebM.</p>
+                                                <ul>
+                                                    <li>Desde una Terminal</li>
+                                                    <code>sudo apt install ubuntu-restricted-extras</code>
+                                                </ul>
+											</div>
+										</div>
+
+										<div class="col-6 col-12-medium">
+											<div class="table-wrapper">
+												<h4>Gnome Tweak tool</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/gnometweaktool.jpg" alt="Imagen No Disponible" /></span>GNOME Tweak Tool es una herramienta para habilitar la personalización de opciones avanzadas para GNOME3. GNOME Tweak Tool permite el ajuste de varias opciones avanzadas de GNOME que no pueden configurarse en gnome-control-center. (Tener más ajustes en la apariencia y configuraciones de Gnome)</p>
+                                                <ul>
+                                                    <li>Desde una Terminal</li>
+                                                    <li>Agremamos el Repositorio</li>
+                                                    <code>sudo add-apt-repository universe</code>
+                                                    <li>Instalamos gnome-tweaks</li>
+                                                    <code>sudo apt install gnome-tweaks</code>
+                                                    <li>Buscar retoques desde el menu de incio</li>
+                                                    <li>Modificar la Fecha</li>
+                                                    <li>Mostrar porcentaje de batería</li>
+                                                </ul>
+											</div>
+										</div>
+									</div>
+
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+												<h4>VLC</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/vlc.jpg" alt="Imagen No Disponible" /></span>VLC media player es un reproductor y framework multimedia, libre y de código abierto desarrollado por el proyecto VideoLAN.</p>
+                                                <ul>
+                                                    <li>Desde una Terminal</li>
+                                                    <code>sudo apt install vlc</code>
+                                                    <li>Listo</li>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>Audacious</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/audacious.jpg" alt="Imagen No Disponible" /></span>Audacious es un reproductor de audio disponible como software libre para sistemas POSIX, como por ejemplo, GNU/Linux</p>
+                                                <ul>
+                                                    <li>Desde una Terminal</li>
+                                                    <code>sudo apt install audacious</code>
+                                                    <li>Listo</li>
+                                                </ul>
+										</div>
+									</div>
+
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>Comprimir y Descomprimir archivos</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/comprimirdescomprimir.jpg" alt="Imagen No Disponible" /></span>Los archivos comprimidos (comprimidos) ocupan menos espacio de almacenamiento y se pueden transferir a otros equipos más rápidamente que archivos sin comprimir.</p>
+                                                <ul>
+                                                    <li>Desde una Terminal</li>
+                                                    <code>sudo apt install rar unace p7zip p7zip-full p7zip-rar unrar lzip lhasa arj sharutils mpack lzma lzop cabextract</code>
+                                                    <li>Listo</li>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>Balena etcher</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/balenaetcher.jpg" alt="Imagen No Disponible" /></span>balenaEtcher es un utilitario libre y de código abierto que se utiliza para escribir archivos de imagen, como archivos .iso y .img, así como carpetas comprimidas en medios de almacenamiento para crear tarjetas de memoria SD Live y unidades flash USB.</p>
+                                                <ul>
+                                                    <li>Descargar desde la Pagina Web Official</li>
+                                                    <a href="https://www.balena.io/etcher/" target="_blank">balena.io</a>
+                                                    <li>Si es .zip, descomprime el archivo con el siguiente comando:</li>
+                                                    <code>unzip balena-etcher-electron-1.7.7-linux-x64.zip</code>
+                                                    <li>Mover el archivo AppImage al directorio /opt con el siguiente comando:</li>
+                                                    <code>sudo mv balena-etcher-electron-1.7.7-linux-x64.AppImage /opt</code>
+                                                    <li>Ejecuta Etcher con el siguiente comando</li>
+                                                    <code>/opt/balena-etcher-electron-1.7.7-linux-x64.AppImage</code>
+                                                    <li>Creamos un acceso al <a href="#menuLibre">Menu Libre</a>.</li>
+
+                                                </ul>
+										</div>
+									</div>
+
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Caffeine indicator</h4>
+                                            <p><span class="image right"><img src="../images/ubuntu/caffeineindicator.jpg" alt="Imagen No Disponible" /></span>Caffeine es un applet indicador simple en el panel de Ubuntu que permite prevenir temporalmente la activación del protector de pantalla, bloqueo de pantalla</p>
+                                            <ul>
+                                                <li>Desde la Terminal</li>
+                                                <code>sudo apt install caffeine</code>
+                                            </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>Sound converter</h4>
+                                            <p><span class="image right"><img src="../images/ubuntu/soundconverter.jpg" alt="Imagen No Disponible" /></span>Sound converter es una aplicación designada para convertir archivos de audio de un formato a otro guardándalos en el disco duro del ordenador. Es posible convertir entre los siguientes formatos de audio: MP3, MP2, MP+, Ogg Vorbis, AAC, M4A, AMR, WMA, WAV, ADPCM, FLAC.</p>
+                                            <ul>
+                                                <li>Desde la Terminal</li>
+                                                <code>sudo apt install soundconverter</code>
+                                            </ul>
+										</div>
+                                     <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>Curlew</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/curlew.jpg" alt="Imagen No Disponible" /></span>Curlew es un convertidor multimedia de código abierto, gratuito y fácil de usar para Linux. Está escrito en Python y GTK3 y depende de FFmpeg o Libav .</p>
+                                                <ul>
+                                                    <li>Pagina Web Official <a href="https://sourceforge.net/projects/curlew/" target="_blank">sourceforge.net</a></li>
+                                                    <li>Pagina Web Para Descargar <a href="https://sourceforge.net/projects/curlew/files/" target="_blank">curlew/files</a> </li>
+                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
+                                                    <code>sudo dpkg -i Descargas/curlew_0.2.5-1_all.deb</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>gparted</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/gparted.jpg" alt="Imagen No Disponible" /></span>GParted es un editor de particiones para el entorno de escritorio GNOME. Esta aplicación es usada para crear, eliminar, redimensionar, inspeccionar y copiar particiones, como también los sistemas de archivos que se encuentran en ellas.</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>sudo apt install gparted</code>
+                                                </ul>
+										</div>
+
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>indicator-keylock</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/indicatorkeylock.jpg" alt="Imagen No Disponible" /></span>indicator-keylock es una pequeña herramienta que puede ser muy útil en caso de que tu teclado no posea LEDs que muestren el estado de las teclas Lock: Caps de letras mayusculas</p>
+                                                <ul>
+                                                    <li>Pagina Web Official</li>
+                                                    <a href="https://launchpad.net/~tsbarnes/+archive/ubuntu/indicator-keylock/+packages" target="_blank">launchpad.net</a>
+                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
+                                                    <code>sudo dpkg -i Descargas/indicator-keylock_3.1.1-0_ppa1_amd64.deb</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>k3b</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/k3b.jpg" alt="Imagen No Disponible" /></span>K3b es una de las interfaces gráficas más completas que existen para la grabación de discos compactos y DVD bajo los sistemas operativos GNU/Linux y FreeBSD. Utiliza, entre otros, los programas cdrecord y cdrdao, y las bibliotecas de KDE.</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>sudo apt install k3b</code>
+                                                </ul>
+										</div>
+                                    </div>
+
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>slimbook battery</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/slimbookbattery.jpg" alt="Imagen No Disponible" /></span>Slimbook Battery 4 es una nueva versión de la aplicación para controlar y aumentar la duración de la batería de los portátiles. Estos son algunos de los cambios más visibles. <b>(Cuidado )</b></p>
+                                                <ul>
+                                                    <li>Desde la Terminal Agregar repositorio slimbook battery</li>
+                                                    <code>sudo add-apt-repository ppa:slimbook/slimbook</code>
+                                                    <li>Instalamos</li>
+                                                    <code>sudo apt install slimbookbattery</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>ucaresystem</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/ucaresystem.jpg" alt="Imagen No Disponible" /></span>uCaresystem es un programa que reúne todas las funciones de actualización en una sola. Una manera de estar seguros de que mantenemos nuestro sistema Ubuntu siempre actualizado. De esta manera evitaremos posibles problemas de seguridad que pongan en riesgo nuestro equipo y nuestra privacidad. (update-upgrade elimina paquetes y kerne, etc)</p>
+                                                <ul>
+                                                    <li>Pagina Web Official</li>
+                                                    <a href="https://github.com/Utappia/uCareSystem/releases" target="_blank">github.com</a>
+                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
+                                                    <code>sudo dpkg -i Descargas/ucaresystem-core_4.4.0_all.deb</code>
+                                                </ul>
+										</div>
+                                    </div>
+
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>openshot</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/openshot.jpg" alt="Imagen No Disponible" /></span>OpenShot Video Editor es un software de edición de vídeo no lineal multiplataforma de Software Libre.</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>sudo apt install openshot</code>
+                                                </ul>
+										</div>
+                                        
+                                        <div class="col-6 col-12-medium">
+                                            <h4>MenuLibre </h4>
+                                            <a name="menuLibre" id="menuLibre"></a>
+                                                <p><span class="image right"><img src="../images/ubuntu/menuLibre.jpg" alt="Imagen No Disponible" /></span>MenuLibre es un aplicación con la que podrás editar menús en Linux Mint y Ubuntu, modificando no solo el propio menú, sino también los lanzadores que hay en tu equipo, de forma muy detallada. Pero además tiene la cualidad de presentar una interfaz sencilla, limpia y sobre todo fácil de usar.</p>
+                                                <ul>
+                                                    <li>Para Instslar</li>
+                                                    <code>sudo apt install menulibre</code>
+                                                    <!--<li>Para tener la última vesión estable</li>
+                                                    <code>sudo add-apt-repository ppa:menulibre-dev/devel</code>
+                                                    <code>sudo apt update</code>
+                                                    <code>sudo apt install menulibre</code>-->
+                                                </ul>
+										</div>
+
+                                    </div>
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>Stacer</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/stacer.jpg" alt="Imagen No Disponible" /></span>Según sus propios creadores, Stacer» es un software optimizador de sistema de código abierto y un monitor de aplicaciones que ayuda a los usuarios a administrar todo el sistema con diferentes aspectos, es una utilidad del sistema todo en uno.</p>
+                                                <ul>
+                                                    <li>Pagina Web Official</li>
+                                                    <a href="https://github.com/oguzhaninan/Stacer" target="_blank">github.com</a>
+                                                    <li>Comando para Instalar</li>
+                                                    <code>sudo apt install stacer</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>jDownloader 2</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/jDownloader2.jpg" alt="Imagen No Disponible" /></span>Es un gestor de descargas de código abierto escrito en Java. Permite la descarga automática de archivos de sitios de alojamiento inmediato como MediaFire y MEGA, entre otros.</p>
+                                                <ul>
+                                                    <li>Descargar de la Pagina Web Official el archivo</li>
+                                                    <a href="https://jdownloader.org/es/download/index" target="_blank">jdownloader.org</a>
+                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#sh">.sh</a></li>
+                                                    <code>sh JD2Setup_x64.sh</code>
+                                                </ul>
+										</div>
+                                    </div>
+                                         
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>OBS Studio</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/obsStudio.jpg" alt="Imagen No Disponible" /></span>Open Broadcaster Software está escrito en C y C++, y permite captura de fuentes de video en tiempo real, composición de escena, codificación, grabación y retransmisión. La transmisión de datos puede realizarse a través del protocolo Real Time Messaging Protocol (RTMP), y puede ser enviado a cualquier destino que soporte RTMP (por ejemplo Youtube), incluyendo muchos presets para sitios de streaming como Twitch, Admefy y DailyMotion. Pagina Web Official <a href="https://jdownloader.org/es/download/index" target="_blank">jdownloader.org</a></p>
+                                                <ul>
+                                                    <li>Tenga en cuenta que OBS Studio no funciona en Chrome OS.</li>
+                                                    <li>Se recomienda xserver-xorg versión 1.18.4 o posterior para evitar posibles problemas de rendimiento con determinadas funciones de OBS, como el proyector de pantalla completa.</li>
+                                                    <li>Se requiere FFmpeg. Si no tiene FFmpeg instalado (si no está seguro, probablemente no lo tenga), puede obtenerlo con los siguientes comandos:</li>
+                                                    <code>sudo apt install ffmpeg</code>
+                                                    <li>Si desea soporte de cámara virtual, necesita v4l2loopback-dkms instalado. Puedes instalarlo con el siguiente comando:</li>
+                                                    <code>sudo apt install v4l2loopback-dkms</code>
+                                                    <li>Asegúrese de haber habilitado el repositorio multiverso en el centro de software de Ubuntu (NOTA: en las versiones más recientes de Ubuntu, agregar un repositorio automáticamente apta actualizaciones). Luego, puede instalar OBS con los siguientes comandos:</li>
+                                                    <code>sudo add-apt-repository ppa:obsproject/obs-studio</code>
+                                                    <li>Actualizar Lista de Paquetes</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Intalar la aplicacion</li>
+                                                    <code>sudo apt install obs-studio</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>FileZilla</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/fileZilla.jpg" alt="Imagen No Disponible" /></span>FileZilla es una aplicación FTP libre y de código abierto que consta de un cliente y un servidor. Soporta los protocolos FTP, SFTP y FTP sobre SSL/TLS.</p>
+                                                <ul>
+                                                    <li>Para instalar</li>
+                                                    <code>sudo apt install filezilla</code>
+                                                </ul>
+										</div>
+                                    </div>
+                                    
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>Inkscape</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/inkscape.jpg" alt="Imagen No Disponible" /></span>Inkscape es un editor de gráficos vectoriales libre y de código abierto. Inkscape puede crear y editar diagramas, líneas, gráficos, logotipos, e ilustraciones complejas. El formato principal que utiliza el programa es Scalable Vector Graphics versión 1.1. Pagina Web Official <a href="https://inkscape.org/es/release/inkscape-1.0.2/gnulinux/ubuntu/ppa/dl/" target="_blank">inkscape.org</a></p>
+                                                <ul>
+                                                    <li>Agregar a Repositorios</li>
+                                                    <code>sudo add-apt-repository ppa:inkscape.dev/stable</code>
+                                                    <li>Actualizar Lista de Paquetes</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Para Instalar</li>
+                                                    <code>sudo apt install inkscape</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>krita</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/krita.jpg" alt="Imagen No Disponible" /></span>Krita es el software de pintura digital e ilustración basado en las bibliotecas de la plataforma KDE e incluido en Calligra Suite. Diseñado como una suite de dibujo e ilustración digital, Krita es software libre distribuido bajo la licencia GNU GPL. Pagina Web Official <a href="https://linuxhint.com/install_krita_ubuntu/" target="_blank">linuxhint.com</a></p>
+                                                <ul>
+                                                    <li>Agregar a Repositorios</li>
+                                                    <code>sudo add-apt-repository ppa:kritalime/ppa</code>
+                                                    <li>Actualizar Lista de Paquetes</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Para Instalar</li>
+                                                    <code>sudo apt-get install krita</code>
+                                                </ul>
+										</div>
+                                    </div>
+                                         
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>Android Studio</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/androidStudio.jpg" alt="Imagen No Disponible" /></span>Android Studio es el entorno de desarrollo integrado oficial para la plataforma Android. Fue anunciado el 16 de mayo de 2013 en la conferencia Google I/O, y reemplazó a Eclipse como el IDE oficial para el desarrollo de aplicaciones para Android. La primera versión estable fue publicada en diciembre de 2014.</p>
+                                                <ul>
+                                                    <li>Descargar desde la Pagina Web Official <a href="https://developer.android.com/studio" target="_blank">developer.android.com</a></li>
+                                                    <li>Cambian el nombre por "android-studio"</li>
+                                                    <li>La librerias necesarias para android studio con el comando</li>
+                                                    <code>sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386</code>
+                                                    <li>Para Descomprimir el archivo</li>
+                                                    <li>Si el archivo tiene extension .zip usa este comando:</li>
+                                                    <code>sudo unzip ~/Descargas/android-studio.zip -d /opt</code>
+                                                    <li>Si el archivo tiene otra extencion .tar.gz utiliza este comando:</li>
+                                                    <code>sudo tar -xvzf ~/Descargas/android-studio.tar.gz -C /opt</code>
+                                                    <li>Para ejecutar android studio</li>
+                                                    <code>sudo /opt/android-studio/bin/studio.sh</code>
+                                                    <li>continuar hasta el munu de setup wizard para cancelar</li>
+                                                    <li>En el menu de welcome nos vamos a configure, create Desktop Entry</li>
+                                                    <li>y a si podemos tener el en menu de aplicacion y lo abrimos desde ese enlace</li>
+                                                    <li>y configuramos nuestro android-studio hasta la ventana de welcome</li>
+                                                    <li>en la venta de welcome nos vamos a SDK Manager</li>
+                                                    <li>en SDK Tools y instalamos Android SDK Command-line Tools y instalamos</li>
+                                                    <li>Para tener las linias de comandos en terminal</li>
+                                                    <li>Abrir archivo .profile</li>
+                                                    <code>nano .profile</code>
+                                                    <li>PEGAMOS ESTO EN EL ARCHIVO</li>
+                                                    <code>export JAVA_HOME="/opt/android-studio/jre"
+                                                            export ANDROID_HOME="$HOME/Android/Sdk"
+                                                            export PATH="$PATH:$ANDROID_HOME/emulator"
+                                                            export PATH="$PATH:$ANDROID_HOME/platform-tools"
+                                                            export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
+                                                            export PATH="$PATH:/opt/android-studio/jre/bin"</code>
+                                                    <li>Para Guardar le damos a Ctrl+X</li>
+                                                    <li>recargamos path</li>
+                                                    <code>source .profile</code>
+                                                    <li>comandos para terminal</li>
+                                                    <code>adb</code>
+                                                    <code>sdkmanager</code>
+                                                    <code>emulator</code>
+                                                    <code>java -version</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>Atom</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/atom.jpg" alt="Imagen No Disponible" /></span>Atom es un editor de código fuente de código abierto para macOS, Linux, y Windows con soporte para múltiples plug-in escritos en Node.js y control de versiones Git integrado, desarrollado por GitHub. Atom es una aplicación de escritorio construida utilizando tecnologías web.</p>
+                                                <ul>
+                                                    <li>Descargar desde la Pagina Web Official <a href="https://atom.io/" target="_blank">atom.io</a></li>
+                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
+                                                    <code>sudo dpkg -i Descargas/atom-amd64.deb</code>
+                                                    <li><b>Ayuda despues instalamos algunos </b>Complementos Para instalar paquetes ctrl + shift + p</li>
+                                                    <li>buscamos</li>
+                                                    <code>install pack</code>
+                                                    <li>Buscamos el paquetes </li>
+                                                    <li>para autocompletar el codigo</li>
+                                                    <code>Emmet</code>
+                                                    <li>Para montar un servidor y ver el codigo en vivo</li>
+                                                    <code>live-server</code>
+                                                    <li>por si no funciona o emite errores descargar</li>
+                                                    <li><a href="https://nodejs.org/es/" target="_blank">nodejs.org</a></li>
+                                                    <li>para tener la terminal de consola</li>
+                                                    <code>platformio-ide-terminal</code>
+                                                    <li>para descargar Temas al programa</li>
+                                                    <li><a href="https://atom.io/themes" target="_blank">themes</a></li>
+                                                    <li>buscamos ej</li>
+                                                    <code>monokai</code>
+                                                    <code>seti ui</code>
+                                                    <li>para iconos </li>
+                                                    <code>file-icons</code>
+                                                    <li>o en la Terminal</li>
+                                                    <code>apm install --production file-icons</code>
+                                                    <li><a href="https://atom.io/packages/file-icons" target="_blank">file-icons</a></li>
+                                                </ul>
+										</div>
+                                    </div>
+                                         
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>NetBeans Ubuntu</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/netBeans.jpg" alt="Imagen No Disponible" /></span>NetBeans es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java. Existe además un número importante de módulos para extenderlo. NetBeans IDE es un producto libre y gratuito sin restricciones de uso. Pagina Web Official <a href="https://netbeans.apache.org/download/index.html" target="_blank">netbeans.apache.org</a></p>
+                                                <ul>
+                                                    <li>Verificamos si java esta Instalado</li>
+                                                    <code>java -version</code>
+                                                    <li>Instlacion de java JDK</li>
+                                                    <code>sudo apt install default-jdk</code>
+                                                    <li>Instalar netbeans </li>
+                                                    <code>sudo snap install netbeans --classic</code>
+                                                    <li>Listo</li>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>Visual Studio</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/visualStudio.jpg" alt="Imagen No Disponible" /></span>Microsoft Visual Studio es un entorno de desarrollo integrado para Windows y macOS. Es compatible con múltiples lenguajes de programación, tales como C++, C#, Visual Basic.</p>
+                                                <ul>
+                                                    <li>Para instalar VS Code solo tendremos que abrir una terminal (Ctrl+Alt+T) y ejecutar el siguiente comando:</li>
+                                                    <code>sudo snap install --classic code</code>
+                                                </ul>
+										</div>
+                                    </div>
+                                         
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>GitHub</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/gitHub.jpg" alt="Imagen No Disponible" /></span>GitHub es una forja para alojar proyectos utilizando el sistema de control de versiones Git. Se utiliza principalmente para la creación de código fuente de programas de ordenador. El software que opera GitHub fue escrito en Ruby on Rails. Desde enero de 2010, GitHub opera bajo el nombre de GitHub, Inc. Pagina Web Informacion <a href="https://ubunlog.com/github-desktop-trabaja-con-github-desde-escritorio/" target="_blank">ubunlog.com</a></p>
+                                                <ul>
+                                                    <li>Descargar el intalador</li>
+                                                    <code>sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.8.1-linux2/GitHubDesktop-linux-2.8.1-linux2.deb</code>
+                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
+                                                    <code>sudo dpkg -i GitHubDesktop-linux-2.8.1-linux2.deb</code>
+                                                </ul>
+										</div>
+                                    </div>
+                                         <!--
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>Titulo</h4>
+                                                <p><span class="image right"><img src="images/pic01.jpg" alt="Imagen No Disponible" /></span>Descripcion</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>Comandos</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>Titulo</h4>
+                                                <p><span class="image right"><img src="images/pic01.jpg" alt="Imagen No Disponible" /></span>Descripcion</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>Comandos</code>
+                                                </ul>
+										</div>
+                                    </div>
+                                        -->
+
+                                        </div>
+									</div>
+							</section>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../index.html">Página principal</a></li>
+                                        <!--<li><a href="Programas.html">Programas</a></li>
+                                        
+										
+                                        <li>
+											<span class="opener">Ayuda</span>
+											<ul>
+												<li><a href="Ayuda/ActivarWindows.html">Activación de Windows 10 </a></li>
+                                                <li><a href="Ayuda/ActivarOffice.html">Activación Office</a></li>
+												<li><a href="Ayuda/InfoPruePC.html">Informacion del Sistema o Pruebas PC</a></li>
+												<li><a href="Ayuda/ReparaWindows.html">Reparacion de Windows</a></li>
+                                                <li><a href="Ayuda/ReparaUSB.html">Reparacion de Memorias USB</a></li>
+												<li><a href="Ayuda/InstalacionOffice.html">Instalacion de Office</a></li>
+                                                <li><a href="Ayuda/EmuladoresPC.html">Emuladores para Windows</a></li>
+												<li><a href="Ayuda/ComandosUbuntu.html">Comandos para Linux Ubuntu</a></li>
+                                                <li><a href="Ayuda/ComandosWindows.html">Comandos para Windows</a></li>
+                                                <li><a href="Ayuda/AtajosWindows10.html">Atajos de teclado para Windows 10</a></li>
+                                                <li><a href="Ayuda/DS4Windows.html">Mandos de PS3,PS4 y PS5 en Windows 10</a></li>
+                                                <li><a href="Ayuda/CableRJ45.html">Cable de RED (RJ45)</a></li>
+                                                <li><a href="Ayuda/VirusTotal.html">Revisar si hay Virus</a></li>
+                                                <li><a href="Ayuda/EstadoBateria.html">Verificar el estado Bateria</a></li>
+											</ul>
+										</li>
+                                        <li>
+											<span class="opener">Ayuda Para Su Consolas</span>
+											<ul>
+                                                <li><a href="Consolas/PS2.html">PS2</a></li>
+                                                <li><a href="Consolas/PSP.html">PSP</a></li>
+                                                <li><a href="Consolas/PSPModoSeguro.html">PSP Modo Seguro</a></li>
+												<li><a href="Consolas/PSVita.html">PSP Vita</a></li>
+												<li><a href="Consolas/PSVitaModoSeguro.html">PS Vita Modo Seguro</a></li>
+												<li><a href="Consolas/PS3.html">PS3</a></li>
+												<li><a href="Consolas/PS3ModoSeguro.html">PS3 Modo Seguro</a></li>
+												<li><a href="Consolas/PS4.html">PS4</a></li>
+												<li><a href="Consolas/PS4ModoSeguro.html">PS4 Modo Seguro</a></li>
+											</ul>
+										</li>
+                                        <li>
+                                            <span class="opener">Nuestros Servicios</span>
+                                            <ul>
+                                                <li><a href="Servicios/Reparacion.html">Reparación de Sistema</a></li>
+                                                <li><a href="Servicios/Reinstalacion.html">Reinstalación del Sistema Operativo</a></li>
+                                                <li><a href="Servicios/Mantencion.html">Mantención de Equipos</a></li>
+                                                <li><a href="Servicios/PáginasWEB.html">Creación y Diseño de Páginas WEB</a></li>
+                                                <li><a href="Servicios/Aplicacion.html">Creación y Diseño de Aplicación</a></li>
+                                                <li><a href="Servicios/Consolas.html">Consolas</a></li>
+                                            </ul>
+                                        </li>-->
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/browser.min.js"></script>
+			<script src="../assets/js/breakpoints.min.js"></script>
+			<script src="../assets/js/util.js"></script>
+			<script src="../assets/js/main.js"></script>
+
+	</body>
+</html>

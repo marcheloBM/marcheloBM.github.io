@@ -1,0 +1,235 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Cmd Defender</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+        <!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+                                    <!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Cómo usar Windows Defender Antivirus Comandos CMD</h1>
+									</header>
+                                    
+                                    <h2>Usar el antivirus de windows 10 por cmd</h2>
+									<p>Microsoft Defender se ha integrado en Windows 10 como un componente de protección de última generación para proteger no solo los datos del usuario sino toda amenaza que ponga en riesgo la integridad del equipo y sus servicios. Windows Defender hace uso de diversos métodos de análisis, investigación detallada de las amenazas y posee una infraestructura en la nube de Microsoft para ofrecer recursividad de los elementos del usuario.</p>
+									
+									
+
+									<hr class="major" />
+                                    <div class="row gtr-200">
+                                        <a name="cmdDefender" id="cmdDefender"></a>
+                                        <p>Empezando este Tutorial </p>
+                                            <ol>
+                                                <li>Accedemos al CMD como administradores: </li>
+                                                <ul>
+                                                    <li>Abrimos el menú de incio de nuestro Windows y escribimos <b>cmd</b></li>
+                                                    <li>Una vez localizado lo <b>ejecutamos en modo administrador</b></li>
+                                                </ul>
+                                                <img src="../../images/Tutotiales/PC/CmdDefender/cmd.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <li>Una vez en la consola, vamos a acceder al directorio de Windows Defender ejecutando lo siguiente:</li>
+                                                <ul>
+                                                    <li>Copiamos la siguiente ruta y la pegamos en el cmd abierto</li>
+                                                    <li><code>cd C:\ProgramData\Microsoft\Windows Defender\Platform\4.18*</code></li>
+                                                </ul>
+                                                <img src="../../images/Tutotiales/PC/CmdDefender/cmdRuta.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <li>Los comandos para el escaneo CMD</li>
+                                                <ul>
+                                                    <li>Escaneo Rápido</li>
+                                                    <ol>
+                                                        <li>Para ejecutar un escaneo rápido ejecutaremos la siguiente orden:</li>
+                                                        <li><code>MpCmdRun -Scan -ScanType 1</code></li>
+                                                        <img src="../../images/Tutotiales/PC/CmdDefender/cmdEscaRapido.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    </ol>
+                                                    <li>Escaneo Completo</li>
+                                                    <ol>
+                                                        <li>Para ejecutar un escaneo completo ejecutaremo:</li>
+                                                        <li><code>MpCmdRun -Scan -ScanType 2</code></li>
+                                                        <img src="../../images/Tutotiales/PC/CmdDefender/cmdEscaComple.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    </ol>
+                                                    <li>Escaneo Personalizado</li>
+                                                    <ol>
+                                                        <li>Es posible ejecutar un escaneo personalizado, en este caso ejecutamos:</li>
+                                                        <li><code>MpCmdRun -Scan -ScanType 3 -File RUTA</code></li>
+                                                        <img src="../../images/Tutotiales/PC/CmdDefender/cmdEscaRuta.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    </ol>
+                                                    <li>Sector de Arranque del Equipo</li>
+                                                    <ol>
+                                                        <li>En el sector de arranque del equipo se aloja la información vital para que Windows 10 pueda iniciarse sin problema, en algunos escenarios es posible que en estos sectores se presenten errores, allí Windows Defender puede ayudarnos a revisar lo que sucede, para ejecutar un escaneo de los sectores de arranque ejecutamos el siguiente comando:</li>
+                                                        <li><code>MpCmdRun -Scan -ScanType -BootSectorScan</code></li>
+                                                        <img src="../../images/Tutotiales/PC/CmdDefender/cmdEscaArran.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                        <li>Al finalizar veremos algo similar a esto:</li>
+                                                        <img src="../../images/Tutotiales/PC/CmdDefender/cmdEscaArranFin.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    </ol>
+                                                </ul>
+                                                <li>Archivos Sospechosos</li>
+                                                <ul>
+                                                    <li>Antivirus encuentre uno o más archivos</li>
+                                                    <ol>
+                                                        <li>En caso de que Microsoft Defender Antivirus encuentre uno o más archivos sospechosos, estos serán movidos a cuarentena, este es un lugar donde se alojan los archivos sospechosos para ver su comportamiento y por lo tanto todo lo relacionado a ellos no podrá ser usado.</li>
+                                                        <li>Es posible que Windows Defender envíe por error un archivo a la cuarentena, si este es el caso ejecutaremos el siguiente comando para listar los archivos en cuarentena:</li>
+                                                        <li><code>MpCmdRun -Restore -ListAll</code></li>
+                                                    </ol>
+                                                    <li>Restaurar</li>
+                                                    <ol>
+                                                        <li>Luego podemos restaurar el archivo o aplicación con la siguiente sintaxis:</li>
+                                                        <li><code>MpCmdRun -Restore -Name archivo.exe</code></li>
+                                                    </ol>
+                                                </ul>
+                                                <li>Actualizar</li>
+                                                <ul>
+                                                    <li>Para actualizar el antivirus de Windows Defender vamos a ejecutar:</li>
+                                                    <li><code>MpCmdRun -SignatureUpdate</code></li>
+                                                    <img src="../../images/Tutotiales/PC/CmdDefender/cmdUpdate.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    <li>Esto buscara si existen o no actualizaciones disponibles:</li>
+                                                    <img src="../../images/Tutotiales/PC/CmdDefender/cmdUpdateSN.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                </ul>
+                                                <li>Ayuda</li>
+                                                <ul>
+                                                    <li>Finalmente listamos la ayuda del comando:</li>
+                                                    <li><code>MpCmdRun -h</code></li>
+                                                    <img src="../../images/Tutotiales/PC/CmdDefender/cmdHelp.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                </ul>
+                                                <li>Con esta opción podemos llevar a cabo un análisis rápido, completo o personalizado en Windows 10 usando el antivirus de Windows Defender.</li>
+                                            </ol>
+									</div>
+                                    
+
+								</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+                                <nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Ayuda 
+                                        <li><a href="ActivarWindows.html">Activación de Windows 10 </a></li>
+                                        <li><a href="ActivarOffice.html">Activación Office</a></li>
+                                        <li><a href="InfoPruePC.html">Informacion del Sistema o Pruebas PC</a></li>
+                                        <li><a href="ReparaWindows.html">Reparacion de Windows</a></li>
+                                        <li><a href="ReparaUSB.html">Reparacion de Memorias USB</a></li>
+                                        <li><a href="InstalacionOffice.html">Instalacion de Office</a></li>
+                                        <li><a href="EmuladoresPC.html">Emuladores para Windows</a></li>
+                                        <li><a href="ComandosUbuntu.html">Comandos para Linux Ubuntu</a></li>
+                                        <li><a href="ComandosWindows.html">Comandos para Windows</a></li>
+                                        <li><a href="AtajosWindows10.html">Atajos de teclado para Windows 10</a></li>
+                                        <li><a href="DS4Windows.html">Mandos de PS3,PS4 y PS5 en Windows 10</a></li>
+                                        <li><a href="CableRJ45.html">Cable de RED (RJ45)</a></li>
+                                        <li><a href="VirusTotal.html">Revisar si hay Virus</a></li>
+                                        <li><a href="CmdDefender.html">Escaneo si hay Virus</a></li>
+                                        <li><a href="EstadoBateria.html">Verificar el estado Bateria</a></li>-->
+									</ul>
+								</nav>
+								
+                            
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

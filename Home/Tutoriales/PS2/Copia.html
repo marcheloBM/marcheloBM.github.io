@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PS2</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina-->
+                                    <div id="encabezado"></div>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>PS2</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Descripcion</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PS2/FuntunaLogo.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>USB en formato FAT32</li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <a name="ProFT" id="ProFT"></a>
+                                            <ol>
+                                                <li><a href="../../Consolas/PS2.html#FunTuna">FunTuna</a></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    
+                                    <hr class="major" />
+                                    <span class="image main"><img src="../../images/Tutotiales/PS2/Funtuna.jpg" alt="Imagen No Disponible" /></span>
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Empezando este Tutorial </p>
+                                            <ol>
+                                                <li>En caso de no tener el FreeDVDBoot abriremos <a href="PS2FreeDVDBoot.html#ProFT">UltraISO</a> u otro programa que nos permita quemar nuestra ISO al DVD (Grabar a la más baja velocidad permitida para logras un disco de calidad para nuestra consola).</li>
+                                                <ul>
+                                                    <li>Una vez listo lo colocamos en nuestra consola desbloqueada pero no cerramos la tapa.</li>
+                                                </ul>
+                                                <li>Colocamos nuestro USB a nuestra PC y verificamos que tenga el formato FAT32 si no lo tiene con el programa <a href="PS2FunTuna.html#ProFT">GUIFORMAT</a> le podremos dar el formato deseado si nuestra PC no nos permite hacerlo.</li>
+                                                <ul>
+                                                    <li>De nuestra carpeta <a href="../../Consolas/PS2.html#FunTuna">FunTuna</a> descargamos el archivo .rar lo descomprimimos y la carpeta que nos aparezca la copiamos a nuestra unidad USB.</li>
+                                                    <li>Sacamos el USB y lo pinchamos a nuestra consola.</li>
+                                                </ul>
+                                                <li>Encendemos nuestra consola y nos vamos a configuración – idioma y lo demos en inglés y reiniciamos nuestra consola (Esto es solo para arrancar el DVD después de terminar la instalación lo puedes dejar en el idioma de preferencia).</li>
+                                                <img src="../../images/Tutotiales/PS2/MenuPS2.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <li>Y conectamos nuestra memory card ps2 y en la primera ranura y verificamos que esté completamente desocupada.</li>
+                                                <img src="../../images/Tutotiales/PS2/MemoryCard.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <li>Cerramos la tapa con nuestro DVD recién grabado y si no inicia el disco lo hacemos desde el navegador para iniciar ulaunchelf</li>
+                                                <img src="../../images/Tutotiales/PS2/Ulaunchelf.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <li>Una vez iniciado nuestro ulaunchelf</li>
+                                                
+                                                <ol>
+                                                    <li>Le damos al <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> a FileBrowser</li>
+                                                    
+                                                    <li>Después vamos a MASS:/ con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+                                                    <li>Después vamos a MASS:/ con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+                                                    <li>Nos abrirá nuestra unidad USB con nuestra carpeta y entramos dentro con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+                                                    <li>Y buscamos (El archivo .ELF o .psu depende de la actualización de pasemos al USB) y le damos <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+                                                    <ul>
+                                                        <li>Si es el archivo .psu lo seleccionamos</li>
+                                                        <li>Presionamos <img src="../../images/ControlSony/R1.jpg" width=40 height=20 alt="Imagen No Disponible" /> y le damas a Copy</li>
+                                                        <li>Con <img src="../../images/ControlSony/Triangulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para ir hacia atrás y vamos a MC0:/ con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" />circulo </li>
+                                                        <li>Presionamos <img src="../../images/ControlSony/R1.jpg" width=40 height=20 alt="Imagen No Disponible" /> y le damos a Paste</li>
+                                                        <li>Esperamos que se descomprima todo y reuníamos la consola</li>
+                                                        <li>Y sacamos el disco y entramos a la memory card y salimos y listo.</li>
+                                                    </ul>
+                                                </ol>
+                                                <li>Y se nos iniciara nuestra aplicación .ELf</li>
+                                                <ol>
+                                                    <li>Ahora seleccionamos la memory card para instalar los archivos <img src="../../images/ControlSony/L1.jpg" width=40 height=20 alt="Imagen No Disponible" /> o <img src="../../images/ControlSony/R1.jpg" width=40 height=20 alt="Imagen No Disponible" /></li>
+                                                    <li>Seleccionamos </li>
+                                                    <ul>
+                                                        <li><img src="../../images/ControlSony/L2.jpg" width=40 height=20 alt="Imagen No Disponible" />: instalación Manual (seleccionaríamos todas las configuraciones para después instalar todo)</li>
+                                                        <li><img src="../../images/ControlSony/R2.jpg" width=40 height=20 alt="Imagen No Disponible" />: instalación automática (se instalará de forma automática)</li>
+                                                    </ul>
+                                                    <li>Presionamos <img src="../../images/ControlSony/Start.jpg" width=40 height=20 alt="Imagen No Disponible" /> para volver al buscador de la consola </li>
+                                                </ol>
+                                                <li>Entramos en el navegador y en la memory card y salimos y listo se iniciaría fortuna y estaría todo listo.</li>
+                                                <img src="../../images/Tutotiales/PS2/FuntunaMenu.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                            </ol>
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

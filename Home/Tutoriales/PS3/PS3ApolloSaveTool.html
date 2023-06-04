@@ -1,0 +1,336 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PS3 Apollo Save Tool</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>PS3 Apollo Save Tool</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation 3.</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PS3/ApolloSaveTool.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>USB en formato FAT32</li>
+                                                <li>Conexión a Internet en nuestra PS3</li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <a name="AST" id="AST"></a>
+                                            <ol>
+                                                <li>PKG: <a href="../../Consolas/PS3.html#AST">Apollo Save Tool (PS3)</a></li>
+                                                <li>WEB Oficial: <a href="https://github.com/bucanero/apollo-ps3/releases">Apollo Save Tool (PS3)</a></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    
+                                    <hr class="major" />
+                                    
+									<div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Para Empezar este Tutorial</p>
+                                            <ol>
+                                                <li>Descargamos el archivo lo descomprimimos y lo pasamos a nuestra USB en la raíz </li>
+                                                <ul>
+                                                    <li>Para instalar el .pkg nos vamos a <b>Administrar archivos PKG</b> </li>
+                                                    <li>Seleccionamos Instalar archivos <code>PKG/Directorio estándar</code> (USB)</li>
+                                                    <li>Y instalamos nuestra aplicación</li>
+                                                    <li>Una vez instalada nos saldrá en el menú de <b>Juegos</b></li>
+                                                </ul>
+                                                <li>Para comenzar a exportar o importar SaveData</li>
+                                                <ul>
+                                                    <li>En nuestra Computadora colocamos nuestro USB y revisamos que tenga el formato FAT32</li>
+                                                    <li>Dentro de la USB colocamos nuestros SaveData descargados o nuestra copia de seguridad de la siguiente forma </li>
+                                                    <li>Carpetas de datos </li>
+                                                    <ol>
+                                                        <li>PS3</li>
+                                                        <div class="table-wrapper">
+                                                            <table>
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>PS3</th>
+                                                                        <th>Carpeta</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>USB Saves</td>
+                                                                        <td>sus archivos deben ser colocados en <code>/dev_usb00x/PS3/SAVEDATA/</code> .</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>HDD Saves</td>
+                                                                        <td>los archivos se escanearán desde <code>/dev_hdd0/home/000000XX/savedata/</code>, dónde <b>XX</b> es el actual <b>User ID</b>.</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>HDD Licenses</td>
+                                                                        <td><code>/dev_hdd0/home/000000XX/exdata/</code> (<b>*.rif</b>)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>USB Licenses</td>
+                                                                        <td><code>/dev_usb00x/exdata/</code> (<b>*.rap</b>)</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <li>PS2</li>
+                                                        <div class="table-wrapper">
+                                                            <table>
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>PS2</th>
+                                                                        <th>Carpeta</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>USB Saves</td>
+                                                                        <td><code>/dev_usb00x/PS2/SAVEDATA/</code> (<b>*.xps</b>, <b>*.max</b>, <b>*.psu</b>, <b>*.cbs</b>, <b>*.sps</b>)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>VMC Cards</td>
+                                                                        <td><code>/dev_usb00x/PS2/VMC/</code> (<b>*.vmc</b>)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>VME cards</td>
+                                                                        <td><code>/dev_usb00x/PS3/EXPORT/PS2SD/</code></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>PSV saves</td>
+                                                                        <td><code>/dev_usb00x/PS3/EXPORT/PSV/</code></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>HDD VME cards</td>
+                                                                        <td><code>/dev_hdd0/home/000000XX/ps2emu2_savedata/ </code>dónde <b>XX</b> es el actual <b>User ID</b>.</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>HDD VM2 cards</td>
+                                                                        <td><code>/dev_hdd0/savedata/vmc/</code></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>HDD ISOs</td>
+                                                                        <td><code>/dev_hdd0/PS2ISO/ </code> (<b>*.bin</b>, <b>*.iso</b>, <b>*.bin.enc</b>)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>USB ISOs</td>
+                                                                        <td><code>/dev_usb00x/PS2ISO/ </code>(<b>*.bin</b>, <b>*.iso</b>, <b>*.bin.enc</b>)</td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                        <li>PS1</li>
+                                                        <div class="table-wrapper">
+                                                            <table>
+                                                                <thead>
+                                                                    <tr>
+                                                                        <th>PS1</th>
+                                                                        <th>Carpeta</th>
+                                                                    </tr>
+                                                                </thead>
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td>USB Saves</td>
+                                                                        <td><code>/dev_usb00x/PS1/SAVEDATA/</code> (<b>*.mcs</b>, <b>*.psx</b>)</td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>PSV Saves</td>
+                                                                        <td><code>/dev_usb00x/PS3/EXPORT/PSV/</code></td>
+                                                                    </tr>
+                                                                    <tr>
+                                                                        <td>HDD VM1 cards</td>
+                                                                        <td><code>/dev_hdd0/savedata/vmc/</code></td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </div>
+                                                    </ol>
+                                                    <li>Una vez listo solo conectamos nuestro USB a nuestra consola PS3 e iniciamos nuestra aplicación </li>
+                                                    <ol>
+                                                        <li>Si vamos a pasar SaveData desde USB a la Consola abrimos <b>USB Saves</b></li>
+                                                        <li>Si vamos a pasar SaveData desde la Consola a nuestro USB abrimos HDD Saves</li>
+                                                    </ol>
+                                                </ul>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <p>Aplicación  (homebrew)</p>
+                                            <ol>
+                                                <li>Uso de la Aplicación </li>
+                                                <ul>
+                                                    <li>Usar la aplicación es simple y directo:</li>
+                                                    <li>Mueve <img src="../../images/ControlSony/Arriba.jpg" width=20 height=20 alt="Imagen No Disponible" />/<img src="../../images/ControlSony/Abajo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para seleccionar el archivo de partida guardada que deseas parchear y presiona botón <img src="../../images/ControlSony/equis.jpg" width=20 height=20 alt="Imagen No Disponible" />. La pantalla del parche mostrará las correcciones disponibles para el archivo. Seleccione los parches y haga clic en Apply.</li>
+                                                    <li>Para ver los detalles del elemento, presione <img src="../../images/ControlSony/Triangulo.jpg" width=20 height=20 alt="Imagen No Disponible" />. Se abrirá el menú contextual en la pantalla. Pulse botón <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para volver a la lista.</li>
+                                                    <li>Para recargar la lista, presione <img src="../../images/ControlSony/Cuadrado.jpg" width=20 height=20 alt="Imagen No Disponible" />.</li>
+                                                    <li>Presione los botones de activación <img src="../../images/ControlSony/L1.jpg" width=20 height=20 alt="Imagen No Disponible" />/ <img src="../../images/ControlSony/L2.jpg" width=20 height=20 alt="Imagen No Disponible" /> o <img src="../../images/ControlSony/R1.jpg" width=20 height=20 alt="Imagen No Disponible" />/ para mover las páginas hacia arriba o hacia abajo. <img src="../../images/ControlSony/R2.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+                                                </ul>
+                                                <li>Menú  </li>
+                                                <img src="../../images/Tutotiales/PS3/MenuApolloSaveTool.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <ul>
+                                                    <li>Trophies (Gestión de trofeos)</li>
+                                                    <ol>
+                                                        <li>En este menú podemos gestionar nuestros trofeos de nuestros juegos podemos desbloquear o exportar como una copia de seguridad en formato <b>.zip</b></li>
+                                                    </ol>
+                                                    <li>USB Saves (Saves data en USB)</li>
+                                                    <ol>
+                                                        <li>En este menú podemos colocar nuestros saves datas (descargados o copiados con anterioridad) en nuestro USB</li>
+                                                    </ol>
+                                                    <li>HDD Saves (Saves data en HDD Interno)</li>
+                                                    <ol>
+                                                        <li>En este menú tendremos acceso a nuestros saves datas de nuestros juegos dentro del disco duro de nuestra consola PS3</li>
+                                                    </ol>
+                                                    <li>Online DB (Base de datos Online)</li>
+                                                    <ol>
+                                                        <li>En este menú tendremos una lista con todos los saves datas disponibles para descargar para nuestro juego </li>
+                                                    </ol>
+                                                    <li>User Backup (Copias de seguridad del usuario)</li>
+                                                    <ol>
+                                                        <li>Podemos realizarle a nuestra consola copias de seguridad a flash2, Licenses, PS2 .VM2 memory cards a nuestro USB conectado a la consola</li>
+                                                    </ol>
+                                                    <li>Settings (Configuraciones)</li>
+                                                    <ol>
+                                                        <li>Podemos cambiar algunas configuraciones de la aplicación como por ejemplo sonido, pantalla y actualizaciones de la aplicación</li>
+                                                    </ol>
+                                                    <li>Abolit (Ayuda)</li>
+                                                    <ol>
+                                                        <li>Información de los creadores de esta gran aplicación para nuestras consolas PS3</li>
+                                                    </ol>
+                                                </ul>
+                                            </ol>
+                                        </div>  
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

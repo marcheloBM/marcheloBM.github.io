@@ -1,0 +1,13 @@
+-v2.64 WEB PS4
+	WEB para PS4 para empesar Proyecto Cambios en HomeTutotial para PsVita
+-v2.63 Cambios en programas
+	Update de programas de windows mas PsVita desbloqueo Por HTML
+-v2.62 Nuevos tutoriales 3 PSP
+	Nueva tutorial 3 para nuestra consola PSP Final
+-v2.61 Nuevos tutoriales 2 PSP
+	Nueva tutorial 2 para nuestra consola PSP 
+-v2.60 Nuevos tutoriales PSP
+	Nueva tutorial para nuestra consola PSP 
+
+
+

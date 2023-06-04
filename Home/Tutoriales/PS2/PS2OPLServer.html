@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PS2 OPL Server</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>PS2 OPL Server</h1>
+									</header>
+
+									<!-- Content -->
+                                    <span class="image main"><img src="../../images/Tutotiales/PS2/OPLServer.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>Un sistema Windows 7 o superior </li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <a name="OPLServer" id="OPLServer"></a>
+                                            <ol>
+                                                <li><a href="../../Consolas/PS2.html#OPLSERVER">OPL Server</a></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Para implementar este tutorial</p>
+                                            <ol>
+                                                <li>Nos vamos a panel de control de nuestra computadora </li>
+                                                <ul>
+                                                    <li>Dentro del panel de control buscamos</li>
+                                                    <li>Sistemas y seguridad/firewall de Windows Defender</li>
+                                                    <img src="../../images/Tutotiales/PS2/PanelDeControl.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    <li>Y en el menú nos vamos a Configuración avanzada </li>
+                                                    <img src="../../images/Tutotiales/PS2/ConfAvanza.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    <li>En Reglas de entrada en acciones le damos a nueva regla</li>
+                                                    <ol>
+                                                        <li>Le asignamos Puerto siguiente </li>
+                                                        <li>En puerto locales especifico: <code>1024</code></li>
+                                                        <li>Le damos a siguiente/</li>
+                                                        <li>Acción le damos a permitir la conexión siguiente</li>
+                                                        <li>En Perfil siguiente </li>
+                                                        <li>En nombre le asignamos en nombre <code>PS2Entrada</code></li>
+                                                        <li>Y en descripción le asignamos <code>-Entrada PS2</code></li>
+                                                        <li>Y finalizar</li>
+                                                    </ol>
+                                                    <li>En programas y características </li>
+                                                    <ol>
+                                                        <li>Nos vamos a Activar o desactivar las características de Windows </li>
+                                                        <li>Dentro vamos a buscar <b>Compatibilidad con el protocolo para compartir Archivos SMB 1.0/CIFS</b></li>
+                                                        <li>Y seleccionamos <b>Servidor SMB 1.0/CIFS</b></li>
+                                                        <li>Y le damos aceptar </li>
+                                                        <li>Buscará y Liberia para los archivos necesarios para esta característica </li>
+                                                        <li>Podemos reiniciar el ordenador para completar bien la instalación </li>
+                                                    </ol>
+                                                    <li>Para continuar debemos descomprimir el archivo <a href="../../Consolas/PS2.html#OPLSERVER">OPL-Server…</a></li>
+                                                    <ol>
+                                                        <li>Por primera vez debemos compartir la carpeta <code>PS2</code></li>
+                                                        <img src="../../images/Tutotiales/PS2/OPLServerCarp.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                        <ul>
+                                                            <li>Para esto demos compartir la carpeta le damos a clip derecho sobre la carpeta <code>PS2</code> y en propiedades </li>
+                                                            <li>En la pestaña de Compartir le damos a y le damos en Compartir… y seleccionamos todos y agregamos </li>
+                                                            <li>Le damos los permisos de Lectura y escritura y al botón Compartir y listo</li>
+                                                            <li>Y en uso compartido avanzado le damos al botón</li>
+                                                            <li>Le damos a compartir esta carpeta y en los permisos le damos a Todos con control total y aceptar y aceptar y cerramos la ventana</li>
+                                                        </ul>
+                                                        <li>para agregar juegos los pasamos a la carpeta <code>PS2</code></li>
+                                                        <ul>
+                                                            <li>sí están en ISO los colocamos en la carpeta llamada <code>DVD</code> dentro de <code>PS2</code></li>
+                                                            <li>si queremos pasarle las caratulas y dejarlo listo </li>
+                                                            <li>abrimos <a href="../../Consolas/PS2.html#OPLSERVER">OPL Manager.exe</a> como administrador </li>
+                                                            <li>se queremos seleccionar una ruta y no nos aparece la opción </li>
+                                                            <ol>
+                                                                <li>vamos a Ajustes/cambiar Modo (carpeta OPL)</li>
+                                                                <li>y e ruta seleccionamos la carpeta <code>PS2</code> recién creada y compartida </li>
+                                                                <li>y creamos las carpetas faltantes para automatizar el programa </li>
+                                                            </ol>
+                                                            <li>una vez listo nuestro programa nos detectara nuestros juegos </li>
+                                                            <ol>
+                                                                <li>solo nos quedaría corregir el nombre con el botón intentar actualizar el nombre del juego</li>
+                                                                <li>sí nos da un error debemos reducir el nombre a menos de 32 caracteres</li>
+                                                                <li>y estaríamos listo</li>
+                                                            </ol>
+                                                            <li>Para descargar la caratulas vos vamos a Operaciones/Descargar Imágenes</li>
+                                                            <ol>
+                                                                <li>En la ventana seleccionamos todo lo queremos descargar en Opciones de descarga</li>
+                                                                <li>Y le damos a comenzar y una vez terminado le damos aceptar y cerramos la ventana </li>
+                                                                <li>Y estaría todo listo y podemos cerrar todo el programa</li>
+                                                            </ol>
+                                                        </ul>
+                                                        <li>Dentro de la carpeta buscamos el archivo OPLServer.exe y lo abrimos como administrador </li>
+                                                        <li>Le damos los permisos necesarios para ejecutar nuestra aplicación </li>
+                                                        <li>Para arrancar nuestro servidor le damos a Server is stopped (press to start)</li>
+                                                    </ol>
+                                                </ul>
+                                                <li>En nuestra PS2 nos vamos al <a href="../../Consolas/PS2.html#OPL">Open PS2 Loader</a></li>
+                                                <img src="../../images/Tutotiales/PS2/OPLConfigENG.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <ul>
+                                                    <li>Muy importante que nuestra consola PS2 este conectada a la misma RED de nuestro ordenador (PC o Notebook)</li>
+                                                    <li>Nos vamos a configuración de OPL en Settings (Configuración principal)</li>
+                                                    <ol>
+                                                        <li>Nos vamos a ETH Prefix Path (Ruta predeterminada conexión de red) en not set (sin definir)</li>
+                                                        <li>Y en ETH Device Star Mode (Modo de inicio para RED) en Auto (Automatico)</li>
+                                                        <li>Y le damos en aceptar y nos daría Error para eso </li>
+                                                    </ol>
+                                                    <li>Nos vamos a Network Settings (Conexión de red)</li>
+                                                    <ol>
+                                                        <li>En advanced options (Opciones avanzadas) lo dejamos en On (activado)</li>
+                                                        <li>Y en addres Type (Tipo de dirección) lo dejamos en IP</li>
+                                                        <ul>
+                                                            <li>Y le asígnanos la ip de nuestro PC o notebook para esto en nuestro equipo colocamos el comando CMD en inicio y abrimos la terminal y colocamos el siguiente comando <code>ipconfig</code></li>
+                                                            <li>Y buscamos la ip del dispositivo (Wifi o Ethernet) dependiendo de cómo esté conectado nuestro equipo</li>
+                                                        </ul>
+                                                        <li>Y en port(puerto) lo dejamos en en 1024</li>
+                                                        <li>Y en Share (Unidad o carpeta compartida) colocaremos el nombre de la carpeta compartida <code>PS2</code></li>
+                                                        <li>Y listo le damos a aceptar con <img src="../../images/ControlSony/equis.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+                                                    </ol>
+                                                    <li>Y le damos a Save Changes (Guardar cambios)</li>
+                                                </ul>
+                                                <li>Y nos vamos hacia tras con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para ir a SMB</li>
+                                                <img src="../../images/Tutotiales/PS2/OPLAPPPS2.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <ul>
+                                                    <li>Si todo salió bien nos mostrar nuestros juegos recién cargados en nuestra PS2</li>
+                                                    <li>Y podemos abrir para probar nuestros juegos y estaríamos listo </li>
+                                                </ul>
+                                                <li>Recomendaciones para que esto funciones </li>
+                                                <ul>
+                                                    <li>Tiene estar nuestro equipo en la misma RED y todas las configuraciones necesarias </li>
+                                                    <li>Puede cambiar la IP de nuestro Equipo cada 7 días esto se debe al Moden para esto hay q seleccionar la nueva IP asignada de nuestro moden</li>
+                                                </ul>
+                                                <li>Y estaría lista para poder jugar nuestros juegos </li>
+                                            </ol>
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2XtremeEliteBootPS2SX.html">PS2 XtremeEliteBoot + PS2SX</a></li>
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+                                        <li><a href="PS2FreeDVDBoot.html">PS2 FreeDVDBoot</a></li>
+                                        <li><a href="PS2FunTuna.html">PS2 FunTuna</a></li>
+                                        <li><a href="PS2OPLActConfig.html">PS2 OPL Actualizar/Configurar </a></li>
+                                        <li><a href="PS2RetroArch.html">PS2 RetroArch</a></li>
+                                        <li><a href="PS2PS1EnPS2.html">PS1 en PS2</a></li>
+                                        <li><a href="PS2Juegos.html">PS2 Añadir Juegos</a></li>
+                                        <li><a href="PS2OPLServer.html">PS2 OPL Server</a></li>
+                                        <li><a href="PS2FormaMemCardPS2.html">PS2 Formatiar Memory Card PS2</a></li>
+                                        <li><a href="PS2APPSUSB.html">PS2 APPS USB</a></li>
+                                        <li><a href="PS2Temas.html">PS2 Temas</a></li>
+									</ul>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

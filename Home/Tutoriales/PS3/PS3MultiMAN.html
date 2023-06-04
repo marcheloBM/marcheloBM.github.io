@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PS3 MultiMAN</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>PS3 MultiMAN</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Es una aplicación homebrew que funciona como gestor de archivos y cargador de backups (copia de seguridad de juegos de PS3).</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PS3/multiman.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>USB en formato FAT32</li>
+                                                <li>PC para la transferencia de Archivos por FTP</li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <!--<a name="ProFT" id="ProFT"></a>-->
+                                            <ol>
+                                                <li>PKG <a href="../../Consolas/PS2.html#FunTuna">multiMAN</a></li>
+                                            </ol>
+                                        </div>
+                                    </div>
+                                    
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <ol>
+                                                <p>Para Empezar este Tutorial</p>
+                                                <li>Descargamos los archivos y lo pasamos a nuestra USB en la raíz </li>
+                                                <ul>
+                                                    <li>Para instalar el .pkg nos vamos a <b>Administrar archivos PKG</b> </li>
+                                                    <li>Seleccionamos <b>Instalar archivos PKG/Directorio estándar</b> (USB)</li>
+                                                    <li>Y instalamos el pkg de nuestra aplicación</li>
+                                                    <li><b>multiMAN_04.??.pkg</b> con la última versión disponible </li>
+                                                    <li>Una vez instalada nos saldrá en el menú de <b>Juegos</b></li>
+                                                </ul>
+                                                <li>Abrimos nuestra aplicación </li>
+                                                <img src="../../images/Tutotiales/PS3/multimanMenu.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <ol>
+                                                    <li>En la sección de Game podemos cargar nuestros juegos en formato carpeta e ISO</li>
+                                                    <ul>
+                                                        <li>Si seleccionamos un juego con <img src="../../images/ControlSony/Cuadrado.jpg" width=20 height=20 alt="Imagen No Disponible" /> podemos </li>
+                                                        <ol>
+                                                            <li>Copy (copiar nuestro juego desde HDD de la consola hacia un USB o desde el USB hacia el HDD)</li> 
+                                                            <li>Delete (podemos eliminar el juego)</li>
+                                                            <li>Rename (podemos cambiar el nombre del juego)</li>
+                                                            <li>Update actualizar nuestro juego </li>
+                                                            <li>Test (verificar los archivos del juego)</li>
+                                                            <li>Permissions (le podemos cambiar algunos permisos para configurar el juego)</li>
+                                                            <img src="../../images/Tutotiales/PS3/multimanMenuJuegos.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                        </ol>
+                                                    </ul>
+                                                    <li>En la sección de Retro </li>
+                                                    <ul>
+                                                        <li>Podemos cargar juegos de PS1</li>
+                                                    </ul>
+                                                    <li>En la sección de Favoritos </li>
+                                                    <ul>
+                                                        <li>Podemos colocar nuestros juegos favoritos para no tener que estar buscándolo en la lista de GAME</li>
+                                                        <li>Seleccionamos nuestro juego le damos a <img src="../../images/ControlSony/Cuadrado.jpg" width=20 height=20 alt="Imagen No Disponible" /> y seleccionemos Favorite dentro del menú</li>
+                                                        <li>Y nos saldrá en favorito </li>
+                                                    </ul>
+                                                    <li>En la sección de Video</li>
+                                                    <ul>
+                                                        <li>En este menú podemos reproducir cualquier formato de video en nuestra consola PS3</li>
+                                                        <li>En nuestro USB o HDD</li>
+                                                    </ul>
+                                                    <li>En la sección de Música</li>
+                                                    <ul>
+                                                        <li>En este menú podemos reproducir cualquier formato de música en nuestra consola PS3</li>
+                                                        <li>En nuestro USB o HDD</li>
+                                                    </ul>
+                                                    <li>En la sección de Fotos</li>
+                                                    <ul>
+                                                        <li>En este menú podemos reproducir cualquier formato de Imagen en nuestra consola PS3</li>
+                                                        <li>En nuestro USB o HDD</li>
+                                                    </ul>
+                                                    <li>En la sección de Settings</li>
+                                                    <ul>
+                                                        <li>Podemos cambiar el lenguaje de la aplicación</li>
+                                                        <ol>
+                                                            <li>Vamos a Interface Language</li>
+                                                            <li>Y seleccionamos el idioma a preferencia ej: español latino</li>
+                                                            <li>Y listo</li>
+                                                        </ol>
+                                                    </ul>
+                                                    <li>En la sección de multiMAN</li>
+                                                    <ul>
+                                                        <li>Actualizar (Update) revisar si hay actualización disponible</li>
+                                                        <li>La demás configuración tener mucho cuidado </li>
+                                                    </ul>
+                                                    <li>Usar el sistema de Archivos del Sistema de PS3</li>
+                                                    <img src="../../images/Tutotiales/PS3/multimanFile.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                    <ul>
+                                                        <li>En la sección de multiMAN </li>
+                                                        <li>En el apartado de <b>File Manager / mmOS</b></li>
+                                                        <li>Podemos usar <b>PS3 Root</b></li>
+                                                        <ol>
+                                                            <li>Para poder acceder al disco duro externo e interno de la consola </li>
+                                                            <li>El disco duro interno es <b>DEV_HDD0</b> de la consola PS3</li>
+                                                            <li>El disco duro Externo es <b>DEV_USB001</b> para el USB o HDD externo de la consola </li>
+                                                            <li>Para salir de damos a icono del escritorio de GAME y listo</li>
+                                                        </ol>
+                                                    </ul>
+                                                    <li>Podemos Usar el FTP</li>
+                                                    <ul>
+                                                        <li>Para esto solo debemos saber la IP de nuestra consola </li>
+                                                        <li>Recomendación la consola PS3 y nuestro equipo deben estar conectado a la misma red para poder conectarse entre si </li>
+                                                        <li>Para eso lo vemos en <b>Ajustes/ Ajustes de red</b></li>
+                                                        <ol>
+                                                            <li>Y en <b>Ajustes</b> y <b>lista de estado de conexión</b> </li>
+                                                            <li>Y en <b>Dirección IP</b> podemos obtener nuestra IP</li>
+                                                        </ol>
+                                                        <li>iv.	Abrimos la aplicación <b>FileZilla Client</b> en nuestro equipo</li>
+                                                        <ol>
+                                                            <li>Y colocamos nuestra IP de nuestra consola PS3</li>
+                                                            <img src="../../images/Tutotiales/PS3/multimanFPT.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                            <li>Si es necesario colocamos el puerto <b>21</b> si manda error al conectar</li>
+                                                            <li>Con esta opción podemos pasar archivos a nuestra consola como juegos o aplicaciones para después instalarlas</li>
+                                                        </ol>
+                                                    </ul>
+                                                </ol>
+                                                <li>Con esto estaríamos listo para poder usar esta aplicación con todas sus funciones</li>
+                                            </ol>
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
