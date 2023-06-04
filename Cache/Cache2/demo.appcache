@@ -1,0 +1,10 @@
+CACHE MANIFEST
+
+CACHE:
+cache.html
+
+NETWORK:
+network.html
+
+FALLBACK:
+offline.html fallback.html
