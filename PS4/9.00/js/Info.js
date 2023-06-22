@@ -44,6 +44,10 @@ function infoGoldhen24b5(){
 function infoGoldhen24b13(){
 	document.getElementById("msj").innerHTML = "Goldhen v2.4b13 para Firmware 9.00";
 }
+function infoGoldhen24b14(){
+	document.getElementById("msj").innerHTML = "Goldhen v2.4b14 para Firmware 9.00";
+}
+
 
 
 /* Payloads */
