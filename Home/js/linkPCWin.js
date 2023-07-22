@@ -1576,7 +1576,30 @@ function RetroArchWeb(){
 		IniciarSession();
 	}
 }
-
+function AutorunsAutorunsc(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/rdZG1SZZ#OcOL5C48u1d3lvAJXckZ7g")
+	}else{
+		IniciarSession();
+	}
+}
+function AutorunsAutorunscWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://learn.microsoft.com/en-us/sysinternals/downloads/autoruns")
+	}else{
+		IniciarSession();
+	}
+}
+function ReinicioDetalladoWindows(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/file/nVRkQSAK#TSgXL_NNm_gnTyqfDViYZXMKkf_Q1OsEkCQs-6BP0Tc")
+	}else{
+		IniciarSession();
+	}
+}
 
 
 
