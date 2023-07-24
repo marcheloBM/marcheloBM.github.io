@@ -1,3 +1,5 @@
+-v1.08 Tutoriales Buscar
+	Nuevo buscador para los tutoriales para PS2-PSP
 -v1.07 Nuevo Tutoriales PC
 	se Agrego nuevos tutoriales de APP y ayuda para nuestro Equipos
 -v1.06 Nuevo Programa y Cambios

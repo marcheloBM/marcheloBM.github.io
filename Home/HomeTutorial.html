@@ -22,7 +22,6 @@
         <script>
             window.onload = cargarDatos;
         </script>
-        
 	</head>
 	<body class="is-preload">
 
@@ -56,10 +55,34 @@
 											<h3>Todos los Tutotoriales que necesite</h3>
 										</header>
                                         <p>Todos nuestros servicios Ayudas y tutoriales. Si tiene alguna sugerencia o ayuda o algo está mal en nuestra página por favor mandar su solicitud a nuestro Whatsapp <a href="https://api.whatsapp.com/send?phone=56920473627" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a>.</p>
-                                        <p>Para facilitar la búsqueda de alguna guía podemos presionar <b>Ctrl+f</b> y buscar más rápido dentro de la pagina web en la que nos encontremos </p>
-										<!--<ul class="actions">
-											<li><a href="#" class="button big">Aprende más</a></li>
-										</ul>-->
+                                        <!--<p>Para facilitar la búsqueda de alguna guía podemos presionar <b>Ctrl+f</b> y buscar más rápido dentro de la pagina web en la que nos encontremos </p>-->
+										<h2>Buscar</h2>
+										<div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <label for="categorias">Categorías:</label>
+											<select id="categorias" onchange="actualizarContenido()">
+												<option value="">- Seleccione una categoría -</option>
+												<option value="PS2">PS2</option>
+												<option value="PSP">PSP</option>
+												<option value="PS3">PS3</option>
+												<option value="PSVita">PSVita</option>
+												<option value="PS4">PS4</option>
+												<option value="PC">PC</option>
+											</select>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <label for="contenido">Contenido:</label>
+											<select id="contenido">
+												<!-- Aquí se agregarán las opciones dinámicamente -->
+											</select>
+											<div id="comentarioContenedor">
+												<!-- El comentario seleccionado se mostrará aquí -->
+											</div>
+                                        </div>
+                                    </div>
+										<button id="botonIr" onclick="irAPagina()">Ir a la página</button>
+										
+										<script src="js/buscar.js"></script>
 									</div>
 									<!--<span class="image object">
 										<img src="images/Tutotiales/Tutorial.jpg" alt="Imagen No Disponible" />
