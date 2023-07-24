@@ -1,0 +1,208 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Hyper-V</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Hyper-V</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Hyper-V es el hipervisor de Microsoft que viene incluido en las ediciones Pro, Enterprise y Education de Windows 10 y Windows 11. Este es el encargado de virtualizar hardware, usando funciones de la propia CPU del sistema</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PC/Hyper-V/Hyper-V.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    
+                                    
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Empezando este Tutorial </p>
+                                            <ol>
+												<li>Cómo activar Hyper-V</li>
+												<ul>
+													<li>Activar desde Windows</li>
+													<ol>
+														<li>Eso sí, antes de nada, debemos <b>tener en cuenta que necesitamos tener una versión Pro de Windows 10 o Windows 11 instalado</b> en el ordenador (esta característica no está disponible en la edición Home) y, además, debemos haber habilitado en la BIOS/UEFI de nuestro ordenador las funciones de virtualización de la CPU. Estas son <b>VT-x y VT-d</b> en el caso de Intel, y <b>AMD-V y AMD-Vi</b> en el caso de AMD.</li>
+														<li>Buscamos en el menú de inicio <code>características de Windows</code></li>
+														<img src="../../images/Tutotiales/PC/Hyper-V/Hyper-V01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Nos mostrara una venta y buscamos el <b>Hyper-V</b> para activarlo</li>
+													</ol>
+													<li>Activar desde PowerShell</li>
+													<ol>
+														<li>Buscamos desde el menú de inicio <code>Windows PowerShell</code> y lo ejecutamos como administrador</li>
+														<li>Y colocamos el siguiente comando <code>Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All</code></li>
+														<li>El sistema se encargará de buscar y bajar todas las librerías y dependencias necesarias para habilitar esta función, y la activará en nuestro equipo</li>
+														<li>Si ya tenemos Hyper-V instalado en el ordenador, pero lo hemos desactivado manualmente (u otro programa lo ha hecho), no es necesario volver a instalar la característica, puesto que ya está presente en el PC</li>
+														<li>Buscamos desde el menú de inicio Windows PowerShell y lo ejecutamos como administrador</li>
+														<li>Y colocamos el siguiente comando <code>bcdedit /set hypervisorlaunchtype auto</code></li>
+													</ol>
+												</ul>
+												<li>Desactivar la virtualización de Windows</li>
+												<ul>
+													<li>Desde características de Windows</li>
+													<li>Para esto buscamos en el menú de inicio <b>Características de Windows</b></li>
+													<img src="../../images/Tutotiales/PC/Hyper-V/Hyper-V02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Nos aseguramos de que la entrada «Hyper-V» queda desmarcada (así como sus subentradas, las cuales se deshabilitarán automáticamente) y aceptamos los cambios. De nuevo, tras reiniciar Windows, esta característica quedará desactivada.</li>
+												</ul>
+												<li>Desde PowerShell</li>
+												<ul>
+													<li>Buscamos desde el menú de inicio Windows PowerShell y lo ejecutamos como administrador</li>
+													<li>Y colocamos el siguiente comando <code>Disable-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V-All</code> </li>
+													<li>Tras deshabilitar el hipervisor de Windows mediante este comando, lo único que nos queda por hacer es reiniciar el sistema y listo. Al reiniciar, veremos un mensaje que nos indicará que se están realizando cambios.</li>
+													<li>Si no queremos desinstalarlo por completo, y solo queremos desactivarlo temporalmente, podemos usar bcedit para deshabilitarlo. Esto dejará los archivos en el PC, pero el hipervisor no funcionará, por lo que no0 dará problemas con otros programas como VMware o VirtualBox. Para ello, podemos abrir una ventana de PowerShell, también con permisos de Administrador, y ejecutaremos: <code>bcdedit /set hypervisorlaunchtype off</code></li>
+													<li>Al reiniciar el PC, el hipervisor estará deshabilitado. Y podremos activarlo de nuevo, en caso de necesitarlo, sin tener que descargar e instalar la característica opcional.</li>
+												</ul>
+												<li>Cómo saber si Hyper-V está activado o desactivado</li>
+												<ul>
+													<li>Si no sabemos si Hyper-V está activado o desactivado en nuestro sistema, podemos comprobarlo de varias formas. La más rápida y sencilla es usando un simple comando de PowerShell</li>
+													<li>Para ello, abriremos de nuevo una ventana de PowerShell con permisos de Administrador y ejecutaremos este comando: <code>Get-WindowsOptionalFeature -Online -FeatureName Microsoft-Hyper-V</code> </li>
+													<li>Otra forma de comprobar si esta característica está o no en funcionamiento es con este otro comando, el cual se encarga de comprobar el estado del servicio para ver si está, o no, en funcionamiento y ejecutaremos este comando: <code>get-service | findstr vmcompute</code> </li>
+												</ul>
+												<li>Crear una máquina virtual</li>
+												<ul>
+													<li>Ahora que tenemos Windows 10 con Hyper-V ya es posible crear tu primera máquina virtual. Para ello, abrimos el menú <b>Inicio</b> y buscamos <code>Creación rápida en Hyper-V</code> o, en inglés, <code>Hyper-V Quick Create</code>.</li>
+													<li>A través de un práctico asistente tendremos la posibilidad de crear una nueva máquina virtual seleccionando un sistema operativo de la lista de la izquierda o indicando la <b>imagen ISO</b> de instalación desde <b>Origen de instalación local</b>. Además de imágenes ISO admite también <b>imágenes VHD y VHDX</b>.</li>
+													<img src="../../images/Tutotiales/PC/Hyper-V/Hyper-V03.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Por último, hacemos clic en Crear máquina virtual y el asistente se encargará de crear la máquina virtual e instalar el sistema operativo elegido.</li>
+												</ul>
+												<li>Abrir la máquina virtual</li>
+												<ul>
+													<li>Para abrir nuestra nueva máquina virtual sólo tendremos que abrir el <b>Administrador de Hyper-V</b> y hacer doble clic en el nombre de la máquina en la lista de la izquierda. A partir de ahí, trabajar con ella no tiene secretos</li>
+													<li>Aunque Hyper-V tiene muchas funciones avanzadas para personalizar el funcionamiento de la máquina virtual, para no extendernos demasiado, las opciones que nos serán más útiles son <b>Configuración y Punto de control</b>. Desde el <b>Administrador de Hyper-V</b>, al seleccionar tu PC, verás la máquina virtual en el panel central. Si lo seleccionas, verás las opciones disponibles en la columna de la derecha.</li>
+													<li>En la mitad de abajo de la columna derecha, pulsando en <b>Configuración</b> tendrás acceso a las opciones de la máquina virtual. Ahí podemos hacer <b>cambios de hardware</b> para que la máquina virtual tenga más o menos recursos en caso que necesitemos que funcione más rápido.</li>
+													<img src="../../images/Tutotiales/PC/Hyper-V/Hyper-V04.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Con <b>Punto de control</b> podemos guardar una instantánea de la máquina virtual tal y como está. Así, si ocurre un problema al probar un software o al abrir un archivo sospechoso y la máquina virtual deja de funcionar, no tendremos que crearla desde cero, sino que bastará con <b>restaurar el punto de control</b> en el que todo iba bien.</li>
+												</ul>
+												
+                                            </ol>
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

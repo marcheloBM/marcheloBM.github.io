@@ -1,3 +1,5 @@
+-v1.07 Nuevo Tutoriales PC
+	se Agrego nuevos tutoriales de APP y ayuda para nuestro Equipos
 -v1.06 Nuevo Programa y Cambios
 	se Agrego nuevo programa de Win y se cambio uno de ubicacion para mejor orden
 -v1.05 Cambios Menores
