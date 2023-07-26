@@ -56,27 +56,75 @@ const contenidoPorCategoria = {
     PS3: [
         { nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
         { nombre: "PS3 Backup IDPS-NOR", ubicacion: "PS3BackupIDPSNOR", comentario: "Copias de seguridad del act-id y memoria flash de nuestra consola" },
-        { nombre: "PS3 Activar HEN", ubicacion: "PS3ActivarHEN", comentario: "Activando el HEN en nuestra consola PS3 (4.88-4.89 HFW)" }
+        { nombre: "PS3 Activar HEN", ubicacion: "PS3ActivarHEN", comentario: "Activando el HEN en nuestra consola PS3 (4.88-4.89 HFW)" },
+		{ nombre: "HEN Portable", ubicacion: "PS3HENPortable", comentario: "Podemos instalar nuestro HEN desde sus celulares Android sin la necesidad de un PC o de conexión directa a WEB Oficial." },
+		{ nombre: "PS3 Apollo Save Tool", ubicacion: "PS3ApolloSaveTool", comentario: "Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation 3." },
+		{ nombre: "PS3 Artemis", ubicacion: "PS3Artemis", comentario: "Artemis, un sistema de trampas para videojuegos de Playstation 3 de código abierto creado bajo la iniciativa Project Artemis. Podemos colocar muchos trucos para nuestros juegos de PS3." },
+		{ nombre: "PS3 Audio por USB o Bluetooth", ubicacion: "PS3AudioUSBoBluetooth", comentario: "Podemos usar audífonos por USB o por Bluetooth con esta sencilla aplicación en nuestra consola PS3 ya que por defecto no podemos realizar este procedimiento con muestro audífonos." },
+		{ nombre: "PS3 FileManager", ubicacion: "PS3FileManagerManaGunZ", comentario: "Este gestor de ficheros nos da la posibilidad de navegar por todos los directorios de la PS3, así como de cualquier memoria externa que tengamos conectada. Podremos copiar y eliminar de la forma más simple imaginable." },
+		{ nombre: "PS3 IRISMAN", ubicacion: "PS3IRISMAN", comentario: "Gestor de juegos, administrador de archivos y muchas herramientas más componen este manager que lleva muchos años dando soporte en Playstation 3." },
+		{ nombre: "PS3 Licencias", ubicacion: "PS3Licencias", comentario: "Existe el típico pkg de las 15.280 licencias que las instalas y ya deberías de poder licenciar y activar casi todo el contenido sin que salga la bolsita típica de que hay que renovar (comprar)" },
+		{ nombre: "PS3 Movian", ubicacion: "PS3MOVIAN", comentario: "Es una app de ps3 que se instala en CFW/HEN para ver peliculas, series, listas de reproducción y escuchar música, todo Online. Es tan útil que si combinas Movian con las apps de Spotify, Netflix y Crunchyroll te queda todo un centro multimedia completo." },
+		{ nombre: "PS3 MultiMAN", ubicacion: "PS3MultiMAN", comentario: "Es una aplicación homebrew que funciona como gestor de archivos y cargador de backups (copia de seguridad de juegos de PS3)." },
+		{ nombre: "PS3 Plex", ubicacion: "PS3Plex", comentario: "Una aplicación con la que puedes convertir tu ordenador en un centro multimedia utilizando el contenido digital que tengas en él. Reconoce todos los archivos multimedia que tengas alojados en la carpeta de origen." },
+		{ nombre: "PS3 Liberar 8% HDD", ubicacion: "PS3Libera8HDD", comentario: "Desbloquea hasta un 8% de espacio en el HDD. Es sorprendente, pero real, gracias a 3141card ahora puedes liberar espacio en el HDD con solo instalar un simple pkg." },
+		{ nombre: "PS3 webMAN MOD", ubicacion: "PS3WebMANMOD", comentario: "Es un manager plugin sprx compatible con CEX/DEX y HEN, es el mejor compañero para todos los Custom Firmware COBRA así como con HEN. Si quieres lanzar cómodamente tus juegos desde el XMB." },
+		{ nombre: "PS3 Simple File Manager", ubicacion: "PS3SimpFileMan", comentario: "Administrador de archivos simple para PS3 compatible con sistemas de archivos exFAT y FAT32. Podemos copiar desde nuestro USB o HDD hacia nuestra consola PS3." },
+		{ nombre: "PS3 Convertir ISO de PS2 sin PC", ubicacion: "PS3ConvertirISOPS2", comentario: "Con este método podemos Convertir ISO de PS2 para HEN sin PC en nuestra consola de PS3, Convierte tus juegos de playstation 2 a formato de imagen ISO, donde se te facilitara la manipulación de tu juego, sin la necesidad de programas." },
+		{ nombre: "PS3 PSP en PS3", ubicacion: "PS3PSP", comentario: "Con estas aplicaciones podemos jugar nuestros juegos de PSP en nuestra consola PS3 más fácil imposible" },
+		{ nombre: "PS3 RetroArch", ubicacion: "PS3Retroarch", comentario: "RetroArch es una interfaz para emuladores, motores de juegos y reproductores multimedia. Le permite ejecutar juegos clásicos en una amplia gama de computadoras y consolas a través de su elegante interfaz gráfica." },
+		{ nombre: "PS3 PKGI", ubicacion: "PS3PKGI", comentario: "PKGi PS3 es un port para Playstation 3. Esta aplicación nos permite descargar e instalar archivos .pkg directamente en nuestra Playstation 3. Descargas automáticas." },
+		{ nombre: "PS3 VIDEOSTORE", ubicacion: "PS3VIDEOSTORE", comentario: "Store gratuito para PlayStation 3 con juegos PSX, PS2, PS3, PSP y DLC. También programas (Homebrew), utilidades y personalización para PS3. Compatible con cualquier consola PS3 ya sea FAT, SLIM o SUPER SLIM con HEN. Para CFW se requiere de un fix exclusivo." },
+		{ nombre: "PS3 WebStore Comunidad", ubicacion: "PS3WebStoreComunidad", comentario: "Store para descargar juegos de PSX, PS2, PS3, PSP y DLC. También contiene programa (Homebrew), utilidades y personalización para PS3. Esta aplicación ya no tiene soporte solo queda probarla." },
+		{ nombre: "PS3 WIKISTORE", ubicacion: "PS3WIKISTORE", comentario: "Store donde podrás descargar juegos de PSX, PS2, PSP, PS3 PSN y Exclusivos directamente desde tu consola PS3. Tendrás acceso a descargas de Hombrew, emuladores retro y un montón de modificaciones para tu consola." },
+		{ nombre: "9420 caratulas para los Juegos PS3", ubicacion: "PS39420caratulas", comentario: "Store donde podrás descargar juegos de PSX, PS2, PSP, PS3 PSN y Exclusivos directamente desde tu consola PS3. Tendrás acceso a descargas de Hombrew, emuladores retro y un montón de modificaciones para tu consola." },
+		{ nombre: "Pack Avatares PS3", ubicacion: "PS3PackAvatares", comentario: "Avatares instalables en pkg son 4330 archivos para escoger e instalar. El pack bien comprimido en rar lo único que hay que hacer es descomprimirlo y escoger cuales quiere instalar en su consola PS3" },
+		{ nombre: "Hybrid Firmware Tools", ubicacion: "PS3HybrindFirmwareTools", comentario: "Menú oculto para nuestra consola PS3 con este menú podemos tener acceso a muchas funciona para nuestra consola." },
+		{ nombre: "Contendido de un .pkg", ubicacion: "PS3ContendidoPKG", comentario: "PkgView es una herramienta para extracción de archivos pkg de PS3." },
+		{ nombre: "Make Package Custom", ubicacion: "PS3MakePackageCustom", comentario: "Podemos crear archivos pkg de lo que queramos como por ejemplo temas, juegos, licencias, etc." },
+		{ nombre: "PS3 Game Updates", ubicacion: "PS3GameUpdater", comentario: "PS3 Game Updates podemos descargar las actualizaciones de nuestros juegos a si no tendremos que esperar a que la consola descargue e instale las actualizaciones." },
+		{ nombre: "PS3 NET Server", ubicacion: "PS3NETServer", comentario: "ps3netsrv es una aplicación de servidor que se utiliza para transmitir contenido desde un servidor remoto a la PS3. Desde un pc hacia nuestra consola PS3 todos los juegos que queramos." },
+		{ nombre: "PARAM SFO Editor", ubicacion: "PS3PARAMSFOeditor", comentario: "PARAM SFO Editor podemos saber más información de nuestros juegos con param.sfo y podemos modificar más información." },
+		{ nombre: "RetroXMB", ubicacion: "PS3RetroXMB", comentario: "Convertir Juegos ISO de PS2 a PKG en nuestra computadora (PC, Notebook), de forma fácil y sencilla sin más dificultades." },
+		{ nombre: "PKG Linker", ubicacion: "PS3PKGLinker", comentario: "PKG Linker es una herramienta de Windows para cargar imágenes de juegos y otras aplicaciones en una PS3 habilitada para CFW/HAN. Este método permite a los usuarios sortear la limitación de tamaño de archivo de 4 Gb." },
+		{ nombre: "PS3Merge", ubicacion: "PS3Merge", comentario: "PS3Merge es una herramienta que permite a los usuarios fusionar archivos divididos por varios administradores de copia de seguridad de PS3." },
+		{ nombre: "PSNstuff", ubicacion: "PS3PSNStuff", comentario: "PSNstuff Es una herramienta para pc que permite descargar juegos de cada consola playstation (del ps1 a la ps4) actualizar su base de datos y también añadir más juegos en el catalogo." },
+		{ nombre: "Remoteplay", ubicacion: "PS3Remoteplay", comentario: "Con Remoteplay podemos conectar de forma remota nuestra consola PS3 con nuestro ordenador y esta excelente aplicación." },
+		{ nombre: "Desbloquear Trofeos", ubicacion: "PS3DesbloquearTrofeos", comentario: "Desbloquear los trofeos de nuestros juegos en PS3 para poder sacar ese platino difícil de desbloquear. Mucho cuidado podemos estar expuestos a un baneo por parte de Sony(Expulsión y bloqueo de un usuario para nuestra consola)." },
+		{ nombre: "PS3 ISO TOOLS", ubicacion: "PS3ISOTOOLS", comentario: "PS3 ISO TOOLS podemos crear y convertir juegos a iso de PS3." },
+		{ nombre: "PS2 en PS3 con PC", ubicacion: "PS2PS3HENConPC", comentario: "Podemos Convertir ISO de PS2 para HEN con un PC para nuestra consola de PS3, Convierte tus juegos de playstation 2 a formato de imagen ISO, donde se te facilitara la manipulación de tu juego." },
+		{ nombre: "Desinstalar HEN en PS3", ubicacion: "PS3DesinstalarHEN", comentario: "Desinstalar HEN completamente de nuestra consola para eliminar todo rastro de nuestra consola PS3." },
+		{ nombre: "Menú Secreto PS2 dentro PS3", ubicacion: "MenuSecretoPS2", comentario: "Menú secreto dentro del emulador de PS2 de nuestra consola PS3, para nuevos ajustes de gráficos, FPS, calidad o jugabilidad de nuestros juegos de PS2." },
+		{ nombre: "Crear DVD o BD-R Juegos", ubicacion: "CrearDVDBDR", comentario: "Podemos crear copias de nuestros juegos en DVD o BD-R para nuestra consola con HEN." },
+		{ nombre: "Desencriptar ISO PS3", ubicacion: "DesISOPS3", comentario: "Podemos desencriptar las ISO descargadas para poder hacerlo correr en nuestra consola PS3." },
+		{ nombre: "USB con exFAT - NTFS", ubicacion: "PS3USBexFATNTFS", comentario: "Con esta app podemos usar nuestros USB o HDD con el formato exfat o NTFS para nuestros juegos en formato ISO." }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
 	PSVita: [
 		{ nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
-        { nombre: "nombre", ubicacion: "Contenido 1 de PSVita", comentario: "Comentario para Contenido 1 de PSVita" },
-        { nombre: "nombre", ubicacion: "Contenido 2 de PSVita", comentario: "Comentario para Contenido 2 de PSVita" },
-        { nombre: "nombre", ubicacion: "Contenido 3 de PSVita", comentario: "Comentario para Contenido 3 de PSVita" }
+        { nombre: "nombre", ubicacion: "URLPSVita", comentario: "ComentarioPSVita" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [
 		{ nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
-        { nombre: "nombre", ubicacion: "Contenido 1 de PS4", comentario: "Comentario para Contenido 1 de PS4" },
-        { nombre: "nombre", ubicacion: "Contenido 2 de PS4", comentario: "Comentario para Contenido 2 de PS4" },
-        { nombre: "nombre", ubicacion: "Contenido 3 de PS4", comentario: "Comentario para Contenido 3 de PS4" }
+        { nombre: "nombre", ubicacion: "URLPS4", comentario: "ComentarioPS4" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [
         { nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
-        { nombre: "CMD Defender", ubicacion: "CmdDefender", comentario: "Cómo abrir Windows defender desde comando cmd en Windows" },
-        { nombre: "Contenido 3 de PC", ubicacion: "ubicacion12", comentario: "Comentario para Contenido 3 de PC" }
+        { nombre: "CMD Defender", ubicacion: "CmdDefender", comentario: "Cómo abrir Windows defender desde comando cmd en Windows 10." },
+        { nombre: "DS4Windows", ubicacion: "DS4Windows", comentario: "DS4 Windows le permite usar sus controladores de PlayStation y Nintendo en una PC con Windows 10 al emular un controlador virtual de Xbox/DS4." },
+		{ nombre: "Emuladores para Windows", ubicacion: "EmuladoresPC", comentario: "Les traemos una variedad de emuladores para muestro pc desde consolas antiguas esta Android." },
+		{ nombre: "Estado de la Bateria", ubicacion: "EstadoBateria", comentario: "saber el estado de la batería de tu portátil Windows y lo puedes hacer en menos de un minuto." },
+		{ nombre: "Informacion del Sistema o Pruebas", ubicacion: "InfoPruePC", comentario: "TESTEAR y ANALIZAR el RENDIMIENTO de los COMPONENTES de un PC con estos Programas." },
+		{ nombre: "Repara USB", ubicacion: "ReparaUSB", comentario: "Todos los métodos para reparar nuestro USB de forma fácil y rápido." },
+		{ nombre: "Reparar Windows", ubicacion: "ReparaWindows", comentario: "Como analizar y reparar los archivos de sistema de Windows 10 con los comandos: SFC y DISM." },
+		{ nombre: "Virus Total", ubicacion: "VirusTotal", comentario: "VirusTotal es un sitio web que proporciona de forma gratuita el análisis de archivos y páginas web a través de antivirus." },
+		{ nombre: "Cifrar un disco duro", ubicacion: "CifrarHDD", comentario: "Podemos cifrar uno de tus discos duros con Windows 10. Para ello usaremos la solución integrada BitLocker, disponible en la versión de Windows 10 profesional." },
+		{ nombre: "Autoruns", ubicacion: "Autoruns", comentario: "Elimina Programas fantasmas del Sistema programas que después de haber sido eliminados siguen apareciendo y consumiendo recursos del sistema y revisar y tiene virus con virus total." },
+		{ nombre: "Hyper-V", ubicacion: "Hyper-V", comentario: "Hyper-V es el hipervisor de Microsoft que viene incluido en las ediciones Pro, Enterprise y Education de Windows 10 y Windows 11. Este es el encargado de virtualizar hardware, usando funciones de la propia CPU del sistema." },
+		{ nombre: "Obtener las Claves de Windows", ubicacion: "ObtenerClaveWindows", comentario: "Con este método podemos recuperar nuestra clave de Windows de nuestros equipos." },
+		{ nombre: "Respaldo de Drivers de Windows", ubicacion: "BackupDriversWindows", comentario: "Con este sencillo paso podemos obtener todos nuestros drivers de nuestro equipo para respaldo y en caso de formateo." }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ]
 };
@@ -90,6 +138,9 @@ function actualizarContenido() {
     contenidoSelect.innerHTML = "";
     comentarioContenedor.textContent = "";
 
+	// Limpiar valor seleccionado del select "contenido"
+    contenidoSelect.selectedIndex = -1;
+	
     // Agregar las opciones correspondientes a la categoría seleccionada
     contenidoPorCategoria[categoriaSeleccionada].forEach((opcion, index) => {
         const option = document.createElement("option");
@@ -98,6 +149,21 @@ function actualizarContenido() {
         option.title = opcion.comentario; // Agregar el comentario
         contenidoSelect.add(option);
     });
+}
+
+function mostrarComentario() {
+    const categoriaSeleccionada = document.getElementById("categorias").value;
+    const contenidoSelect = document.getElementById("contenido");
+    const contenidoSeleccionadoIndex = contenidoSelect.value;
+
+    if (categoriaSeleccionada && contenidoSeleccionadoIndex !== "") {
+        const contenidoSeleccionado = contenidoPorCategoria[categoriaSeleccionada][contenidoSeleccionadoIndex].nombre;
+        const comentarioSeleccionado = contenidoPorCategoria[categoriaSeleccionada][contenidoSeleccionadoIndex].comentario;
+
+        // Muestra el comentario en el contenedor
+        const comentarioContenedor = document.getElementById("comentarioContenedor");
+        comentarioContenedor.textContent = `Comentario: ${contenidoSeleccionado}: ${comentarioSeleccionado}`;
+    }
 }
 
 function irAPagina() {
