@@ -1,3 +1,5 @@
+-v1.10 Cambios Menores
+	Cambios en el buscador de tutoriales y prueba del henlo PSVita
 -v1.09 Tutoriales Buscar
 	Nuevo contenido al buscador para los tutoriales para PS3-PC
 -v1.08 Tutoriales Buscar

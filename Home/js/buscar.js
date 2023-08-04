@@ -1,7 +1,7 @@
 // Datos de ejemplo para cada categoría
 const contenidoPorCategoria = {
     PS2: [
-        { nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
+        { nombre: "Seleccionar", ubicacion: "PS2Tutorial", comentario: "Elija una opción" },
         { nombre: "PS2 XtremeEliteBoot + PS2SX", ubicacion: "PS2XtremeEliteBootPS2SX", comentario: "XEB con estilos nuevos y nuevas aplicaciones como PS2SX Instalará, configurará, decorará y administrará tus juegos de PS1 (PS-X)" },
         { nombre: "PS2 ChipMatrix", ubicacion: "PS2ChipMatrix", comentario: "Configura tu ChipMatrix a tu gusto toda la información necesaria para configurarlo y dejar como tu prefieras." },
 		{ nombre: "PS2 FreeDVDBoot", ubicacion: "PS2FreeDVDBoot", comentario: "Instalar FreeDVDBoot para poder desbloquear nuestra consola con una memory card solamente" },
@@ -17,7 +17,7 @@ const contenidoPorCategoria = {
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
 	PSP: [
-        { nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
+        { nombre: "Seleccionar", ubicacion: "PSPTutorial", comentario: "Elija una opción" },
         { nombre: "Firmware Oficial", ubicacion: "PSPFirmwareOficial", comentario: "Si queremos instalar el firmware oficial podemos seguir esta guía." },
         { nombre: "Hack Permanente", ubicacion: "PSPHack", comentario: "Podemos liberar nuestra consola PSP para poder instalar aplicaciones o juegos y también la podemos dejar de forma permanente el hack." },
 		{ nombre: "Agenda Digital", ubicacion: "PSPAgendaDigital", comentario: "PSP-PDA, añade funciones de agenda digital a nuestra PSP" },
@@ -54,7 +54,7 @@ const contenidoPorCategoria = {
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS3: [
-        { nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
+        { nombre: "Seleccionar", ubicacion: "PS3Tutorial", comentario: "Elija una opción" },
         { nombre: "PS3 Backup IDPS-NOR", ubicacion: "PS3BackupIDPSNOR", comentario: "Copias de seguridad del act-id y memoria flash de nuestra consola" },
         { nombre: "PS3 Activar HEN", ubicacion: "PS3ActivarHEN", comentario: "Activando el HEN en nuestra consola PS3 (4.88-4.89 HFW)" },
 		{ nombre: "HEN Portable", ubicacion: "PS3HENPortable", comentario: "Podemos instalar nuestro HEN desde sus celulares Android sin la necesidad de un PC o de conexión directa a WEB Oficial." },
@@ -101,17 +101,17 @@ const contenidoPorCategoria = {
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
 	PSVita: [
-		{ nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
+		{ nombre: "Seleccionar", ubicacion: "PSVitaTutorial", comentario: "Elija una opción" },
         { nombre: "nombre", ubicacion: "URLPSVita", comentario: "ComentarioPSVita" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [
-		{ nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
+		{ nombre: "Seleccionar", ubicacion: "PS4Tutorial", comentario: "Elija una opción" },
         { nombre: "nombre", ubicacion: "URLPS4", comentario: "ComentarioPS4" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [
-        { nombre: "Seleccionar", ubicacion: "#", comentario: "Elija una opción" },
+        { nombre: "Seleccionar", ubicacion: "PCTutorial", comentario: "Elija una opción" },
         { nombre: "CMD Defender", ubicacion: "CmdDefender", comentario: "Cómo abrir Windows defender desde comando cmd en Windows 10." },
         { nombre: "DS4Windows", ubicacion: "DS4Windows", comentario: "DS4 Windows le permite usar sus controladores de PlayStation y Nintendo en una PC con Windows 10 al emular un controlador virtual de Xbox/DS4." },
 		{ nombre: "Emuladores para Windows", ubicacion: "EmuladoresPC", comentario: "Les traemos una variedad de emuladores para muestro pc desde consolas antiguas esta Android." },
@@ -167,24 +167,30 @@ function mostrarComentario() {
 }
 
 function irAPagina() {
-    const categoriaSeleccionada = document.getElementById("categorias").value;
+    const categoriaSelect = document.getElementById("categorias");
     const contenidoSelect = document.getElementById("contenido");
+    const categoriaSeleccionada = categoriaSelect.value;
     const contenidoSeleccionadoIndex = contenidoSelect.value;
 
-    if (categoriaSeleccionada && contenidoSeleccionadoIndex !== null) {
-        const contenidoSeleccionado = contenidoPorCategoria[categoriaSeleccionada][contenidoSeleccionadoIndex];
-        const ubicacionSeleccionada = contenidoSeleccionado.ubicacion;
-        const nombreSeleccionado = contenidoSeleccionado.nombre;
-        const comentarioSeleccionado = contenidoSeleccionado.comentario;
+    if (categoriaSeleccionada) {
+        if (contenidoSeleccionadoIndex === "0") {
+            // Redirige a la página de categoría sin nombre de contenido
+            const ubicacionSeleccionada = contenidoPorCategoria[categoriaSeleccionada][0].ubicacion;
+            const url = `Tutoriales/${ubicacionSeleccionada}.html`;
+            window.location.href = url;
+        } else if (contenidoSeleccionadoIndex !== "") {
+            const contenidoSeleccionado = contenidoPorCategoria[categoriaSeleccionada][contenidoSeleccionadoIndex - 1];
+            const ubicacionSeleccionada = contenidoSeleccionado.ubicacion;
+            const comentarioSeleccionado = contenidoSeleccionado.comentario;
 
-        // Puedes utilizar la información seleccionada como necesites, por ejemplo, para redirigir a una página con la ubicación y nombre seleccionados
-        const url = `Tutoriales/${categoriaSeleccionada}/${ubicacionSeleccionada}.html`;
+            // Redirige a la página correspondiente con el nombre del contenido
+            const url = `Tutoriales/${categoriaSeleccionada}/${ubicacionSeleccionada}.html`;
+            window.location.href = url;
 
-        // Muestra el comentario en el contenedor
-        comentarioContenedor.textContent = comentarioSeleccionado;
-
-        // Redirige a la página correspondiente
-        window.location.href = url;
+            // Muestra el comentario en el contenedor
+            const comentarioContenedor = document.getElementById("comentarioContenedor");
+            comentarioContenedor.textContent = comentarioSeleccionado;
+        }
     }
 }
 									
