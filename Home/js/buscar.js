@@ -124,7 +124,8 @@ const contenidoPorCategoria = {
 		{ nombre: "Autoruns", ubicacion: "Autoruns", comentario: "Elimina Programas fantasmas del Sistema programas que después de haber sido eliminados siguen apareciendo y consumiendo recursos del sistema y revisar y tiene virus con virus total." },
 		{ nombre: "Hyper-V", ubicacion: "Hyper-V", comentario: "Hyper-V es el hipervisor de Microsoft que viene incluido en las ediciones Pro, Enterprise y Education de Windows 10 y Windows 11. Este es el encargado de virtualizar hardware, usando funciones de la propia CPU del sistema." },
 		{ nombre: "Obtener las Claves de Windows", ubicacion: "ObtenerClaveWindows", comentario: "Con este método podemos recuperar nuestra clave de Windows de nuestros equipos." },
-		{ nombre: "Respaldo de Drivers de Windows", ubicacion: "BackupDriversWindows", comentario: "Con este sencillo paso podemos obtener todos nuestros drivers de nuestro equipo para respaldo y en caso de formateo." }
+		{ nombre: "Respaldo de Drivers de Windows", ubicacion: "BackupDriversWindows", comentario: "Con este sencillo paso podemos obtener todos nuestros drivers de nuestro equipo para respaldo y en caso de formateo." },
+		{ nombre: "Actualización de programas por CMD", ubicacion: "UpdateProgramasCMD", comentario: "Podemos actualizar una gran variedad de programas a través de nuestro CMD de Windows y gratis todos los programas compatibles" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ]
 };
@@ -179,7 +180,7 @@ function irAPagina() {
             const url = `Tutoriales/${ubicacionSeleccionada}.html`;
             window.location.href = url;
         } else if (contenidoSeleccionadoIndex !== "") {
-            const contenidoSeleccionado = contenidoPorCategoria[categoriaSeleccionada][contenidoSeleccionadoIndex - 1];
+            const contenidoSeleccionado = contenidoPorCategoria[categoriaSeleccionada][contenidoSeleccionadoIndex - 0];
             const ubicacionSeleccionada = contenidoSeleccionado.ubicacion;
             const comentarioSeleccionado = contenidoSeleccionado.comentario;
 
