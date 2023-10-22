@@ -1,3 +1,5 @@
+-v1.12 Cambios Menores
+	cambio menores en el GoldHEN2.4b14 y update al Informacion para nuevos proyectos 
 -v1.11 Nuevo Tutorial de PC y Cambios Menores
 	Tutorial de pc mas cambio menor para el buscador de tutoriales
 -v1.10 Cambios Menores
