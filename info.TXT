@@ -1,3 +1,5 @@
+-v1.13 Traduccion de PSVita
+	Traduccion a el metodo de desbloqueo de la psvita para pruebas 
 -v1.12 Cambios Menores
 	cambio menores en el GoldHEN2.4b14 y update al Informacion para nuevos proyectos 
 -v1.11 Nuevo Tutorial de PC y Cambios Menores
