@@ -1,3 +1,5 @@
+-v1.14 Cache Goldhen 
+	Carga el cache para el Goldhen v2.4b14 para PS4 prueba 
 -v1.13 Traduccion de PSVita
 	Traduccion a el metodo de desbloqueo de la psvita para pruebas 
 -v1.12 Cambios Menores
