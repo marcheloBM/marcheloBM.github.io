@@ -1,3 +1,5 @@
+-v1.16 Cambios Menores
+	Cambios para detectar el FW de PS3 en 4.90
 -v1.15 Cache Goldhen 
 	Cambios menores solo se coloco la version al cache.manifest
 -v1.14 Cache Goldhen 
