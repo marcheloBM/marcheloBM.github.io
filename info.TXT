@@ -1,5 +1,7 @@
+-v1.18 Cambios Menores PS4
+	Cambios eliminacion de menu y nuevo cache en v2.3
 -v1.17 Cambios Menores
-	Cambios Nuevo HEN para 4.90
+	Cambios Nuevo HEN para PS3 4.90
 -v1.16 Cambios Menores
 	Cambios para detectar el FW de PS3 en 4.90
 -v1.15 Cache Goldhen 
