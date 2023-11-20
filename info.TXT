@@ -1,3 +1,5 @@
+-v1.19 Cambios WEB
+	Arreglo a menu de ayuda de la barra lateral 
 -v1.18 Cambios Menores PS4
 	Cambios eliminacion de menu y nuevo cache en v2.3
 -v1.17 Cambios Menores
