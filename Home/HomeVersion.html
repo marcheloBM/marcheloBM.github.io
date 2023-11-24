@@ -54,66 +54,50 @@
 								<section id="banner">
 									<div class="content">
 										<header>
-											<h2>Hola, Somos MarcheBMPC Informática. </h2>
-											<p>Una pequeña empresa de informática dedicada totalmente</p>
+											<h2>MarcheBMPC Informática. </h2>
+											<p>Cambios o actualizaciones a nuestra WEB</p>
 										</header>
-										<p>Todos nuestros servicios Ayudas y tutoriales. Si tiene alguna sugerencia o ayuda o algo está mal en nuestra página por favor mandar su solicitud a nuestro Whatsapp <a href="https://api.whatsapp.com/send?phone=56920473627" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a>.</p>
+										<p>Todos cambios o actualizaciones para nuestra WEB. Si tiene alguna sugerencia o ayuda o algo está mal en nuestra página por favor mandar su solicitud a nuestro Whatsapp <a href="https://api.whatsapp.com/send?phone=56920473627" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a>. Para facilitar la búsqueda de alguna guía podemos presionar <b>Ctrl+f</b> y buscar más rápido dentro de la pagina web en la que nos encontremos.</p>
 									</div>
 								</section>
 
 							<!-- Section -->
 								<section>
 									<div class="posts">
-										<article>
-											<a href="HomeServicios.html" class="image"><img src="images/NuestrosServicios.jpg" alt="Imagen No Disponible" /></a>
-											<h3>Nuestros Servicios</h3>
-											<p>Todos nuestros servicios que podemos ofrecer para usted.</p>
-											<ul class="actions">
-												<li><a href="HomeServicios.html" class="button">Más</a></li>
-											</ul>
-										</article>
-                                        <article>
-											<a href="HomeTutorial.html" class="image"><img src="images/Tutotiales/Tutorial.jpg" alt="Imagen No Disponible" /></a>
-											<h3>Tutoriales</h3>
-											<p>Todos los tutoriales que necesitas de PS2, PSP, PS3, PSVita, PS4 y PC.</p>
-											<p>Debe iniciar sesión para ver el contenido</p>
-											<ul class="actions">
-												<li><a href="HomeTutorial.html" class="button">Más</a></li>
-											</ul>
-										</article>
-                                        <article>
-											<a href="Programas.html" class="image"><img src="images/ProgramasWUA.jpg" alt="Imagen No Disponible" /></a>
-											<h3>Programas</h3>
-											<p>Programas para Windows, Ubuntu y Android.</p>
-											<ul class="actions">
-												<li><a href="Programas.html" class="button">Más</a></li>
-											</ul>
-										</article>
-                                        <article>
-											<a href="HomeAyuda.html" class="image"><img src="images/Ayuda.jpg" alt="Imagen No Disponible" /></a>
-											<h3>Ayuda</h3>
-											<p>Algunas guías para nuestros equipos o sistemas</p>
-											<ul class="actions">
-												<li><a href="HomeAyuda.html" class="button">Más</a></li>
-											</ul>
-										</article>
-                                        <article>
-											<a href="HomeConsola.html" class="image"><img src="images/InfoConsolas.jpg" alt="Imagen No Disponible" /></a>
-											<h3>Ayuda de Consolas</h3>
-											<p>Todas las consolas de PS2, PSP, PS3, PSVita y PS4.</p>
-											<ul class="actions">
-												<li><a href="HomeConsola.html" class="button">Más</a></li>
-											</ul>
-										</article>
-										<!--<article>
-											<a href="Servicios/Reinstalacion.html" class="image"><img src="images/Reinstalacion.jpg" alt="Imagen No Disponible" /></a>
-											<h3>Reinstalación del Sistema Operativo</h3>
-											<p>Una instalación limpia del sistema operativo con sus programas para su funcionamiento.</p>
-											<ul class="actions">
-												<li><a href="Servicios/Reinstalacion.html" class="button">Más</a></li>
-											</ul>
-										</article>-->
-										
+										<dl id="myList">
+										<!-- Your DL structure goes here -->
+									</dl>
+
+									<script>
+										var TXT_URL = 'https://raw.githubusercontent.com/marcheloBM/marcheloBM.github.io/main/info.TXT';
+
+										$.ajax({
+											url: TXT_URL,
+											dataType: 'text',
+											success: function(data) {
+												// Split the text by lines
+												var lines = data.split('\n');
+
+												// Reference to the dl element
+												var myList = $('#myList');
+
+												// Iterate through lines and create dt and dd elements
+												for (var i = 0; i < lines.length; i++) {
+													var line = lines[i].trim();
+													if (line !== '') {
+														if (i % 2 === 0) {
+															// Even lines are dt
+															myList.append('<dt>' + line + '</dt>');
+														} else {
+															// Odd lines are dd
+															myList.append('<dd><p>' + line + '</p></dd>');
+														}
+													}
+												}
+											}
+										});
+									</script>
+									
 									</div>
 								</section>
 
@@ -203,8 +187,8 @@
 									<header class="major">
 										<h2>Actualizacion en la WEB</h2>
 									</header>
-                                    <!--<script>
-                                        var TXT_URL = 'https://raw.githubusercontent.com/marcheloBM/marcheloBM.github.io/main/info.TXT';
+                                    <script>
+                                        var TXT_URL = 'https://raw.githubusercontent.com/marchelo1989/marchelo1989.github.io/main/Home/info.TXT';
                                            //var TXT_URL = $("#input-url").val();
 
                                             $.ajax
@@ -218,12 +202,9 @@
                                                     }
                                                 }
                                             );
-                                        </script>-->
+                                        </script>
 									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
-									<ul class="actions">
-										<li><a href="HomeVersion.html" class="button">Todos los Cambios</a></li>
-									</ul>
-                                    <!--<div class="text" style="width:auto;overflow:auto"></div>-->
+                                    <div class="text" style="width:auto;overflow:auto"></div>
 
 								</section>
 
