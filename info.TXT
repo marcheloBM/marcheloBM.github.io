@@ -1,3 +1,5 @@
+-v1.21 Nuevos Programas
+	Programas para Reproductores y Multimedia K-Lite Codec Pack Mega y Plex
 -v1.20 Cambios WEB
 	Cambio de la vista de version se paso a una pagina WEB
 -v1.19 Cambios WEB

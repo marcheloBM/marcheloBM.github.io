@@ -1600,7 +1600,46 @@ function ReinicioDetalladoWindows(){
 		IniciarSession();
 	}
 }
-
+function KLiteCodecPackMega(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/fQ5DULJa#z3vo7I9apPuCRuw7aH6OUA")
+	}else{
+		IniciarSession();
+	}
+}
+function KLiteCodecPackMegaWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://codecguide.com/download_k-lite_codec_pack_mega.htm")
+	}else{
+		IniciarSession();
+	}
+}
+function PlexAPP(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/WZ4TSLLA#b8RFiAmkKyKsPFokVwUEBA")
+	}else{
+		IniciarSession();
+	}
+}
+function PlexAPPWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://www.plex.tv/media-server-downloads/?lang=es&cat=plex+desktop&plat=windows#plex-app")
+	}else{
+		IniciarSession();
+	}
+}
+function PlexServerWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://apps.microsoft.com/detail/plex-media-server/XPFM11Z0W10R7G?hl=es-es&gl=US")
+	}else{
+		IniciarSession();
+	}
+}
 
 
 var dato1 = sessionStorage.Usuario;
