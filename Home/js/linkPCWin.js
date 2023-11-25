@@ -1640,6 +1640,22 @@ function PlexServerWeb(){
 		IniciarSession();
 	}
 }
+function RETROBAT(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/fQQnwCDY#TwHe7wcFD7ME6zadlkHp9A")
+	}else{
+		IniciarSession();
+	}
+}
+function RETROBATWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://www.retrobat.org/descargar/")
+	}else{
+		IniciarSession();
+	}
+}
 
 
 var dato1 = sessionStorage.Usuario;
