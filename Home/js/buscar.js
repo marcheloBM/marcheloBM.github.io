@@ -125,7 +125,13 @@ const contenidoPorCategoria = {
 		{ nombre: "Hyper-V", ubicacion: "Hyper-V", comentario: "Hyper-V es el hipervisor de Microsoft que viene incluido en las ediciones Pro, Enterprise y Education de Windows 10 y Windows 11. Este es el encargado de virtualizar hardware, usando funciones de la propia CPU del sistema." },
 		{ nombre: "Obtener las Claves de Windows", ubicacion: "ObtenerClaveWindows", comentario: "Con este método podemos recuperar nuestra clave de Windows de nuestros equipos." },
 		{ nombre: "Respaldo de Drivers de Windows", ubicacion: "BackupDriversWindows", comentario: "Con este sencillo paso podemos obtener todos nuestros drivers de nuestro equipo para respaldo y en caso de formateo." },
-		{ nombre: "Actualización de programas por CMD", ubicacion: "UpdateProgramasCMD", comentario: "Podemos actualizar una gran variedad de programas a través de nuestro CMD de Windows y gratis todos los programas compatibles" }
+		{ nombre: "Actualización de programas por CMD", ubicacion: "UpdateProgramasCMD", comentario: "Podemos actualizar una gran variedad de programas a través de nuestro CMD de Windows y gratis todos los programas compatibles" },
+		{ nombre: "Advanced IP Scanner", ubicacion: "AdvancedIPScanner", comentario: "Escáner de red fiable y gratuito para analizar LAN. El programa escanea todos los dispositivos de red" },
+        { nombre: "FreeFileSync", ubicacion: "FreeFileSync", comentario: "FreeFileSync es un software de comparación y sincronización de carpetas que crea y administra copias de seguridad de todos sus archivos importantes" },
+		{ nombre: "Historial de Errores de Windows 10", ubicacion: "HistorialErroresWindows", comentario: "Es una herramienta que nos permite saber que programa falló en un determinado momento en Windows 10" },
+		{ nombre: "Ingresa a BIOS o UEFI", ubicacion: "IngresaBIOSoUEFI", comentario: "Para acceder a la BIOS, al arrancar el equipo tenemos unos segundos para pulsar la tecla que indique el fabricante para entrar a la BIOS" },
+		{ nombre: "Mouse without Borders", ubicacion: "MousewithoutBorders", comentario: "Mouse without Borders es un producto que lo convierte en el capitán de su flota de computadoras al permitirle controlar hasta cuatro computadoras desde un solo mouse y teclado" },
+		{ nombre: "PC Health Check", ubicacion: "PCHealthCheck", comentario: "La aplicación PC Health Check le brinda información actualizada sobre el estado de su dispositivo Windows" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ]
 };

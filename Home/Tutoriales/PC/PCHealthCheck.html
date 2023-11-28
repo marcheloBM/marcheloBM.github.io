@@ -1,0 +1,213 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>PC Health Check</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- link de programas -->
+        <script src="../../js/linkPCWin.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>PC Health Check</h1>
+									</header>
+
+									<!-- Content -->
+										<p>La aplicación PC Health Check le brinda información actualizada sobre el estado de su dispositivo Windows</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PC/PCHealthCheck.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    <h2>Para esta Guia</h2>
+                                    <div class="table-wrapper">
+                                        <h4>Descargar Todos los Archivos</h4>
+                                        <table>
+                                            <thead>
+                                                <tr>
+                                                    <th>Archivos</th>
+                                                    <th colspan="3">Servidores</th>
+                                                </tr>
+                                            </thead>
+                                            <tfoot>
+                                                <tr>
+                                                    <td>PC Health Check</td>
+                                                    <td><a onclick="PCHealthCheck()">Mega</a></td>
+                                                    <td><a onclick="PCHealthCheckWeb()">WEB Oficial</a></td>
+                                                </tr>
+                                            </tfoot>
+                                        </table>
+                                    </div>
+                                    
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Empezando este Tutorial </p>
+                                            <ol>
+                                                <li>Debemos descargar el archivo WindowsPCHealthCheckSetup de la última versión disponibles</li>
+                                                <li>Una vez descargado lo podemos ejecutarlo como administrador para mejor ejecución</li>
+                                                <img src="../../images/Tutotiales/PC/PCHealthCheck/PCHealthCheck01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <li>Una vez instalado lo ejecutamos para poder explorar nuestro equipo</li>
+                                                <img src="../../images/Tutotiales/PC/PCHealthCheck/PCHealthCheck02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <li>Podemos verificar algunos de las siguientes funciones </li>
+                                                <ul>
+                                                    <li>Verifique la elegibilidad de Windows 11</li>
+                                                    <ol>
+                                                        <li>Verifique la elegibilidad de Windows 11</li>
+                                                    </ol>
+                                                    <li>Copia de seguridad y sincronización</li>
+                                                    <ol>
+                                                        <li>Inicie sesión con su cuenta de Microsoft o cree una nueva para sincronizar sus preferencias en sus dispositivos, como contraseñas, configuraciones del navegador Microsoft Edge como favoritos y listas de lectura, temas y más</li>
+                                                    </ol>
+                                                    <li>Actualización de Windows</li>
+                                                    <ol>
+                                                        <li>Las actualizaciones periódicas de Windows ayudan a que su dispositivo funcione sin problemas y de forma segura. Si su dispositivo no está actualizado o necesita atención, PC Health Check se lo informará</li>
+                                                    </ol>
+                                                    <li>Capacidad de la batería</li>
+                                                    <ol>
+                                                        <li>Utilice esta sección de PC Health Check para obtener información sobre el rendimiento de sus baterías en comparación con su capacidad original para dispositivos con una o dos baterías</li>
+                                                    </ol>
+                                                    <li>Capacidad de almacenamiento</li>
+                                                    <ol>
+                                                        <li>Vea cuánto espacio de almacenamiento se utiliza para la unidad principal de su dispositivo, que contiene sus archivos, aplicaciones y Windows. Verás el porcentaje de que tu disco está lleno</li>
+                                                    </ol>
+                                                    <li>Tiempo de inicio</li>
+                                                    <ol>
+                                                        <li>Obtenga información sobre el tiempo de inicio de su dispositivo, junto con más información sobre lo que afecta estos tiempos</li>
+                                                    </ol>
+                                                    <li>Consejos sobre la salud de la PC</li>
+                                                    <ol>
+                                                        <li>Seleccione Consejos sobre el estado de su PC para conocer más formas de mejorar el rendimiento de su dispositivo</li>
+                                                    </ol>
+                                                    <li>Vea las especificaciones de su dispositivo</li>
+                                                    <ol>
+                                                        <li>Puede encontrar más información sobre su dispositivo debajo de su imagen, incluida la antigüedad de su dispositivo y la cantidad de almacenamiento</li>
+                                                    </ol>
+                                                </ul>
+                                                
+                                            </ol>
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

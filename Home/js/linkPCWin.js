@@ -1656,6 +1656,70 @@ function RETROBATWeb(){
 		IniciarSession();
 	}
 }
+function AdvancedIPScanner(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/LRowTKzI#9VXzlDiuGpToIJ0zi0Xeaw")
+	}else{
+		IniciarSession();
+	}
+}
+function AdvancedIPScannerWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://www.advanced-ip-scanner.com/es/")
+	}else{
+		IniciarSession();
+	}
+}
+function FreeFileSync(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/LNwnjYST#t26SrwCt0xUpV56xc94kkg")
+	}else{
+		IniciarSession();
+	}
+}
+function FreeFileSyncWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://freefilesync.org/download.php")
+	}else{
+		IniciarSession();
+	}
+}
+function MousewithoutBorders(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/iIAimASQ#cwZuUCmsbTIrzb5Otb_epg")
+	}else{
+		IniciarSession();
+	}
+}
+function MousewithoutBordersWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://www.microsoft.com/en-us/download/details.aspx?id=35460")
+	}else{
+		IniciarSession();
+	}
+}
+function PCHealthCheck(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/bIhDTRBB#goOH2am-l9_foxYoh3vF-A")
+	}else{
+		IniciarSession();
+	}
+}
+function PCHealthCheckWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://aka.ms/GetPCHealthCheckApp")
+	}else{
+		IniciarSession();
+	}
+}
 
 
 var dato1 = sessionStorage.Usuario;

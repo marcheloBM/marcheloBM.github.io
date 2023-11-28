@@ -1,0 +1,185 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Ingresa a BIOS o UEFI</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- link de programas -->
+        <script src="../../js/linkPCWin.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+        
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina
+                                    <div id="encabezado"></div>-->
+									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Ingresa a BIOS o UEFI</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Ingresa a BIOS o UEFI Para acceder a la BIOS, al arrancar el equipo tenemos unos segundos para pulsar la tecla que indique el fabricante para entrar a la BIOS, normalmente la tecla Supr o F2, si en ese tiempo no se pulsa continuara la carga de Windows. Para más rapidez vamos a crear un acceso directo para acceder más rápido 
+.</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PC/IngresaBIOSUEFI.jpg" alt="Imagen No Disponible" /></span>
+                                    
+                                    
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Empezando este Tutorial </p>
+                                            <ol>
+                                                <li>Vamos a crear un acceso directo, el cual apagará Windows y reiniciará el equipo entrando directamente a la BIOS/UEFI</li>
+                                                <li><b>Damos al botón derecho del ratón en una zona libre del escritorio y seleccionamos, Nuevo > Acceso directo.</b></li>
+                                                <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                <li>Escribimos el siguiente comando en la caja de texto y pulsamos en siguiente: <code>shutdown /r /fw /t 2</code></li>
+                                                <ul>
+                                                    <li>shutdown, es el comando para apagar el equipo</li>
+                                                    <li>/r, es la opción para reiniciar</li>
+                                                    <li>/fw, es la opción para arrancar el firmware (BIOS/UEFI).</li>
+                                                    <li>/t 2 es el tiempo para que se reinicie el sistema en segundos</li>
+                                                    <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                </ul>
+                                                <li>Escribimos un nombre para el acceso directo, por ejemplo, Reiniciar BIOS y pulsamos en Finalizar.</li>
+                                                <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI03.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                                
+                                            </ol>
+                                        <p>Si queremos cambiar el icono </p>
+                                        <ol>
+                                            <li>En el icono de acceso directo que se ha creado, damos al botón derecho del ratón sobre y seleccionamos Propiedades</li>
+                                            <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI04.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                            <li>Aparecerá la ventana de propiedades en la pestaña Acceso directo, pulsamos en el botón Opciones avanzadas</li>
+                                            <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI05.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                            <li>Activamos la casilla de Ejecutar como administrador y aceptamos</li>
+                                            <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI06.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                            <li>Aún tendremos abierta la ventana de las propiedades en la pestaña de acceso directo, así que pulsamos en el botón Cambiar icono….</li>
+                                            <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI07.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                            <li>Nos indicará que no tiene iconos el archivo, pulsamos en aceptar para que Windows muestre la lista de iconos</li>
+                                            <li>Seleccionamos el que queramos, pulsamos en el botón aceptar y de nuevo en aceptar</li>
+                                            <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI08.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                            <li>Ya podemos ver nuestro acceso con el nuevo icono, que si lo ejecutamos nos llevará directamente a la BIOS/UEFI del equipo</li>
+                                            <img src="../../images/Tutotiales/PC/IngresaBIOSUEFI/IngresaBIOSUEFI09.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+                                            <li>Hay que tener en cuenta una cosa importante, si lo ejecutamos, previamente hay que guardar los trabajos que tengamos abiertos si no queremos perderlos.</li>
+                                        </ol>
+									</div>
+                                                                        
+                                    <hr class="major" />
+                                    
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+                            <!-- Update WEB x TXT -->
+                                <section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+                                    <ul class="actions small" id="usu">
+                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+                                    </ul>
+
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+                                        <li><a href="../../Programas.html">Programas</a></li>
+                                        <!-- Menu Consola -->
+                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
+										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
+										<li class="icon solid fa-home">Puente Alto<br />
+											Región Metropolitanas, Chile</li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
