@@ -1720,6 +1720,56 @@ function PCHealthCheckWeb(){
 		IniciarSession();
 	}
 }
+function ProcessExplorer(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/bIhDTRBB#goOH2am-l9_foxYoh3vF-A")
+	}else{
+		IniciarSession();
+	}
+}
+function ProcessExplorerWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer")
+	}else{
+		IniciarSession();
+	}
+}
+function UpdateWinXPa82012(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/GAwDkTQC#ZrLg_ijKd3djIKc067PDdw")
+	}else{
+		IniciarSession();
+	}
+}
+function UpdateWinXPa82012Web(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://legacyupdate.net/")
+	}else{
+		IniciarSession();
+	}
+}
+function WinDirStat(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/aMgkBDqI#9wdhLGlV9fZWWBGCykbGww")
+	}else{
+		IniciarSession();
+	}
+}
+function WinDirStatWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://windirstat.net/")
+	}else{
+		IniciarSession();
+	}
+}
+
+
 
 
 var dato1 = sessionStorage.Usuario;

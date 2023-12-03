@@ -1,3 +1,5 @@
+-v1.24 Nuevo Tutoriales de PC
+	Tutoriales de ProcessExplorer,UpdateWinXPa8.1,2012 y WINDIRSTAT
 -v1.23 Nuevo Tutoriales de PC
 	Tutoriales de Advanced IP Scanner,FreeFileSync,Historial de Errores de Windows 10,Ingresa a BIOS o UEFI,Mouse without Borders y PC Health Check
 -v1.22 Nuevo Emulador de PC
