@@ -1,3 +1,5 @@
+-v1.25 Cambios Tutoriales de PC
+	Se agrego al menu de rapido de HomeTutoriales y cambios a Android
 -v1.24 Nuevo Tutoriales de PC
 	Tutoriales de ProcessExplorer,UpdateWinXPa8.1,2012 y WINDIRSTAT
 -v1.23 Nuevo Tutoriales de PC
