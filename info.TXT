@@ -1,3 +1,5 @@
+-v1.26 Cambios Tutoriales de PC
+	Se elimino algunos menu de rapido de HomeTutoriales
 -v1.25 Cambios Tutoriales de PC
 	Se agrego al menu de rapido de HomeTutoriales y cambios a Android
 -v1.24 Nuevo Tutoriales de PC
