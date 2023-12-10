@@ -14,15 +14,19 @@ and open the template in the editor.
 			//alert("Dispositivo Detectado: "+plataforma);
 			  if(plataforma=="Win32"){
                   window.location.href ="Programas/ProgramasWindows.html";
-			  }else if (plataforma=="Linux x86_64") {
+			  }
+			  if (plataforma=="Linux x86_64") {
                   window.location.href ="Programas/ProgramasUbuntu.html";
-			  }else if (plataforma=="Linux armv8l") {
+			  }
+			  if (plataforma=="Linux armv8l") {
                   //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
                   window.location.href ="Programas/ProgramasAndroid.html";
-              }else if (plataforma=="Linux aarch64") {
+              }
+			  if (plataforma=="Linux aarch64") {
                   //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
                   window.location.href ="Programas/ProgramasAndroid.html";
-              }else if (plataforma=="Linux i686") {
+              }
+			  if (plataforma=="Linux i686") {
                   //Para Emulador Android
                   //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
                   window.location.href ="Programas/ProgramasAndroid.html";
