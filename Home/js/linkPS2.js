@@ -94,6 +94,116 @@ function MEGAPACKAPPSPS2(){
         IniciarSession();
 	}
 }
+function Retroarch(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/nQBCUJDb#ZwGmtPJ_n83I1sEmY3SWKA")
+	}else{
+        IniciarSession();
+	}
+}
+function RetroarchWeb(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://www.retroarch.com/?page=platforms")
+	}else{
+        IniciarSession();
+	}
+}
+function PSXaPS2(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/zUgEhTYJ#7EmZRfMOrpw2xZqOjXCGzg")
+	}else{
+        IniciarSession();
+	}
+}
+function PSXaPS2Web(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("")
+	}else{
+        IniciarSession();
+	}
+}
+function OPLManager(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/PFRWhATR#bSc9f4yLBrvxELPZ8Npv6A")
+	}else{
+        IniciarSession();
+	}
+}
+function OPLManagerWeb(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://oplmanager.com/site/index.php")
+	}else{
+        IniciarSession();
+	}
+}
+function OPLSERVER(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/DQQQxYwb#BB1bNQpZtbvEO3yIH2p_2g")
+	}else{
+        IniciarSession();
+	}
+}
+function OPLSERVERWeb(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://github.com/elmariolo/OPL-Server")
+	}else{
+        IniciarSession();
+	}
+}
+function USBUTIL(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/PQQk0LhZ#pxeawP7k9NaMSBDvQj-Lyg")
+	}else{
+        IniciarSession();
+	}
+}
+function APPSUSB(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/uRwVhBxI#Ro8Ml82lvP-lRKr9-Vkvkw")
+	}else{
+        IniciarSession();
+	}
+}
+function PackdeTemasOPL(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/file/GEYmjLSb#3oM-f3S9bUC_lzjkxqpgbtMJzwZzw2exfSLm3obdSXI")
+	}else{
+        IniciarSession();
+	}
+}
+function XtremeEliteBoot(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/WR5EDC4Q#qCbxFTYubVRjdYPyXcVZgA")
+	}else{
+        IniciarSession();
+	}
+}
+function PS2SX(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/yNQlXYwR#qpnYEiDe_0bczjgp7s1cAg")
+	}else{
+        IniciarSession();
+	}
+}
+
+
+
+
+
+
 
 
 
@@ -110,8 +220,6 @@ function IniciarSession(){
             
         }
 }
-
-
 
 
 function nombre(){
