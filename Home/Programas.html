@@ -14,23 +14,19 @@ and open the template in the editor.
 			//alert("Dispositivo Detectado: "+plataforma);
 			  if(plataforma=="Win32"){
                   window.location.href ="Programas/ProgramasWindows.html";
-			  }
-			  if (plataforma=="Linux x86_64") {
+			  }else if (plataforma=="Linux x86_64") {
                   window.location.href ="Programas/ProgramasUbuntu.html";
-			  }
-			  if (plataforma=="Linux armv8l") {
+			  }else if (plataforma=="Linux armv8l") {
                   //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
                   window.location.href ="Programas/ProgramasAndroid.html";
-              }
-			  if (plataforma=="Linux aarch64") {
+              }else if (plataforma=="Linux aarch64") {
                   //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
                   window.location.href ="Programas/ProgramasAndroid.html";
-              }
-			  if (plataforma=="Linux i686") {
+              }else if (plataforma=="Linux i686") {
                   //Para Emulador Android
                   //alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
                   window.location.href ="Programas/ProgramasAndroid.html";
-              }else{
+              }else if (plataforma==null){
                   alert("Dispositivo Detectado: Android Abrir esta pagina desde un PC");
                   alert("Puede mandar un pantallazo para poder integrar nuevos dispositivos compatibles a nuestra WEB ");
 				  alert("Principalmente platform: "+plataforma);

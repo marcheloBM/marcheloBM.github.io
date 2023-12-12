@@ -1,3 +1,5 @@
+-v1.28 Nuevo Tutorial PS2 
+	Nuevo tutorial de PS2 y cambios menores al codigo de de programa y linkPS2
 -v1.27 Cambio en Programas.html
 	cambios en la forma para detectar el dispositivo Celular
 -v1.26 Cambios Tutoriales de PC
