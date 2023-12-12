@@ -1,3 +1,5 @@
+-v1.30 Cambios en los linkPS2
+	cambios en los link de PS2 por los programas de PC
 -v1.29 Cambios en los linkPS2 y otros
 	cambios en los link de PS2 y link de PS3 solo mejoras de codigo
 -v1.28 Nuevo Tutorial PS2 

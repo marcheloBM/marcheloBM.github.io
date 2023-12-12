@@ -1768,6 +1768,46 @@ function WinDirStatWeb(){
 		IniciarSession();
 	}
 }
+function UltraISO(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/bBBlAByK#Ka2AUgfCnTM4bkM_XKIIug")
+	}else{
+		IniciarSession();
+	}
+}
+function UltraISOWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://www.ultraiso.com/download.html")
+	}else{
+		IniciarSession();
+	}
+}
+function GUIFORMAT(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/ydZgQTYA#8C4MbbOHlwYjTYTQQdUtkA")
+	}else{
+		IniciarSession();
+	}
+}
+function GUIFORMATWeb(){    
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("http://ridgecrop.co.uk/index.htm?guiformat.htm")
+	}else{
+		IniciarSession();
+	}
+}
+
+
+
+
+
+
+
+
 
 
 
