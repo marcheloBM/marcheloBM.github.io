@@ -1,3 +1,5 @@
+-v1.31 Cambios en detectar
+	cambios al detectar el dispositivo para la WEB de Programas
 -v1.30 Cambios en los linkPS2
 	cambios en los link de PS2 por los programas de PC
 -v1.29 Cambios en los linkPS2 y otros
