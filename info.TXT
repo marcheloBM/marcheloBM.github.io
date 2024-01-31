@@ -1,3 +1,5 @@
+-v1.32 Nuevo GoldHEN2.4b15
+	Nuevo GoldHEN para PS4
 -v1.31 Cambios en detectar
 	cambios al detectar el dispositivo para la WEB de Programas
 -v1.30 Cambios en los linkPS2

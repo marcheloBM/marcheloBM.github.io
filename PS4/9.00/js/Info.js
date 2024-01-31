@@ -53,6 +53,12 @@ function infoGoldhenCache24b14(){
 function infoGoldhenCache23(){
 	document.getElementById("msj").innerHTML = "Cargando El Cache Goldhen v2.3 para Firmware 9.00";
 }
+function infoGoldhen24b15(){
+	document.getElementById("msj").innerHTML = "Goldhen v2.4b15 para Firmware 9.00";
+}
+function infoGoldhenCache24b15(){
+	document.getElementById("msj").innerHTML = "Cargando El Cache Goldhen v2.4b15 para Firmware 9.00";
+}
 
 
 /* Payloads */
