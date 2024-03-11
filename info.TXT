@@ -1,3 +1,5 @@
+-v1.34 Cambios en la detectar 2
+	Cambio para detectar dispositivos para los programas 2
 -v1.33 Cambios en la detectar
 	Cambio para detectar dispositivos para los programas
 -v1.32 Nuevo GoldHEN2.4b15
