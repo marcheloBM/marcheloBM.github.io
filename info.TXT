@@ -1,3 +1,5 @@
+-v1.33 Cambios en la detectar
+	Cambio para detectar dispositivos para los programas
 -v1.32 Nuevo GoldHEN2.4b15
 	Nuevo GoldHEN para PS4
 -v1.31 Cambios en detectar

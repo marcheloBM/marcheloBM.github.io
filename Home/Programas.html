@@ -14,26 +14,13 @@ and open the template in the editor.
 			//alert("Dispositivo Detectado: "+plataforma);
 			  if(plataforma=="Win32"){
                   window.location.href ="Programas/ProgramasWindows.html";
-			  }else{
-			  // Llamada a la función cuando la página se carga
-				window.onload = function () {noDetecta();};
-			  {
-			  if(plataforma=="Linux x86_64") {
+			  }else if(plataforma=="Linux x86_64") {
                   window.location.href ="Programas/ProgramasUbuntu.html";
-			  }else{
-				window.onload = function () {noDetecta();};
-			  {
-			  if(plataforma=="Linux armv8l") {
+			  }else if(plataforma=="Linux armv8l") {
                   window.location.href ="Programas/ProgramasAndroid.html";
-              }else{
-				window.onload = function () {noDetecta();};
-			  {
-			  if(plataforma=="Linux aarch64") {
+              }else if(plataforma=="Linux aarch64") {
                   window.location.href ="Programas/ProgramasAndroid.html";
-              }else{
-				window.onload = function () {noDetecta();};
-			  {
-			  if(plataforma=="Linux i686") {
+              }else if(plataforma=="Linux i686") {
                   //Para Emulador Android
                   window.location.href ="Programas/ProgramasAndroid.html";
               }else{
