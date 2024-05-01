@@ -30,6 +30,14 @@ function Update490(){
         IniciarSession();
 	}
 }
+function Update491(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/zZBChBza#mRKuiB_UQd_mss-Zuiljjg")
+	}else{
+        IniciarSession();
+	}
+}
 function UpdateWEBOficial(){
 	if (dato1 == "marchelo") {
         //validamos si alguna sesión activa
