@@ -12,7 +12,7 @@ function Instagram(){
 }
 function Whatsapp(){
         //link
-        window.open("https://api.whatsapp.com/send?phone=56920473627")
+        window.open("https://api.whatsapp.com/send?phone=56946426130")
 }
 function Messenger(){
         //link
@@ -20,9 +20,9 @@ function Messenger(){
 }
 function Github(){
         //link
-        window.open("https://github.com/marchelo1989")
+        window.open("https://github.com/marcheloBM")
 }
 function Telegram(){
         //link
-        window.open("https://t.me/MarcheloBM")
+        window.open("https://t.me/marcheBMPC")
 }

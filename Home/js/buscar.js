@@ -13,7 +13,9 @@ const contenidoPorCategoria = {
 		{ nombre: "PS2 OPL Server", ubicacion: "PS2OPLServer", comentario: "Con OPL Server podemos pasar nuestros juegos desde nuestra computadora hacia nuestra consola de PS2 sin la necedad de un USB solo con un cable de red." },
 		{ nombre: "PS2 Formatear Memory Card PS2", ubicacion: "PS2FormaMemCardPS2", comentario: "Podemos formatear nuestra memory card de PS2 y eliminar todo el contenido para empezar con una Memory card desde cero" },
 		{ nombre: "PS2 APPS USB", ubicacion: "PS2APPSUSB", comentario: "Modo APPS de nuestro USB o Servidor con aplicaciones automáticas para nuestra consola PS2 bien explicado" },
-		{ nombre: "PS2 Temas OPL", ubicacion: "PS2Temas", comentario: "Los mejores temas para nuestra app OPL podemos dar un nuevo estilo gracias al pack de temas que emos recopilados para nuestra consola de PS2" },{ nombre: "PS2 Apollo Save Tool", ubicacion: "PS2ApolloSaveTool", comentario: "Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation 2." }
+		{ nombre: "PS2 Temas OPL", ubicacion: "PS2Temas", comentario: "Los mejores temas para nuestra app OPL podemos dar un nuevo estilo gracias al pack de temas que emos recopilados para nuestra consola de PS2" },{ nombre: "PS2 Apollo Save Tool", ubicacion: "PS2ApolloSaveTool", comentario: "Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation 2." },
+		{ nombre: "PS2Temps", ubicacion: "PS2Temps", comentario: "Aquí hay un ELF (aplicación de krat0s) para mostrar las temperaturas de tu PS2." },
+		{ nombre: "PSXiSO Compression Tool", ubicacion: "PSXiSOCompressionTool", comentario: "Una interfaz rápida que escribí para compresión CHD y ZSO." }, { nombre: "wLaunchELF_ISR", ubicacion: "wLaunchELFISR", comentario: "Podemos abrir unidades en formato EXFAT des nuestra consola " }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
 	PSP: [

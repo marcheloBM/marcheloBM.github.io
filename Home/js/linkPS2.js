@@ -198,9 +198,54 @@ function PS2SX(){
         IniciarSession();
 	}
 }
-
-
-
+function PS2Temps(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/eNRgXYgI#G4kERdP2vvoDQEIVisyy0Q")
+	}else{
+        IniciarSession();
+	}
+}
+function PS2TempsWeb(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://www.psx-place.com/threads/ps2temps.27864/ ")
+	}else{
+        IniciarSession();
+	}
+}
+function PSXiSO(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/fJQxnA5D#ZE7ygsALpiGvInXhwG6hCw")
+	}else{
+        IniciarSession();
+	}
+}
+function PSXiSOWeb(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://www.psx-place.com/threads/psxiso-compression-tool-v0-1-r4-chd-zso.37543/")
+	}else{
+        IniciarSession();
+	}
+}
+function wLaunchELFISR(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://mega.nz/folder/SVhHXI7a#mc9oorr_fZLxvcf252NBAQ")
+	}else{
+        IniciarSession();
+	}
+}
+function wLaunchELFISRWeb(){
+	if (dato1 == "marchelo") {
+        //validamos si alguna sesión activa
+        window.open("https://github.com/israpps/wLaunchELF_ISR")
+	}else{
+        IniciarSession();
+	}
+}
 
 
 
