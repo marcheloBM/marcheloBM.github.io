@@ -1,3 +1,5 @@
+-v1.39 Cambio Login 
+	se cambio el Login ws para pruebas finales y nuevo ajuste 
 -v1.38 Nuevo Login 
 	Login con ws para Pruebas 
 -v1.37 Nuevos Tutoriales de PS2

@@ -15,7 +15,7 @@
         <!-- Para el Encabezado -->
         <script src="js/InfoWebMenu.js"></script>
         <!-- Login -->
-        <script src="js/login2.js"></script>
+        <script src="js/login.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -50,10 +50,10 @@
 									</header>
                                     <!-- Form -->
                                     <h3>Iniciar Sesion</h3>
-                                    <form id="loginForm">
+                                    <form method="post" action="#">
                                         <div class="row gtr-uniform">
                                             <div class="col-6 col-12-xsmall">
-                                                <input type="text" name="demo-rut" id="demo-rut" value="" placeholder="Rut" oninput="formatearRut(this)" maxlength="12" />
+                                                <input type="text" name="demo-name" id="demo-name" value="" placeholder="Usuario" />
                                             </div>
                                             <div class="col-6 col-12-xsmall">
                                                 <input type="password" name="demo-password" id="demo-password" value="" placeholder="Password" />
@@ -61,16 +61,12 @@
                                             <!-- Break -->
                                             <div class="col-12">
                                                 <ul class="actions fit">
-                                                    <!--<li><a onclick="datos()" class="button primary fit">iniciar sesion</a></li>-->
-																										<button onclick="datos()" class="button primary fit">Probar función datos().js</button>
+                                                    <li><a onclick="Iniciar()" class="button primary fit">iniciar sesion</a></li>
                                                     <li><a href="https://wa.me/+56946426130?text=Hola%20necesito%20acceso%20al%20login%20para%20ver%20algunos%20tutoriales%20mi%20nombre%20es:" class="button fit" target="_blank">Solicitar Acceso</a></li>
                                                 </ul>
                                             </div>
                                         </div>
                                     </form>
-
-																		<div id="mensaje"></div>
-																		<div id="datosUsuario"></div>
 
                                     <span class="image main"><img src="images/login.jpg" alt="" /></span>
 									<p>El Login de nuestra página podrá acceso a todos nuestros tutoriales y más para poder realizar sus protios proyectos personales o de emprendimientos personales</p>
@@ -146,34 +142,6 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-			<!--Para la encriptacion-->
-			<script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.4.0/sha.js"></script>
-
-			<!--Validar y formatear RUT-->
-	     <script>
-	 		function formatearRut(input) {
-	         var rut = input.value.replace(/[^\dkK]+/g, ''); // Remover caracteres no numéricos ni 'K'
-	         var rutFormateado = '';
-
-	         if (rut.length > 1) {
-	           var cuerpo = rut.slice(0, -1);
-	           var dv = rut.slice(-1).toUpperCase();
-
-	           while (cuerpo.length > 3) {
-	             rutFormateado = '.' + cuerpo.slice(-3) + rutFormateado;
-	             cuerpo = cuerpo.slice(0, -3);
-	           }
-
-	           rutFormateado = cuerpo + rutFormateado + '-' + dv;
-
-	         } else {
-	           rutFormateado = rut;
-	         }
-
-	         input.value = rutFormateado;
-	       }
-			 </script>
 
 	</body>
 </html>
