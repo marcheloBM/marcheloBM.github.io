@@ -1,3 +1,5 @@
+-v1.38 Nuevo Login 
+	Login con ws para Pruebas 
 -v1.37 Nuevos Tutoriales de PS2
 	Nuevos Tutoriales de PS2 PS2Temps,PSXiSO Compression Tool,wLaunchELF ISR
 -Info 4.91.1
