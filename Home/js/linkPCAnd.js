@@ -1,83 +1,25 @@
-function RetroArchAnd(){
-	if (dato1 == "marchelo") {
-        //validamos si alguna sesión activa
-        window.open("https://mega.nz/folder/aQg0lZBB#CLlITOYrv_HBq9dXTeb6EQ")
-	}else{
-        IniciarSession();
-	}
-}
-function RetroArchWeb(){
-	if (dato1 == "marchelo") {
-        //validamos si alguna sesión activa
-        window.open("https://www.retroarch.com/index.php?page=platforms")
-	}else{
-        IniciarSession();
-	}
-}
-function YoutubeVanced(){
-    
-	if (dato1 == "marchelo") {
-        //validamos si alguna sesión activa
-        window.open("https://mega.nz/folder/6coXkIxT#zqscjPtfNfm5naVZjP2ucA")
-	}else{
-		IniciarSession();
-	}
-}
-function YoutubeVancedWeb(){
-    
-	if (dato1 == "marchelo") {
-        //validamos si alguna sesión activa
-        window.open("https://youtubevanced.com/")
-	}else{
-		IniciarSession();
-	}
-}
-function RAR(){
-    
-	if (dato1 == "marchelo") {
-        //validamos si alguna sesión activa
-        window.open("https://mega.nz/folder/rdZAmSgA#wgSKWd58nvljkG4UrQTewg")
-	}else{
-		IniciarSession();
-	}
+function RetroArchAnd() {verificarSesionYAbrirEnlace("https://mega.nz/folder/aQg0lZBB#CLlITOYrv_HBq9dXTeb6EQ");}
+function RetroArchWeb() {verificarSesionYAbrirEnlace("https://www.retroarch.com/index.php?page=platforms");}
+function YoutubeVanced() {verificarSesionYAbrirEnlace("https://mega.nz/folder/6coXkIxT#zqscjPtfNfm5naVZjP2ucA");}
+function YoutubeVancedWeb() {verificarSesionYAbrirEnlace("https://youtubevanced.com/");}
+function RAR() {verificarSesionYAbrirEnlace("https://mega.nz/folder/rdZAmSgA#wgSKWd58nvljkG4UrQTewg");}
+
+
+function verificarSesionYAbrirEnlace(enlace) {
+    if (sessionStorage.length > 0) {
+        // Hay una sesión activa
+        window.open(enlace);
+    } else {
+        iniciarSesion();
+    }
 }
 
-
-
-
-
-
-
-
-var dato1 = sessionStorage.Usuario;
-function IniciarSession(){
-    var resultado = window.confirm('Sesión no iniciada.\nDesea iniciar sesión?');
-        if (resultado === true) {
-            window.alert('Ingrese los datos a continuación');
-            window.location.href='../Login.html';
-        } else { 
-            window.alert('session no iniciada');
-            
-        }
-}
-
-
-
-function nombre(){
-    
-	if (dato1 == "marchelo") {
-        //validamos si alguna sesión activa
-        window.open("")
-	}else{
-		IniciarSession();
-	}
-}
-function Web(){
-    
-	if (dato1 == "marchelo") {
-        //validamos si alguna sesión activa
-        window.open("")
-	}else{
-		IniciarSession();
-	}
+function iniciarSesion() {
+    var resultado = window.confirm('Sesión no iniciada.\n¿Desea iniciar sesión?');
+    if (resultado === true) {
+        window.alert('Ingrese los datos a continuación');
+        window.location.href = '../Login.html';
+    } else {
+        window.alert('Sesión no iniciada');
+    }
 }

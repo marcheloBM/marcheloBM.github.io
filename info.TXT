@@ -1,3 +1,5 @@
+-v1.40 Cambio link
+	se cambio los link de descargas de programa para nuevo login 
 -v1.39 Cambio Login 
 	se cambio el Login ws para pruebas finales y nuevo ajuste 
 -v1.38 Nuevo Login 
