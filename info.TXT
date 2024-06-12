@@ -1,3 +1,5 @@
+-v1.47 Cambio en html Tutoriales
+	Se cambio la carga de botones e informacion de session y datos de contacto
 -v1.46 Cambio en html Servicios
 	Se cambio la carga de botones e informacion de session y datos de contacto
 -v1.45 Cambio en html programa
