@@ -1,3 +1,5 @@
+-v1.43 Cambio en html de ayuda
+	Se cambio la carga de botones e informacion de session y datos de contacto y se cargo vistas nuevas
 -v1.42 Cambio en html principales
 	Se cambio la carga de botones e informacion de session y datos de contacto
 -v1.41 Eliminacion 
