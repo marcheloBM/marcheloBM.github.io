@@ -14,9 +14,12 @@
 		<link rel="shortcut icon" href="../ico/favicon.png" />
         <!-- Para el Encabezado -->
         <script src="../js/InfoWebMenu.js"></script>
+				<script>
+            window.onload = cargarInfoContacto;
+        </script>
         <!-- link de programas -->
         <script src="../js/linkPS3.js"></script>
-        
+
 	</head>
 	<body class="is-preload">
 
@@ -31,15 +34,15 @@
 							<header id="header">
 								<a href="../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
 								<ul class="icons">
-									<!-- Encabezado de la pagina
-                                    <div id="encabezado"></div>-->
-									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
-									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
-									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 								</ul>
 							</header>
 
@@ -53,9 +56,9 @@
 										<p>Algunos de los aplicaciones o ayuda que mostramos a continuación son más que nada para ayudar con algunas necesidades que se presenten. </p>
 										<p>Nos puede recomendar algunos programas o aplicaciones para subir a nuestra WEB o si encuentra algún problema con algunos links o comandos le agradecemos informar para mantener esta página activa. igual todos los comandos y los link fueron actualizados el <b>23-02-2023</b>.</p>
                                     <span class="image main"><img src="../images/Consolas/ConsolasPS3.jpg" alt="Imagen No Disponible" /></span>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Backup a nuestra consola PS3</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -76,7 +79,7 @@
                                             </ul>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="Update" id="Update"></a>
@@ -100,10 +103,6 @@
 														<tr>
 															<td>Update 4.88 OFW-HFW</td>
 															<td><a onclick="Update488()">Mega</a></td>
-                                                            <!--<td><a href="https://www.mediafire.com/folder/aw9qumobm9nj7/4.88" target="_blank">Mediafire</a></td>
-                                                            <!--<td><a href="#" target="_blank">Zippyshare</a></td>
-															<!--<td><a href="https://home.mycloud.com/action/share/dd8db3ff-97e6-47c7-b5d7-dfaece36d298" target="_blank">Nube</a></td>
-                                                            <!--<td><a href="#" target="_blank">WEB Oficial</a></td>-->
 														</tr>
                                                         <tr>
 															<td>Update 4.89 OFW-HFW</td>
@@ -122,7 +121,7 @@
 												</table>
 											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="HENPortable" id="HENPortable"></a>
                                             <h4>HEN Portable</h4>
@@ -150,11 +149,11 @@
 											</div>
 										</div>
 
-										
+
 									</div>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Hombrew - Extenciones</h2>
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -172,7 +171,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>Apollo Save Tool (PS3)</td>                                                            
+															<td>Apollo Save Tool (PS3)</td>
 															<td><a onclick="ApolloSaveTool()" >Mega</a></td>
                                                             <td><a onclick="ApolloSaveToolWeb()">WEB Oficial</a></td>
 														</tr>
@@ -195,7 +194,7 @@
                                                     </thead>
                                                     <tfoot>
                                                         <tr>
-                                                            <td>Artemis</td>                                                            
+                                                            <td>Artemis</td>
                                                             <td><a onclick="Artemis()">Mega</a></td>
                                                             <td><a onclick="ArtemisWeb()">WEB Oficial</a></td>
                                                         </tr>
@@ -204,7 +203,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="BTGA" id="BTGA"></a>
@@ -221,7 +220,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>BTGA-303-CORO-48X</td>                                                            
+															<td>BTGA-303-CORO-48X</td>
 															<td><a onclick="BTGA303CORO48X()">Mega</a></td>
 														</tr>
 													</tfoot>
@@ -243,7 +242,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>Licencias </td>                                                            
+															<td>Licencias </td>
 															<td><a onclick="Licencias()">Mega</a></td>
 														</tr>
 													</tfoot>
@@ -251,7 +250,7 @@
 											</div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="IRM" id="IRM"></a>
@@ -268,7 +267,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>IRISMAN</td>                                                            
+															<td>IRISMAN</td>
 															<td><a onclick="IRISMAN()">Mega</a></td>
                                                             <td><a onclick="IRISMANWeb()">WEB Oficial</a></td>
 														</tr>
@@ -291,7 +290,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>MOVIAN</td>                                                            
+															<td>MOVIAN</td>
 															<td><a onclick="MOVIAN()">Mega</a></td>
 														</tr>
 													</tfoot>
@@ -299,7 +298,7 @@
 											</div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="MGZ" id="MGZ"></a>
@@ -316,7 +315,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>ManaGunZ</td>                                                            
+															<td>ManaGunZ</td>
 															<td><a onclick="ManaGunZ()">Mega</a></td>
                                                             <td><a onclick="ManaGunZWeb()">WEB Oficial</a></td>
 														</tr>
@@ -339,7 +338,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>Plex</td>                                                            
+															<td>Plex</td>
 															<td><a onclick="Plex()">Mega</a></td>
 														</tr>
 													</tfoot>
@@ -347,7 +346,7 @@
 											</div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="mult" id="mult"></a>
@@ -364,7 +363,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>multiMAN</td>                                                            
+															<td>multiMAN</td>
 															<td><a onclick="multiMAN()">Mega</a></td>
 														</tr>
 													</tfoot>
@@ -386,7 +385,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>PS3 Unlock HDD Space</td>                                                            
+															<td>PS3 Unlock HDD Space</td>
 															<td><a onclick="PS3UnlockHDDSpace()">Mega</a></td>
 														</tr>
 													</tfoot>
@@ -394,7 +393,7 @@
 											</div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <!--<a name="KMS" id="KMS"></a>-->
@@ -433,7 +432,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>webMAN MOD APP</td>                                                            
+															<td>webMAN MOD APP</td>
 															<td><a onclick="webMANMODAPP()">Mega</a></td>
                                                             <td><a onclick="webMANMODAPPWeb()">WEB Oficial</a></td>
 														</tr>
@@ -442,7 +441,7 @@
 											</div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="FiM" id="FiM"></a>
@@ -535,13 +534,13 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
                                         </div>
                                         </div>
                                     </div>
-                                                                        
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Emuladores y Retro</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -602,10 +601,10 @@
 													</tfoot>
 												</table>
 											</div>
-                                            
+
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="Retroarch" id="Retroarch"></a>
@@ -634,9 +633,9 @@
                                             <!-- Nada x el Momento-->
                                         </div>
                                     </div>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Tiendas</h2>
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -654,7 +653,7 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>PKGI</td>                                                            
+															<td>PKGI</td>
 															<td><a onclick="PKGI()">Mega</a></td>
                                                             <td><a onclick="PKGIWeb()">WEB Oficial</a></td>
 														</tr>
@@ -686,7 +685,7 @@
 											</div>
                                         </div>
                                     </div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="WIKIS" id="WIKIS"></a>
@@ -734,9 +733,9 @@
 											</div>
                                         </div>
                                     </div>
-                                                                        
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Extras</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -759,9 +758,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="9420C" id="9420C"></a>
                                             <h4>9420 Caratulas</h4>
@@ -784,11 +783,11 @@
 												</table>
 											</div>
                                         </div>
-                                        
+
 									</div>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Programas PC</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -811,9 +810,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="MPC" id="MPC"></a>
                                             <h4>Make Package Custom</h4>
@@ -836,7 +835,7 @@
 												</table>
 											</div>
                                         </div>
-                                        
+
 									</div>
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -859,9 +858,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="PS3NS" id="PS3NS"></a>
                                             <h4>PS3 NET Server</h4>
@@ -884,7 +883,7 @@
 												</table>
 											</div>
                                         </div>
-                                        
+
 									</div>
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -907,9 +906,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="RXMB" id="RXMB"></a>
                                             <h4>RetroXMB</h4>
@@ -930,7 +929,7 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
                                         </div>
 									</div>
                                     <div class="row gtr-200">
@@ -954,9 +953,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="PS3M" id="PS3M"></a>
                                             <h4>PS3Merge</h4>
@@ -977,7 +976,7 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
                                         </div>
 									</div>
                                     <div class="row gtr-200">
@@ -1001,9 +1000,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="Remo" id="Remo"></a>
                                             <h4>Remoteplay</h4>
@@ -1024,7 +1023,7 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
                                         </div>
 									</div>
                                     <div class="row gtr-200">
@@ -1048,9 +1047,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="ISOT" id="ISOT"></a>
                                             <h4>PS3 ISO TOOLS</h4>
@@ -1071,7 +1070,7 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
                                         </div>
 									</div>
                                     <div class="row gtr-200">
@@ -1095,9 +1094,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <div class="col-6 col-12-medium">
                                             <a name="CobraODEGen" id="CobraODEGen"></a>
@@ -1119,11 +1118,11 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
                                         </div>
                                         </div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <a name="PS3DiscDumper" id="PS3DiscDumper"></a>
@@ -1145,9 +1144,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <!--<a name="pro" id="pro"></a>
                                             <h4>Programa</h4>
@@ -1192,9 +1191,9 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <a name="pro" id="pro"></a>
                                             <h4>Programa</h4>
@@ -1215,10 +1214,10 @@
 														</tr>
 													</tfoot>
 												</table>
-											</div> 
+											</div>
                                         </div>
 									</div>-->
-                                    
+
 							</section>
 
 						</div>
@@ -1256,6 +1255,18 @@
 									</ul>
 								</nav>
 
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
+
 							<!-- Section -->
 								<section>
 									<header class="major">
@@ -1263,16 +1274,15 @@
 									</header>
 									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
-										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
-										<li class="icon solid fa-home">Puente Alto<br />
-											Región Metropolitanas, Chile</li>
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
 								</footer>
 
 						</div>

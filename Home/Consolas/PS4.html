@@ -15,6 +15,9 @@
 		<link rel="shortcut icon" href="../ico/favicon.png" />
         <!-- Para el Encabezado -->
         <script src="../js/InfoWebMenu.js"></script>
+				<script>
+            window.onload = cargarInfoContacto;
+        </script>
         <!-- Metodo para imagenes a full pantalla -->
         <script src="../js/modal.js"></script>
         <!-- link de programas -->
@@ -33,15 +36,15 @@
 							<header id="header">
 								<a href="../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
 								<ul class="icons">
-									<!-- Encabezado de la pagina
-                                    <div id="encabezado"></div>-->
-									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
-									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
-									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 								</ul>
 							</header>
 
@@ -55,15 +58,15 @@
 										<p>Algunos de los aplicaciones o ayuda que mostramos a continuación son más que nada para ayudar con algunas necesidades que se presenten. </p>
 										<p>Nos puede recomendar algunos programas o aplicaciones para subir a nuestra WEB o si encuentra algún problema con algunos links o comandos le agradecemos informar para mantener esta página activa. igual todos los comandos y los link fueron actualizados el <b>01-08-2022</b>.</p>
                                     <span class="image main"><img src="../images/PS4/ConsolasPS4.jpg" alt="Imagen No Disponible" /></span>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Ayuda para Su Consola</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Update Oficial</h4>
                                             <p><span class="image right"><img src="../images/PS4/UpdatePS4.jpg" alt="Imagen No Disponible" /></span>Update de la consola PS4. Para poder subir de versión nuestra consola o para poder reinstalar y dejar en la misma versión en la que se encuentra nuestra consola o superior para continuar con el Exploit ya que si subimos más de la versión compatible actual mente perderemos el hack de nuestra consola. La ubicación para nuestras Actualización o Reinstalación de nuestra consola: <code>?:PS4/UPDATE</code></p>
-											<p>Para Actualizar el sistema o Reinstalación: 
+											<p>Para Actualizar el sistema o Reinstalación:
 												<li>PS4 Modo Seguro: <a href="PS4ModoSeguro.html#MSP4">Modo Seguro PS4</a></li></p>
                                             <div class="table-wrapper">
 											  <h4>Archivos Para descargar</h4>
@@ -76,49 +79,14 @@
 													</thead>
 													<tfoot>
 														<tr>
-                                                            <td>Actualización o Reinstalar 7.02</td>
-                                                            <!--<a name="KMS" id="KMS"></a>-->
-															<td><a href="https://mega.nz/folder/SI4Q0A4a#M2W9Amb8G9l-78UdxvW8uw" target="_blank">Mega</a></td>
-                                                            <!--<td><a href="#" target="_blank">Mediafire</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">Zippyshare</a></td>
+															<td>Actualización o Reinstalar</td>
+															<!--<a name="KMS" id="KMS"></a>-->
+															<td><a onclick="PS4Update()">Mega</a></td>
+															<td><a onclick="PS4UpdateWeb()">Web Oficial (Precaución)</a></td>
+															<!--<td><a href="#" target="_blank">Mediafire</a></td>-->
+															<!--<td><a href="#" target="_blank">Zippyshare</a></td>
 															<td><a href="https://home.mycloud.com/action/share/1b198d45-5695-487a-8858-b1cb52e7dd61" target="_blank">Nube</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">WEB Oficial</a></td>-->
-														</tr>
-                                                        <tr>
-                                                            <td>Actualización o Reinstalar 7.50</td>
-                                                            <!--<a name="KMS" id="KMS"></a>-->
-															<td><a href="https://mega.nz/folder/DI5kyLKa#-jP2nNMeQqHkyHPCUaia1A" target="_blank">Mega</a></td>
-                                                            <!--<td><a href="#" target="_blank">Mediafire</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">Zippyshare</a></td>
-															<td><a href="https://home.mycloud.com/action/share/4de7eefb-10cb-44e9-8e05-a2b3594e0001" target="_blank">Nube</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">WEB Oficial</a></td>-->
-														</tr>
-                                                        <tr>
-                                                            <td>Actualización o Reinstalar 7.51</td>
-                                                            <!--<a name="KMS" id="KMS"></a>-->
-															<td><a href="https://mega.nz/folder/PRQHHLLR#ODQcKY8q5WF5xyQEOkX3SQ" target="_blank">Mega</a></td>
-                                                            <!--<td><a href="#" target="_blank">Mediafire</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">Zippyshare</a></td>
-															<td><a href="https://home.mycloud.com/action/share/1b476051-ab15-4495-938d-d1b63d34e53a" target="_blank">Nube</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">WEB Oficial</a></td>-->
-														</tr>
-                                                        <tr>
-                                                            <td>Actualización o Reinstalar 7.55</td>
-                                                            <!--<a name="KMS" id="KMS"></a>-->
-															<td><a href="https://mega.nz/folder/nEw0SRpQ#d5rc1bSBw3aq_-y2-cIkmQ" target="_blank">Mega</a></td>
-                                                            <!--<td><a href="#" target="_blank">Mediafire</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">Zippyshare</a></td>
-															<td><a href="https://home.mycloud.com/action/share/97141567-ccfd-42c4-b06c-ee8a0dee31cd" target="_blank">Nube</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">WEB Oficial</a></td>-->
-														</tr>
-                                                        <tr>
-                                                            <td>Actualización o Reinstalar 9.00</td>
-                                                            <!--<a name="KMS" id="KMS"></a>-->
-															<td><a href="https://mega.nz/folder/jBYzjRZS#fDdFXIKdu7cSDgnRfCi9ew" target="_blank">Mega</a></td>
-                                                            <!--<td><a href="#" target="_blank">Mediafire</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">Zippyshare</a></td>
-															<td><a href="https://home.mycloud.com/action/share/4cf86af2-4d9b-455e-9b1a-e7e5869da80f" target="_blank">Nube</a></td>-->
-                                                            <!--<td><a href="#" target="_blank">WEB Oficial</a></td>-->
+															<!--<td><a href="#" target="_blank">WEB Oficial</a></td>-->
 														</tr>
 													</tfoot>
 												</table>
@@ -130,11 +98,11 @@
                                             <p><span class="image right"><img src="../images/PS4/ExploitPS4.jpg" alt="Imagen No Disponible" /></span>El Exploit compatibles para sus consolas con firewall 5.05, 6.72, 7.00, 7.02, 7.50, 7.51, 7.55 y 9.00. Podemos usar algunas de las siguientes Host para habilitar el Exploit en nuestra consola, para usar las siguiente páginas web usar desde el navegador de la consola de PS4:  </p>
                                             <ul>
                                                 <li>MarcheBMPC Seleccionar</li>
-                                                <a href="https://marchelo1989.github.io/PS4/Home.html" target="_blank">https://marchelo1989.github.io/PS4/Home.html</a>
+                                                <a href="https://marchelobm.github.io/PS4/Home.html" target="_blank">https://marchelobm.github.io/PS4/Home.html</a>
                                             </ul>
                                             <ul>
                                                 <li>MarcheBMPC Mas Host</li>
-                                                <a href="https://marchelo1989.github.io/PS4/PS4.html" target="_blank">https://marchelo1989.github.io/PS4/PS4.html</a>
+                                                <a href="https://marchelobm.github.io/PS4/PS4.html" target="_blank">https://marchelobm.github.io/PS4/PS4.html</a>
                                             </ul>
                                             <ul>
                                                 <li>nanospeedgameryt + Goldhen v2.2.2</li>
@@ -148,7 +116,7 @@
                                                 <li>gamerhack ALL</li>
                                                 <a href="https://gamerhack.github.io/index.html" target="_blank">https://gamerhack.github.io/index.html</a>
                                             </ul>
-                                            
+
 										</div>
 									</div>
                                     <div class="row gtr-200">
@@ -177,11 +145,11 @@
 													</tfoot>
 												</table>
 										  </div>
-										</div> 
+										</div>
                                     </div>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Hombrew y Payloads</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -262,7 +230,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>ICON MASK</h4>
@@ -318,7 +286,7 @@
 										  </div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Patch Installer</h4>
@@ -374,7 +342,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>PS4 Toolset</h4>
@@ -430,7 +398,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Remote PKG installer</h4>
@@ -495,7 +463,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>GoldHEN CHEATS Manager</h4>
@@ -566,7 +534,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
 
 										<div class="col-6 col-12-medium">
@@ -594,7 +562,7 @@
 										</div>
 									</div>
                                     <hr class="major" />
-                                    
+
                                     <h2>Multimedia</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -655,7 +623,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Media Playes</h4>
@@ -711,9 +679,9 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Emuladores y Retro</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -770,7 +738,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>pfbneo</h4>
@@ -826,7 +794,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>SNESTicles</h4>
@@ -882,7 +850,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>PGEN</h4>
@@ -912,12 +880,12 @@
 										</div>
 
 										<div class="col-6 col-12-medium">
-                                            
+
 										</div>
 									</div>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Aplicaciones PC</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -989,7 +957,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Crear Trucos</h4>
@@ -1045,7 +1013,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Restaurar Juegos instalados</h4>
@@ -1101,7 +1069,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Dumps juegos</h4>
@@ -1157,7 +1125,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Crear PSX y PSP</h4>
@@ -1213,7 +1181,7 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
                                             <h4>Trofeos encriptados para PKG</h4>
@@ -1318,9 +1286,9 @@
 											</div>
 										</div>
 									</div>
-                                    
+
                                     <hr class="major" />
-                                    
+
                                     <h2>Extras</h2>
 									<div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -1410,6 +1378,18 @@
 									</ul>
 								</nav>
 
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
+
 							<!-- Section -->
 								<section>
 									<header class="major">
@@ -1417,16 +1397,15 @@
 									</header>
 									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
-										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
-										<li class="icon solid fa-home">Puente Alto<br />
-											Región Metropolitanas, Chile</li>
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
 								</footer>
 
 						</div>
