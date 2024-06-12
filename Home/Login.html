@@ -16,6 +16,9 @@
         <script src="js/InfoWebMenu.js"></script>
         <!-- Login -->
         <script src="js/login.js"></script>
+				<script>
+            window.onload = cargarInfoContacto;
+        </script>
 
 	</head>
 	<body class="is-preload">
@@ -31,15 +34,15 @@
 							<header id="header">
 								<a href="index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
 								<ul class="icons">
-									<!-- Encabezado de la pagina
-                                    <div id="encabezado"></div>-->
-									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
-									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
-									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 								</ul>
 							</header>
 
@@ -63,7 +66,7 @@
                                                 <ul class="actions fit">
                                                     <!--<li><a onclick="datos()" class="button primary fit">iniciar sesion</a></li>-->
 																										<li><button onclick="datos()" class="button primary fit">iniciar sesion</button></li>
-                                                    <li><a href="https://wa.me/+56946426130?text=Hola%20necesito%20acceso%20al%20login%20para%20ver%20algunos%20tutoriales%20mi%20nombre%20es:" class="button fit" target="_blank">Solicitar Acceso</a></li>
+                                                    <li><a onclick="Whatsapp()" href="#" class="button fit" target="_blank">Solicitar Acceso</a></li>
                                                 </ul>
                                             </div>
                                         </div>
@@ -116,24 +119,23 @@
 									</div>
 								</section>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Ponerse en contacto</h2>
-									</header>
-									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
-										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
-										<li class="icon solid fa-home">Puente Alto<br />
-											Región Metropolitanas, Chile</li>
-									</ul>
-								</section>
+								<!-- Section -->
+									<section>
+										<header class="major">
+											<h2>Ponerse en contacto</h2>
+										</header>
+										<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+										<ul class="contact">
+											<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+											<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+											<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
+										</ul>
+									</section>
 
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
-								</footer>
+								<!-- Footer -->
+									<footer id="footer">
+										<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
+									</footer>
 
 						</div>
 					</div>

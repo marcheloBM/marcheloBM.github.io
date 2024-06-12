@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>MarchBMPC</title>
+		<title>MarchBMPC Pagina En Desarrollo</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -14,6 +14,9 @@
 		<link rel="shortcut icon" href="ico/favicon.png" />
         <!-- Para el Encabezado -->
         <script src="js/InfoWebMenu.js"></script>
+				<script>
+            window.onload = cargarInfoContacto;
+        </script>
 	</head>
 	<body class="is-preload">
 
@@ -28,17 +31,17 @@
 							<header id="header">
 								<a href="index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
 								<ul class="icons">
-									<!-- Encabezado de la pagina
-                                    <div id="encabezado"></div>-->
-									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
-									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
-									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 								</ul>
-							</header>	
+							</header>
 
 							<!-- Content -->
 								<section>
@@ -52,7 +55,7 @@
 									<p>Estamos creando la página web con todo su contenido necesario para ayudar, para completar nuestro objetivo de ayudar y brindar muestra mejor ayuda posible, estamos recopilando la mayor información posible para terminar y brindar la mejor ayuda.</p>
 									<p>Si tiene alguna sugerencia para nuestra pagina WEB como ayuda en algún tema informático o sugerencia de ayuda para sus equipo informar en nuestras redes sociales, así crearemos una sitio web para toda solución que se presente entre todos.</p>
 									<p>Si necesitas hablar con nosotros de forma urgente puede contactos desde nuestras redes sociales que se encuentran en la parte superior de nuestra pagina.</p>
-																		
+
 									<!--<hr class="major" />
 
 									<h2>Interdum sed dapibus</h2>
@@ -137,26 +140,17 @@
                                         </li>
 									</ul>
 								</nav>
-                            
-							<!-- Section -->
+								
+								<!-- Update WEB x TXT -->
 								<section>
 									<header class="major">
-										<h2>Nuestros Servicios</h2>
+										<h2>Actualizacion en la WEB</h2>
 									</header>
-									<div class="mini-posts">
-										<article>
-											<a href="#" class="image"><img src="images/InfoEquipo.jpg" alt="" /></a>
-											<p>Todo lo que necesite para su PC o notebook a nivel de software o hardware para su equipo.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/InfoDiseño.jpg" alt="" /></a>
-											<p>Diseños de Páginas WEB o Aplicaciones para sus proyectos personales o laborales.</p>
-										</article>
-										<article>
-											<a href="#" class="image"><img src="images/InfoConsolas.jpg" alt="" /></a>
-											<p>Toda la ayuda posible para sus consolas desde una limpieza completa o ayuda para desbloquear su consola si se encuentra en las versiones disponibles..</p>
-										</article>
-									</div>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
 								</section>
 
 							<!-- Section -->
@@ -166,16 +160,15 @@
 									</header>
 									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
-										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
-										<li class="icon solid fa-home">Puente Alto<br />
-											Región Metropolitanas, Chile</li>
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
 								</footer>
 
 						</div>

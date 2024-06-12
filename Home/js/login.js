@@ -41,7 +41,6 @@ function datos() {
                   sessionStorage.nombre=usuario.nombre;
                   sessionStorage.apellido=usuario.apellido;
                   sessionStorage.tipousuario=usuario.tipousuario;
-                  sessionStorage.Usuario=usuario.nombre;//para eliminar al terminar
                 });
                 //alert("oki");
                 //window.location.href='HomeTutorial.html';
@@ -69,13 +68,18 @@ function datos() {
 //cagar los botonoes de inicio y cerrar sesión
 function cargarBoton(){
 var dato1 = sessionStorage.rut;
+var dato2 = sessionStorage.nombre;
+var dato3 = sessionStorage.apellido;
     //alert(dato1);
     var usu = document.getElementById("usu");
     if (sessionStorage.length > 0) {
         // Hay una sesión activa
-        usu.innerHTML += `<li><a href="#" onclick="cerrarSession()" class="button primary small">Cerrar Sesion ${dato1}</a></li>`+`<li>
-        <a href="HomeTutorial.html" class="button primary small">Home Tutoriales</a></li>`;
-        console.log("Hay una sesión activa");
+        usu.innerHTML += `<li><b>Usuario: </b>${dato1}</li>`;
+        usu.innerHTML += `<li><b>Nombre: </b>${dato2} ${dato3}</li>`;
+        usu.innerHTML +=`<li><a href="HomeTutorial.html" class="button primary small fit">Home Tutoriales</a></li>`;
+        usu.innerHTML +=`<li><a href="#" onclick="cerrarSession()" class="button primary small fit">Cerrar Sesion</a></li>`;
+
+        //console.log("Hay una sesión activa");
     } else {
         // No hay una sesión activa
         usu.innerHTML += `<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>`;
@@ -101,9 +105,14 @@ function validarSession(){
 }
 
 //cargar las 2 funciones al cargar las Pagina WEB
+function cargarBotonInfo(){
+    cargarBoton();
+    cargarInfoContacto();
+}
 function cargarDatos(){
     cargarBoton();
     validarSession();
+    cargarInfoContacto();
 }
 
 //cerrar sesión elimina todos los datos
