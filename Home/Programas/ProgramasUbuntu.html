@@ -12,10 +12,13 @@
 		<link rel="stylesheet" href="../assets/css/main.css" />
 		<!-- Icono de la pagina WEB -->
 		<link rel="shortcut icon" href="../ico/favicon.png" />
-        <!-- Detecta el sistema y la Arquitectura del PC -->
-		<script src="../js/detectar.js"></script>
+		<!-- Detecta el sistema y la Arquitectura del PC -->
+		<!--<script src="../js/detectar.js"></script>-->
 		<!-- Para el Encabezado -->
         <script src="../js/InfoWebMenu.js"></script>
+				<script>
+            window.onload = cargarInfoContacto;
+        </script>
 
 	</head>
 	<body class="is-preload">
@@ -31,15 +34,15 @@
 							<header id="header">
 								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
 								<ul class="icons">
-									<!-- Encabezado de la pagina
-                                    <div id="encabezado"></div>-->
-									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
-									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
-									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 								</ul>
 							</header>
 
@@ -54,7 +57,15 @@
 										<p>Nos puede recomendar algunos programas para subir a nuestra WEB o si encuentra algún problema con algunos links o comandos le agradecemos informar para mantener esta página activa. igual todos los comandos y los link fueron actualizados el <b>13-06-2022</b>.</p>
 										<p>Sistema Operativo: <b id="os"></b></p>
 										<!--<p>Arquitectura: <b id="arqui"></b></p>-->
-                                    
+										<script>
+											var plataforma = navigator.platform  ;
+											if(plataforma=="Win32"){
+												document.getElementById("os").innerHTML = " Windows ";
+											}else if (plataforma=="Linux x86_64") {
+												document.getElementById("os").innerHTML = " Linux ";
+											}
+										</script>
+
                                     <hr class="major" />
 
 									<div class="row gtr-200">
@@ -332,7 +343,7 @@
                                                     <code>sudo apt install openshot</code>
                                                 </ul>
 										</div>
-                                        
+
                                         <div class="col-6 col-12-medium">
                                             <h4>MenuLibre </h4>
                                             <a name="menuLibre" id="menuLibre"></a>
@@ -371,7 +382,7 @@
                                                 </ul>
 										</div>
                                     </div>
-                                         
+
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
                                             <h4>OBS Studio</h4>
@@ -401,7 +412,7 @@
                                                 </ul>
 										</div>
                                     </div>
-                                    
+
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
                                             <h4>Inkscape</h4>
@@ -429,7 +440,7 @@
                                                 </ul>
 										</div>
                                     </div>
-                                         
+
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
                                             <h4>Android Studio</h4>
@@ -505,7 +516,7 @@
                                                 </ul>
 										</div>
                                     </div>
-                                         
+
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
                                             <h4>NetBeans Ubuntu</h4>
@@ -530,7 +541,7 @@
                                                 </ul>
 										</div>
                                     </div>
-                                         
+
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
                                             <h4>GitHub</h4>
@@ -591,8 +602,8 @@
 									<ul>
 										<li><a href="../index.html">Página principal</a></li>
                                         <!--<li><a href="Programas.html">Programas</a></li>
-                                        
-										
+
+
                                         <li>
 											<span class="opener">Ayuda</span>
 											<ul>
@@ -640,6 +651,18 @@
 									</ul>
 								</nav>
 
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="../HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
+
 							<!-- Section -->
 								<section>
 									<header class="major">
@@ -647,16 +670,15 @@
 									</header>
 									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
-										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
-										<li class="icon solid fa-home">Puente Alto<br />
-											Región Metropolitanas, Chile</li>
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
 								</footer>
 
 						</div>

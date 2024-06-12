@@ -1,3 +1,5 @@
+-v1.45 Cambio en html programa
+	Se cambio la carga de botones e informacion de session y datos de contacto
 -v1.44 Cambio en html de Consola
 	Se cambio la carga de botones e informacion, session y datos de contacto tambien se cargo el archivo linkPS4.js que faltaba
 -v1.43 Cambio en html de ayuda
