@@ -1,3 +1,5 @@
+-v1.49 Cambio en html Tutoriales/PS2
+	Se cambio la carga de botones e informacion de session y datos de contacto
 -v1.48 Cambio en html Tutoriales/PC
 	Se cambio la carga de botones e informacion de session y datos de contacto
 -v1.47 Cambio en html Tutoriales

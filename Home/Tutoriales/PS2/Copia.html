@@ -22,7 +22,7 @@
         <script>
             window.onload = cargarDatos;
         </script>
-        
+
 	</head>
 	<body class="is-preload">
 
@@ -38,7 +38,14 @@
 								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
 								<ul class="icons">
 									<!-- Encabezado de la pagina-->
-                                    <div id="encabezado"></div>
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 								</ul>
 							</header>
 
@@ -51,7 +58,7 @@
 									<!-- Content -->
 										<p>Descripcion</p>
                                     <span class="image main"><img src="../../images/Tutotiales/PS2/FuntunaLogo.jpg" alt="Imagen No Disponible" /></span>
-                                    
+
                                     <h2>Para esta Guia</h2>
                                     <div class="row gtr-200">
                                         <div class="col-6 col-12-medium">
@@ -68,7 +75,7 @@
                                             </ol>
                                         </div>
                                     </div>
-                                    
+
                                     <hr class="major" />
                                     <span class="image main"><img src="../../images/Tutotiales/PS2/Funtuna.jpg" alt="Imagen No Disponible" /></span>
 									<div class="row gtr-200">
@@ -91,10 +98,10 @@
                                                 <li>Cerramos la tapa con nuestro DVD recién grabado y si no inicia el disco lo hacemos desde el navegador para iniciar ulaunchelf</li>
                                                 <img src="../../images/Tutotiales/PS2/Ulaunchelf.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
                                                 <li>Una vez iniciado nuestro ulaunchelf</li>
-                                                
+
                                                 <ol>
                                                     <li>Le damos al <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> a FileBrowser</li>
-                                                    
+
                                                     <li>Después vamos a MASS:/ con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
                                                     <li>Después vamos a MASS:/ con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
                                                     <li>Nos abrirá nuestra unidad USB con nuestra carpeta y entramos dentro con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
@@ -122,9 +129,9 @@
                                                 <img src="../../images/Tutotiales/PS2/FuntunaMenu.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
                                             </ol>
 									</div>
-                                                                        
+
                                     <hr class="major" />
-                                    
+
 							</section>
                             <div id="modal01" class="modal" onclick="this.style.display='none'">
                               <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
@@ -146,16 +153,20 @@
 										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
 									</form>
 								</section>
-                            <!-- Update WEB x TXT -->
-                                <section>
+
+								<!-- Login -->
+								<section>
 									<header class="major">
 										<h2>Login</h2>
 									</header>
-                                    <ul class="actions small" id="usu">
-                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
-                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
-                                    </ul>
 
+									<div class="col-6 col-12-small">
+										<ul class="actions stacked">
+											<li id="usu"></li>
+											<!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+											<li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+										</ul>
+									</div>
 								</section>
 
 							<!-- Menu -->
@@ -165,11 +176,34 @@
 									</header>
 									<ul>
 										<li><a href="../../index.html">Homepage</a></li>
-                                        <li><a href="../../Programas.html">Programas</a></li>
-                                        <!-- Menu Consola -->
-                                        <li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+										<li><a href="../../Programas.html">Programas</a></li>
+										<!-- Menu Consola -->
+										<li><a href="PS2XtremeEliteBootPS2SX.html">PS2 XtremeEliteBoot + PS2SX</a></li>
+										<li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+										<li><a href="PS2FreeDVDBoot.html">PS2 FreeDVDBoot</a></li>
+										<li><a href="PS2FunTuna.html">PS2 FunTuna</a></li>
+										<li><a href="PS2OPLActConfig.html">PS2 OPL Actualizar/Configurar </a></li>
+										<li><a href="PS2RetroArch.html">PS2 RetroArch</a></li>
+										<li><a href="PS2PS1EnPS2.html">PS1 en PS2</a></li>
+										<li><a href="PS2Juegos.html">PS2 Añadir Juegos</a></li>
+										<li><a href="PS2OPLServer.html">PS2 OPL Server</a></li>
+										<li><a href="PS2FormaMemCardPS2.html">PS2 Formatiar Memory Card PS2</a></li>
+										<li><a href="PS2APPSUSB.html">PS2 APPS USB</a></li>
+										<li><a href="PS2Temas.html">PS2 Temas</a></li>
 									</ul>
 								</nav>
+
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="../../HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
 
 							<!-- Section -->
 								<section>
@@ -178,16 +212,15 @@
 									</header>
 									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
-										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
-										<li class="icon solid fa-home">Puente Alto<br />
-											Región Metropolitanas, Chile</li>
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
 								</footer>
 
 						</div>
