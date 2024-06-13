@@ -38,15 +38,15 @@
 								<header id="header">
 								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
 								<ul class="icons">
-									<!-- Encabezado de la pagina
-                                    <div id="encabezado"></div>-->
-									<li><a onclick="Twitter()" href="https://twitter.com/marchelo_bm" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
-									<li><a onclick="Facebook()" href="https://www.facebook.com/marcelo.bm" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
-									<li><a onclick="Instagram()" href="https://www.instagram.com/marchelo.bm" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-									<li><a onclick="Whatsapp()" href="https://wa.me/message/ZWPJK3PZT3QQJ1" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
-									<li><a onclick="Messenger()" href="https://m.me/marcelo.bm" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
-									<li><a onclick="Github()" href="https://github.com/marchelo1989" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
-									<li><a onclick="Telegram()" href="https://t.me/MarcheloBM" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 								</ul>
 							</header>
 
@@ -56,7 +56,7 @@
 										<h1>Reparar Memorias USB</h1>
                                         <h2>Protegidas por Escritura</h2>
 									</header>
-                                    
+
                                     <div class="posts">
 										<article>
 											<a href="#" class="image"><img src="../../images/Tutotiales/PC/ReparacionUSB/CMDWindows.jpg" alt="" /></a>
@@ -83,7 +83,7 @@
 											</ul>
 										</article>
 									</div>
-                                    
+
                                     <h2>Método por Windows</h2>
                                     <a name="win" id="win"></a>
                                     <div class="row">
@@ -112,7 +112,7 @@
                                                 <span class="image fit"><img src="../../images/Tutotiales/PC/ReparacionUSB/DiskPart2.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer"  onclick="onClick(this)"/></span>
                                             </ol>
                                         </div>
-                                        
+
                                         <div class="col-6 col-12-small">
                                             <h3>A través de chkdsk</h3>
                                             <ol>
@@ -125,10 +125,10 @@
                                         </div>
                                     </div>
                                     <!--
-									
+
                                     -->
 									<hr class="major" />
-                                    
+
                                     <h2>Método por Linux</h2>
                                     <a name="linux" id="linux"></a>
                                     <div class="row">
@@ -148,7 +148,7 @@
                                                 <li>Y aquí podemos ver cómo hemos quitado el bit de protección al pendrive usb, y después ya aparece el bit de protección desactivado:</li>
                                                 <span class="image fit"><img src="../../images/Tutotiales/PC/ReparacionUSB/HDPARM.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer"  onclick="onClick(this)"/></span>
                                             </ol>
-                                            
+
                                             <h3>Con Gparted</h3>
                                             <p>GParted es un editor de particiones para el entorno de escritorio GNOME. Esta aplicación es usada para crear, eliminar, redimensionar, inspeccionar y copiar particiones, como también los sistemas de archivos que se encuentran en ellas.</p>
                                             <ol>
@@ -165,7 +165,7 @@
                                                 <span class="image fit"><img src="../../images/Tutotiales/PC/ReparacionUSB/Gparted4.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer"  onclick="onClick(this)"/></span>
                                                 <li>Ahora ya podríamos formatear la partición desde Gparted o formatear desde la terminal de Linux con mkfs.</li>
                                             </ol>
-                                            
+
                                             <h3>con fsck</h3>
                                             <p>fsck comprueba y repara sistemas de ficheros Linux, y no permite analizar ntfs, pero sí FAT. Para reparar NTFS ya tenemos ntfsfix.</p>
                                             <ol>
@@ -186,7 +186,7 @@
                                                 <code>sudo fsck.ext4 -r -V /dev/sdb1</code>
                                                 <span class="image fit"><img src="../../images/Tutotiales/PC/ReparacionUSB/fsck3.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer"  onclick="onClick(this)"/></span>
                                             </ol>
-                                            
+
                                             <h3>con e2fsck</h3>
                                             <p>e2fsck es otra interesante utilidad de linux para examinar sistemas de ficheros Linux: ext2/ext3/ext4</p>
                                             <ol>
@@ -201,9 +201,9 @@
                                                 <code>e2fsck -p -f -v /dev/sdb1</code>
                                                 <span class="image fit"><img src="../../images/Tutotiales/PC/ReparacionUSB/e2fsck.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer"  onclick="onClick(this)"/></span>
                                             </ol>
-                                            
+
                                         </div>
-                                        
+
                                         <div class="col-6 col-12-small">
                                             <h3>Con TestDisk</h3>
                                             <p>Testdisk es una interesante utilidad de software para recuperación de datos (permite recuperar particiones perdidas y hacerlas bootables otra vez) que podemos encontrar en Linux, pero además en algún pack de Herramientas como Hiren´s Boot, Si utilizamos Hiren´s Boot, deberemos grabar una imagen ISO de la distribución en un USB, y arrancar con él desde el equipo,y también podemos utilizarlo directamente en cualquier distro Linux.</p>
@@ -236,7 +236,7 @@
                                                 <!--<code>codigo</code>
                                                 <span class="image fit"><img src="#" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer"  onclick="onClick(this)"/></span>-->
                                             </ol>
-                                            
+
                                             <h3>con ntfsfix</h3>
                                             <p>ntfsfix permite reparar errores en el formato de ficheros tipo ntfs.</p>
                                             <ol>
@@ -258,7 +258,7 @@
                                                 <code>mount -t ntfs-3g /dev/sdb /mnt/</code>
                                                 <li>Los siguientes comandos serán de utilidad en sistemas de ficheros Linux.</li>
                                             </ol>
-                                            
+
                                             <h3>con dosfsck</h3>
                                             <p>dosfsck chequea y repara sistemas de ficheros de dos. osfsck no funciona con ntfs, solo con FAT.</p>
                                             <ol>
@@ -274,7 +274,7 @@
                                                 <code>sudo dosfsck -t -a -w /dev/sdb1</code>
                                                 <span class="image fit"><img src="../../images/Tutotiales/PC/ReparacionUSB/dosfsck.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer"  onclick="onClick(this)"/></span>
                                             </ol>
-                                            
+
                                             <h3>Formatear a bajo nivel en Linux con dd</h3>
                                             <p>dd es una de las navajas suizas de Linux, y es que dd significa “data duplicator” (duplicador de datos), aunque en broma también se le conoce como “destructor de datos“, ya que es una herramienta muy poderosa. A este último nombre haremos honor, utilizándolo para formatear el disco, llenándolo de “zeros” (machacando toda la información, borrando el disco). </p>
                                             <ol>
@@ -292,7 +292,7 @@
                                     </div>
 
 									<hr class="major" />
-                                    
+
                                     <h2>Método por Programas Windows</h2>
                                     <a name="pro" id="pro"></a>
                                     <div class="row">
@@ -324,7 +324,7 @@
 												</table>
 											</div>
                                         </div>
-                                        
+
                                         <div class="col-6 col-12-small">
                                             <h3>USB WRITE PROTECTOR</h3>
                                             <p>USB Write Protector es una herramienta que permite desactivar la protección contra escritura de todos los dispositivos USB conectados al equipo. PASOS A REALIZAR PARA UTILIZAR USB WRITE PROTECTOR:</p>
@@ -379,16 +379,20 @@
 										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
 									</form>
 								</section>
-                            <!-- Update WEB x TXT -->
-                                <section>
+
+								<!-- Login -->
+								<section>
 									<header class="major">
 										<h2>Login</h2>
 									</header>
-                                    <ul class="actions small" id="usu">
-                                        <!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
-                                        <li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
-                                    </ul>
 
+									<div class="col-6 col-12-small">
+										<ul class="actions stacked">
+											<li id="usu"></li>
+											<!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+											<li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+										</ul>
+									</div>
 								</section>
 
 							<!-- Menu -->
@@ -398,25 +402,23 @@
 									</header>
 									<ul>
 										<li><a href="../../index.html">Homepage</a></li>
-                                        <li><a href="../../Programas.html">Programas</a></li>
-                                        <!-- Menu Ayuda 
-                                        <li><a href="ActivarWindows.html">Activación de Windows 10 </a></li>
-                                        <li><a href="ActivarOffice.html">Activación Office</a></li>
-                                        <li><a href="InfoPruePC.html">Informacion del Sistema o Pruebas PC</a></li>
-                                        <li><a href="ReparaWindows.html">Reparacion de Windows</a></li>
-                                        <li><a href="ReparaUSB.html">Reparacion de Memorias USB</a></li>
-                                        <li><a href="InstalacionOffice.html">Instalacion de Office</a></li>
-                                        <li><a href="EmuladoresPC.html">Emuladores para Windows</a></li>
-                                        <li><a href="ComandosUbuntu.html">Comandos para Linux Ubuntu</a></li>
-                                        <li><a href="ComandosWindows.html">Comandos para Windows</a></li>
-                                        <li><a href="AtajosWindows10.html">Atajos de teclado para Windows 10</a></li>
-                                        <li><a href="DS4Windows.html">Mandos de PS3,PS4 y PS5 en Windows 10</a></li>
-                                        <li><a href="CableRJ45.html">Cable de RED (RJ45)</a></li>
-                                        <li><a href="VirusTotal.html">Revisar si hay Virus</a></li>
-                                        <li><a href="CmdDefender.html">Escaneo si hay Virus</a></li>
-                                        <li><a href="EstadoBateria.html">Verificar el estado Bateria</a></li>-->
+										<li><a href="../../Programas.html">Programas</a></li>
+										<!-- Menu Consola -->
+										<li><a href="AdvancedIPScanner.html">Advanced IP Scanner</a></li>
 									</ul>
 								</nav>
+
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="../../HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
 
 							<!-- Section -->
 								<section>
@@ -425,16 +427,15 @@
 									</header>
 									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="mailto:marchelo.bm.1989@gmail.com?Subject=Interesado%20en%20sus%20servicios">marchelo.bm.1989@gmail.com</a></li>
-										<li class="icon solid fa-phone"><a href="tel:+56948470283">(+569) 4847 0283</a></li>
-										<li class="icon solid fa-home">Puente Alto<br />
-											Región Metropolitanas, Chile</li>
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
 									</ul>
 								</section>
 
 							<!-- Footer -->
 								<footer id="footer">
-									<p class="copyright">&copy; 2021. Todos los derechos reservados. <a href="https://unsplash.com">Unsplash</a>. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a href="https://marchelo1989.github.io/"> Marcelo Burgos</a>.</p>
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
 								</footer>
 
 						</div>
