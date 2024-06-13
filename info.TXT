@@ -1,3 +1,5 @@
+-v1.53 Cambio en html Tutoriales/PSVita
+	Se cambio la carga de botones e informacion de session y datos de contacto
 -v1.52 Cambio en html Tutoriales/PSP
 	Se cambio la carga de botones e informacion de session y datos de contacto
 -v1.51 Cambio en html Tutoriales/PS4
