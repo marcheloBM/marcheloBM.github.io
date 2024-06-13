@@ -43,8 +43,8 @@ function datos() {
                   sessionStorage.tipousuario=usuario.tipousuario;
                 });
                 //alert("oki");
-                //window.location.href='HomeTutorial.html';
-                window.history.back();
+                window.location.href='Home.html';
+                //window.history.back();
                 //console.log("Hay una sesión activa ");
 
             } else {
