@@ -19,7 +19,7 @@ function datos() {
     });
 
     function enviarSolicitud(rut, password) {
-        fetch('https://marchebm.000webhostapp.com/ws/index.php?rut=' + rut + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
+        fetch('https://marchebm.000webhostapp.com/ws/jsonBuscar.php?rut=' + rut + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
         .then(response => {
             if (!response.ok) {
                 throw new Error('No se pudo iniciar sesión. Por favor, verifica tus credenciales.');

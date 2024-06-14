@@ -1,3 +1,5 @@
+-v1.55 Cambio en WS
+	Se cambio el metodo de acceso al web service
 -v1.54 Cambio en Login
 	Se cambio la carga de Login para evitar problemas en lugar de tutoriales
 -v1.53 Cambio en html Tutoriales/PSVita
