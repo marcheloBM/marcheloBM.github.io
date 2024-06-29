@@ -1,3 +1,5 @@
+-v1.56 Cambio en PS3
+	Se actualizo la interzas de ps3 para la version 4.91
 -v1.55 Cambio en WS
 	Se cambio el metodo de acceso al web service
 -v1.54 Cambio en Login
