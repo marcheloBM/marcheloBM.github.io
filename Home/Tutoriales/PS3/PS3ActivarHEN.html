@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS3.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -70,10 +72,27 @@
                                         </div>
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
-                                            <a name="ProFT" id="ProFT"></a>
-                                            <ol>
+											<a name="Update" id="Update"></a>
+											<div class="table-wrapper">
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>Update OFW-HFW</td>
+															<td><a onclick="Update()" >Mega</a></td>
+                                                            <td><a onclick="UpdateWEBOficial()" >WEB Oficial</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li><a href="../../Consolas/PS3.html#Update">Update de PS3 </a></li>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 
@@ -105,7 +124,7 @@
                                                     <ol>
                                                         <li>Si se detecta algún error que no se pueda leer los datos </li>
                                                         <li>Podemos descargar de nuevo los archivos y copiarlos a nuestro USB</li>
-                                                        <li>Si no nos funciona lo anterior o nuestra consola se apagó (corte de luz) mientras se realizaba la instalación podemos realizar la actualización mediante el <b>Modo recovery</b> (Consolas/PS3ModoSeguro.html)</li>
+                                                        <li>Si no nos funciona lo anterior o nuestra consola se apagó (corte de luz) mientras se realizaba la instalación podemos realizar la actualización mediante el <b>Modo recovery</b> PS3 Modo Seguro: <a href="../../Consolas/PS3ModoSeguro.html#MSP3">Modo Seguro PS3</a></li>
                                                         <img src="../../images/Tutotiales/PS3/PS3 Modo Seguro.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
                                                     </ol>
                                                     <li>La consola de reiniciar y empezar la instalación y se reiniciar nuevamente </li>
@@ -118,7 +137,7 @@
                                                     <li>Dentro del navegador le damos al <img src="../../images/ControlSony/Triangulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> y le damos en el menú <b>Archivo/Entrada de Dirección </b></li>
                                                     <ol>
                                                         <li>Podemos colocar cualquiera de estos links en la consola</li>
-                                                        <li>Nuestra WEB: <a href="https://marchelo1989.github.io/PS3">Nuestra WEB</a></li>
+                                                        <li>Nuestra WEB: <a onclick="WEBPS3()">Nuestra WEB</a></li>
                                                         <img src="../../images/Tutotiales/PS3/NuestraWEB.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
                                                         <li>WEB Oficial: <a href="https://www.ps3xploit.me/">WEB Oficial</a></li>
                                                         <img src="../../images/Tutotiales/PS3/WEBps3xploit.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/

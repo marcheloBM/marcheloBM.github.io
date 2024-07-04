@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS3.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -72,11 +74,36 @@
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
                                             <!--<a name="ProFT" id="ProFT"></a>-->
-                                            <ol>
+											<div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>PS3 ISO TOOLS</td>
+															<td><a onclick="PS3ISOTOOLS()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>Cobra ODE GenPS3iso</td>
+															<td><a onclick="CobraODEGenPS3iso()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>multiMAN</td>
+															<td><a onclick="multiMAN()">Mega</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li>RAR <a href="../../Consolas/PS3.html#ISOT"> PS3 ISO TOOLS</a></li>
                                                 <li>RAR <a href="../../Consolas/PS3.html#CobraODEGen"> Cobra ODE GenPS3iso</a></li>
                                                 <li>PKG <a href="../../Consolas/PS3.html#mult"> multiMAN</a></li>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 
@@ -99,7 +126,7 @@
                                                 <ul>
                                                     <li>Copiar disco</li>
                                                     <ol>
-                                                        <li>Abrimos multiMAN <a href="../../Consolas/PS3.html#mult"> multiMAN</a> para poder hacer una copia de nuestro juego favorito original</li>
+                                                        <li>Abrimos multiMAN <a href="PS3MultiMAN.html#mult"> multiMAN</a> para poder hacer una copia de nuestro juego favorito original</li>
                                                         <li>Buscamos nuestro juego del disco y le damos a <img src="../../images/ControlSony/Cuadrado.jpg" width=20 height=20 alt="Imagen No Disponible" /> y después donde dice copiar</li>
                                                         <img src="../../images/Tutotiales/PS3/multimanMenuJuegos.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
                                                         <li>Y le damos a copiar al HDD interno le damos a <b>NO</b> y después nos pregunta si queremos copiar al USB001 externo le damos a <b>SI</b></li>

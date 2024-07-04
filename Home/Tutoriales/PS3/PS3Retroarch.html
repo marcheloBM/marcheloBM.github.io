@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS3.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -69,12 +71,37 @@
                                         </div>
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
-                                            <!--<a name="ProFT" id="ProFT"></a>-->
-                                            <ol>
-                                                <li>1.	PKG <a href="../../Consolas/PS3.html#Retroarch"> Retroarch</a></li>
-                                                <li>2.	WEB Oficial <a href="https://retroarch.com/?page=platforms"> retroarch.com</a></li>
-                                                <li>3.	WEB no Oficial <a href="https://github.com/crystalct/RetroArch_PSX_CE"> github.com</a></li>
-                                            </ol>
+                                            <a name="Retroarch" id="Retroarch"></a>
+											<div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>Retroarch</td>
+															<td><a onclick="Retroarch()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>WEB Oficial</td>
+                                                            <td><a onclick="RetroarchWeb()">retroarch.com</a></td>
+														</tr>
+														<tr>
+															<td>WEB No Oficial</td>
+                                                            <td><a onclick="RetroarchWebNo()">github.com</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
+                                                <li>PKG <a href="../../Consolas/PS3.html#Retroarch"> Retroarch</a></li>
+                                                <li>WEB Oficial <a href="https://retroarch.com/?page=platforms"> retroarch.com</a></li>
+                                                <li>WEB no Oficial <a href="https://github.com/crystalct/RetroArch_PSX_CE"> github.com</a></li>
+                                            </ol>-->
                                         </div>
                                     </div>
 

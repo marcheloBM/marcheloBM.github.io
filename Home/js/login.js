@@ -100,7 +100,8 @@ function validarSession(){
         window.history.back();
     }
 		//alert("2: "+dato1);
-		//window.location.href='Home.html';
+		//Comentar para programar los turoriales
+		window.location.href='Home.html';
 	}
 }
 

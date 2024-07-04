@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS3.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -69,11 +71,36 @@
                                         </div>
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
-                                            <!--<a name="ProFT" id="ProFT"></a>-->
-                                            <ol>
+                                            <!--<a name="BTGA" id="BTGA"></a>-->
+											<div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>BTGA-303-CORO-48X</td>
+															<td><a onclick="BTGA303CORO48X()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>Nuestra WEB</td>
+															<td><a onclick="WEBPS3()">WEB</a></td>
+														</tr>
+														<tr>
+															<td>TheWizwikii</td>
+															<td><a href="http://thewizwikii.github.io/BTGA-303-488/">WEB</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li>WEB para BTGA-303-488: <a href="https://marchelo1989.github.io/PS3/PS3.html">Nuestra WEB </a> - <a href="http://thewizwikii.github.io/BTGA-303-488/">TheWizwikii</a></li>
                                                 <li>PKG: <a href="../../Consolas/PS3.html#BTGA">Link</a></li>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 
@@ -89,7 +116,7 @@
                                                     <li>Para activar esta función vamos a navegar de nuestra consola</li>
                                                     <img src="../../images/Tutotiales/PS3/WEBBluethootoUSBAudio.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
                                                     <ol>
-                                                        <li>Nuestra WEB Para la consola: <a href="https://marchelo1989.github.io/PS3/BTGA-303-488/index.html">Nuestra WEB</a></li>
+                                                        <li>Nuestra WEB Para la consola: <a onclick="WEBPS3()">Nuestra WEB</a></li>
                                                         <li>Nuestra WEB Para la consola: <a href="https://thewizwikii.github.io/BTGA-303-488/">TheWizwikii</a></li>
                                                         <li>Una vez descargado nuestro archivo de forma automática </li>
                                                         <li>Nuestra consola se reiniciará </li>
