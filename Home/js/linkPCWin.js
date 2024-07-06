@@ -129,6 +129,8 @@ function PSeInt(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jZpggJjZ#s
 function PSeIntWeb(){verificarSesionYAbrirEnlace("http://pseint.sourceforge.net/");}
 function VisualStudio(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XBRnmCoT#L6fVArjFmxEuwdglb6zTGw");}
 function VisualStudioWeb(){verificarSesionYAbrirEnlace("https://visualstudio.microsoft.com/es/downloads/");}
+function VisualStudioCode(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jQYCHRpK#6VF6FSWtIte3aB8Mr8fckw");}
+function VisualStudioCodeWeb(){verificarSesionYAbrirEnlace("https://code.visualstudio.com/");}
 function xampp(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2VIi1ALB#0_AGGMZ981uHnozR3GGLbQ");}
 function xamppWeb(){verificarSesionYAbrirEnlace("https://www.apachefriends.org/es/index.html");}
 

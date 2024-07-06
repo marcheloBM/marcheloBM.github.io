@@ -1,3 +1,5 @@
+-v1.58 Nuevos Programa de Windows
+	Se Agrego nuevo programa para descargar 
 -v1.57 Cambios en los tutorial PS3
 	Se elimino el enlace directo a Consolas/PS3 ahora es directo desde tutorialPS3 
 -v1.56 Cambio en PS3
