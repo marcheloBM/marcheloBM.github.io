@@ -13,7 +13,6 @@ function MEGAPACKAPPSPS2(){verificarSesionYAbrirEnlace("https://mega.nz/file/CJI
 function Retroarch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nQBCUJDb#ZwGmtPJ_n83I1sEmY3SWKA");}
 function RetroarchWeb(){verificarSesionYAbrirEnlace("https://www.retroarch.com/?page=platforms");}
 function PSXaPS2(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zUgEhTYJ#7EmZRfMOrpw2xZqOjXCGzg");}
-function PSXaPS2Web(){verificarSesionYAbrirEnlace("");}
 function OPLManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/PFRWhATR#bSc9f4yLBrvxELPZ8Npv6A");}
 function OPLManagerWeb(){verificarSesionYAbrirEnlace("https://oplmanager.com/site/index.php");}
 function OPLSERVER(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DQQQxYwb#BB1bNQpZtbvEO3yIH2p_2g");}

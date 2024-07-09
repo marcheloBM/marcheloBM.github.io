@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+        <!-- link de programas -->
+        <script src="../../js/linkPS2.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -69,9 +71,27 @@
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
                                             <a name="OPLServer" id="OPLServer"></a>
-                                            <ol>
+                                            <div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>OPL SERVER</td>
+                                                            <td><a onclick="OPLSERVER()">Mega</a></td>
+                                                            <td><a onClick="OPLSERVERWeb()">WEB Oficial</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li><a href="../../Consolas/PS2.html#OPLSERVER">OPL Server</a></li>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 
@@ -107,7 +127,7 @@
                                                         <li>Buscará y Liberia para los archivos necesarios para esta característica </li>
                                                         <li>Podemos reiniciar el ordenador para completar bien la instalación </li>
                                                     </ol>
-                                                    <li>Para continuar debemos descomprimir el archivo <a href="../../Consolas/PS2.html#OPLSERVER">OPL-Server…</a></li>
+                                                    <li>Para continuar debemos descomprimir el archivo <b>OPL-Server</b></li>
                                                     <ol>
                                                         <li>Por primera vez debemos compartir la carpeta <code>PS2</code></li>
                                                         <img src="../../images/Tutotiales/PS2/OPLServerCarp.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
@@ -122,7 +142,7 @@
                                                         <ul>
                                                             <li>sí están en ISO los colocamos en la carpeta llamada <code>DVD</code> dentro de <code>PS2</code></li>
                                                             <li>si queremos pasarle las caratulas y dejarlo listo </li>
-                                                            <li>abrimos <a href="../../Consolas/PS2.html#OPLSERVER">OPL Manager.exe</a> como administrador </li>
+                                                            <li>abrimos <b>OPL Manager.exe</b> como administrador </li>
                                                             <li>se queremos seleccionar una ruta y no nos aparece la opción </li>
                                                             <ol>
                                                                 <li>vamos a Ajustes/cambiar Modo (carpeta OPL)</li>
@@ -147,7 +167,7 @@
                                                         <li>Para arrancar nuestro servidor le damos a Server is stopped (press to start)</li>
                                                     </ol>
                                                 </ul>
-                                                <li>En nuestra PS2 nos vamos al <a href="../../Consolas/PS2.html#OPL">Open PS2 Loader</a></li>
+                                                <li>En nuestra PS2 nos vamos al <b>Open PS2 Loader</b></li>
                                                 <img src="../../images/Tutotiales/PS2/OPLConfigENG.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
                                                 <ul>
                                                     <li>Muy importante que nuestra consola PS2 este conectada a la misma RED de nuestro ordenador (PC o Notebook)</li>

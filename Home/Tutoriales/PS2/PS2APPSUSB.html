@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS2.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -69,11 +71,36 @@
                                         </div>
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
-                                            <a name="ProFT" id="ProFT"></a>
-                                            <ol>
+                                            <a name="APPSUSB" id="APPSUSB"></a>
+											<div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="1">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>APPS USB</td>
+                                                            <td><a onclick="APPSUSB()">Mega</a></td>
+														</tr>
+														<tr>
+                                                            <td>Aplicaciones (Conjunto de Apps)</td>
+                                                            <td><a onclick="Aplicaciones()">Mega</a></td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td>MEGAPACK DE APPS PS2</td>
+                                                            <td><a onclick="MEGAPACKAPPSPS2()">Mega</a></td>
+                                                        </tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li><a href="../../Consolas/PS2.html#APPSUSB">APPS En USB</a></li>
                                                 <li><a href="../../Consolas/PS2.html#PackApps">Pack de Apps </a></li>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 
@@ -95,7 +122,7 @@
                                                     <ol>
                                                         <li>Creamos un nuevo documento de texto</li>
                                                         <li>Lo renombramos con el siguiente nombre y extensión <code>conf_apps.cfg</code></li>
-                                                        <li>Si no podemos editarlo podemos usar el boc de notas o el programa <a href="ProgramasWindows.html#Notepad++">Notepad++</a></li>
+                                                        <li>Si no podemos editarlo podemos usar el boc de notas o el programa <a href="../../Programas/ProgramasWindows.html#Notepad++">Notepad++</a></li>
                                                         <li>Una vez dentro lo editamos de la siguiente forma para nuestra Aplicaciones</li>
                                                         <li>Colocamos el nombre de la aplicación y después la ruta del archivo .elf ej: <code>OPL v0.8=mass:/APPS/ OPL 0.8.ELF</code> o con carpeta <code>RETROARCH=mass:/APPS/retroarch/raboot.elf </code>y así en cada una de las aplicaciones que emos pasado</li>
                                                         <ul>

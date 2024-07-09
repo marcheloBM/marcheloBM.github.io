@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS2.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -72,7 +74,35 @@
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
                                             <a name="ProFT" id="ProFT"></a>
-                                            <ol>
+											<div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>FunTuna</td>
+															<td><a onclick="FunTuna()">Mega</a></td>
+                                                            <td><a onclick="FunTunaWeb()">WEB Oficial</a></td>
+														</tr>
+														<tr>
+															<td>FreeDVDBoot</td>
+															<td><a onclick="FreeDVDBoot()" target="_blank">Mega</a></td>
+                                                            <td><a onclick="FreeDVDBootWeb()" target="_blank">WEB Oficial</a></td>
+														</tr>
+														<tr>
+															<td>Programas PC</td>
+															<td><a href="../../Programas/ProgramasWindows.html#UltraISO">UltraISO</a></td>
+                                                            <td><a href="../../Programas/ProgramasWindows.html#GUIFORMAT">GUIFORMAT</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li><a href="../../Consolas/PS2.html#FunTuna">FunTuna</a></li>
                                                 <li><a href="../../Consolas/PS2.html#FreeDVDBoot">FreeDVDBoot</a></li>
                                                 <li>Programas PC</li>
@@ -80,7 +110,7 @@
                                                     <li><a href="../../Programas/ProgramasWindows.html#UltraISO">UltraISO</a></li>
                                                     <li><a href="../../Programas/ProgramasWindows.html#GUIFORMAT">GUIFORMAT</a></li>
                                                 </ul>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 
@@ -96,7 +126,7 @@
                                                 </ul>
                                                 <li>Colocamos nuestro USB a nuestra PC y verificamos que tenga el formato FAT32 si no lo tiene con el programa <a href="PS2FunTuna.html#ProFT">GUIFORMAT</a> le podremos dar el formato deseado si nuestra PC no nos permite hacerlo.</li>
                                                 <ul>
-                                                    <li>De nuestra carpeta <a href="../../Consolas/PS2.html#FunTuna">FunTuna</a> descargamos el archivo .rar lo descomprimimos y la carpeta que nos aparezca la copiamos a nuestra unidad USB.</li>
+                                                    <li>De nuestra carpeta <b>FunTuna</b> descargamos el archivo .rar lo descomprimimos y la carpeta que nos aparezca la copiamos a nuestra unidad USB.</li>
                                                     <li>Sacamos el USB y lo pinchamos a nuestra consola.</li>
                                                 </ul>
                                                 <li>Encendemos nuestra consola y nos vamos a configuración – idioma y lo demos en inglés y reiniciamos nuestra consola (Esto es solo para arrancar el DVD después de terminar la instalación lo puedes dejar en el idioma de preferencia).</li>

@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS2.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -70,10 +72,33 @@
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
                                             <a name="FMCPS2" id="FMCPS2"></a>
-                                            <ol>
+											<div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+                                                        <tr>
+															<td>Free Memory Card Boot(FMCB)</td>
+															<td><a onclick="FreeMemoryCardBoot()" >Mega</a></td>
+                                                            <td><a onclick="FreeMemoryCardBootWeb()" >WEB Oficial</a></td>
+														</tr>
+														<tr>
+															<td>FunTuna</td>
+															<td><a onclick="FunTuna()">Mega</a></td>
+                                                            <td><a onclick="FunTunaWeb()">WEB Oficial</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li><a href="../../Consolas/PS2.html#FMCB">FMCB</a></li>
                                                 <li><a href="../../Consolas/PS2.html#FunTuna">FunTuna</a></li>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 

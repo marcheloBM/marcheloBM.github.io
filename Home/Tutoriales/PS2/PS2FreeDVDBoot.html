@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS2.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -73,7 +75,35 @@
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
                                             <a name="ProFDB" id="ProFDB"></a>
-                                            <ol>
+											<div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+                                                        <tr>
+															<td>Free Memory Card Boot(FMCB)</td>
+															<td><a onclick="FreeMemoryCardBoot()" >Mega</a></td>
+                                                            <td><a onclick="FreeMemoryCardBootWeb()" >WEB Oficial</a></td>
+														</tr>
+														<tr>
+															<td>FreeDVDBoot</td>
+															<td><a onclick="FreeDVDBoot()" target="_blank">Mega</a></td>
+                                                            <td><a onclick="FreeDVDBootWeb()" target="_blank">WEB Oficial</a></td>
+														</tr>
+														<tr>
+															<td>Programas PC</td>
+															<td><a href="../../Programas/ProgramasWindows.html#UltraISO">UltraISO</a></td>
+                                                            <td><a href="../../Programas/ProgramasWindows.html#GUIFORMAT">GUIFORMAT</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li><a href="../../Consolas/PS2.html#FMCB">FMCB</a></li>
                                                 <li><a href="../../Consolas/PS2.html#FreeDVDBoot">FreeDVDBoot</a></li>
                                                 <li>Programas PC</li>
@@ -81,7 +111,7 @@
                                                     <li><a href="../../Programas/ProgramasWindows.html#UltraISO">UltraISO</a></li>
                                                     <li><a href="../../Programas/ProgramasWindows.html#GUIFORMAT">GUIFORMAT</a></li>
                                                 </ul>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 
@@ -93,7 +123,7 @@
                                             <ol>
                                                 <li>Verificar nuestra consola si es compatible con este método, con nuestra consola encendida le damos al <img src="../../images/ControlSony/Triangulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> (Versión) nos fijamos en nuestra versión de consola y reproductor de DVD. Y la revisamos en esta página WEB <a href="https://playstationdev.wiki/ps2devwiki/index.php/FreeDVDBoot_Compatibility_List " target="_blank">playstationdev.wiki</a> sabiendo esto escogeremos nuestra ISO a referencia de la compatibilidad de nuestra consola.</li>
                                                 <img src="../../images/Tutotiales/PS2/InfoPS2.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
-                                                <li>Abriremos <a href="PS2FreeDVDBoot.html#ProFDB">UltraISO</a> u otro programa que nos permita quemar nuestra imagen <a href="../../Consolas/PS2.html#FreeDVDBoot">FreeDVDBoot</a> a un DVD (Grabar a la más baja velocidad permitida para logras un disco de calidad para nuestra consola).</li>
+                                                <li>Abriremos <a href="PS2FreeDVDBoot.html#ProFDB">UltraISO</a> u otro programa que nos permita quemar nuestra imagen <b>FreeDVDBoot</b> a un DVD (Grabar a la más baja velocidad permitida para logras un disco de calidad para nuestra consola).</li>
                                                 <ul>
                                                     <li>Una vez listo lo colocamos en nuestra consola desbloqueada pero no cerramos la tapa.</li>
                                                 </ul>

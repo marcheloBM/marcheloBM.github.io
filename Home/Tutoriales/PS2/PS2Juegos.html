@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+        <!-- link de programas -->
+        <script src="../../js/linkPS2.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -69,10 +71,32 @@
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
                                             <a name="ProFT" id="ProFT"></a>
-                                            <ol>
+                                            <div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="1">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>USBUTIL</td>
+                                                            <td><a onclick="USBUTIL()">Mega</a></td>
+														</tr>
+                                                        <tr>
+															<td>OPL Manager</td>
+                                                            <td><a onclick="OPLManager()">Mega</a></td>
+                                                            <td><a onClick="OPLManagerWeb()">WEB Oficial</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
                                                 <li><a href="../../Consolas/PS2.html#USBUTIL">USBUTIL</a></li>
                                                 <li><a href="../../Consolas/PS2.html#OPLManager">OPL Manager</a></li>
-                                            </ol>
+                                            </ol>-->
                                         </div>
                                     </div>
 
@@ -89,7 +113,7 @@
                                                 </ul>
                                                 <li>La otra opción para añadir juegos más completa </li>
                                                 <ul>
-                                                    <li>Para esto descargaremos y descomprimir el archivo USBUTIL.rar (si no tiene el programa puede descárgalo desde <a href="../../Consolas/PS2.html#USBUTIL">Nuestra WEB</a>)</li>
+                                                    <li>Para esto descargaremos y descomprimir el archivo USBUTIL.rar</li>
                                                     <li>Para ejecutar nuestro programa buscamos entro de la carpeta el ejecutable USBUtil v2.2 rev1.0.exe</li>
                                                     <img src="../../images/Tutotiales/PS2/USBUtil.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
                                                     <li>Una vez abierto el programa por primera vez</li>
@@ -119,7 +143,7 @@
                                                 </ul>
                                                 <li>Para añadir caratulas o corregir nombre</li>
                                                 <ul>
-                                                    <li>Para esto abriremos nuestra APP <a href="../../Consolas/PS2.html#OPLManager">OPL Manager</a></li>
+                                                    <li>Para esto abriremos nuestra <b>APP OPL Manager</b></li>
                                                     <ol>
                                                         <li>Si es la primera vez que se abre nuestra aplicación nos preguntara el Idioma de preferencia seleccionamos el Idioma </li>
                                                         <li>En ruta le damos la ruta de nuestro USB con la letra asignada </li>
