@@ -5,6 +5,7 @@ function PSPPDA(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vdwHSSyJ#I
 function AirCrackPSP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/edBH1RJY#eXfcHDPbtA2P7wQeA40cNQ");}
 function Alarma(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LFoWUTBa#Psa_rxu82-E2RC-9S6nTKA");}
 function PSPOSB(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WQQznDJS#eSepVULESCzEwh3rjvHcwQ");}
+function PSPOSBWeb(){verificarSesionYAbrirEnlace("https://github.com/xerpi/psp-uvc-usb-video-class/releases");}
 function Chronoswitch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/3JQBWCiC#sitlkNAVQyVPbWksTHaXaQ");}
 function CIPLFlasher(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WIBCgZha#LuaXQxk8qYugzn0n6aHgmg");}
 function FuSaGAMEPAD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/ydpBhTRA#wucWT1SzOVhlRC7kaol-Dg");}
@@ -31,6 +32,7 @@ function Nintendo64(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vdZl0A
 function Picture(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nFAAzSwT#OR2EdzWeIi-hgDD9w8uUmA");}
 function Temas(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OdIkCQiJ#qNBN9j_yTTjmZJX_PQ3U9w");}
 function PSX2PSP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fdISCAxI#TcLaYTBcSKetJMgQDcEVgw");}
+function AllPSPWeb(){verificarSesionYAbrirEnlace("https://archive.org/details/psp-homebrew-library");}
 
 
 

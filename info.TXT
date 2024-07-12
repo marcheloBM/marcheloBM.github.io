@@ -1,4 +1,6 @@
-v1.60 Nuevo GoldHEN de PS4
+-v1.61 Cambios en los tutorial PSP
+	Se elimino el enlace directo a Consolas/PSP ahora es directo desde tutorialPSP
+-v1.60 Nuevo GoldHEN de PS4
 	Nuevo GoldHEN para PS4 goldhen_2.4b16.2 - 2.4b17 - 2.4b17.3
 -v1.59 Cambios en los tutorial PS2
 	Se elimino el enlace directo a Consolas/PS2 ahora es directo desde tutorialPS2  
