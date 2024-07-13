@@ -99,7 +99,11 @@ const contenidoPorCategoria = {
 		{ nombre: "Menú Secreto PS2 dentro PS3", ubicacion: "MenuSecretoPS2", comentario: "Menú secreto dentro del emulador de PS2 de nuestra consola PS3, para nuevos ajustes de gráficos, FPS, calidad o jugabilidad de nuestros juegos de PS2." },
 		{ nombre: "Crear DVD o BD-R Juegos", ubicacion: "CrearDVDBDR", comentario: "Podemos crear copias de nuestros juegos en DVD o BD-R para nuestra consola con HEN." },
 		{ nombre: "Desencriptar ISO PS3", ubicacion: "DesISOPS3", comentario: "Podemos desencriptar las ISO descargadas para poder hacerlo correr en nuestra consola PS3." },
-		{ nombre: "USB con exFAT - NTFS", ubicacion: "PS3USBexFATNTFS", comentario: "Con esta app podemos usar nuestros USB o HDD con el formato exfat o NTFS para nuestros juegos en formato ISO." }
+		{ nombre: "USB con exFAT - NTFS", ubicacion: "PS3USBexFATNTFS", comentario: "Con esta app podemos usar nuestros USB o HDD con el formato exfat o NTFS para nuestros juegos en formato ISO." },
+		{ nombre: "Coldboot (Logotipo de Inicio)", ubicacion: "Coldboot", comentario: "Crear Coldboot (Logotipo de Inicio) personalizados con las imágenes que más te gusten." },
+		{ nombre: "PS3 Desencriptar ISOS", ubicacion: "PS3DesencriptarISOS", comentario: "Con este programa podemos desencriptar las ISOS que descarguemos desde internet" },
+		{ nombre: "Flash Player Store PS3", ubicacion: "FlashPlayerStorePS3", comentario: "Una pequeña tienda interna de juegos en Flash Player para nuestra consola PS3" },
+		{ nombre: "Link de WEB desde Red", ubicacion: "LinkWEBRED", comentario: "Podemos tener accesos rápido desde el menú de red de nuestra consola a nuestra WEB más rápido" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
 	PSVita: [

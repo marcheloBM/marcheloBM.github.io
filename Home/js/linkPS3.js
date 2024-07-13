@@ -69,7 +69,14 @@ function CobraODEGenPS3iso(){verificarSesionYAbrirEnlace("https://mega.nz/folder
 function PS3DiscDumper(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iMwGXb4B#f-AfTqw0UVkBUtoAWsmV1A");}
 function PS3exFATNTFS(){verificarSesionYAbrirEnlace("https://mega.nz/folder/HIADQBqb#BDuCBkONDVuMtftziO4NnA");}
 
-
+function Coldboot(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jUwlEQpR#XkZmGgIUiYaCe87Hag_gwg");}
+function ColdbootWeb(){verificarSesionYAbrirEnlace("https://github.com/PS3Xploit/coldboot-installer");}
+function PS3DesencriptarISOS(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6YxQWDwA#kNvjRpGL-oqsXdCZ5Dg6hQ");}
+function PS3DesencriptarISOSWeb(){verificarSesionYAbrirEnlace("https://myrient.erista.me/files/Redump/");}
+function FlashPlayerStorePS3(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OAoAEAgJ#G8E1Xt4hVlfLVedy12Hnqg");}
+function FlashPlayerStorePS3Web(){verificarSesionYAbrirEnlace("https://github.com/DropSonic0/Flash-Player-PS3-Store/releases");}
+function LinkWEBRED(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eYBgHKCD#2RDAmoep5nkZHaIOpakdLw");}
+function LinkWEBREDWeb(){verificarSesionYAbrirEnlace("https://marchelobm.github.io/PS3/PS3.html");}
 
 
 function nombre(){verificarSesionYAbrirEnlace("");}
