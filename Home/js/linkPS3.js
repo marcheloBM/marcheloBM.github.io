@@ -12,6 +12,8 @@ function Licencias(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6QozRYq
 function IRISMAN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/PEYW3LhS#mFufHxj9rb9k7MF_kdg9mA");}
 function IRISMANWeb(){verificarSesionYAbrirEnlace("https://github.com/aldostools/IRISMAN/releases");}
 function MOVIAN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nBIQEIzL#IvDklKflDgVj2kldqzbesA");}
+function MOVIANDesWeb(){verificarSesionYAbrirEnlace("https://store.brewology.com/ahomebrew.php?brewid=196");}
+function MOVIANOffWeb(){verificarSesionYAbrirEnlace("https://apps.movian.eu/");}
 function ManaGunZ(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KUp11bxY#Q5cTecf7x57ancK1vH42zA");}
 function ManaGunZWeb(){verificarSesionYAbrirEnlace("https://github.com/Zarh/ManaGunZ/releases");}
 function Plex(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XURlGTIZ#WwcaFj-JZ_D63zJstKbjHA");}
@@ -43,7 +45,7 @@ function VIDEOSTOREWeb(){verificarSesionYAbrirEnlace("https://github.com/Videoga
 function WIKISTORE(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CJ4SnZ6I#_EyMFwtC_24jzMuzaWu95A");}
 function WIKISTOREWeb(){verificarSesionYAbrirEnlace("https://github.com/TheWizWikii/WIKISTORE-PSN-EDITION/releases");}
 function WebStore(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KEZ1RYSC#vniQyPWkPPLruE6bYL2URQ");}
-function PACKAVATARES(){verificarSesionYAbrirEnlace("https://mega.nz/file/WYpw2TpD#iL8hIlWOiNfdBX4g0_E0190-Q5UZC2Sbn-MXoSfvrG4");}
+function PACKAVATARES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XcZCETID#xYf6G4HJRKNSusD_TbYftg");}
 function Caratulas(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yZhmHARA#bFmaW_cFtuQSRBWMwqyq4Q");}
 function PkgView(){verificarSesionYAbrirEnlace("https://mega.nz/folder/ncxhTIZI#ya-P21pkwyJkWDq0F-7zdg");}
 function PkgViewWEB(){verificarSesionYAbrirEnlace("https://github.com/ifcaro/PkgView");}
@@ -67,6 +69,7 @@ function APP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nBR0UZgY#kdeT
 function WebOffline(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GRQiEbJA#74M-ajJ1DQHew5tz-BjB6Q");}
 function CobraODEGenPS3iso(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WZwGUY7I#OzrgUUWPAqkzPqzeqr3jUw");}
 function PS3DiscDumper(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iMwGXb4B#f-AfTqw0UVkBUtoAWsmV1A");}
+function PS3DiscDumperWeb(){verificarSesionYAbrirEnlace("https://github.com/13xforever/ps3-disc-dumper/releases");}
 function PS3exFATNTFS(){verificarSesionYAbrirEnlace("https://mega.nz/folder/HIADQBqb#BDuCBkONDVuMtftziO4NnA");}
 
 function Coldboot(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jUwlEQpR#XkZmGgIUiYaCe87Hag_gwg");}

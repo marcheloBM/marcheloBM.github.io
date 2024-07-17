@@ -1,3 +1,5 @@
+-v1.63 Cambios Tutoriales
+	Se modifico algunos tutorial de PS3 y PC
 -v1.62 Nuevos Tutoriales/PS3
 	Se agrego nuevos tutorial de PS3
 -v1.61 Cambios en los tutorial PSP
