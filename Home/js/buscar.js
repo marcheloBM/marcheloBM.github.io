@@ -103,7 +103,19 @@ const contenidoPorCategoria = {
 		{ nombre: "Coldboot (Logotipo de Inicio)", ubicacion: "Coldboot", comentario: "Crear Coldboot (Logotipo de Inicio) personalizados con las imágenes que más te gusten." },
 		{ nombre: "PS3 Desencriptar ISOS", ubicacion: "PS3DesencriptarISOS", comentario: "Con este programa podemos desencriptar las ISOS que descarguemos desde internet" },
 		{ nombre: "Flash Player Store PS3", ubicacion: "FlashPlayerStorePS3", comentario: "Una pequeña tienda interna de juegos en Flash Player para nuestra consola PS3" },
-		{ nombre: "Link de WEB desde Red", ubicacion: "LinkWEBRED", comentario: "Podemos tener accesos rápido desde el menú de red de nuestra consola a nuestra WEB más rápido" }
+		{ nombre: "Link de WEB desde Red", ubicacion: "LinkWEBRED", comentario: "Podemos tener accesos rápido desde el menú de red de nuestra consola a nuestra WEB más rápido" },
+		{ nombre: "Logos HEN", ubicacion: "PS3LogosHen", comentario: "Todos los logos de Hen en nuestra consola PS3para colocar el que mas guste a nuestro gusto" },
+		{ nombre: "Temas WEB", ubicacion: "PS3TemasWEB", comentario: "Podemos descargar los temas directamente desde una WEB y instalarlo en nuestra consola " },
+		{ nombre: "Monstruoso T-PACK", ubicacion: "PS3MonstruosoTPACK", comentario: "Este Pack contiene logos para PSN, Logos para la cuenta del usuario y temas para instalar" },
+		{ nombre: "PS3 EXTRA MODS", ubicacion: "PS3ExtraMods", comentario: "Contiene logos de inicio y PSN, fuentes, colboot y apply ware para nuestra consola todo en una ISO para montar " },
+		{ nombre: "prepISO PS3", ubicacion: "PS3prepISO", comentario: "una mejor forma de instalar juegos de mas de 4GB en unidades NTFS o exFAT " },
+		{ nombre: "PS3 Ezremote Client", ubicacion: "PS3ezremoteClient", comentario: "Esta aplicación es un administrador de archivos para nuestra consola, pero super potente" },
+		{ nombre: "PS3 Toolset", ubicacion: "PS3Toolset", comentario: "PS3 Toolset - Theme Builder es el único software que te permite agregar sonidos personalizados a tus temas, con soporte completo para todos los íconos, fondos, punteros y más." },
+		{ nombre: "PSN Icons", ubicacion: "PSNicons", comentario: "Podemos personalizar nuestros iconos de PSN desde un disco en nuestra consola" },
+		{ nombre: "PS3netsrv Android", ubicacion: "PS3netsrvAndroid", comentario: "Con esta APP para Android nos permite transmitir las imágenes ISO desde nuestro celular hacia la consola" },
+		{ nombre: "webMAN PS2CONFIG", ubicacion: "webMANPS2CONFIG", comentario: "configuración para nuestros juegos de PS2 si algunos se bloquean o tienes algunos problemas" },
+		{ nombre: "Iconos Diferentes", ubicacion: "IconosDirefentes", comentario: "Para darle un nuevo estilo a nuestras aplicaciones un pequeño cambio para Apollo, Artemis, Filemanager, WebMan y SmAn" },
+		{ nombre: "Compatible con CFW", ubicacion: "PS3CompatibleCFW", comentario: "PS3 es Compatible con el NUEVO CFW Evilnat 4.91" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
 	PSVita: [

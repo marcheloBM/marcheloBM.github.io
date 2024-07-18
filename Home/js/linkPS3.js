@@ -71,7 +71,6 @@ function CobraODEGenPS3iso(){verificarSesionYAbrirEnlace("https://mega.nz/folder
 function PS3DiscDumper(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iMwGXb4B#f-AfTqw0UVkBUtoAWsmV1A");}
 function PS3DiscDumperWeb(){verificarSesionYAbrirEnlace("https://github.com/13xforever/ps3-disc-dumper/releases");}
 function PS3exFATNTFS(){verificarSesionYAbrirEnlace("https://mega.nz/folder/HIADQBqb#BDuCBkONDVuMtftziO4NnA");}
-
 function Coldboot(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jUwlEQpR#XkZmGgIUiYaCe87Hag_gwg");}
 function ColdbootWeb(){verificarSesionYAbrirEnlace("https://github.com/PS3Xploit/coldboot-installer");}
 function PS3DesencriptarISOS(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6YxQWDwA#kNvjRpGL-oqsXdCZ5Dg6hQ");}
@@ -80,7 +79,25 @@ function FlashPlayerStorePS3(){verificarSesionYAbrirEnlace("https://mega.nz/fold
 function FlashPlayerStorePS3Web(){verificarSesionYAbrirEnlace("https://github.com/DropSonic0/Flash-Player-PS3-Store/releases");}
 function LinkWEBRED(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eYBgHKCD#2RDAmoep5nkZHaIOpakdLw");}
 function LinkWEBREDWeb(){verificarSesionYAbrirEnlace("https://marchelobm.github.io/PS3/PS3.html");}
-
+function LogosHen(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TdwllaxJ#dF8UMSAmPRZnKi0Iytnj2g");}
+function PS3TemasWeb(){verificarSesionYAbrirEnlace("http://www.ps3-themes.com/");}
+function MonstrTPACK(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mdoQWbQC#jOTE1S0RpRj0I5OQ2ynysA");}
+function PS3ExtraMods(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vUoSRSZA#YletiHsDaEb0hoSLXM7rCQ");}
+function prepISO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OYhlXSCJ#ZOxZX2BmTbKYu83ym542Xg");}
+function prepISOWeb(){verificarSesionYAbrirEnlace("https://github.com/aldostools/webMAN-MOD/releases");}
+function PS3ezremoteclient(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iRRzyLjR#Xe0Z5y-U3VhU4STuku0skQ");}
+function PS3ezremoteclientWeb(){verificarSesionYAbrirEnlace("https://github.com/cy33hc/ps3-ezremote-client/releases");}
+function PS3Toolset(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CN52QDaT#zo0etsqcGhNKDqkziMQdCw");}
+function PS3ToolsetWeb(){verificarSesionYAbrirEnlace("https://x.com/SAandTech ");}
+function PSNIcons(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eIwnALYa#XyBpHGJAPLKzxit9PeP0HQ");}
+function PSNIconsWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/psn-icons-collection-disc-iso-tools-batch-ps3-extra.9841/");}
+function PS3netsrvAndroid(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2AJwkLrK#NUXHh2HDb6RIdIk_w_IAJw");}
+function PS3netsrvAndroidWeb(){verificarSesionYAbrirEnlace("https://github.com/jhonathanc/ps3netsrv-android/releases");}
+function PS2CONFIG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eAhQ1LYZ#cHWKEXxL0DaERJBopqppTQ");}
+function PS2CONFIGWeb(){verificarSesionYAbrirEnlace("https://github.com/aldostools/webMAN-MOD/releases");}
+function IconDifer(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7FQiRAKC#iAfWw433emWxKDmCV388jQ");}
+function IconDiferWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/custom-xmb-icon0-pic0-for-various-ps3-apps.40454/#post-363989");}
+function UpCompCFW(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iBB3gY4I#86ytpDi_j0GSNkqxKuNPVQ");}
 
 function nombre(){verificarSesionYAbrirEnlace("");}
 function Web(){verificarSesionYAbrirEnlace("");}
