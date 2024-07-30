@@ -24,7 +24,8 @@ function PGEN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yNRBjZCT#7M7
 function Rockstar(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aQJwVCZI#jD-zCVK20Gcm2xvaFbBWbA");}
 function CTManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vBgxAQbb#eU8urXumQwFO15gf-AiVbQ");}
 
-
+function UX0toSD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mBpRkA5B#mMI5Oygy_ydWPGX2LPE6QA");}
+function rinnegatWeb(){verificarSesionYAbrirEnlace("https://www.rinnegatamante.eu/vitadb/#/");}
 
 
 

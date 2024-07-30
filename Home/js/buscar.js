@@ -120,7 +120,9 @@ const contenidoPorCategoria = {
     ],
 	PSVita: [
 		{ nombre: "Seleccionar", ubicacion: "PSVitaTutorial", comentario: "Elija una opción" },
-        { nombre: "nombre", ubicacion: "URLPSVita", comentario: "ComentarioPSVita" }
+        { nombre: "Liberar PSVITA Versión 3.74", ubicacion: "LiberarPSVITA", comentario: "Liberar PSVita para poder instalar todos lo programas y juegos gratis" },
+		{ nombre: "Liberar PSVITA Sin PC", ubicacion: "LiberarPSVITASinPC", comentario: "Ahora podemos liberar nuestra consola PSVita sin la necesidad de un computador solo con internet" },
+		{ nombre: "Sd2vita", ubicacion: "Sd2vita", comentario: "Para poder configurar una tarjeta microSD en nuestra consola PSVita" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [

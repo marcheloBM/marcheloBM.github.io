@@ -1,0 +1,345 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Sd2vita</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPSVita.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Sd2vita</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Para poder configurar una tarjeta microSD en nuestra consola PSVita</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PSVita/Sd2vita.jpg" alt="Imagen No Disponible" /></span>
+
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>PC o Notebook con Windows 7, 8, 8.1, 10</li>
+                                                <li>Para descomprimir archivos <a href="../../ProgramasWindows.html#Compri"> .rar o .zip</a> </li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <a name="Sd2vi" id="Sd2vi"></a>
+											<div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>Sd2vita</td>
+                                                            <td><a onclick="Sd2vita()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>UX0toSD</td>
+                                                            <td><a onclick="UX0toSD()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>WEB Oficial</td>
+                                                            <td><a onclick="rinnegatWeb()">rinnegatamante.eu</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                            <!--<ol>
+                                                <li>.rar <a href="../../Consolas/PSP.html#FunTuna"> FunTuna</a></li>
+                                            </ol>-->
+                                        </div>
+                                    </div>
+
+                                    <hr class="major" />
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+											<p>Empezando este Tutorial </p>
+											<ol>
+												<li>Descargamos los archivos</li>
+												<ul>
+													<li>Descomprimimos los archivos .rar o .zip</li>
+													<ul>
+														<li>win32diskimager-1.0.0-install.exe</li>
+														<li>zzBlank.img</li>
+														<li>UX0toSD.vpk (Otro método)</li>
+													</ul>
+													<li>Con la última versión disponible </li>
+													<li>Una vez descargado nuestro archivo</li>
+												</ul>
+											</ol>
+										</div>
+									</div>
+
+									<div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+											<p>Lo extraemos y ejecutamos</p>
+											<div class="table-wrapper">
+												<ol>
+													<li>Para empezar, este tutorial está pensado para tarjetas SD superior a 128GB que la consola no la reconoce</li>
+													<ul>
+														<li>Bueno para empezar instalamos <b>win32diskimager-1.0.0-install.exe</b> en nuestra computadora </li>
+													</ul>
+													<li>Cuando tengamos instalado el programa conectamos la memoria SD a nuestro computador </li>
+													<ul>
+														<li>Como sugerencia debemos formatear nuestra memoria en <b>FAT32</b> si es pequeña o en <b>exFAT</b> para las mas grande de preferencia en <b>exFAT</b></li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													</ul>
+													<li>Después abrimos el programa <b>Win32DiskImager</b> y configuramos de la siguiente manera </li>
+													<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<ul>
+														<li>Seleccionamos la imagen <b>zzBlank.img</b> y la unidad Miscro SD y después le damos a <b>Write</b></li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita03.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Después nos sale una alerta y le decimos que <b>YES</b></li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita04.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													</ul>
+													<li>Después de tener lista nuestra memoria la desconectamos de nuestra PC y la volvemos a conectar </li>
+													<li>Nos mostrar un mensaje para formatear la memoria y le damos a <b>Formatear disco</b></li>
+													<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita05.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<ul>
+														<li>Si estamos usando una memoria de 0 a 128GB </li>
+														<ol>
+															<li>Sistema de archivos lo dejamos <b>exFAT</b> y el tamaño en <b>Tamaño de asignación predeterminado</b> </li>
+														</ol>
+														<li>Si estamos usando una memoria mayor de 128GB</li>
+														<ol>
+															<li>Sistema de archivos lo dejamos <b>exFAT</b> y el tamaño en <b>64 kilobytes</b></li>
+														</ol>
+														<li>Y lo formateamos </li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita06.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													</ul>
+													<li>Y ahora vamos a nuestra PSVita </li>
+													<ul>
+														<li>Y abrimos <b>VitaShell</b> y le damos a <img src="../../images/ControlSony/Select.jpg" width=20 height=20 alt="Imagen No Disponible" /> para conectarla a nuestra computadora por cable para pasar la información de nuestra memoria de la consola</li>
+													</ul>
+													<li>Para poder visualizar todas las carpetas vamos a </li>
+													<ul>
+														<li>Para Windows 10 vamos a <b>Vista/Opciones/Cambiar opciones de carpeta y Búsqueda</b> </li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita07.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Para Windows 11 vamos a <b>Opciones</b> </li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita08.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>En la venta de opciones de carpeta vamos a <b>Ver</b> y seleccionamos lo siguiente </li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita09.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<ol>
+															<li>Marcado: Mostrar archivos, carpetas y unidades ocultos </li>
+															<li>Desmarcado: Ocultar archivos protegidos del sistema operativo (Recomendado)</li>
+															<li>Desmarcado: Ocultar conflictos de combinación de carpetas</li>
+															<li>Desmarcado: Ocultar las extensiones de archivos para tipos de archivos conocidos </li>
+															<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita10.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														</ol>
+													</ul>
+													<li>Copiamos todo el contenido de nuestra memoria de la Consola a una carpeta de nuestro ordenador como por Ej: <b>Copia de seguridad PSVita</b></li>
+													<ul>
+														<li>Esto si queremos lo podemos guardar para un futuro, pero si descargamos mas aplicaciones o juegos esto no van a aparecer </li>
+													</ul>
+													<li>Ahora copiamos todo el contendí a nuestra nueva microSD y la conectamos a nuestro adaptador y vamos a nuestra PSVita </li>
+													<li>En nuestra PSVita Abrimos <b>AutoPlugin</b> </li>
+													<ul>
+														<li>Y nos vamos a <b>Plugins para PS Vita</b> y después a <b>Instalar Plugin SD2VITA</b> o en versiones más nuevas <b>Configura el Plugin para SD2VITA</b></li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita11.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Nos mostrara unas instrucciones a seguir cuando tengamos todo listo le damos a la <img src="../../images/ControlSony/equis.jpg" width=20 height=20 alt="Imagen No Disponible" /> </li>
+														<li>Y nos mostrar las opciones para configurar nuestra PSVita y lo dejamos igual que la imagen </li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita12.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Después de revisar le damos a <img src="../../images/ControlSony/Triangulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para <b>Guardar la actual configuración</b> y antes de darle <b>ok</b></li>
+														<li>Conectamos el adaptador a la consola y le damos a <b>ok</b> y esperamos que se reinicie </li>
+													</ul>
+													<li>Podemos volver a ver <b>VitaShell</b> para revisar la capacidad de la memoria</li>
+													<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita13.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Si queremos conectar nuestra PSVita a nuestro PC para pasarle juegos tenemos que cambiar la memoria seleccionada para que la nuestre nuestra consola</li>
+													<ul>
+														<li>Para esto vamos a <b>VitaShell</b> y le damos a <img src="../../images/ControlSony/Start.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+														<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita14.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>En <b>USB device</b> colocamos <b>sd2vita</b> para leer el adaptador SD2Vita y si queremos leer la memoria original de vita lo dejamos en <b>Memory Card</b></li>
+														<ol>
+															<li>Sd2vita (adaptador) es <b>ux0</b></li>
+															<li>Memory Card (Memoria Original) es <b>uma0</b></li>
+															<img src="../../images/Tutotiales/PSVita/Sd2vita/Sd2vita15.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														</ol>
+													</ul>
+													<li>Y listo </li>
+												</ol>
+											</div>
+										</div>
+										<div class="col-6 col-12-medium">
+											<p>El método para instalar una nueva microSD</p>
+											<div class="table-wrapper">
+												<ol>
+													<li>Este método se demora mucho es muy lento hay que tener</li>
+													<li>Instalamos la aplicación <b>UX0toSD</b> en nuestra consola </li>
+													<li>La memoria la formateamos en <b>FAT32</b> si es pequeña y en <b>exFAT</b> para las más grande, pero hay que probarlo no garantiza el su funcionamiento </li>
+													<li>Y la colocamos en nuestra consola e iniciamos nuestra aplicación en la consola </li>
+													<img src="../../images/Tutotiales/PSVita/LiberarPSVITASinPC/LiberarPSVITASinPC01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Nos pregunta donde copiaremos todo </li>
+													<img src="../../images/Tutotiales/PSVita/LiberarPSVITASinPC/LiberarPSVITASinPC02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y le damos a SD2VITA y después nos mostrara unas instrucciones y se reinicia la consola  </li>
+													<li>Abrimos de nuevo la aplicación <b>UX0 to SD CloneTool</b> y nos dirá que esto puede tomar un tiempo y le damos a la <img src="../../images/ControlSony/equis.jpg" width=20 height=20 alt="Imagen No Disponible" /> </li>
+													<li>Y empezara a copiar todo el contenido</li>
+													<img src="../../images/Tutotiales/PSVita/LiberarPSVITASinPC/LiberarPSVITASinPC03.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Una ves termine hay que tener paciencia es lento el proceso de copiado </li>
+													<li>Para revisar vamos a <b>VitaShell</b> para revisar la capacidad</li>
+													<li>Si queremos conectar nuestra PSVita a nuestro PC para pasarle juegos tenemos que cambiar la memoria seleccionada para que la nuestre nuestra consola </li>
+													<ul>
+														<li>Para esto vamos a <b>VitaShell</b> y le damos a <img src="../../images/ControlSony/Start.jpg" width=20 height=20 alt="Imagen No Disponible" /></li>
+														<img src="../../images/Tutotiales/PSVita/LiberarPSVITA/LiberarPSVITA14.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>En <b>USB device</b> colocamos <b>sd2vita</b> para leer el adaptador SD2Vita y si queremos leer la memoria original de vita lo dejamos en <b>Memory Card</b></li>
+														<ol>
+															<li>Sd2vita (adaptador) es <b>ux0</b></li>
+															<li>Memory Card (Memoria Original) es <b>uma0</b></li>
+															<img src="../../images/Tutotiales/PSVita/LiberarPSVITA/LiberarPSVITA15.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														</ol>
+													</ul>
+													<li>Y listo</li>
+												</ol>
+											</div>
+										</div>
+									</div>
+									
+                                    <hr class="major" />
+
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+
+								<!-- Login -->
+								<section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+
+									<div class="col-6 col-12-small">
+										<ul class="actions stacked">
+											<li id="usu"></li>
+											<!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+											<li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+										</ul>
+									</div>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+										<li><a href="../../Programas.html">Programas</a></li>
+										<!-- Menu Consola -->
+										<li><a href="PSPAgendaDigital.html">PSP Agenda Digital</a></li>
+									</ul>
+								</nav>
+
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="../../HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>
