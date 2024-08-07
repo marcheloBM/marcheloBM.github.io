@@ -2,6 +2,7 @@ function NanoHencore(){verificarSesionYAbrirEnlace("https://mega.nz/folder/rYY3X
 function QCMA(){verificarSesionYAbrirEnlace("https://mega.nz/folder/rQ5A0JoQ#i_uyaaB4jc0jeEW8viIsHw");}
 function Sd2vita(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OcpFXKLZ#vMma7tJShftbrZu5Cxmelw");}
 function ApolloSaveTool(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KMY1SaKD#A2kfuro4P1DSSRrHeSoLaA");}
+function ApolloSaveToolWeb(){verificarSesionYAbrirEnlace("https://github.com/bucanero/apollo-vita/releases");}
 function AutoPlugin2(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SUwhAZbI#pBsm_uWBZSU9M-k0BZewRw");}
 function enso365(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eBhGlA4C#dMNSFBprIEmiJfYm2BzQ9g");}
 function PlaystationMOBILE(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vQwkVCBD#CXqRMU-QTKzDL2XHv9DXVg");}
@@ -26,8 +27,8 @@ function CTManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vBgxAQb
 
 function UX0toSD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mBpRkA5B#mMI5Oygy_ydWPGX2LPE6QA");}
 function rinnegatWeb(){verificarSesionYAbrirEnlace("https://www.rinnegatamante.eu/vitadb/#/");}
-
-
+function TempAR(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GU4kyA7T#ciIpWwVpYumj2YWfRQyEdA");}
+function TempARWeb(){verificarSesionYAbrirEnlace("https://github.com/Yohoki/TempAR-Vita/releases");}
 
 function nombre(){verificarSesionYAbrirEnlace("");}
 function Web(){verificarSesionYAbrirEnlace("");}

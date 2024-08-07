@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>PSVita</title>
+		<title>Apollo Save Tool Vita</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../../assets/css/main.css" />
@@ -54,12 +54,12 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>PSVita</h1>
+										<h1>Apollo Save Tool Vita</h1>
 									</header>
 
 									<!-- Content -->
-										<p>Descripcion</p>
-                                    <span class="image main"><img src="../../images/Tutotiales/PSVita/LiberarPSVITA.jpg" alt="Imagen No Disponible" /></span>
+										<p>Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation Vita.</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PSVita/ApolloSaveTool.jpg" alt="Imagen No Disponible" /></span>
 
                                     <h2>Para esta Guia</h2>
                                     <div class="row gtr-200">
@@ -83,12 +83,12 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>Nombre</td>
-                                                            <td><a onclick="nombre()">Mega</a></td>
+															<td>Apollo Save Tool</td>
+                                                            <td><a onclick="ApolloSaveTool()">Mega</a></td>
 														</tr>
 														<tr>
 															<td>WEB Oficial</td>
-                                                            <td><a onclick="Web()">github.com</a></td>
+                                                            <td><a onclick="ApolloSaveToolWeb()">github.com</a></td>
 														</tr>
 													</tfoot>
 												</table>
@@ -108,7 +108,7 @@
 												<ul>
 													<li>Descomprimimos los archivos .rar o .zip</li>
 													<ul>
-														<li>i.	Nombrev?.??</li>
+														<li>apollo Save Tool v?.??.vpk</li>
 													</ul>
 													<li>Con la última versión disponible </li>
 													<li>Una vez descargado nuestro archivo</li>
@@ -122,31 +122,85 @@
 												</ul>
 												<li>Buscamos la nueva Burbuja de nuestra aplicación </li>
 												<ul>
-													<li>a.	Abrimos</li>
+													<li>Abrimos Apollo Save Tool para poder usar sus funciones </li>
+													<img src="../../images/Tutotiales/PSVita/ApolloSaveTool/ApolloSaveTool01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Ahora tenemos algunas funciones para ir probando y testeando </li>
+													<img src="../../images/Tutotiales/PSVita/ApolloSaveTool/ApolloSaveTool02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<ol>
+														<li><b>Trophies</b>: Todos los trofeos de nuestros juegos</li>
+														<li><b>Ext Saves</b>: los SaveDatas que le pasemos a nuestra consola </li>
+														<li><b>Int Saves</b>: los SaveData de nuestra consola </li>
+														<li><b>OnLine DB</b>: una base de datos en línea para poder descargar SAVEDATA</li>
+														<li><b>Tools</b>: algunas herramientas para poder usar en nuestra consola </li>
+														<li><b>Settings</b>: algunas configuraciones para la aplicación </li>
+														<li><b>About</b>: información de los creadores de esta aplicación </li>
+													</ol>
+													<li>Datos de las ubicaciones</li>
+													<h4>Play Station Vita</h4>
+													<div class="table-wrapper">
+														<table class="alt">
+															<thead>
+																<tr>
+																	<th>Play Station Vita</th>
+																	<th>Carpeta</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td><b>El almacenamiento externo guarda</b></td>
+																	<td>Tus partidas guardadas deben almacenarse en <code>(uma0/imc0/xmc0/ux0):data/savegames/</code>.</td>
+																</tr>
+																<tr>
+																	<td><b>El almacenamiento del usuario guarda</b></td>
+																	<td>Los juegos guardados se escanearán desde <code>ux0:user/00/savedata/</code>.</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+													<h4>PSP</h4>
+													<div class="table-wrapper">
+														<table class="alt">
+															<thead>
+																<tr>
+																	<th>PSP</th>
+																	<th>Carpeta</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td><b>El almacenamiento externo guarda</b></td>
+																	<td>Tus partidas guardadas deben almacenarse en <code>(uma0/imc0/xmc0/ux0):data/savegames/</code>.</td>
+																</tr>
+																<tr>
+																	<td><b>El almacenamiento del usuario guarda</b></td>
+																	<td>Los juegos guardados se escanearán desde <code>ux0:pspemu/PSP/SAVEDATA/</code>.</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+													<h4>PS1</h4>
+													<div class="table-wrapper">
+														<table class="alt">
+															<thead>
+																<tr>
+																	<th>PS1</th>
+																	<th>Carpeta</th>
+																</tr>
+															</thead>
+															<tbody>
+																<tr>
+																	<td><b>Guardados externos</b></td>
+																	<td>Tus partidas guardadas deben almacenarse en <code>(uma0/imc0/xmc0/ux0):data/PS1/SAVEDATA/</code>.</td>
+																</tr>
+																<tr>
+																	<td><b>Tarjetas de memoria virtuales</b></td>
+																	<td>Las imágenes VMC se escanearán desde <code>(uma0/imc0/xmc0/ux0):data/PS1/VMC/</code>.</td>
+																</tr>
+															</tbody>
+														</table>
+													</div>
+													<li>Y listo a probar solamente </li>
 												</ul>
-
-											
-
-
-
-
-
-
-
-
-
-
-												
-
-                                                <li>abriremos <a href="PS2FreeDVDBoot.html#ProFT">UltraISO</a> consola.</li>
-                                                <ul>
-                                                    <li>Una vez listo lo colocamos en nuestra consola desbloqueada pero no cerramos la tapa.</li>
-                                                </ul>
-                                                <img src="../../images/Tutotiales/PSVita/LiberarPSVITA.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
-												<li>Le damos al <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> a FileBrowser</li>
-												<li>Presionamos <img src="../../images/ControlSony/R1.jpg" width=40 height=20 alt="Imagen No Disponible" /> y le damas a Copy</li>
-												<li>Con <img src="../../images/ControlSony/Triangulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para ir hacia atrás y vamos a MC0:/ con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" />circulo  <img src="../../images/ControlSony/Start.jpg" width=40 height=20 alt="Imagen No Disponible" /></li>
-                                                
                                             </ol>
 									</div>
 

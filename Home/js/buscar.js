@@ -122,7 +122,10 @@ const contenidoPorCategoria = {
 		{ nombre: "Seleccionar", ubicacion: "PSVitaTutorial", comentario: "Elija una opción" },
         { nombre: "Liberar PSVITA Versión 3.74", ubicacion: "LiberarPSVITA", comentario: "Liberar PSVita para poder instalar todos lo programas y juegos gratis" },
 		{ nombre: "Liberar PSVITA Sin PC", ubicacion: "LiberarPSVITASinPC", comentario: "Ahora podemos liberar nuestra consola PSVita sin la necesidad de un computador solo con internet" },
-		{ nombre: "Sd2vita", ubicacion: "Sd2vita", comentario: "Para poder configurar una tarjeta microSD en nuestra consola PSVita" }
+		{ nombre: "Sd2vita", ubicacion: "Sd2vita", comentario: "Para poder configurar una tarjeta microSD en nuestra consola PSVita" },
+		{ nombre: "AutoPlugin 2", ubicacion: "AutoPlugin2", comentario: "Autoplugin para PSVITA es una herramienta hombrew que te permite instalar o desinstalar los siguientes complementos y plugins con un solo clic (en ux0 o ur0 o ur0 para SD2VITA)." },
+		{ nombre: "Trucos para PSVita", ubicacion: "TrucosPSVita", comentario: "Activar Trucos en Juegos para PSVITA con un solo plugin en nuestra consola." },
+		{ nombre: "Apollo Save Tool Vita", ubicacion: "ApolloSaveToolVita", comentario: "Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation Vita." }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [

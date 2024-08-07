@@ -1,3 +1,5 @@
+-v1.66 Nuevos Tutoriales/PSVita
+	Se agrego nuevos tutorial de PSVita ApolloSaveToolVita-AutoPlugin2-TrucosPSVita
 -v1.65 Nuevos Tutoriales/PSVita
 	Se agrego nuevos tutorial de PSVita
 -v1.64 Nuevos Tutoriales/PS3
