@@ -1,0 +1,272 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>MarchBMPC Registrar</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="js/InfoWebMenu.js"></script>
+        <!-- Login -->
+        <script src="js/loginR.js"></script>
+		<script>
+            window.onload = cargarInfoContacto;
+        </script>
+		<style>
+			.custom-select-wrapper {
+				display: flex;
+				align-items: center;
+				width: 500px;
+			}
+			.custom-select {
+				flex: 1;
+				padding: 8px;
+				box-sizing: border-box;
+			}
+			#manual-country {
+				display: none; /* Initially hidden */
+				padding: 8px;
+				box-sizing: border-box;
+				margin-left: 8px; /* Space between select and input */
+				flex: 1;
+			}
+			.manual-mode {
+				display: block; /* Show manual input in manual mode */
+			}
+			.select-mode {
+				display: block; /* Show select in normal mode */
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Registrar</h1>
+									</header>
+                                    <!-- Form -->
+                                    <h3>Datos para Registar</h3>
+                                    <form id="loginRegisForm">
+                                        <div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+                                                <input type="text" name="demo-usuario" id="demo-usuario" value="" placeholder="Usuario" required />
+                                            </div>
+                                            <div class="col-6 col-12-xsmall">
+                                                <input type="password" name="demo-password" id="demo-password" value="" placeholder="Password" required />
+                                            </div>
+											<div class="col-6 col-12-xsmall">
+                                                <input type="text" name="demo-name" id="demo-nombre" value="" placeholder="Nombre" required />
+                                            </div>
+											<div class="col-6 col-12-xsmall">
+                                                <input type="text" name="demo-apellido" id="demo-apellido" value="" placeholder="Apellido" required />
+                                            </div>
+											<div class="col-6 col-12-xsmall">
+                                                <!--<input type="text" name="demo-pais" id="demo-pais" value="" placeholder="Pais" required />-->
+												<div class="custom-select-wrapper">
+													<select name="country" id="country" class="custom-select select-mode" required>
+														<option value="">- Select Country -</option>
+														<!-- América Latina -->
+														<option value="Argentina">Argentina</option>
+														<option value="Bolivia">Bolivia</option>
+														<option value="Chile">Chile</option>
+														<option value="Colombia">Colombia</option>
+														<option value="Costa Rica">Costa Rica</option>
+														<option value="Cuba">Cuba</option>
+														<option value="Dominican Republic">Dominican Republic</option>
+														<option value="Ecuador">Ecuador</option>
+														<option value="El Salvador">El Salvador</option>
+														<option value="Equatorial Guinea">Equatorial Guinea</option>
+														<option value="Guatemala">Guatemala</option>
+														<option value="Honduras">Honduras</option>
+														<option value="Mexico">Mexico</option>
+														<option value="Nicaragua">Nicaragua</option>
+														<option value="Panama">Panama</option>
+														<option value="Paraguay">Paraguay</option>
+														<option value="Peru">Peru</option>
+														<option value="Puerto Rico">Puerto Rico</option>
+														<option value="Suriname">Suriname</option>
+														<option value="Uruguay">Uruguay</option>
+														<option value="Venezuela">Venezuela</option>
+														<!-- Otros continentes -->
+														<option value="España">España</option>
+														<option value="Estados Unidos">Estados Unidos</option>
+														<!-- Opción para ingresar manualmente -->
+														<option value="manual">Otro (ingresar manualmente)</option>
+													</select>
+													<input type="text" name="manual-country" id="manual-country" placeholder="Ingrese el País Manualmente" style="display: none;">
+												</div>
+                                            </div>
+											<div class="col-6 col-12-xsmall">
+                                            </div>
+											<div class="col-6 col-12-xsmall">
+                                                <input type="text" name="demo-celular" id="demo-celular" value="" placeholder="Celular" required />
+                                            </div>
+											<div class="col-6 col-12-xsmall">
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" required />
+											</div>
+
+                                            <!-- Break -->
+                                            <div class="col-12">
+                                                <ul class="actions fit">
+													<li><button onclick="datos()" class="button primary fit">Registar</button></li>
+                                                    <li><a onclick="Whatsapp()" href="#" class="button fit" target="_blank">Solicitar Ayuda</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </form>
+
+									<div id="mensaje"></div>
+									<div id="datosUsuario"></div>
+
+                                    <span class="image main"><img src="images/login.jpg" alt="" /></span>
+									<p>El Login de nuestra página podrá acceso a todos nuestros tutoriales y más para poder realizar sus protios proyectos personales o de emprendimientos personales</p>
+
+
+									<!--<hr class="major" />-->
+
+								</section>
+
+						</div>
+					</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Barra de Busqueda -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Nuestros Servicios</h2>
+									</header>
+									<div class="mini-posts">
+										<article>
+											<a href="#" class="image"><img src="images/InfoEquipo.jpg" alt="" /></a>
+											<p>Todo lo que necesite para su PC o notebook a nivel de software o hardware para su equipo.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/InfoDiseño.jpg" alt="" /></a>
+											<p>Diseños de Páginas WEB o Aplicaciones para sus proyectos personales o laborales.</p>
+										</article>
+										<article>
+											<a href="#" class="image"><img src="images/InfoConsolas.jpg" alt="" /></a>
+											<p>Toda la ayuda posible para sus consolas desde una limpieza completa o ayuda para desbloquear su consola si se encuentra en las versiones disponibles..</p>
+										</article>
+									</div>
+								</section>
+
+								<!-- Section -->
+									<section>
+										<header class="major">
+											<h2>Ponerse en contacto</h2>
+										</header>
+										<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+										<ul class="contact">
+											<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+											<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+											<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
+										</ul>
+									</section>
+
+								<!-- Footer -->
+									<footer id="footer">
+										<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
+									</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+			<!--Para la encriptacion-->
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/jsSHA/2.4.0/sha.js"></script>
+
+			<script>
+				document.getElementById('demo-celular').addEventListener('input', function(event) {
+					// Obtén el valor del campo
+					let value = event.target.value;
+		
+					// Expresión regular para validar el formato +1234567890
+					const regex = /^\+?[0-9]*$/;
+		
+					// Si el valor no coincide con el formato, elimina los caracteres no permitidos
+					if (!regex.test(value)) {
+						event.target.value = value.replace(/[^0-9\+]/g, '');
+					}
+		
+					// Si el valor empieza con un +, asegúrate de que solo contenga números después
+					if (value.startsWith('+')) {
+						event.target.value = '+' + value.slice(1).replace(/[^0-9]/g, '');
+					}
+				});
+
+				const select = document.getElementById('country');
+				const manualInput = document.getElementById('manual-country');
+
+				select.addEventListener('change', function() {
+					if (this.value === 'manual') {
+						manualInput.style.display = 'block';
+						manualInput.focus();
+						this.classList.remove('select-mode');
+						manualInput.classList.add('manual-mode');
+					} else {
+						manualInput.style.display = 'none';
+						this.classList.add('select-mode');
+						manualInput.classList.remove('manual-mode');
+					}
+				});
+
+				manualInput.addEventListener('blur', function() {
+					if (!manualInput.value.trim()) {
+						select.classList.add('select-mode');
+						manualInput.classList.remove('manual-mode');
+					}
+				});
+			</script>
+	</body>
+</html>

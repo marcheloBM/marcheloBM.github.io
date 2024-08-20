@@ -2,11 +2,11 @@ function datos() {
     document.getElementById("loginForm").addEventListener("submit", function(event) {
         event.preventDefault(); // Evitar que el formulario se envíe automáticamente
 
-        var rut = document.getElementById("demo-rut").value;
+        var usuario = document.getElementById("demo-usuario").value;
         var password = document.getElementById("demo-password").value;
 
-        // Validar que el RUT y la contraseña no estén vacíos
-        if (rut.trim() === '' || password.trim() === '') {
+        // Validar que el usuario y la contraseña no estén vacíos
+        if (usuario.trim() === '' || password.trim() === '') {
             document.getElementById('mensaje').innerHTML = 'Por favor, completa todos los campos.';
             return; // Detener el proceso de inicio de sesión si hay campos vacíos
         }
@@ -15,11 +15,11 @@ function datos() {
         var passwordSha1 = sha1(password);
 
         // Si los datos son válidos, enviar la solicitud al servidor
-        enviarSolicitud(rut, passwordSha1);
+        enviarSolicitud(usuario, passwordSha1);
     });
 
-    function enviarSolicitud(rut, password) {
-        fetch('https://marchebm.000webhostapp.com/ws/jsonBuscar.php?rut=' + rut + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
+    function enviarSolicitud(usuario, password) {
+        fetch('https://marchebm.000webhostapp.com/wsLogin/json.php?usuario=' + usuario + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
         .then(response => {
             if (!response.ok) {
                 throw new Error('No se pudo iniciar sesión. Por favor, verifica tus credenciales.');
@@ -36,14 +36,15 @@ function datos() {
                 // Procesar los datos y mostrarlos en la página
                 const usuarios = data; // Array de objetos de usuario
                 usuarios.forEach(usuario => {
-                  //sessionStorage.setItem("rut", usuarios.rut);
-                  sessionStorage.rut=usuario.rut;
-                  sessionStorage.nombre=usuario.nombre;
-                  sessionStorage.apellido=usuario.apellido;
-                  sessionStorage.tipousuario=usuario.tipousuario;
+                sessionStorage.usuario=usuario.usuario;
+                sessionStorage.nombre=usuario.nombre;
+                sessionStorage.apellido=usuario.apellido;
+
+                //console.log(id,fecha,useragent);
                 });
-                //alert("oki");
+                
                 window.location.href='Home.html';
+                
                 //window.history.back();
                 //console.log("Hay una sesión activa ");
 
@@ -67,7 +68,7 @@ function datos() {
 }
 //cagar los botonoes de inicio y cerrar sesión
 function cargarBoton(){
-var dato1 = sessionStorage.rut;
+var dato1 = sessionStorage.usuario;
 var dato2 = sessionStorage.nombre;
 var dato3 = sessionStorage.apellido;
     //alert(dato1);

@@ -1,3 +1,5 @@
+-v1.67 Nuevo Login
+	Se cambio el login por un registro nuevo y session para los nuevos usuarios sin rut vigente
 -v1.66 Nuevos Tutoriales/PSVita
 	Se agrego nuevos tutorial de PSVita ApolloSaveToolVita-AutoPlugin2-TrucosPSVita
 -v1.65 Nuevos Tutoriales/PSVita

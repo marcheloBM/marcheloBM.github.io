@@ -113,8 +113,6 @@ function AdobeDreamweaver(){verificarSesionYAbrirEnlace("https://mega.nz/folder/
 function AdobeDreamweaverWeb(){verificarSesionYAbrirEnlace("https://www.adobe.com/cl/products/dreamweaver.html");}
 function AndroidStudio(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bQBAzBKb#-PSk1EOl1q9spYTLYtq56Q");}
 function AndroidStudioWeb(){verificarSesionYAbrirEnlace("https://developer.android.com/studio");}
-function Atom(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zcRkEaTL#YPveb-Uos10SGnrilPVjNg");}
-function AtomWeb(){verificarSesionYAbrirEnlace("https://atom.io/");}
 function FileZilla(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mYBjHYQK#pcLiJemv3EN_1ON0OToT4g");}
 function FileZillaWeb(){verificarSesionYAbrirEnlace("https://filezilla-project.org/download.php");}
 function Fork(){verificarSesionYAbrirEnlace("https://mega.nz/folder/rARBiR4A#dMasu3KrLJua9dldXcF7Fg");}
