@@ -134,7 +134,11 @@ const contenidoPorCategoria = {
 		{ nombre: "Adrenaline Bubble Manager", ubicacion: "AdrenalineBubbleManager", comentario: "Esta útil aplicación te permite realizar burbujas personalizadas con 'icono' y 'título' de tu contenido de PSP (HBS/PSX/ISO/CSO) de forma rápida y sencilla" },
 		{ nombre: "Vita Tester", ubicacion: "VitaTester", comentario: "Podemos testear los botones de nuestra consola para revisar el funcionamiento de cada botón y táctil " },
 		{ nombre: "PSVident", ubicacion: "PSVident", comentario: "Podemos sacar información de nuestra consola como modelo, región, serial y mas" },
-		{ nombre: "AnimeDownloader", ubicacion: "AnimeDownloader", comentario: "Descarga y Visualiza Anime en tu PS Vita" }
+		{ nombre: "AnimeDownloader", ubicacion: "AnimeDownloader", comentario: "Descarga y Visualiza Anime en tu PS Vita" },
+		{ nombre: "Noboru", ubicacion: "Noboru", comentario: "Aplicación para descargar y ver manga o comic en nuestra PSVita" },
+		{ nombre: "Better Homebrew Browser", ubicacion: "BetterHomebrewBrowser", comentario: "Un navegador homebrew que admite múltiples bases de datos con soporte para descarga en segundo plano" },
+		{ nombre: "MediaF Downloader", ubicacion: "MediaFDown", comentario: "MediaF Downloader es una aplicación muy sencilla para la psvita que permite descargar contenido del servidor mediafire." },
+		{ nombre: "PKGJ", ubicacion: "PKGJ", comentario: "Este homebrew permite descargar y descomprimir archivos pkg directamente en Vita junto con su licencia falsa NoNpDrm o NoPsmDrm." }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [

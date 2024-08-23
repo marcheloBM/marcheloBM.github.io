@@ -43,6 +43,18 @@ function PSVident(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yI4lnTSD
 function PSVidentWeb(){verificarSesionYAbrirEnlace("https://www.rinnegatamante.eu/vitadb/#/info/108");}
 function AnimeDownloader(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mQxgRAzL#DbNB35NkQ4Y4UciI0OsSJg");}
 function AnimeDownloaderWeb(){verificarSesionYAbrirEnlace("https://github.com/ONElua/AnimeDownloader");}
+function Noboru(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LRQzUYxQ#bx_w3DOY1tDKuvsZC4un0w");}
+function NoboruWeb(){verificarSesionYAbrirEnlace("https://github.com/Creckeryop/NOBORU");}
+function BetterHomebrewBrowser(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iFxUHLLS#p9Zsidi7YKOykarcOEkEpw");}
+function BetterHomebrewBrowserWeb(){verificarSesionYAbrirEnlace("https://github.com/Ibrahim778/BetterHomebrewBrowser");}
+function MFDownloader(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TMISWaZD#IdsOoVEtN5utGy9BJ6h2Aw");}
+function PKGJ(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OIhACbIY#7pZoY8eTMB_5LYYsQ5hGEQ");}
+function PKGJWeb(){verificarSesionYAbrirEnlace("https://github.com/blastrock/pkgj");}
+
+
+
+
+
 
 function nombre(){verificarSesionYAbrirEnlace("");}
 function Web(){verificarSesionYAbrirEnlace("");}

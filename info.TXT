@@ -1,3 +1,5 @@
+-v1.69 Nuevos Tutoriales/PSVita
+	Se agrego nuevos tutorial de PSVita v4.0
 -v1.68 Nuevos Tutoriales/PSVita
 	Se agrego nuevos tutorial de PSVita v3.0 y otros cambios
 -v1.67 Nuevo Login
