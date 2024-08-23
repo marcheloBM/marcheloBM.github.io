@@ -125,7 +125,16 @@ const contenidoPorCategoria = {
 		{ nombre: "Sd2vita", ubicacion: "Sd2vita", comentario: "Para poder configurar una tarjeta microSD en nuestra consola PSVita" },
 		{ nombre: "AutoPlugin 2", ubicacion: "AutoPlugin2", comentario: "Autoplugin para PSVITA es una herramienta hombrew que te permite instalar o desinstalar los siguientes complementos y plugins con un solo clic (en ux0 o ur0 o ur0 para SD2VITA)." },
 		{ nombre: "Trucos para PSVita", ubicacion: "TrucosPSVita", comentario: "Activar Trucos en Juegos para PSVITA con un solo plugin en nuestra consola." },
-		{ nombre: "Apollo Save Tool Vita", ubicacion: "ApolloSaveToolVita", comentario: "Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation Vita." }
+		{ nombre: "Apollo Save Tool Vita", ubicacion: "ApolloSaveToolVita", comentario: "Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation Vita." },
+		{ nombre: "Playstation Mobile", ubicacion: "PlaystationMobile", comentario: "Paquete de datos para los juegos de Android en nuestra consola" },
+		{ nombre: "VitaShell", ubicacion: "VitaShell", comentario: "Ofrece un administrador de archivos, un instalador de paquetes, FTP integrado y mucho más." },
+		{ nombre: "VitaDB", ubicacion: "VitaDB", comentario: "VitaDB Downloader es el cliente oficial de PS Vita/PS TV para VitaDB, la primera base de datos creada para PS Vita/PSTV homebrew." },
+		{ nombre: "Net-Stream", ubicacion: "NETStream", comentario: "Cliente de transmisión de vídeo universal para PS Vita para ver videos desde la red, soporta Vídeos y transmisiones en vivo de YouTube, Servidor HTTP y FTP y Almacenamiento local" },
+		{ nombre: "Adrenaline", ubicacion: "Adrenaline", comentario: "Podemos tener todo el contenido de una PSP dentro de nuestra PSVita " },
+		{ nombre: "Adrenaline Bubble Manager", ubicacion: "AdrenalineBubbleManager", comentario: "Esta útil aplicación te permite realizar burbujas personalizadas con 'icono' y 'título' de tu contenido de PSP (HBS/PSX/ISO/CSO) de forma rápida y sencilla" },
+		{ nombre: "Vita Tester", ubicacion: "VitaTester", comentario: "Podemos testear los botones de nuestra consola para revisar el funcionamiento de cada botón y táctil " },
+		{ nombre: "PSVident", ubicacion: "PSVident", comentario: "Podemos sacar información de nuestra consola como modelo, región, serial y mas" },
+		{ nombre: "AnimeDownloader", ubicacion: "AnimeDownloader", comentario: "Descarga y Visualiza Anime en tu PS Vita" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [

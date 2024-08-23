@@ -1,3 +1,5 @@
+-v1.68 Nuevos Tutoriales/PSVita
+	Se agrego nuevos tutorial de PSVita v3.0 y otros cambios
 -v1.67 Nuevo Login
 	Se cambio el login por un registro nuevo y session para los nuevos usuarios sin rut vigente
 -v1.66 Nuevos Tutoriales/PSVita

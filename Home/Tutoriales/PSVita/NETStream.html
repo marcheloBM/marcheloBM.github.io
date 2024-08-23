@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>AutoPlugin 2</title>
+		<title>Net-Stream</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../../assets/css/main.css" />
@@ -54,12 +54,12 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>AutoPlugin 2</h1>
+										<h1>Net-Stream</h1>
 									</header>
 
 									<!-- Content -->
-										<p>Autoplugin para PSVITA es una herramienta hombrew que te permite instalar o desinstalar los siguientes complementos y plugins con un solo clic (en ux0 o ur0 o ur0 para SD2VITA).</p>
-                                    <span class="image main"><img src="../../images/Tutotiales/PSVita/AutoPlugin2.jpg" alt="Imagen No Disponible" /></span>
+										<p>Cliente de transmisión de vídeo universal para PS Vita para ver videos desde la red, soporta Vídeos y transmisiones en vivo de YouTube, Servidor HTTP y FTP y Almacenamiento local.</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PSVita/NetStream.jpg" alt="Imagen No Disponible" /></span>
 
                                     <h2>Para esta Guia</h2>
                                     <div class="row gtr-200">
@@ -71,7 +71,7 @@
                                         </div>
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
-                                            <a name="AutoPlugin2" id="AutoPlugin2"></a>
+                                            <a name="NetStream" id="NetStream"></a>
 											<div class="table-wrapper">
 												<h4>Archivos Para descargar</h4>
 												<table>
@@ -83,8 +83,12 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>AutoPlugin 2</td>
-                                                            <td><a onclick="AutoPlugin2()">Mega</a></td>
+															<td>Net Stream</td>
+                                                            <td><a onclick="NetStream()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>WEB Oficial</td>
+                                                            <td><a onclick="NetStreamWeb()">github.com</a></td>
 														</tr>
 													</tfoot>
 												</table>
@@ -104,7 +108,7 @@
 												<ul>
 													<li>Descomprimimos los archivos .rar o .zip</li>
 													<ul>
-														<li>AutoPlugin II v?.??</li>
+														<li>NetStream.vpk </li>
 													</ul>
 													<li>Con la última versión disponible </li>
 													<li>Una vez descargado nuestro archivo</li>
@@ -118,125 +122,13 @@
 												</ul>
 												<li>Buscamos la nueva Burbuja de nuestra aplicación </li>
 												<ul>
-													<li>Abrimos <b>AutoPlugin2</b> para instalar los plugin necesarios en nuestra consola lo que yo te recomiendo </li>
-													<h4>Recomendaciones</h4>
-													<div class="table-wrapper">
-														<table class="alt">
-															<thead>
-																<tr>
-																	<th>Plugins</th>
-																	<th>Descripcion </th>
-																</tr>
-															</thead>
-															<tbody>
-																<tr>
-																	<td>Adrenaline by TheOfficialFloW (Fix double touch)</td>
-																	<td>Permite ejecutar Adrenaline con un solo toque</td>
-																</tr>
-																<tr>
-																	<td>AnalogsEnhancer by Rinnagatamente/Yoti</td>
-																	<td>Plugin permite configurar la deadzone (cuanto mueves el analogo antes de detectar movimiento) y reescalado de software (reinterpreta las entradas, añadiendo libertad o haciendo los analogos mas toscos según se necesite) de los analogicos</td>
-																</tr>
-																<tr>
-																	<td>Download Enabler by TheOfficialFlow (VitaTweaks)</td>
-																	<td>Permite descargar archivos a traves del navegador</td>
-																</tr>
-																<tr>
-																	<td>ds3vita by xerpi</td>
-																	<td>para controlar desde el mando de PS3</td>
-																</tr>
-																<tr>
-																	<td>ds4Touch by MERLev</td>
-																	<td>añade soporte para el touchpad del DualShock4 (como ds4vita) a las PSTV y PS Vita con el Plugin MiniVitaTV</td>
-																</tr>
-																<tr>
-																	<td>ds4vita by xerpi</td>
-																	<td>para controlar desde el mando de PS4</td>
-																</tr>
-																<tr>
-																	<td>FdFix by TheOfficialFlow</td>
-																	<td>Este Plugin arregla un problema en los Homebrews de PS Vita en donde los descriptores de archivos eraninvalidados despues de suspender y resumir la consola</td>
-																</tr>
-																<tr>
-																	<td>FreePSM by Li</td>
-																	<td>Habilita InAppPurchases (compras en la app)de Debug PSM en la ejecucion de PSM comercial. Basicamente permite desbloquear de manera offine y gratis las compras en app de PSM</td>
-																</tr>
-																<tr>
-																	<td>ftpeverywhere by teakhanirons v1.0 <b>]Otra Forma No Instalar</b></td>
-																	<td>Para habilitar FTP desde cualquier lado de la consola</td>
-																</tr>
-																<tr>
-																	<td>Kubridge by TheOfficialFlow/bythos14
-																	</td>
-																	<td>Modulo Puente Kernel-Usuario para PS Vita (Requerido por el Port de MaxPayne)
-																	</td>
-																</tr>
-																<tr>
-																	<td>LCD Colour Space Changer by cuevavirus</td>
-																	<td>Cambia el Espacio de Color de la pantalla LCD (los Colores que posee la pantalla, haciendo una especie de emulacion de los colores de una Pantalla OLED) con un click y fuerza el Espacio de Cie en aplicaciones de PSPEmu (como juegos de PSP o PS One) (Solo en PS Vita 2000)</td>
-																</tr>
-																<tr>
-																	<td>Music Premium by cuevavirus</td>
-																	<td>Permite escuchar musica de fondo (a traves de la app oficial) en cualquier juego o aplicación</td>
-																</tr>
-																<tr>
-																	<td>NoAVLS by Li</td>
-																	<td>Permite desactivar permanentemente AVLS en PS Vitas que no pueden desactivarlas (forzado)</td>
-																</tr>
-																<tr>
-																	<td>NoNpDrm by TheOfficialFlow</td>
-																	<td>Permite evitar la proteccion DRM en cualquier contenido de PS Vita</td>
-																</tr>
-																<tr>
-																	<td>NoPsmDrm by frangarcj</td>
-																	<td>Permite evitar la proteccion DRM en el contenido de PSM</td>
-																</tr>
-																<tr>
-																	<td>NoPspEmuDrm by Li</td>
-																	<td>Un Plugin que permite evitar todos los chequeos de DRM de PSPEmu, lo que permite jugar tus respaldos digitales de juegos de PSP y PS1, o de juegos que poseas legalmente pero en otro cuenta PSN</td>
-																</tr>
-																<tr>
-																	<td>PSVshell by Electry v1.2 Beta <b>Otra Forma no Instalar</b></td>
-																	<td>para cambiar los ajuste del reloj un overclock a la consola (para habilitar select+arriba)</td>
-																</tr>
-																<tr>
-																	<td>PSVshellPlus by GrapheneCt</td>
-																	<td>Plugin Avanzado para realizar Overclocking e Info para PS Vita. Posee una barra de aceleracion de GPU, trackeo preciso de la Memoria y los FPS, e integrado totalmente con Quick Menu (menu que sale al mantener presionado el boton PS)</td>
-																</tr>
-																<tr>
-																	<td>Quick Menu Plus by cuevavirus</td>
-																	<td>Quick Menu Plus fusiona los Plugins Quick Power, Quick Volume, y Rapidmenu, asi como tambien añade nuevas funciones. Boton de Apagar, Reiniciar y Suspender, asi como hace configurables el boton de Apagado, barra (slider) de Volumen, Reducir el tiempo de apertura del Menu Rapido, Estilos de Fondo del Menu Rapido personalizados</td>
-																</tr>
-																<tr>
-																	<td>reFOOD by FAPS Team</td>
-																	<td>Un Plugin de PS Vita para correr programas que no pueden ser desencriptados adecuadamente </td>
-																</tr>
-																<tr>
-																	<td>Reparch reLoaded by SonicMastr</td>
-																	<td>Modificacion de rePatch que añade soporte para la migracion de las carpetas Homebrew app0: y ux0:/data hacia otras particiones, permitiendo asi jugar con datos en diferentes dispositivos de almacenamiento(como ur0 o una0)</td>
-																</tr>
-																<tr>
-																	<td>Shellsecbat by OperationNT414C</td>
-																	<td>Porcentaje de bateria y segundos en la barra de estado: Fusion de ShellBat y LastSeconds (SELECT + L o SELECT + R muestra el estado del dispositivo)</td>
-																</tr>
-																<tr>
-																	<td>udcd_uvc by xerpi</td>
-																	<td>Permite que la PS Vita funcione como un dispositivo UVC para transmitir su pantalla a traves de USB a su computadora (Version Oficial)</td>
-																</tr>
-																<tr>
-																	<td>Vitacheat by FinalCheat</td>
-																	<td>Usa Cheats (trucos) en juegos de PS Vita. Solo para 3,65/3,68 (L + DERECHA)</td>
-																</tr>
-															</tbody>
-														</table>
-													</div>
-													<li>una vez emos seleccionado los plugin le damos al botón <img src="../../images/ControlSony/Start.jpg" width=40 height=20 alt="Imagen No Disponible" /></li>
-													<li>puede ser que nos pida reiniciar la consola la reiniciamos</li>
-													<ol>
-														<li>Cuidado con los plugin que se instalan en la consola podemos tener problemas como quedarse en negro, reinicio continuo y otros problemas más tener mucho en cuenta que estamos instalando</li>
-													</ol>
-													<li>y listo </li>
+													<li>Abrimos NetStream para ver las funciones que tiene </li>
+													<img src="../../images/Tutotiales/PSVita/NetStream/NetStream01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Dentro de la aplicación tendremos algunas funciones muy fáciles de entender</li>
+													<img src="../../images/Tutotiales/PSVita/NetStream/NetStream02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Si queremos ver videos de YouTube y los demás servidores </li>
 												</ul>
+												
                                             </ol>
 									</div>
 
