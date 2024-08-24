@@ -224,6 +224,12 @@ function UltraISO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bBBlAByK
 function UltraISOWeb(){verificarSesionYAbrirEnlace("https://www.ultraiso.com/download.html");}
 function GUIFORMAT(){verificarSesionYAbrirEnlace("https://mega.nz/folder/ydZgQTYA#8C4MbbOHlwYjTYTQQdUtkA");}
 function GUIFORMATWeb(){verificarSesionYAbrirEnlace("http://ridgecrop.co.uk/index.htm?guiformat.htm");}
+function BitTorrent(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2RwSibxa#guKmXAfXvB9b1p3tL_UXIg");}
+function BitTorrentWeb(){verificarSesionYAbrirEnlace("https://www.bittorrent.com/es/downloads/complete/classic");}
+function ImgBurn(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LcxTHZoS#yGKI8iMPkj2f55hsAAj_QA");}
+function ImgBurnWeb(){verificarSesionYAbrirEnlace("https://www.imgburn.com/index.php?act=download");}
+function Nero(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vJx1mDzS#zyGq3_vhX7OuQ9QXGhTrVg");}
+function NeroWeb(){verificarSesionYAbrirEnlace("https://www.malavida.com/es/soft/nero-burning-rom/");}
 
 
 function nombre(){verificarSesionYAbrirEnlace("");}
