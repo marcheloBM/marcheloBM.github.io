@@ -138,7 +138,17 @@ const contenidoPorCategoria = {
 		{ nombre: "Noboru", ubicacion: "Noboru", comentario: "Aplicación para descargar y ver manga o comic en nuestra PSVita" },
 		{ nombre: "Better Homebrew Browser", ubicacion: "BetterHomebrewBrowser", comentario: "Un navegador homebrew que admite múltiples bases de datos con soporte para descarga en segundo plano" },
 		{ nombre: "MediaF Downloader", ubicacion: "MediaFDown", comentario: "MediaF Downloader es una aplicación muy sencilla para la psvita que permite descargar contenido del servidor mediafire." },
-		{ nombre: "PKGJ", ubicacion: "PKGJ", comentario: "Este homebrew permite descargar y descomprimir archivos pkg directamente en Vita junto con su licencia falsa NoNpDrm o NoPsmDrm." }
+		{ nombre: "PKGJ", ubicacion: "PKGJ", comentario: "Este homebrew permite descargar y descomprimir archivos pkg directamente en Vita junto con su licencia falsa NoNpDrm o NoPsmDrm." },
+		{ nombre: "Capcom Play System 3", ubicacion: "CapcomPlaySystem3", comentario: "Emulador de Capcom Play System 3 es una placa arcade que fue creada e introducida por Capcom" },
+		{ nombre: "DREAMCAST", ubicacion: "DREAMCAST", comentario: "Es la quinta y última consola de videojuegos hasta ahora producida por Sega." },
+		{ nombre: "GBA y GBC", ubicacion: "GBAGBC", comentario: "mGBA es reconocido por muchos como el mejor emulador de Game Boy Advance y Game Boy " },
+		{ nombre: "GenesisPlusGXVITA", ubicacion: "GenesisPlusGXVITA", comentario: "Este emulador de Sega Mega Drive/Sega Genesis, Maser System y Game Gear." },
+		{ nombre: "Nintendo64", ubicacion: "Nintendo64", comentario: "Aquí consigues el mejor emulador de Nintendo 64 para PS Vita" },
+		{ nombre: "Pico 8", ubicacion: "Pico8", comentario: "PICO-8 es una consola de fantasía para crear, compartir y jugar pequeños juegos y otros programas informáticos" },
+		{ nombre: "PFBNEO", ubicacion: "PFBNEO", comentario: "pFBA puede ejecutar neogeo, cps1, cps2, cps3… arcade roms, megadrive, master system, game gear, pc engine…. roms de consola." },
+		{ nombre: "PGEN", ubicacion: "PGEN", comentario: "PGen es un emulador de Sega Mega Drive de código abierto escrito en lenguaje de programación C++ para PlayStation PSVita" },
+		{ nombre: "PNES", ubicacion: "PNES", comentario: "pNES (Nintendo) para dar soporte a la mismísima PlayStation Vita." },
+		{ nombre: "PSNES", ubicacion: "PSNES", comentario: "PSNES (Super Nintendo) para dar soporte a la mismísima PlayStation Vita" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [

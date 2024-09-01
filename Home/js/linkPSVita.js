@@ -13,10 +13,15 @@ function VitaDB(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nEQCHbYR#v
 function VitaDBWeb(){verificarSesionYAbrirEnlace("https://github.com/Rinnegatamante/VitaDB-Downloader/releases");}
 function CapcomPlaySystem3(){verificarSesionYAbrirEnlace("https://mega.nz/folder/3EQiRKTY#Rfng-e8Aevr_DBM8m-RhWw");}
 function DREAMCAST(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nNogwaoQ#uIzbmCwY1EIL7XIr8QidnA");}
+function DREAMCASTWeb(){verificarSesionYAbrirEnlace("https://github.com/Rinnegatamante/flycast-vita");}
 function GBAGBC(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OJJVXKaJ#ur9aSi_RFI_41F__lc5r9g");}
+function GBAGBCWeb(){verificarSesionYAbrirEnlace("https://mgba.io/downloads.html");}
 function MegaDriveSegaCDMasterSystemGameGear(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CVQliSpR#c9NQT2Zu1pxXXOooCMc51g");}
+function MegaDriveSegaCDMasterSystemGameGearWeb(){verificarSesionYAbrirEnlace("https://github.com/frangarcj/Genesis-Plus-GX");}
 function N64(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eEBl1Y6Q#4Jgx8O6KHeD0n3PpeRxhFQ");}
+function N64Web(){verificarSesionYAbrirEnlace("https://github.com/Rinnegatamante/DaedalusX64-vitaGL");}
 function Pico8(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CdZgEYwA#20a-b8TyyXNjYfPB6TQy2A");}
+function Pico8Web(){verificarSesionYAbrirEnlace("https://github.com/jtothebell/fake-08");}
 function RETROARCH(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zYID1ArQ#4KhmiG5v5k80uIjFEsmJNw");}
 function SNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7NR0lSgJ#VWSkA88RtUloNDzllnlupg");}
 function YOYOLOADER(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aIo0WZjC#D1Q900Q4IPMgQgGCuDvJ0Q");}
@@ -24,6 +29,8 @@ function PNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uYZi0TZQ#iDo
 function PSNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uJpRkAja#BECrnbyobL-uW1WfNVmJog");}
 function PFBNEO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yIBnBLyI#v0Aiz_jhvzRwDL5wi248JQ");}
 function PGEN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yNRBjZCT#7M7GtIkEYL-PzSF9eLgCXQ");}
+function pEMUWeb(){verificarSesionYAbrirEnlace("https://github.com/Cpasjuste/pemu");}
+
 function Rockstar(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aQJwVCZI#jD-zCVK20Gcm2xvaFbBWbA");}
 function CTManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vBgxAQbb#eU8urXumQwFO15gf-AiVbQ");}
 
