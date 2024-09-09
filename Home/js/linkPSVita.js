@@ -23,15 +23,19 @@ function N64Web(){verificarSesionYAbrirEnlace("https://github.com/Rinnegatamante
 function Pico8(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CdZgEYwA#20a-b8TyyXNjYfPB6TQy2A");}
 function Pico8Web(){verificarSesionYAbrirEnlace("https://github.com/jtothebell/fake-08");}
 function RETROARCH(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zYID1ArQ#4KhmiG5v5k80uIjFEsmJNw");}
+function RETROARCHWeb(){verificarSesionYAbrirEnlace("https://www.retroarch.com/?page=platforms");}
+function RETROARCHMegaPack(){verificarSesionYAbrirEnlace("https://www.arcadepunks.com/ps-vita-ultimate-retro-pack-from-crazymac-fully-load-your-vita-now/");}
+function ScummVM(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uAJiQSDK#JPFU_GaF9SkcaR8RQMwvzQ");}
 function SNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7NR0lSgJ#VWSkA88RtUloNDzllnlupg");}
+function SNESWeb(){verificarSesionYAbrirEnlace("https://github.com/frangarcj/Snes9xVITA/releases");}
 function YOYOLOADER(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aIo0WZjC#D1Q900Q4IPMgQgGCuDvJ0Q");}
+function YOYOLOADERWeb(){verificarSesionYAbrirEnlace("https://github.com/Rinnegatamante/yoyoloader_vita");}
 function PNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uYZi0TZQ#iDo-Ryw9MxzkLS54EyPYCA");}
 function PSNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uJpRkAja#BECrnbyobL-uW1WfNVmJog");}
 function PFBNEO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yIBnBLyI#v0Aiz_jhvzRwDL5wi248JQ");}
 function PGEN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yNRBjZCT#7M7GtIkEYL-PzSF9eLgCXQ");}
 function pEMUWeb(){verificarSesionYAbrirEnlace("https://github.com/Cpasjuste/pemu");}
 
-function Rockstar(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aQJwVCZI#jD-zCVK20Gcm2xvaFbBWbA");}
 function CTManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vBgxAQbb#eU8urXumQwFO15gf-AiVbQ");}
 
 function UX0toSD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mBpRkA5B#mMI5Oygy_ydWPGX2LPE6QA");}

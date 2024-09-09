@@ -139,6 +139,7 @@ const contenidoPorCategoria = {
 		{ nombre: "Better Homebrew Browser", ubicacion: "BetterHomebrewBrowser", comentario: "Un navegador homebrew que admite múltiples bases de datos con soporte para descarga en segundo plano" },
 		{ nombre: "MediaF Downloader", ubicacion: "MediaFDown", comentario: "MediaF Downloader es una aplicación muy sencilla para la psvita que permite descargar contenido del servidor mediafire." },
 		{ nombre: "PKGJ", ubicacion: "PKGJ", comentario: "Este homebrew permite descargar y descomprimir archivos pkg directamente en Vita junto con su licencia falsa NoNpDrm o NoPsmDrm." },
+		{ nombre: "CTManager", ubicacion: "CTManager", comentario: "Administrar completamente tus temas personalizados directamente desde la consola" },
 		{ nombre: "Capcom Play System 3", ubicacion: "CapcomPlaySystem3", comentario: "Emulador de Capcom Play System 3 es una placa arcade que fue creada e introducida por Capcom" },
 		{ nombre: "DREAMCAST", ubicacion: "DREAMCAST", comentario: "Es la quinta y última consola de videojuegos hasta ahora producida por Sega." },
 		{ nombre: "GBA y GBC", ubicacion: "GBAGBC", comentario: "mGBA es reconocido por muchos como el mejor emulador de Game Boy Advance y Game Boy " },
@@ -148,7 +149,11 @@ const contenidoPorCategoria = {
 		{ nombre: "PFBNEO", ubicacion: "PFBNEO", comentario: "pFBA puede ejecutar neogeo, cps1, cps2, cps3… arcade roms, megadrive, master system, game gear, pc engine…. roms de consola." },
 		{ nombre: "PGEN", ubicacion: "PGEN", comentario: "PGen es un emulador de Sega Mega Drive de código abierto escrito en lenguaje de programación C++ para PlayStation PSVita" },
 		{ nombre: "PNES", ubicacion: "PNES", comentario: "pNES (Nintendo) para dar soporte a la mismísima PlayStation Vita." },
-		{ nombre: "PSNES", ubicacion: "PSNES", comentario: "PSNES (Super Nintendo) para dar soporte a la mismísima PlayStation Vita" }
+		{ nombre: "PSNES", ubicacion: "PSNES", comentario: "PSNES (Super Nintendo) para dar soporte a la mismísima PlayStation Vita" },
+		{ nombre: "RetroArch", ubicacion: "RETROARCH", comentario: "RetroArch es una interfaz para emuladores, motores de juegos y reproductores multimedia " },
+		{ nombre: "ScummVM", ubicacion: "ScummVM", comentario: "ScummVM es un programa que te permite ejecutar juegos de aventuras gráficos clásicos de apuntar y hacer clic" },
+		{ nombre: "SNES", ubicacion: "SNES", comentario: "Este es uno de los emuladores de Super Nintendo para PS Vita, aunque no se actualiza desde el 2016." },
+		{ nombre: "YoYo Loader", ubicacion: "YoYoLoader", comentario: "YoYo Loader es un cargador para libyoyo.so, la aplicación oficial de GameMaker Studio Runner para Android, para PS Vita" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [

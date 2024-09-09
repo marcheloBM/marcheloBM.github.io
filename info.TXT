@@ -1,3 +1,5 @@
+-v1.72 Nuevos Tutoriales/PSVita
+	Se agrego nuevos tutorial de PSVita v6.0 Emuladores
 -v1.71 Nuevos Tutoriales/PSVita
 	Se agrego nuevos tutorial de PSVita v5.0 Emuladores
 -v1.70 Nuevos Programas/Windows
