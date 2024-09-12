@@ -153,7 +153,10 @@ const contenidoPorCategoria = {
 		{ nombre: "RetroArch", ubicacion: "RETROARCH", comentario: "RetroArch es una interfaz para emuladores, motores de juegos y reproductores multimedia " },
 		{ nombre: "ScummVM", ubicacion: "ScummVM", comentario: "ScummVM es un programa que te permite ejecutar juegos de aventuras gráficos clásicos de apuntar y hacer clic" },
 		{ nombre: "SNES", ubicacion: "SNES", comentario: "Este es uno de los emuladores de Super Nintendo para PS Vita, aunque no se actualiza desde el 2016." },
-		{ nombre: "YoYo Loader", ubicacion: "YoYoLoader", comentario: "YoYo Loader es un cargador para libyoyo.so, la aplicación oficial de GameMaker Studio Runner para Android, para PS Vita" }
+		{ nombre: "YoYo Loader", ubicacion: "YoYoLoader", comentario: "YoYo Loader es un cargador para libyoyo.so, la aplicación oficial de GameMaker Studio Runner para Android, para PS Vita" },
+		{ nombre: "Memorias", ubicacion: "Memorias", comentario: "Tips y trucos para aprovechar el almacenamiento de tu PSVita al máximo!" },
+		{ nombre: "Juegos NoNpDrm", ubicacion: "JuegoNoNpDrm", comentario: "Instala Juegos en formato NoNpDrm Fácil y Rápido" },
+		{ nombre: "Mandos en Nuestra PSVita", ubicacion: "MandosPSVita", comentario: "Podemos colocarle mandos de PS3 y PS4a nuestra consola para poder jugar con ellos de forma separada o juntas" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [

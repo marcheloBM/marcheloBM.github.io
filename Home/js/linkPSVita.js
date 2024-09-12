@@ -35,9 +35,7 @@ function PSNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uJpRkAja#BE
 function PFBNEO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yIBnBLyI#v0Aiz_jhvzRwDL5wi248JQ");}
 function PGEN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yNRBjZCT#7M7GtIkEYL-PzSF9eLgCXQ");}
 function pEMUWeb(){verificarSesionYAbrirEnlace("https://github.com/Cpasjuste/pemu");}
-
 function CTManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vBgxAQbb#eU8urXumQwFO15gf-AiVbQ");}
-
 function UX0toSD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mBpRkA5B#mMI5Oygy_ydWPGX2LPE6QA");}
 function rinnegatWeb(){verificarSesionYAbrirEnlace("https://www.rinnegatamante.eu/vitadb/#/");}
 function TempAR(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GU4kyA7T#ciIpWwVpYumj2YWfRQyEdA");}
@@ -61,7 +59,7 @@ function BetterHomebrewBrowserWeb(){verificarSesionYAbrirEnlace("https://github.
 function MFDownloader(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TMISWaZD#IdsOoVEtN5utGy9BJ6h2Aw");}
 function PKGJ(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OIhACbIY#7pZoY8eTMB_5LYYsQ5hGEQ");}
 function PKGJWeb(){verificarSesionYAbrirEnlace("https://github.com/blastrock/pkgj");}
-
+function Mandos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LFJRTbjY#Clex7gqnoHgVTdvOCYLexA");}
 
 
 
