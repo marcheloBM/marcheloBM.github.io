@@ -1,3 +1,5 @@
+-v1.74 Cambio Al login
+	Se cambio el login por datos estaticos, hay problemas con el servidor web
 -v1.73 Nuevos Tutoriales/PSVita
 	Se agrego nuevos tutorial de PSVita y otras cambios
 -v1.72 Nuevos Tutoriales/PSVita

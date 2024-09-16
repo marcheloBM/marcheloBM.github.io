@@ -17,8 +17,15 @@ function datos() {
         // Si los datos son válidos, enviar la solicitud al servidor
         enviarSolicitud(usuario, passwordSha1);
     });
-
+    //Uso estatico
     function enviarSolicitud(usuario, password) {
+        sessionStorage.usuario="admin";
+        sessionStorage.nombre="admin";
+        sessionStorage.apellido="admin";
+        window.location.href='Home.html';
+    }
+    //Uso con web service 
+    function enviarSolicitud2(usuario, password) {
         fetch('https://marchebm.000webhostapp.com/wsLogin/json.php?usuario=' + usuario + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
         .then(response => {
             if (!response.ok) {
