@@ -1,3 +1,5 @@
+-v1.75 Nuevo Buscador
+	Se agrego un nuevo buscador para filtrar en todas las categorias agregadas
 -v1.74 Cambio Al login
 	Se cambio el login por datos estaticos, hay problemas con el servidor web
 -v1.73 Nuevos Tutoriales/PSVita

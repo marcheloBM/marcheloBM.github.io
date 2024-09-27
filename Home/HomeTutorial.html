@@ -59,30 +59,31 @@
                                         <!--<p>Para facilitar la búsqueda de alguna guía podemos presionar <b>Ctrl+f</b> y buscar más rápido dentro de la pagina web en la que nos encontremos </p>-->
 										<h2>Buscar</h2>
 										<div class="row gtr-200">
-                                        <div class="col-6 col-12-medium">
-                                            <label for="categorias">Categorías:</label>
-											<select id="categorias" onchange="actualizarContenido()">
-												<option value="">- Seleccione una categoría -</option>
-												<option value="PS2">PS2</option>
-												<option value="PSP">PSP</option>
-												<option value="PS3">PS3</option>
-												<option value="PSVita">PSVita</option>
-												<option value="PS4">PS4</option>
-												<option value="PC">PC</option>
-											</select>
-                                        </div>
-                                        <div class="col-6 col-12-medium">
-                                            <label for="contenido">Contenido:</label>
-											<select id="contenido" onchange="mostrarComentario()">
-												<!-- Aquí se agregarán las opciones dinámicamente -->
-											</select>
-											<div id="comentarioContenedor">
-												<!-- El comentario seleccionado se mostrará aquí -->
+											<div class="col-6 col-12-medium">
+												<label for="categorias">Categorías:</label>
+												<select id="categorias" onchange="actualizarContenido()">
+													<option value="">- Seleccione una categoría -</option>
+													<option value="PS2">PS2</option>
+													<option value="PSP">PSP</option>
+													<option value="PS3">PS3</option>
+													<option value="PSVita">PSVita</option>
+													<option value="PS4">PS4</option>
+													<option value="PC">PC</option>
+												</select>
 											</div>
-                                        </div>
-                                    </div>
+											<div class="col-6 col-12-medium">
+												<label for="contenido">Contenido:</label>
+												<select id="contenido" onchange="mostrarComentario()">
+													<!-- Aquí se agregarán las opciones dinámicamente -->
+												</select>
+												<div id="comentarioContenedor">
+													<!-- El comentario seleccionado se mostrará aquí -->
+												</div>
+											</div>
+										</div>
 										<button id="botonIr" onclick="irAPagina()">Ir a la página</button>
-
+										<input type="text" name="demo-buscar" id="demo-buscar" value="" placeholder="Buscar Contenido" />
+										<div id="resultados"></div>
 										<script src="js/buscar.js"></script>
 									</div>
 									<!--<span class="image object">

@@ -25,7 +25,7 @@ const contenidoPorCategoria = {
 		{ nombre: "Agenda Digital", ubicacion: "PSPAgendaDigital", comentario: "PSP-PDA, añade funciones de agenda digital a nuestra PSP" },
 		{ nombre: "Air Crack-PSP (Wifi)", ubicacion: "PSPAirCrackPSP", comentario: "Desvelador de contraseñas wifi AirCrack-PSP test 0.52 es una aplicacion que sirve para desencriptar las contraseñas de red wifi." },
 		{ nombre: "Alarma PSP", ubicacion: "PSPAlarma", comentario: "PSPALARM! es un homebrew desarrollado por CoD3r-D que hará que nuestra PSP se convierta en un efectivo despertador" },
-		{ nombre: "PSP con OSB", ubicacion: "PSPConOSB", comentario: "Plugin (p.o.c) de video UVC de PS Vita portado a PSP por @Xerpi. Este es un complemento que te permite transmitir la pantalla de tu PSP a tu computadora a través de USB.." },
+		{ nombre: "PSP con OBS", ubicacion: "PSPConOSB", comentario: "Plugin (p.o.c) de video UVC de PS Vita portado a PSP por @Xerpi. Este es un complemento que te permite transmitir la pantalla de tu PSP a tu computadora a través de USB.." },
 		{ nombre: "Chronoswitch", ubicacion: "PSPChronoswitch", comentario: "Impresionante Homebrew que nos permitirá bajar nuestras PSP de casi cualquier versión 6.XX a 6.20 (o menor, si tu PSP lo soporta)." },
 		{ nombre: "CIPL Flasher", ubicacion: "PSPCIPLFlasher", comentario: "INSTALACION DE CFW EN PSP ADVERTENCIA, NO INSTALAR CFW PERMANENTE EN CONSOLAS CON PLACA MALDITA." },
 		{ nombre: "CWCheat Trucos", ubicacion: "PSPCWCheat", comentario: "Si te gusta jugar a los juegos con trucos, necesitas este plugin." },
@@ -156,7 +156,8 @@ const contenidoPorCategoria = {
 		{ nombre: "YoYo Loader", ubicacion: "YoYoLoader", comentario: "YoYo Loader es un cargador para libyoyo.so, la aplicación oficial de GameMaker Studio Runner para Android, para PS Vita" },
 		{ nombre: "Memorias", ubicacion: "Memorias", comentario: "Tips y trucos para aprovechar el almacenamiento de tu PSVita al máximo!" },
 		{ nombre: "Juegos NoNpDrm", ubicacion: "JuegoNoNpDrm", comentario: "Instala Juegos en formato NoNpDrm Fácil y Rápido" },
-		{ nombre: "Mandos en Nuestra PSVita", ubicacion: "MandosPSVita", comentario: "Podemos colocarle mandos de PS3 y PS4a nuestra consola para poder jugar con ellos de forma separada o juntas" }
+		{ nombre: "Mandos en Nuestra PSVita", ubicacion: "MandosPSVita", comentario: "Podemos colocarle mandos de PS3 y PS4a nuestra consola para poder jugar con ellos de forma separada o juntas" },
+		{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [
@@ -254,4 +255,46 @@ function irAPagina() {
         }
     }
 }
-									
+
+function buscarSimilitudes(texto) {
+	const resultados = [];
+	for (const categoria in contenidoPorCategoria) {
+		contenidoPorCategoria[categoria].forEach(item => {
+			const palabras = texto.toLowerCase().trim().split(/\s+/);
+			if (palabras.some(palabra => item.nombre.toLowerCase().includes(palabra) || 
+			item.comentario.toLowerCase().includes(palabra))) {
+				resultados.push({ ...item, categoria }); // Añadir la categoría al resultado
+			}
+		});
+	}
+	return resultados;
+}
+
+function mostrarResultados(resultados) {
+	const contenedor = document.getElementById('resultados');
+	contenedor.innerHTML = ''; // Limpiar resultados anteriores
+	resultados.forEach(item => {
+		const div = document.createElement('div');
+		div.className = 'resultado';
+		div.innerHTML = `
+			<strong>${item.nombre}</strong><br>
+			<em>Categoria: ${item.categoria}</em><br>
+			${item.comentario}<br>
+			<button class="boton" onclick="redirigir('${item.categoria}', '${item.ubicacion}')">Ir a ${item.ubicacion}</button>
+		`;
+		contenedor.appendChild(div);
+	});
+}
+
+function redirigir(categoria, ubicacion) {
+	// Cambia la URL según tu necesidad. Por ejemplo:
+	const urlBase = "Tutoriales/"; // Cambia esto a tu URL base
+	window.location.href = `${urlBase}${categoria}/${ubicacion}.html`; // Construir la URL con categoría
+}
+
+const input = document.getElementById('demo-buscar');
+input.addEventListener('input', () => {
+	const textoBuscado = input.value;
+	const resultados = textoBuscado ? buscarSimilitudes(textoBuscado) : [];
+	mostrarResultados(resultados);
+});
