@@ -1,3 +1,5 @@
+-v1.76 Nuevo HTML Errores
+	Se agrego Todos los errores de html para futuras implementaciones al codigo
 -v1.75 Nuevo Buscador
 	Se agrego un nuevo buscador para filtrar en todas las categorias agregadas
 -v1.74 Cambio Al login

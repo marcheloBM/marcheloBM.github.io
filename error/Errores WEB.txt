@@ -1,0 +1,7 @@
+Errores 
+	400(Solicitud incorrecta)
+	401(No autorizado)
+	403(Prohibido)
+	404(No encontrado)
+	500(Error interno del servidor)
+	503(Servicio no disponble)
