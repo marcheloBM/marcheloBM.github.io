@@ -60,8 +60,22 @@ function MFDownloader(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TMIS
 function PKGJ(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OIhACbIY#7pZoY8eTMB_5LYYsQ5hGEQ");}
 function PKGJWeb(){verificarSesionYAbrirEnlace("https://github.com/blastrock/pkgj");}
 function Mandos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LFJRTbjY#Clex7gqnoHgVTdvOCYLexA");}
-
-
+function Update(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TJR0yB5b#AJ9dMHaNH1FpHarulss0eA");}
+function UpdateWeb(){verificarSesionYAbrirEnlace("https://www.playstation.com/es-cl/support/hardware/psvita/system-software/");}
+function SMSPlusVita(){verificarSesionYAbrirEnlace("https://mega.nz/folder/qRpT1YYQ#ejJYGMNZ15VBizayRJyX5A");}
+function SMSPlusVitaWeb(){verificarSesionYAbrirEnlace("https://github.com/frangarcj/SMSplusVITA");}
+function VitaShellFork(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yMBD3aIB#qKx7srRGzJ6DyClL2OspJg");}
+function VitaShellForkWeb(){verificarSesionYAbrirEnlace("https://github.com/LiEnby/VitaShell/releases?fbclid=IwAR07srJAQm0VVUTj7SiBmM-6OLjiPqTfSl3405KJu4GGMttOb5IynEWHvPA");}
+function HexFlowLauncher(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jcw0AC6Z#OsPEvx4ChWtygtsGIgy2WQ");}
+function HexFlowLauncherWeb(){verificarSesionYAbrirEnlace("https://github.com/VitaHEX-Games/HexFlow-Launcher");}
+function RetroFlowLauncher(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SVwxVIIR#HoXQhL_TWMHIe4-eRhdppg");}
+function RetroFlowLauncherWeb(){verificarSesionYAbrirEnlace("https://github.com/jimbob4000/RetroFlow-Launcher");}
+function moonlight(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OZxjQCCY#8LNxT2vpZJQHvII_AT8LLw");}
+function moonlightWeb(){verificarSesionYAbrirEnlace("https://github.com/xyzz/vita-moonlight/releases");}
+function Sunshine(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LJhngIiA#1aA2DcaY7VkeCsdDAKfimg");}
+function SunshineWeb(){verificarSesionYAbrirEnlace("https://github.com/LizardByte/Sunshine/releases");}
+function MoonlightAMD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/qJ5ymbRS#vKb-dz8nKYu51kBL_7bKOQ");}
+function MoonlightAMDWeb(){verificarSesionYAbrirEnlace("https://www.reddit.com/r/vitahacks/comments/lclpbq/amdmoonshellopenstream_stream_pc_games_to_psvita/");}
 
 
 

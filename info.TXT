@@ -1,3 +1,5 @@
+-v1.77 Nuevos Tutoriales/PSVita
+	Se agrego nuevos tutorial de PSVita y otras cambios
 -v1.76 Nuevo HTML Errores
 	Se agrego Todos los errores de html para futuras implementaciones al codigo
 -v1.75 Nuevo Buscador

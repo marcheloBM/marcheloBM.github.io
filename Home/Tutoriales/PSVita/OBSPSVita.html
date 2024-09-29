@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>PSVita</title>
+		<title>OBS en PSVITA</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="../../assets/css/main.css" />
@@ -54,12 +54,12 @@
 							<!-- Content -->
 								<section>
 									<header class="main">
-										<h1>PSVita</h1>
+										<h1>OBS en PSVITA</h1>
 									</header>
 
 									<!-- Content -->
-										<p>Descripcion</p>
-                                    <span class="image main"><img src="../../images/Tutotiales/PSVita/LiberarPSVITA.jpg" alt="Imagen No Disponible" /></span>
+										<p>Plugin (p.o.c) de video UVC de PS Vita. Este es un complemento que te permite transmitir la pantalla de tu PSVita a tu computadora a través de USB.</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PSVita/OBSPSVita.jpg" alt="Imagen No Disponible" /></span>
 
                                     <h2>Para esta Guia</h2>
                                     <div class="row gtr-200">
@@ -72,7 +72,7 @@
                                         </div>
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
-                                            <!--<a name="ProFT" id="ProFT"></a>-->
+                                            <a name="OBSPSVita" id="OBSPSVita"></a>
 											<div class="table-wrapper">
 												<h4>Archivos Para descargar</h4>
 												<table>
@@ -84,12 +84,8 @@
 													</thead>
 													<tfoot>
 														<tr>
-															<td>Nombre</td>
-                                                            <td><a onclick="nombre()">Mega</a></td>
-														</tr>
-														<tr>
-															<td>WEB Oficial</td>
-                                                            <td><a onclick="Web()">github.com</a></td>
+															<td>OBS Studio</td>
+                                                            <td><a href="../../Programas/ProgramasWindows.html#OBS">Programas Windows</a></td>
 														</tr>
 													</tfoot>
 												</table>
@@ -110,47 +106,46 @@
                                                 <ul>
                                                     <li>Descomprimimos el archivo .rar o .zip</li>
                                                     <ol>
-                                                        <li>i.	PSP.NET.Server v1.0.zip</li>
-                                                        <li>ii.	ps3netsrv_20220330.zip</li>
+                                                        <li>OBS-Studio-??.?.?</li>
                                                     </ol>
                                                     <li>Con la última versión disponible </li>
                                                     <li>Una vez descargado nuestro archivo</li>
                                                 </ul>
-
-
-
-
-
-
-
-
-
-
-
-
-                                                <li>En caso de no tener el FreeDVDBoot abriremos <a href="PS2FreeDVDBoot.html#ProFT">UltraISO</a> u otro programa que nos permita quemar nuestra ISO al DVD (Grabar a la más baja velocidad permitida para logras un disco de calidad para nuestra consola).</li>
-                                                <ul>
-                                                    <li>Una vez listo lo colocamos en nuestra consola desbloqueada pero no cerramos la tapa.</li>
-                                                </ul>
-                                                <img src="../../images/Tutotiales/PSVita/LiberarPSVITA.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
-                                                <li>Una vez iniciado nuestro ulaunchelf</li>
-                                                <ol>
-                                                    <li>Le damos al <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> a FileBrowser</li>
-                                                    <ul>
-                                                        <li>Si es el archivo .psu lo seleccionamos</li>
-                                                        <li>Presionamos <img src="../../images/ControlSony/R1.jpg" width=40 height=20 alt="Imagen No Disponible" /> y le damas a Copy</li>
-                                                        <li>Con <img src="../../images/ControlSony/Triangulo.jpg" width=20 height=20 alt="Imagen No Disponible" /> para ir hacia atrás y vamos a MC0:/ con <img src="../../images/ControlSony/Circulo.jpg" width=20 height=20 alt="Imagen No Disponible" />circulo </li>
-                                                    </ul>
-                                                </ol>
-                                                <ol>
-                                                    <li>Ahora seleccionamos la memory card para instalar los archivos <img src="../../images/ControlSony/L1.jpg" width=40 height=20 alt="Imagen No Disponible" /> o <img src="../../images/ControlSony/R1.jpg" width=40 height=20 alt="Imagen No Disponible" /></li>
-                                                    <li>Seleccionamos </li>
-                                                    <ul>
-                                                        <li><img src="../../images/ControlSony/L2.jpg" width=40 height=20 alt="Imagen No Disponible" />: instalación Manual (seleccionaríamos todas las configuraciones para después instalar todo)</li>
-                                                        <li><img src="../../images/ControlSony/R2.jpg" width=40 height=20 alt="Imagen No Disponible" />: instalación automática (se instalará de forma automática)</li>
-                                                    </ul>
-                                                    <li>Presionamos <img src="../../images/ControlSony/Start.jpg" width=40 height=20 alt="Imagen No Disponible" /> para volver al buscador de la consola </li>
-                                                </ol>
+												<li>Lo extraemos y copiamos</li>
+												<ul>
+													<li>Tenemos que instalar OBS Studio en nuestra computadora</li>
+													<li>En nuestra consola </li>
+													<ol>
+														<li>Abrimos <b>Auto Plugin 2</b> y buscamos el siguiente plugin </li>
+														<ul>
+															<li>Udcd_uvc by xerpi </li>
+															<img src="../../images/Tutotiales/PSVita/OBSPSVita/OBSPSVita01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														</ul>
+														<li>Una vez instalado reiniciamos la consola para terminar la instalación </li>
+													</ol>
+													<li>En nuestra PC</li>
+													<ol>
+														<li>Conectamos el <b>USB</b> a nuestra consola y al computador</li>
+														<ul>
+															<li>Si el plugin quedo bien instalado la consola no aria nada </li>
+														</ul>
+														<li>Abrimos OBS Studio</li>
+														<ul>
+															<li>Y podemos agregar todo de nuevo para el ejemplo</li>
+															<li>En <b>Escenas</b> le damos a <b>agregar</b> </li>
+															<img src="../../images/Tutotiales/PSVita/OBSPSVita/OBSPSVita02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+															<li>En Fuente le damos a <b>Agregar/Dispositivo de captura de video</b> </li>
+															<img src="../../images/Tutotiales/PSVita/OBSPSVita/OBSPSVita03.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+															<li>Y le damos a <b>Crear nuevo</b> y le asignamos el nombre</li>
+															<img src="../../images/Tutotiales/PSVita/OBSPSVita/OBSPSVita04.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+															<li>En la ventana de configuración le damos a PSVita</li>
+															<img src="../../images/Tutotiales/PSVita/OBSPSVita/OBSPSVita05.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+															<li>Y le damos aceptar</li>
+															<li>Y listo lo demás es a comodidad de cada persona </li>
+														</ul>
+													</ol>
+												</ul>
+												
                                             </ol>
 									</div>
 

@@ -157,7 +157,15 @@ const contenidoPorCategoria = {
 		{ nombre: "Memorias", ubicacion: "Memorias", comentario: "Tips y trucos para aprovechar el almacenamiento de tu PSVita al máximo!" },
 		{ nombre: "Juegos NoNpDrm", ubicacion: "JuegoNoNpDrm", comentario: "Instala Juegos en formato NoNpDrm Fácil y Rápido" },
 		{ nombre: "Mandos en Nuestra PSVita", ubicacion: "MandosPSVita", comentario: "Podemos colocarle mandos de PS3 y PS4a nuestra consola para poder jugar con ellos de forma separada o juntas" },
-		{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
+		{ nombre: "Update Software", ubicacion: "Update", comentario: "La actualización para dejar nuestra consola en la última versión del software disponible " },
+		{ nombre: "Restaura PSVita", ubicacion: "RestauraPSVita", comentario: "Con esto podemos dejar nuestra consola de fabrica " },
+		{ nombre: "SMS Plus Vita", ubicacion: "SMSPlusVita", comentario: "Un Emulador de Sega Master System para nuestra consola PSVita" },
+		{ nombre: "OBS en PSVITA", ubicacion: "OBSPSVita", comentario: "Plugin (p.o.c) de video UVC de PS Vita. Permite transmitir la pantalla de tu PSVita." },
+		{ nombre: "VitaShell Fork", ubicacion: "VitaShellfork", comentario: "VitaShell fork para PSP en PSVITA sin necesidad de Adrenaline con solo una burbuja" },
+		{ nombre: "HexFlow Launcher", ubicacion: "HexFlowLauncher", comentario: "Muestra y ejecuta tus juegos y creaciones caseras con estilo." },
+		{ nombre: "RetroFlow Launcher", ubicacion: "RetroFlowLauncher", comentario: "Esta es una versión modificada de HexFlow Launcher; un lanzador tipo coverflow 3D para PS Vita" },
+		{ nombre: "Moonlight", ubicacion: "Moonlight", comentario: "Podemos juegos nuestros juegos de PC en nuestra PSVita" },
+		{ nombre: "Moonlight en AMD", ubicacion: "MoonlightAMD", comentario: "Podemos juegos nuestros juegos de PC en nuestra PSVita con computadores antiguas" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [
