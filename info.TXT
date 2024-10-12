@@ -1,3 +1,5 @@
+-v1.78 Nuevos Link PS4
+	Se agrego nuevos Link para futuros tutoriales de PS4
 -v1.77 Nuevos Tutoriales/PSVita
 	Se agrego nuevos tutorial de PSVita y otras cambios
 -v1.76 Nuevo HTML Errores
