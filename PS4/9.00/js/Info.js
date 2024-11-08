@@ -68,7 +68,9 @@ function infopsfreeGoldhen24b17(){
 function infopsfreeGoldhen24b173(){
 	document.getElementById("msj").innerHTML = "Goldhen v2.4b17.3 para Firmware 9.00";
 }
-
+function infopsfreeGoldhen24b18(){
+	document.getElementById("msj").innerHTML = "Goldhen v2.4b18 para Firmware 9.00";
+}
 
 /* Payloads */
 function allPayloads(){
