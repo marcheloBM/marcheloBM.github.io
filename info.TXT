@@ -1,3 +1,5 @@
+-v1.80 Prueba de alertas
+	Probando especial, consejo, Importante, Avertencia y Precaucion
 -v1.79 Nuevo GoldHEN 2.4b18 PS4
 	Se agrego nuevos GoldHEN para PS4
 -v1.78 Nuevos Link PS4
