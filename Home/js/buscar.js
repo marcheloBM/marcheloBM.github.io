@@ -170,7 +170,8 @@ const contenidoPorCategoria = {
     ],
     PS4: [
 		{ nombre: "Seleccionar", ubicacion: "PS4Tutorial", comentario: "Elija una opción" },
-        { nombre: "nombre", ubicacion: "URLPS4", comentario: "ComentarioPS4" }
+        { nombre: "PS4 Update o Reinstalación", ubicacion: "Updates", comentario: "Guía para actualizar o reinstalación del software del sistema de PS4" },
+		{ nombre: "Liberar PS4", ubicacion: "LiberarPS4", comentario: "El Exploit compatibles para sus consolas con firewall 5.05, 6.72, 7.00, 7.02, 7.50, 7.51, 7.55, 9.00 y 11.00." }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [

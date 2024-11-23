@@ -1,3 +1,5 @@
+-v1.81 Nuevos Tutoriales/PS4
+	Se agrego nuevos tutorial de PS4 para empezar y otros cambios
 -v1.80 Prueba de alertas
 	Probando especial, consejo, Importante, Avertencia y Precaucion
 -v1.79 Nuevo GoldHEN 2.4b18 PS4

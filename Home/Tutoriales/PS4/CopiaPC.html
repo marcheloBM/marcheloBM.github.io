@@ -22,6 +22,8 @@
         <script>
             window.onload = cargarDatos;
         </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS4.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -71,10 +73,24 @@
                                         <div class="col-6 col-12-medium">
                                             <h4>Programas para este Tutorial</h4>
                                             <!--<a name="ProFT" id="ProFT"></a>-->
-                                            <ol>
-                                                <li>RAR <a href="../../Consolas/PS4.html#FunTuna"> PSP</a></li>
-                                                <li>WEB Oficial <a href="../../Consolas/PS4.html#FunTuna"> github</a></li>
-                                            </ol>
+                                            <table>
+												<thead>
+													<tr>
+														<th>Archivos</th>
+														<th colspan="2">Servidores</th>
+													</tr>
+												</thead>
+												<tfoot>
+													<tr>
+														<td>Nombre</td>
+														<td><a onclick="nombre()">Mega</a></td>
+													</tr>
+													<tr>
+														<td>WEB Oficial</td>
+														<td><a onclick="Web()">github.com</a></td>
+													</tr>
+												</tfoot>
+											</table>
                                         </div>
                                     </div>
 
