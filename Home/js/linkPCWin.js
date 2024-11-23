@@ -230,6 +230,17 @@ function ImgBurn(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LcxTHZoS#
 function ImgBurnWeb(){verificarSesionYAbrirEnlace("https://www.imgburn.com/index.php?act=download");}
 function Nero(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vJx1mDzS#zyGq3_vhX7OuQ9QXGhTrVg");}
 function NeroWeb(){verificarSesionYAbrirEnlace("https://www.malavida.com/es/soft/nero-burning-rom/");}
+function MiniToolPartitionWizard(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TcgDnKiY#M0GB7N3UKDpcUm0ADKaS-A");}
+function MiniToolPartitionWizardWeb(){verificarSesionYAbrirEnlace("https://www.partitionwizard.com/");}
+//Fatal mas Programas en Grabar ISO en USB
+function Rufus(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jIhigTST#uxbrt3mj9WLQPplA3n9Ymg");}
+function RufusWeb(){verificarSesionYAbrirEnlace("https://rufus.ie/es/");}
+function balenaEtcher(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fV4TzTzI#X4D0hrdScstpK9Xgn-MwYg");}
+function balenaEtcherWeb(){verificarSesionYAbrirEnlace("https://www.balena.io/etcher");}
+
+
+
+
 
 
 function nombre(){verificarSesionYAbrirEnlace("");}
