@@ -50,25 +50,33 @@ function LinuxGentooMega(){verificarSesionYAbrirEnlace("https://mega.nz/file/J0s
 function LinuxGentooMedi(){verificarSesionYAbrirEnlace("https://www.mediafire.com/file/6bdd067gx8koblk/ps4gentoo01-2020.img.gz/file");}
 function PayloadInjectorPS4(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jcwgSaha#xAn4FRskBteQlPiowJiv7A");}
 function PayloadInjectorWeb(){verificarSesionYAbrirEnlace("https://github.com/TheWizWikii/PS4-Payload-Injector-Tool/releases");}
-
-
-
-
 function Batocera(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GMRSFYJY#ekby8mmfGnTZJKuuLbp3mg");}
-function BatoceraWeb(){verificarSesionYAbrirEnlace("");}
-
-
+function BatoceraIMG(){verificarSesionYAbrirEnlace("https://t.me/+x-84XxF06kcxZDEy");}
+function BatoceraWeb(){verificarSesionYAbrirEnlace("https://nuclearhacks.es/como-instalar-batocera-en-ps4-con-pocos-pasos/");}
 function Plataformas(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2I4RRRoa#TnwHTnQc6r_mwyZOHThK5A");}
 function pPlay(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XVIAiAjQ#PCNNPKMRW2-6nNZ1JL9xbg");}
+function pPlayWeb(){verificarSesionYAbrirEnlace("https://github.com/Cpasjuste/pplay/releases");}
 function MediaPlayes(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zJ5j0B7Q#WylErhklsgXdANiKT2RLSQ");}
+function MediaPlayesWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/CUSA02012");}
 function PS4Player(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DcBXTb6Q#9CV4ORgub1iqCrf1l2FFMg");}
+function PS4PlayerWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/LAPY20002");}
 function PNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2cAU1T7S#FYYf391RPLHjdN7QPCEIyg");}
 function PSNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fB5VlQjT#DQI5rJzmA_0zOO4IYT6cng");}
 function pfbneo(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jEYRWS5D#lo-7WkjPiChQoz_TuStmtw");}
+function pgen(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zNBxTTiR#wrC_i8nJZuHJ3wf9DLlHhQ");}
+function pemuWeb(){verificarSesionYAbrirEnlace("https://github.com/Cpasjuste/pemu");}
 function P8(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uYg0VKzD#h9MDsSI-Uvswk4eD_2IyVQ");}
+function P8Web(){verificarSesionYAbrirEnlace("https://github.com/voliva/ps4-p8");}
 function SNESTicles(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KRwmBRLK#CqSV-etUkpOrkCWPVM054w");}
+function SNESTiclesWeb(){verificarSesionYAbrirEnlace("https://github.com/tmaul/SNESticle");}
 function RetroArch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vYoACIjR#qqbxbe8HA_LiI7MV4SOqVA");}
-function PGEN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zNBxTTiR#wrC_i8nJZuHJ3wf9DLlHhQ");}
+function RetroArchWeb(){verificarSesionYAbrirEnlace("https://www.retroarch.com/?page=platforms");}
+
+
+
+
+
+
 function CrearAvatarAuto(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fZwHnQxJ#_3vQ47Y8pzaOxte1sKopZA");}
 function CrearAvatarManual(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fAxghSAZ#0EQ0wgLntBNcnd1Jn4Q2Hw");}
 function SEGASATURN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WIZFkBqJ#lXwMn5OD5cnoW0xi-YCFKQ");}

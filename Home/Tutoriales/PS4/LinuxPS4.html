@@ -1,0 +1,277 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Linux en PS4</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS4.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Linux en PS4</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Podemos cargar Linux en nuestra consola PS4 para poder jugar juegos de PC, emuladores y mas</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PS4/LinuxPS4.jpg" alt="Imagen No Disponible" /></span>
+
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>USB en formato ExFAT</li>
+												<li>Teclado y Mouse</li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <!--<a name="ProFT" id="ProFT"></a>-->
+                                            <div class="table-wrapper">
+												<h4>Archivos Para descargar</h4>
+												<table>
+													<thead>
+														<tr>
+															<th>Archivos</th>
+															<th colspan="2">Servidores</th>
+														</tr>
+													</thead>
+													<tfoot>
+														<tr>
+															<td>ps4gentoo Mega</td>
+                                                            <td><a onclick="LinuxGentooMega()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>ps4gentoo Mediafire</td>
+                                                            <td><a onclick="LinuxGentooMedi()">github.com</a></td>
+														</tr>
+														<tr>
+															<td>Payload Injector</td>
+                                                            <td><a onclick="PayloadInjectorPS4()">Mega</a></td>
+														</tr>
+														<tr>
+															<td>WEB Oficial</td>
+                                                            <td><a onclick="PayloadInjectorWeb()">github.com</a></td>
+														</tr>
+													</tfoot>
+												</table>
+											</div>
+                                        </div>
+                                    </div>
+
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Empezando este Tutorial </p>
+                                            <ol>
+												<li>Conectamos nuestro USB o Disco a nuestro Computador </li>
+												<ul>
+													<li>Dentro verificamos el Formato del Disco para esto le damos clip derecho sobre el Disco y le damos en propiedades </li>
+													<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS401.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y tiene que estar en NTFS nuestro USB o Disco esto es muy importante</li>
+													<li>Podemos usar <b>MiniTool Partition Wizard</b> para verificar si nuestro Disco se encuentra en <b>MBR</b> </li>
+													<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS402.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<ol>
+														<li>Si estuviera en GPT le damos clip derecho y en <b>Reconstruir de GPT a MBR</b></li>
+														<li>Le damos a clip derecho y buscamos <b>Formatear</b> </li>
+														<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS403.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Y lo dejamos en FAT32 y le damos a aceptar y Aplicar </li>
+														<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS404.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Y listo </li>
+													</ol>
+													<li>Ahora vamos a instalar la imagen ps4gentoo01-2020.img</li>
+													<ol>
+														<li>Para esto usaremos la aplicación Rufus para la creación del USB</li>
+														<li>Si no nos detecta el Disco externo le damos a la casilla <b>Listar los discos duros USB</b> </li>
+														<li>Seleccionamos la imagen <b>ps4gentoo01-2020.img</b> que descargamos </li>
+														<li>Una vez terminado podemos cerrar todo</li>
+													</ol>
+												</ul>
+												<li>En nuestra consola PS4</li>
+												<ul>
+													<li>Lanzamos el GoldHen y buscamos en nuestra página de confianza </li>
+													<li>Vamos al navegador de internet de nuestra consola PS4 y buscamos  </li>
+													<ol>
+														<li>Mi Hot 		<code>https://marchelobm.github.io/</code></li>
+														<li>Karo 		<code>https://karo218.ir</code></li>
+													</ol>
+													<li>Podemos cargar el Linux 1GB hasta Linux 5Gb solo hay que probar se recomienda de 1 GB para empezar</li>
+													<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS405.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Si nos funciona podemos activar <b>MiraLoader</b> y después <b>Linux 1GB</b> para probar</li>
+												</ul>
+												<li>Desde nuestro PC </li>
+												<ul>
+													<li>En nuestra consola activamos en Ajustes/GoldHEN </li>
+													<ol>
+														<li>Enable BinLoader Server</li>
+														<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS406.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													</ol>
+													<li>Si queremos hacerlo desde el pc buscamos <b>PS4 Payload Injector Tool</b></li>
+													<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS407.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Seleccionamos el Firmware de nuestra consola </li>
+													<li>Seleccionamos la Conexión colocamos la IP de nuestra consola PS4 y el puerto 9020</li>
+													<li>Conectamos con el botón Conectar </li>
+													<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS408.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Después buscamos el Payload <b>MiraLoader</b> y lo enviamos a nuestra consola y después <b>LinuxLoader</b></li>
+													<li>La consola se quedará en negro solo hay que esperar </li>
+													<ol>
+														<li>Podemos cambiar el idioma</li>
+														<li>Conectar al Wifi si no la tenemos por cable LAN </li>
+													</ol>
+												</ul>
+												<li>Dentro de Linux</li>
+												<ul>
+													<li>Para ampliar el disco vamos a toda su capacidad vamos a buscar <b>GParted</b></li>
+													<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS409.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Si nos pide contraseña es ps4 </li>
+													<li>Buscamos el sdb que contiene el Linux abrimos el que está en ext4 y redimensionamos todo lo fata por agregar </li>
+													<img src="../../images/Tutotiales/PS4/LinuxPS4/LinuxPS410.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y le damos a aplicar y a esperar que se aplique los cambios </li>
+												</ul>
+												<li>Y Listo</li>
+
+                                            </ol>
+									</div>
+
+                                    <hr class="major" />
+
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+
+								<!-- Login -->
+								<section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+
+									<div class="col-6 col-12-small">
+										<ul class="actions stacked">
+											<li id="usu"></li>
+											<!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+											<li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+										</ul>
+									</div>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+										<li><a href="../../Programas.html">Programas</a></li>
+										<!-- Menu Consola -->
+										<li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="../../HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

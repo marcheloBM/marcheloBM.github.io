@@ -171,7 +171,24 @@ const contenidoPorCategoria = {
     PS4: [
 		{ nombre: "Seleccionar", ubicacion: "PS4Tutorial", comentario: "Elija una opción" },
         { nombre: "PS4 Update o Reinstalación", ubicacion: "Updates", comentario: "Guía para actualizar o reinstalación del software del sistema de PS4" },
-		{ nombre: "Liberar PS4", ubicacion: "LiberarPS4", comentario: "El Exploit compatibles para sus consolas con firewall 5.05, 6.72, 7.00, 7.02, 7.50, 7.51, 7.55, 9.00 y 11.00." }
+		{ nombre: "Liberar PS4", ubicacion: "LiberarPS4", comentario: "El Exploit compatibles para sus consolas con firewall 5.05, 6.72, 7.00, 7.02, 7.50, 7.51, 7.55, 9.00 y 11.00." },
+		{ nombre: "Payloads", ubicacion: "Payloads", comentario: "Estos payloads son cargas útiles que se inyectan a la consola y nos permiten hacer diferentes tareas según el payload que se utiliza." },
+		{ nombre: "LogMein Hamachi", ubicacion: "LogMeinHamachi", comentario: "LogMeIn Hamachi es una aplicación que configura redes privadas virtuales capaz de establecer vínculos directos" },
+		{ nombre: "ICON MASK", ubicacion: "ICONMASK", comentario: "Icon Mask es una sencilla aplicación Homebrew de PS4 que te permite modificar la apariencia de tus iconos aplicando una máscara PNG sencilla sobre ellos." },
+		{ nombre: "PS4 Temperature", ubicacion: "PS4Temperature", comentario: "Herramienta creada por @Lapy que nos permite manipular la velocidad del ventilador de la consola a través del syscon." },
+		{ nombre: "Patch Installer", ubicacion: "PatchInstaller", comentario: "Update a los juegos desde PS4 Jailbreak" },
+		{ nombre: "Apollo Save Tool", ubicacion: "ApolloSaveTool", comentario: "Apollo Save Tool es una aplicación para administrar archivos de partidas guardadas, trofeos y licencias en PlayStation 4." },
+		{ nombre: "PS4 Toolset", ubicacion: "PS4Toolset", comentario: "Herramienta para crear backup sobre nuestra consola, entre ellas podemos crear una copia de seguridad de nuestra consola" },
+		{ nombre: "Store-R2", ubicacion: "StoreR2", comentario: "PS4 Store. Esta aplicación hombrew permite descargar directamente desde tu consola todo el contenido que está publicado en pkg-zone." },
+		{ nombre: "Remote PKG installer", ubicacion: "RemotePKGinstaller", comentario: "¡El instalador remoto de PS4 PKG está aquí para ayudar! Desde nuestro PC hacia nuestra consola." },
+		{ nombre: "PS4 XPLORER", ubicacion: "PS4XPLORER", comentario: "Homebrew FPKG desarrollado por @Lapy en Unity para PS4, Permite las operaciones básicas de un explorador de archivos (cortar, copiar, pegar, renombrar y borrar archivos y carpetas completas)" },
+		{ nombre: "GoldHEN CHEATS Manager", ubicacion: "GoldHENCHEATSManager", comentario: "GoldHEN 2.2 viene con un menú incorporado que le permite cargar códigos de trucos para muchos juegos de PS4." },
+		{ nombre: "Orbis Toolbox", ubicacion: "OrbisToolbox", comentario: "Una modificación de la interfaz de usuario de PlayStation para facilitar el lanzamiento y desarrollo de homebrew." },
+		{ nombre: "Itemzflow Game Manager", ubicacion: "ItemzflowGameManager", comentario: "Itemzflow es una alternativa de menú de inicio de PS4 gratuita y de código abierto." },
+		{ nombre: "Consolepedia 3D", ubicacion: "Consolepedia3D", comentario: "Desde Atari hasta Nintendo y PlayStation, todos con modelos 3D detallados de cada sistema con información sobre la historia, especificaciones y sus juegos más vendidos." },
+		{ nombre: "WebDAV Client", ubicacion: "WebDAVClient", comentario: "ezRemote Client es una aplicación que permite conectar la PS4 a servidores remotos FTP/SFTP, SMB (Windows Share), NFS, WebDAV, HTTP y Google Drive para transferir archivos." },
+		{ nombre: "Linux en PS4", ubicacion: "LinuxPS4", comentario: "Podemos cargar Linux en nuestra consola PS4 para poder jugar juegos de PC, emuladores y mas" },
+		{ nombre: "Batocera", ubicacion: "Batocera", comentario: "está diseñado para emular consolas de videojuegos clásicas y modernas." }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [
