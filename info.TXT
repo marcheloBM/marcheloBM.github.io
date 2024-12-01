@@ -1,3 +1,5 @@
+-v1.84 Nuevos Tutoriales/PS4
+	Se agrego nuevos tutorial de PS4 v3
 -v1.83 Nuevos Tutoriales/PS4
 	Se agrego nuevos tutorial de PS4 v2
 -v1.82 Nuevos Programas

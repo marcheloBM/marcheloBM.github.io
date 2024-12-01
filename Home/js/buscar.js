@@ -188,7 +188,11 @@ const contenidoPorCategoria = {
 		{ nombre: "Consolepedia 3D", ubicacion: "Consolepedia3D", comentario: "Desde Atari hasta Nintendo y PlayStation, todos con modelos 3D detallados de cada sistema con información sobre la historia, especificaciones y sus juegos más vendidos." },
 		{ nombre: "WebDAV Client", ubicacion: "WebDAVClient", comentario: "ezRemote Client es una aplicación que permite conectar la PS4 a servidores remotos FTP/SFTP, SMB (Windows Share), NFS, WebDAV, HTTP y Google Drive para transferir archivos." },
 		{ nombre: "Linux en PS4", ubicacion: "LinuxPS4", comentario: "Podemos cargar Linux en nuestra consola PS4 para poder jugar juegos de PC, emuladores y mas" },
-		{ nombre: "Batocera", ubicacion: "Batocera", comentario: "está diseñado para emular consolas de videojuegos clásicas y modernas." }
+		{ nombre: "Batocera", ubicacion: "Batocera", comentario: "está diseñado para emular consolas de videojuegos clásicas y modernas." },
+		{ nombre: "Plataformas", ubicacion: "Plataformas", comentario: "Ver películas y series desde la comodidad de casa. entre las favoritas de los usuarios se encuentran Amazon Prime, NETFLIX, Crunchyroll, Plex, Youtube y Hulu" },
+		{ nombre: "pPlay", ubicacion: "pPlay", comentario: "pPlay es un reproductor de vídeo para PS4. La aplicación soporta la mayoría de formatos de vídeo populares, tiene soporte para subtítulos (incrustados) y streaming vía http." },
+		{ nombre: "Media Playes", ubicacion: "MediaPlayes", comentario: "Sony ha lanzado un nuevo reproductor multimedia para PlayStation 4 inmediatamente después de la conferencia de prensa de PlayStation. Para aquellos que no lo sepan." },
+		{ nombre: "PS4 Player", ubicacion: "PS4Player", comentario: "S4 Player és un Reproductor de video para Playstation 4 desarrollado por @Lapy." }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [
