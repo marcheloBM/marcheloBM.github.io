@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertar Usuario</title>
+</head>
+<body>
+    <h1>Insertar Usuario</h1>
+    <form id="insertForm">
+        <label for="usuario">Usuario:</label><br>
+        <input type="text" id="usuario" name="usuario" required><br>
+        <label for="pass">Contraseña:</label><br>
+        <input type="password" id="pass" name="pass" required><br>
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" required><br>
+        <label for="apellido">Apellido:</label><br>
+        <input type="text" id="apellido" name="apellido" required><br>
+        <label for="pais">País:</label><br>
+        <input type="text" id="pais" name="pais" required><br>
+        <label for="celular">Celular:</label><br>
+        <input type="text" id="celular" name="celular" required><br>
+        <label for="correo">Correo:</label><br>
+        <input type="email" id="correo" name="correo" required><br><br>
+        <button type="submit">Insertar Usuario</button>
+    </form>
+
+    <div id="mensaje"></div>
+    <script>
+        document.getElementById("insertForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+			
+            const formData = {
+                usuario: document.getElementById("usuario").value,
+                pass: document.getElementById("pass").value,
+                nombre: document.getElementById("nombre").value,
+                apellido: document.getElementById("apellido").value,
+                pais: document.getElementById("pais").value,
+                celular: document.getElementById("celular").value,
+                correo: document.getElementById("correo").value
+            };
+
+            fetch('http://marchelobm.kesug.com/wsLogin/jsonAgregar.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("mensaje").innerHTML = data.message || data.error;
+            })
+            .catch(error => {
+                console.error('Error al insertar usuario:', error);
+                document.getElementById("mensaje").innerHTML = 'Error al insertar usuario.';
+            });
+        });
+    </script>
+</body>
+</html>

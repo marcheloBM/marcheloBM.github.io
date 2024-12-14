@@ -18,14 +18,14 @@ function datos() {
         enviarSolicitud(usuario, passwordSha1);
     });
     //Uso estatico
-    function enviarSolicitud2(usuario, password) {
+    function enviarSolicitud(usuario, password) {
         sessionStorage.usuario="admin";
         sessionStorage.nombre="admin";
         sessionStorage.apellido="admin";
         window.location.href='Home.html';
     }
     //Uso con web service 
-    function enviarSolicitud(usuario, password) {
+    function enviarSolicitud2(usuario, password) {
         fetch('http://marchelobm.kesug.com/wsLogin/jsonBuscar.php?usuario=' + usuario + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
         .then(response => {
             if (!response.ok) {

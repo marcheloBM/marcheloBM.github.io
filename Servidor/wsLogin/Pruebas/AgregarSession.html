@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insertar Session</title>
+</head>
+<body>
+    <h1>Insertar Session</h1>
+    <form id="insertForm">
+        <label for="iduser">iduser:</label><br>
+        <input type="text" id="iduser" name="iduser" required><br>
+        <label for="fechaIngreso">fechaIngreso:</label><br>
+        <input type="fechaIngreso" id="fechaIngreso" name="fechaIngreso" required><br>
+		<button type="submit">Insertar Session</button>
+    </form>
+
+    <div id="mensaje"></div>
+    <script>
+        document.getElementById("insertForm").addEventListener("submit", function(event) {
+            event.preventDefault(); // Evitar que el formulario se envíe automáticamente
+			
+            const formData = {
+                iduser: document.getElementById("iduser").value,
+                fechaIngreso: document.getElementById("fechaIngreso").value
+            };
+
+            fetch('http://marchelobm.kesug.com/wsLogin/jsonSAgregar.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(formData)
+            })
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById("mensaje").innerHTML = data.message || data.error;
+            })
+            .catch(error => {
+                console.error('Error al insertar usuario:', error);
+                document.getElementById("mensaje").innerHTML = 'Error al insertar usuario.';
+            });
+        });
+    </script>
+</body>
+</html>

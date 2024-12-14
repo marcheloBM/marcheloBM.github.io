@@ -1,0 +1,16 @@
+
+Insertar
+CALL InsertarUser('nombre_usuario', 'contraseña', 'Juan', 'Perez', 'Argentina', '1234567890', 'juan.perez@example.com');
+
+Buscar
+CALL BuscarUser('nombre_usuario', 'contraseña');
+
+Modificar
+CALL ModificarUser(1, 'nuevo_usuario', 'nueva_contraseña', 'Juan', 'Perez', 'Argentina', '1234567890', 'juan.perez@example.com');
+
+Eliminar
+CALL EliminarUser(1);
+
+Listar
+CALL ListarUsers();
+

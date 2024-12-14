@@ -1,3 +1,5 @@
+-v1.86 Cambios en el Login
+	Se volvio a dejar como estaba esta revisar el servidor 
 -v1.85 Cambios en el Login
 	Se Modifico el login para probarlo 
 -v1.84 Nuevos Tutoriales/PS4

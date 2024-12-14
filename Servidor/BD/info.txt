@@ -1,0 +1,13 @@
+Bd*
+Procedimiento 
+*	insertar
+*	modificar
+*	listar(buscar)
+*	listar
+*	eliminar
+Json
+	los mismo del procedimiento
+Html
+	login
+	crear usuario
+	mantenedor

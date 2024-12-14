@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba de Datos de Usuario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            padding: 0;
+        }
+        .usuario {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+        .usuario p {
+            margin: 5px 0;
+        }
+        .error {
+            color: red;
+        }
+        .loading {
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Datos del Usuario</h1>
+    
+    <div id="datosUsuario" class="loading">Cargando datos...</div>
+
+    <script>
+        // Hacer la solicitud HTTP al servicio web
+        fetch('http://marchelobm.kesug.com/wsLogin/jsonListar.php') // Asegúrate de que la URL es correcta
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Error en la respuesta del servidor: ' + response.statusText);
+                }
+                return response.json(); // Convertir la respuesta a JSON
+            })
+            .then(data => {
+                // Procesar los datos y mostrarlos en la página
+                const usuarios = data; // Array de objetos de usuario
+                let html = '';
+                
+                html += `<h3>Cantidad de registros: ${usuarios.length}</h3>`;
+                
+                usuarios.forEach(usuario => {
+                    html += `
+                        <div class="usuario">
+                            <p><strong>ID de Usuario:</strong> ${usuario.id}</p>
+                            <p><strong>Usuario:</strong> ${usuario.usuario}</p>
+                            <p><strong>Contraceña:</strong> ${usuario.pass}</p>
+                            <p><strong>Nombre:</strong> ${usuario.nombre}</p>
+                            <p><strong>Apellido:</strong> ${usuario.apellido}</p>
+							<p><strong>Pais:</strong> ${usuario.pais}</p>
+							<p><strong>Celular:</strong> ${usuario.celular}</p>
+							<p><strong>Correo:</strong> ${usuario.correo}</p>
+							<p><strong>Fecha Registro:</strong> ${usuario.fechaRegistro}</p>
+                        </div>
+                    `;
+                });
+
+                document.getElementById('datosUsuario').innerHTML = html;
+            })
+            .catch(error => {
+                console.error('Error al obtener los datos:', error);
+                document.getElementById('datosUsuario').innerHTML = `<p class="error">Error al obtener los datos del usuario: ${error.message}</p>`;
+            });
+    </script>
+</body>
+</html>
