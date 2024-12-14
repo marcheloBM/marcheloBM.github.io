@@ -1,3 +1,5 @@
+-v1.85 Cambios en el Login
+	Se Modifico el login para probarlo 
 -v1.84 Nuevos Tutoriales/PS4
 	Se agrego nuevos tutorial de PS4 v3
 -v1.83 Nuevos Tutoriales/PS4

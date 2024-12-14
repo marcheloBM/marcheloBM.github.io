@@ -18,15 +18,15 @@ function datos() {
         enviarSolicitud(usuario, passwordSha1);
     });
     //Uso estatico
-    function enviarSolicitud(usuario, password) {
+    function enviarSolicitud2(usuario, password) {
         sessionStorage.usuario="admin";
         sessionStorage.nombre="admin";
         sessionStorage.apellido="admin";
         window.location.href='Home.html';
     }
     //Uso con web service 
-    function enviarSolicitud2(usuario, password) {
-        fetch('https://marchebm.000webhostapp.com/wsLogin/json.php?usuario=' + usuario + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
+    function enviarSolicitud(usuario, password) {
+        fetch('http://marchelobm.kesug.com/wsLogin/jsonBuscar.php?usuario=' + usuario + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
         .then(response => {
             if (!response.ok) {
                 throw new Error('No se pudo iniciar sesión. Por favor, verifica tus credenciales.');
