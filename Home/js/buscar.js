@@ -192,7 +192,15 @@ const contenidoPorCategoria = {
 		{ nombre: "Plataformas", ubicacion: "Plataformas", comentario: "Ver películas y series desde la comodidad de casa. entre las favoritas de los usuarios se encuentran Amazon Prime, NETFLIX, Crunchyroll, Plex, Youtube y Hulu" },
 		{ nombre: "pPlay", ubicacion: "pPlay", comentario: "pPlay es un reproductor de vídeo para PS4. La aplicación soporta la mayoría de formatos de vídeo populares, tiene soporte para subtítulos (incrustados) y streaming vía http." },
 		{ nombre: "Media Playes", ubicacion: "MediaPlayes", comentario: "Sony ha lanzado un nuevo reproductor multimedia para PlayStation 4 inmediatamente después de la conferencia de prensa de PlayStation. Para aquellos que no lo sepan." },
-		{ nombre: "PS4 Player", ubicacion: "PS4Player", comentario: "S4 Player és un Reproductor de video para Playstation 4 desarrollado por @Lapy." }
+		{ nombre: "PS4 Player", ubicacion: "PS4Player", comentario: "S4 Player és un Reproductor de video para Playstation 4 desarrollado por @Lapy." },
+		{ nombre: "PNES", ubicacion: "PNES", comentario: "pNES (Nintendo) para dar soporte a la mismísima PlayStation 4." },
+		{ nombre: "PSNES", ubicacion: "PSNES", comentario: "PSNES (Super Nintendo) para dar soporte a la mismísima PlayStation 4" },
+		{ nombre: "PFBNEO", ubicacion: "PFBNEO", comentario: "pFBA puede ejecutar neogeo, cps1, cps2, cps3… arcade roms, megadrive, master system, game gear, pc engine…. roms de consola." },
+		{ nombre: "PGEN", ubicacion: "PGEN", comentario: "PGen es un emulador de Sega Mega Drive de código abierto escrito en lenguaje de programación C++ para PlayStation PS4" },
+		{ nombre: "P8", ubicacion: "P8", comentario: "PICO-8 es una consola de fantasía para crear, compartir y jugar pequeños juegos y otros programas informáticos." },
+		{ nombre: "SNESTicles PS2 (emulador SNES)", ubicacion: "SNESTicles", comentario: "NESticle es un emulador de Nintendo Entertainment System, que fue escrito por Icer Addis de Bloodlust Software" },
+		{ nombre: "RetroArch", ubicacion: "RetroArch", comentario: "RetroArch es una interfaz para emuladores, motores de juegos y reproductores multimedia." }
+		
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [

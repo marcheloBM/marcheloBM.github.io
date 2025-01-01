@@ -71,29 +71,31 @@ function SNESTicles(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KRwmBR
 function SNESTiclesWeb(){verificarSesionYAbrirEnlace("https://github.com/tmaul/SNESticle");}
 function RetroArch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vYoACIjR#qqbxbe8HA_LiI7MV4SOqVA");}
 function RetroArchWeb(){verificarSesionYAbrirEnlace("https://www.retroarch.com/?page=platforms");}
-
-
-
-
-
-
 function CrearAvatarAuto(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fZwHnQxJ#_3vQ47Y8pzaOxte1sKopZA");}
 function CrearAvatarManual(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fAxghSAZ#0EQ0wgLntBNcnd1Jn4Q2Hw");}
 function SEGASATURN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WIZFkBqJ#lXwMn5OD5cnoW0xi-YCFKQ");}
+function SEGASATURNWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/update-v1-2-saturn-fpkg-convert-saturn-games-into-ps4-fpkgs.36031/");}
 function CrearTrucos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bUYH0QIY#IJLvMIfN7oEIQGcGWS7M-g");}
 function EnvíaarchivosPKG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eM5x3BRZ#QIQZBNihKudQVnHIv_UkbQ");}
+function EnvíaarchivosPKGWeb(){verificarSesionYAbrirEnlace("https://github.com/Gkiokan/ps4-remote-pkg-sender/releases");}
 function RestaurarJuegos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iRo3hIZQ#jn-BQTA6bHj4LJdVjk91gA");}
 function PARAMSFOEditor(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6EIBhJqI#ljK8mjgj-2SRewq61ViaRw");}
+function PARAMSFOEditorWeb(){verificarSesionYAbrirEnlace("https://github.com/xXxTheDarkprogramerxXx/PS3Tools/releases/tag/V1.2-SFO");}
 function Dumpsjuegos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TZgWiZJa#8JTfQQxrnTE-lmTy7ta0Jw");}
+function DumpsjuegosWeb(){verificarSesionYAbrirEnlace("https://github.com/hippie68/ftpdump");}
 function CreaAccesosDirecto(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XUx1HAiA#lqosBS0_a-wLarSYgbUK8A");}
+function CreaAccesosDirectoWeb(){verificarSesionYAbrirEnlace("https://sqlitebrowser.org/");}
 function CrearPSXyPSP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nV53SZBI#czNgCjqVVYZTFn_Y_VnnOg");}
+function CrearPSPWeb(){verificarSesionYAbrirEnlace("https://github.com/John-K/pspdecrypt/releases");}
+function CrearPS1Web(){verificarSesionYAbrirEnlace("https://www.logic-sunrise.com/news-1162226-ps4-psx-2-ps4-v10-vos-iso-ps1-sur-ps4.html");}
 function RemoteconStore(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zI52TLRS#nOHdAbawndr31Dp6_QyWPQ");}
+function RemoteconStoreWeb(){verificarSesionYAbrirEnlace("https://github.com/LightningMods/Store-CDN-Tool");}
 function TrofeosencriptadosparaPKG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7YwQWDRQ#wZRuIgIrgp5liax-TLYMUQ");}
 function pkgmerge(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zEYGnSJA#ows7A0PqeVz89DhGKBSERA");}
 function pkgmergeWeb(){verificarSesionYAbrirEnlace("https://github.com/Tustin/pkg-merge");}
 function PS4PKGViewer(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LFwXiDrJ#yscB1eO1AXOgQuZLbBh4-g");}
 function Chiaki(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bZZWRLQI#IPjb-G7IJeNv-81A2zo83Q");}
-
+function ChiakiWeb(){verificarSesionYAbrirEnlace("https://git.sr.ht/~thestr4ng3r/chiaki/refs");}
 
 
 
