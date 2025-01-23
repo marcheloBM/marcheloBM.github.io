@@ -1,3 +1,5 @@
+-v1.88 Nuevos Tutoriales/PS4
+	Se agrego nuevos tutorial de PS4 v5
 -v1.87 Nuevos Tutoriales/PS4
 	Se agrego nuevos tutorial de PS4 v4 
 -v1.86 Cambios en el Login

@@ -199,8 +199,25 @@ const contenidoPorCategoria = {
 		{ nombre: "PGEN", ubicacion: "PGEN", comentario: "PGen es un emulador de Sega Mega Drive de código abierto escrito en lenguaje de programación C++ para PlayStation PS4" },
 		{ nombre: "P8", ubicacion: "P8", comentario: "PICO-8 es una consola de fantasía para crear, compartir y jugar pequeños juegos y otros programas informáticos." },
 		{ nombre: "SNESTicles PS2 (emulador SNES)", ubicacion: "SNESTicles", comentario: "NESticle es un emulador de Nintendo Entertainment System, que fue escrito por Icer Addis de Bloodlust Software" },
-		{ nombre: "RetroArch", ubicacion: "RetroArch", comentario: "RetroArch es una interfaz para emuladores, motores de juegos y reproductores multimedia." }
-		
+		{ nombre: "RetroArch", ubicacion: "RetroArch", comentario: "RetroArch es una interfaz para emuladores, motores de juegos y reproductores multimedia." },
+		{ nombre: "Crear Avatar", ubicacion: "CrearAvatares", comentario: "En este tutorial les muestro como cambiar el Avatar o imagen de perfil sin PSN de forma Offline" },
+		{ nombre: "Sega Saturn", ubicacion: "SegaSaturn", comentario: "Convierte ahora tus juegos de SEGA SATURN para PS4 con SATURN-FPKG" },
+		{ nombre: "Crear Tus Propios Trucos", ubicacion: "CrearTrucos", comentario: "Como CREAR tus Propios TRUCOS para PS4 con un computador y nuestra ps4 podemos buscar y crear trucos para nuestros juegos favoritos." },
+		{ nombre: "Envía archivos PKG", ubicacion: "EnvíaPKGaPS4", comentario: "Envía archivos PKG a tu PS4 con Remote PKG Sender v2 podemos enviar cualquier archivo PKG desde nuestro pc sin la necesidad de una unidad USB con el siguiente programa." },
+		{ nombre: "Duxas PS4 Patch Repackager", ubicacion: "DuxasPS4PatchRepackager", comentario: "La aplicación Duxas PS4 patch repackager nos permite solucionar el error CE-36434-0" },
+		{ nombre: "PARAM.SFO Editor", ubicacion: "PARAM.SFOEditor", comentario: "PARAM SFO Editor podemos saber más información de nuestros juegos con param.sfo y podemos modificar más información." },
+		{ nombre: "Dumps juegos", ubicacion: "DumpsJuegos", comentario: "Podemos Dumpiar nuestros juegos de PS4 por Medio de FTP a nuestro PC para tener la copia de seguridad de nuestros juegos" },
+		{ nombre: "Crea Acces,os Directo", ubicacion: "CreaAccesos", comentario: "Crea tus propios accesos directo en nuestra consola PS4 desde el menú de notificaciones con estos programas." },
+		{ nombre: "Crear PS1 y PSP en PS4", ubicacion: "PS1yPSP", comentario: "Crea tus propios JUEGOS - Ps4 Jailbreak Emuladores PS1 y PSP para nuestra consola PS4 con los siguientes programas" },
+		{ nombre: "Remote con Store", ubicacion: "RemoteStore", comentario: "Cómo servir sus paquetes de PS4 desde su computadora a su PS4 con Homebrew Store." },
+		{ nombre: "Trofeos encriptados para PKG", ubicacion: "TrofeosEncriptados", comentario: "Verificar los Trofeos correctamente si decides construir pkg por error en los Trofeos en nuestros juegos de PS4." },
+		{ nombre: "pkg merge", ubicacion: "pkgMerge", comentario: "Una herramienta para fusionar partes de un paquete de PS4 en un archivo PKG completo. Útil para instalar un juego completo en tu sistema" },
+		{ nombre: "PS4 PKG Viewer", ubicacion: "PS4PKGViewer", comentario: "PS4 PKG Viewer és una pequeña herramienta para ver la información del paquete de PS4 creada por LeecherMan." },
+		{ nombre: "Chiaki", ubicacion: "Chiaki", comentario: "PlayStation 4 de forma remota y sin abandonar la comodidad de los dispositivos Android." },
+		{ nombre: "PS2 FPKG", ubicacion: "PS2FPKG", comentario: "Una herramienta que convierte juegos de PS2 en fPKG de PS4" },
+		{ nombre: "PSP FPKG", ubicacion: "PSPFPKG", comentario: "Esta aplicación te permite convertir tus juegos de PSP en fPKG de PS4 utilizando el emulador PSPHD recientemente lanzado de PS-Plus." },
+		{ nombre: "Sega Saturn a Ps4", ubicacion: "SaturnPs4", comentario: "Podemos convertir juegos de sega saturn para nuestra PS4" },
+		{ nombre: "MODS de PC en PS4", ubicacion: "MODSPCPS4", comentario: "Podemos pasar Mods de PC para nuestros juegos de PS4" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [

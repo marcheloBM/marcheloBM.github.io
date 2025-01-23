@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Envía archivos PKG PS4</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS4.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Envía archivos PKG</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Envía archivos PKG a tu PS4 con Remote PKG Sender v2 podemos enviar cualquier archivo PKG desde nuestro pc sin la necesidad de una unidad USB con el siguiente programa.</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PS4/EnviaPKG.jpg" alt="Imagen No Disponible" /></span>
+
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>PC o Notebook con Windows 7, 8, 8.1, 10</li>
+                                                <li>Para descomprimir archivos <a href="../../Programas/ProgramasWindows.html#Compri"> .rar o .zip</a> </li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <!--<a name="ProFT" id="ProFT"></a>-->
+                                            <table>
+												<thead>
+													<tr>
+														<th>Archivos</th>
+														<th colspan="2">Servidores</th>
+													</tr>
+												</thead>
+												<tfoot>
+													<tr>
+														<td>PS4 Remote PKG Sender</td>
+														<td><a onclick="EnvíaarchivosPKG()">Mega</a></td>
+													</tr>
+													<tr>
+														<td>WEB Oficial</td>
+														<td><a onclick="EnvíaarchivosPKGWeb()">github.com</a></td>
+													</tr>
+												</tfoot>
+											</table>
+                                        </div>
+                                    </div>
+
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Para Empezar este Tutorial</p>
+                                            <ol>
+												<li>Descargamos los archivos </li>
+                                                <ul>
+                                                    <li>Descomprimimos el archivo .rar o .zip</li>
+                                                    <ol>
+                                                        <li>PS4.Remote.PKG.Sender.V??????.rar</li>
+                                                    </ol>
+                                                    <li>Con la última versión disponible </li>
+                                                    <li>Una vez descargado nuestro archivo</li>
+                                                </ul>
+												<li>Lo extraemos y ejecutamos</li>
+												<ul>
+													<li>Para eso abrimos PS4 Remote PKG Sender V2.exe lo podemos abrir como administrador también y nos preguntara algo la primera vez que lo abramos </li>
+													<img src="../../images/Tutotiales/PS4/EnviaPKG/EnviaPKG01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="400" height="100" onclick="onClick(this)"/>
+													<img src="../../images/Tutotiales/PS4/EnviaPKG/EnviaPKG02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="400" height="100" onclick="onClick(this)"/>
+													<li>Cuando se habrá vamos a <b>Config</b> y le colocamos la IP de nuestra PC y le damos a <b>PKG Base Path</b> para buscar la ruta donde tenemos nuestros PKG y después le damos a <b>Scan sub directories</b> para escanear todos los directorios, en <b>PS4 IP</b> colocamos la IP de nuestra consola y subimos el <b>Request Timeout</b> para evitar errores y le damos a <b>Apply</b> para aplicar los cambios</li>
+													<li>Después vamos a Processing Center y vamos a <b>check Server</b> para ver como esta el servicio y si le damos a <b>check PS4</b> y si nos muestra un error debemos abrir <b>Remote PKG installer</b> en nuestra consola </li>
+													<img src="../../images/Tutotiales/PS4/EnviaPKG/EnviaPKG03.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="400" height="100" onclick="onClick(this)"/>
+													<img src="../../images/Tutotiales/PS4/EnviaPKG/EnviaPKG04.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="400" height="100" onclick="onClick(this)"/>
+													<li>Ahora nos debería salir correcto el test en el programa, si esta todo bien vamos a <b>Server</b> donde veremos todos los PKG disponible para enviar solo le damos al Mas para ir enviado a nuestra consola </li>
+													<img src="../../images/Tutotiales/PS4/EnviaPKG/EnviaPKG05.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Después nos vamos a <b>Processing Center</b> y veremos los PKG que podemos enviar a nuestra consola solo le damos a Pley para empezar el envió </li>+
+													<img src="../../images/Tutotiales/PS4/EnviaPKG/EnviaPKG06.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y los juegos van a ir instalándose en nuestra consola PS4 automáticamente </li>
+													<img src="../../images/Tutotiales/PS4/EnviaPKG/EnviaPKG07.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y listo</li>
+												</ul>
+												
+                                            </ol>
+									</div>
+
+                                    <hr class="major" />
+
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+
+								<!-- Login -->
+								<section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+
+									<div class="col-6 col-12-small">
+										<ul class="actions stacked">
+											<li id="usu"></li>
+											<!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+											<li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+										</ul>
+									</div>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+										<li><a href="../../Programas.html">Programas</a></li>
+										<!-- Menu Consola -->
+										<li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="../../HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

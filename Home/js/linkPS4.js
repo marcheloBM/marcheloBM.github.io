@@ -96,8 +96,19 @@ function pkgmergeWeb(){verificarSesionYAbrirEnlace("https://github.com/Tustin/pk
 function PS4PKGViewer(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LFwXiDrJ#yscB1eO1AXOgQuZLbBh4-g");}
 function Chiaki(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bZZWRLQI#IPjb-G7IJeNv-81A2zo83Q");}
 function ChiakiWeb(){verificarSesionYAbrirEnlace("https://git.sr.ht/~thestr4ng3r/chiaki/refs");}
-
-
+function PSNAccountIDWeb(){verificarSesionYAbrirEnlace("https://psn.flipscreen.games/");}
+function chiakiAppAndroid(){verificarSesionYAbrirEnlace("https://play.google.com/store/apps/details?id=com.gameblabla.chiaki");}
+function PS2FPKG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/PUpiiTLZ#oi1RK47nfm4WCca4o3Rg3A");}
+function PS2FPKGWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/release-ps2-fpkg-v0-7-beta-a-complete-rewrite-of-my-ps2-to-ps4-converter.41916/");}
+function PS2CompatWeb(){verificarSesionYAbrirEnlace("https://www.psdevwiki.com/ps4/PS2_Classics_Emulator_Compatibility_List");}
+function PSPFPKG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TJAgyBrS#xdyWmQmMnQEWSvew3CE2GA");}
+function PSPFPKGWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/psp-fpkg-v1-0-1-play-psp-games-with-the-ps-plus-emulator.37947/");}
+function SaturnPS4(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vIgxmITQ#xG4kljOfyuTrntNIPMGSwA");}
+function SaturnPS4Web(){verificarSesionYAbrirEnlace("https://www.logic-sunrise.com/news-1172671-ps4-saturn2ps4-v10-pour-505-672-et-900.html");}
+function MODSPCPS4(){verificarSesionYAbrirEnlace("https://mega.nz/folder/qBQy3I7S#baz-LbS7VU2JOav8LiqKrg");}
+function MODSPCPS4REPAKWeb(){verificarSesionYAbrirEnlace("https://github.com/Backporter/RE-PAK/releases/tag/5.3");}
+function MODSPCPS4RETEXWeb(){verificarSesionYAbrirEnlace("https://github.com/Backporter/PS4-RE-TEX/releases");}
+function MODSPCPS4GoldHENPWeb(){verificarSesionYAbrirEnlace("https://github.com/GoldHEN/GoldHEN_Plugins_Repository/releases");}
 
 
 
