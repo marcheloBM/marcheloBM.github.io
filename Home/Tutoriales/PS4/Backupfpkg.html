@@ -1,0 +1,258 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Backup fpkg</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../../assets/css/main.css" />
+        <link rel="stylesheet" href="../../css/estiloModal.css" />
+		<!-- Icono de la pagina WEB -->
+		<link rel="shortcut icon" href="../../ico/favicon.png" />
+        <!-- Para el Encabezado -->
+        <script src="../../js/InfoWebMenu.js"></script>
+        <!-- Metodo para imagenes a full pantalla -->
+        <script src="../../js/modal.js"></script>
+        <!-- Login -->
+        <script src="../../js/login.js"></script>
+        <script>
+            window.onload = cargarDatos;
+        </script>
+		<!-- link de programas -->
+        <script src="../../js/linkPS4.js"></script>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+							<header id="header">
+								<a href="../../index.html" class="logo"><strong>MarcheBMPC</strong> por Marcelo Burgos </a>
+								<ul class="icons">
+									<!-- Encabezado de la pagina-->
+									<!--<li id="encabezado"></li>-->
+									<li><a onclick="Twitter()" href="#" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+									<li><a onclick="Facebook()" href="#" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+									<li><a onclick="Instagram()" href="#" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+									<li><a onclick="Whatsapp()" href="#" class="icon brands fa-whatsapp" target="_blank"><span class="label">Whatsapp</span></a></li>
+									<li><a onclick="Messenger()" href="#" class="icon brands fa-facebook-messenger" target="_blank"><span class="label">Messenger</span></a></li>
+									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
+									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
+								</ul>
+							</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Backup fpkg</h1>
+									</header>
+
+									<!-- Content -->
+										<p>Podemos hacer Copias de seguridad de nuestros juegos físicos o digitales</p>
+                                    <span class="image main"><img src="../../images/Tutotiales/PS4/Backupfpkg.jpg" alt="Imagen No Disponible" /></span>
+
+                                    <h2>Para esta Guia</h2>
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Requisitos para este tutorial</h4>
+                                            <ol>
+                                                <li>PC o Notebook con Windows 7, 8, 8.1, 10</li>
+                                                <li>Para descomprimir archivos <a href="../../Programas/ProgramasWindows.html#Compri"> .rar o .zip</a> </li>
+                                            </ol>
+                                        </div>
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Programas para este Tutorial</h4>
+                                            <!--<a name="ProFT" id="ProFT"></a>-->
+                                            <table>
+												<thead>
+													<tr>
+														<th>Archivos</th>
+														<th colspan="2">Servidores</th>
+													</tr>
+												</thead>
+												<tfoot>
+													<tr>
+														<td>Backup fpkg</td>
+														<td><a onclick="Backupfpkg()">Mega</a></td>
+													</tr>
+													<tr>
+														<td></td>
+														<td></td>
+													</tr>
+												</tfoot>
+											</table>
+                                        </div>
+                                    </div>
+
+                                    <hr class="major" />
+									<div class="row gtr-200">
+                                        <!--<a name="actOffice" id="actOffice"></a>-->
+                                            <p>Para Empezar este Tutorial</p>
+                                            <ol>
+												<li>El juego a copiar </li>
+												<ul>
+													<li>Antes de empezar debemos tener el juego (Disco) instalado en nuestra consola </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg01.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y si queremos le instalamos el parche que corresponda a la versión que tiene nuestra consola para esto podemos usar <b>Patch Installer</b> para buscar los parches del juego </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg02.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+												</ul>
+												<li>El USB </li>
+												<ul>
+													<li>Necesitamos un USB o Disco externo con la suficiente memoria para almacenar el Juego que queramos respaldar </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg03.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y dejarlo conectado a nuestra consola </li>
+												</ul>
+												<li>Para empezar </li>
+												<ul>
+													<li>Debemos abrir el juego y dejar el juego en el Menú principal del juego </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg04.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Una vez listo minimizamos el juego para volver al menú principal de la consola</li>
+													<li>Buscaremos en <b>Gold HEN/Servers Settings/ Enable FTP Server</b> y lo habilitamos </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg05.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y recordamos la IP y el Puerto de nuestra consola y vamos a nuestro PC </li>
+													<li>Abrimos <a href="../../Programas/ProgramasWindows.html#FiZi">FileZilla Client</a> en nuestro computador y colocamos la ip y el puerto</li>
+													<li>Ahora vamos a la ruta <b>/system_data/playgo</b> en nuestra consola y dentro buscaremos el ID de nuestro juego a copiar</li>
+													<li>Si dentro encontramos un archivo llamado bdcopy.pbm lo borraremos para evitar que se copie nuestro juego </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg06.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Ahora volvemos a nuestra consola y vamos a nuestra pagina WEB de preferencia (Mi WEN) y activaremos el Game-Dumper </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg07.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Ahora esperamos a que se copie al USB una vez terminado de copiar la consola se reiniciara </li>
+													<li>Colocamos el USB en nuestra computadora y veremos los archivos </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg08.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Ahora solo nos serve las carpetas con el ID-app y ID-patch del juego </li>
+													<li>Ahora veremos los trofeos que no estén encriptados <b>ID-app/sce_sys/trophy</b> y el archivo <b>trophy00.trp</b> lo movemos a la aplicación HxD.exe</li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg09.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>En la aplicación HxD.exe vemos algunas letras como las de la Imagen significa que no esté encriptado son letras que se pueden leer </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg10.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Aremos lo mismo para las actualizaciones <b>ID-patch/sce_sys/trophy</b> y el archivo <b>trophy00.trp</b> lo pasamos el mismo programa </li>
+													<ol>
+														<li>Si encontramos alguno de estos encriptados para solucionarlo debemos ir a nuestro PC y abrir el FileZilla Client y buscaremos la siguiente ruta en nuestra consola <code>/user/trophy/conf</code></li>
+														<li>Si no sabemos el ID buscaremos el archivo en los archivos copiados a nuestro USB en la Ruta <b>ID-patch/sce_sys/</b> y veremos el archivo <b>npbind.dat</b> y lo pasamos al programa HxD.exe </li>
+														<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg11.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Y nos indicara claramente el Id del juego </li>
+														<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg12.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+														<li>Una vez encontrado debemos ir a el USB e ir a <b>ID-parth/sce_sys/trophy</b> y copiaremos el nombre del archivo y lo eliminamos y copiamos el archivo de la nuestra consola a nuestra copia </li>
+														<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg13.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													</ol>
+													<li>Una vez termino descomprimimos el archivo PS4-Fake-PKG-Tools-3.87-main.rar y buscamos <b>gengp4_app.exe</b> y lo abrimos buscamos la carpeta app y le damos al botón <b>Generate .GP4</b></li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg14.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Cuando termine le damos a Save .GP4 donde mismo están los archivos </li>
+													<li>Ahora hacemos lo mismo, pero con el <b>gengp4_patch.exe</b> y hacemos lo mismo </li>
+													<li>Ahora cuando tengamos la app y patch .GP4, abrimos orbis-pub-gen.exe para crear el archivo pkg</li>
+													<li>Al abrir el archivo seleccionamos la app y le seleccionamos donde se guardará el archivo </li>
+													<img src="../../images/Tutotiales/PS4/Backupfpkg/Backupfpkg15.jpg" alt="Imagen No Disponible" style="max-width:100%;cursor:pointer" width="800" height="100" onclick="onClick(this)"/>
+													<li>Y repetimos lo mismo con el patch </li>
+													<li>Ahora vamos donde guardamos los archivos y estaríamos listo</li>
+													<li>Ahora los instamos en nuestra consola para probar</li>
+												</ul>
+												<li>Listo </li>
+
+                                            </ol>
+									</div>
+
+                                    <hr class="major" />
+
+							</section>
+                            <div id="modal01" class="modal" onclick="this.style.display='none'">
+                              <span class="close">&times;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                              <div class="modal-content">
+                                <img id="img01" style="max-width:100%">
+                              </div>
+                            </div>
+
+						</div>
+				</div>
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="get" action="https://www.google.com/search" target="_blank">
+										<input type="search" name="q" id="query" placeholder="Buscar en Google" autofocus required/>
+									</form>
+								</section>
+
+								<!-- Login -->
+								<section>
+									<header class="major">
+										<h2>Login</h2>
+									</header>
+
+									<div class="col-6 col-12-small">
+										<ul class="actions stacked">
+											<li id="usu"></li>
+											<!--<li><a href="Login.html" class="button primary small">Iniciar Sesion</a></li>
+											<li><a href="#" class="button primary small">Cerrar Sesion</a></li>-->
+										</ul>
+									</div>
+								</section>
+
+							<!-- Menu -->
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="../../index.html">Homepage</a></li>
+										<li><a href="../../Programas.html">Programas</a></li>
+										<!-- Menu Consola -->
+										<li><a href="PS2ChipMatrix.html">PS2 Chip Matrix</a></li>
+									</ul>
+								</nav>
+
+								<!-- Update WEB x TXT -->
+								<section>
+									<header class="major">
+										<h2>Actualizacion en la WEB</h2>
+									</header>
+
+									<p>Informacion sobre las nuevas actualizaciones de la WEB</p>
+									<ul class="actions">
+										<li><a href="../../HomeVersion.html" class="button">Todos los Cambios</a></li>
+									</ul>
+								</section>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Ponerse en contacto</h2>
+									</header>
+									<p>Si requiere nuestros servicios, consultas o dudas, no dude en contactar para más información contacte a</p>
+									<ul class="contact">
+										<li class="icon solid fa-envelope"><a id="correo-contacto" onclick="CorreoContac()" href="#">Cargando correo...</a></li>
+										<li class="icon solid fa-phone"><a id="numero-contacto" onclick="NumeroContac()" href="#">Cargando número...</a></li>
+										<li class="icon solid fa-home"><p id="ubicacion-contacto">Cargando ubicación...</p></li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; 2021. Todos los derechos reservados. Diseño: <a href="https://html5up.net">HTML5 UP</a>. Editado:<a onclick="Github()" href="#"> Marcelo Burgos</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../../assets/js/jquery.min.js"></script>
+			<script src="../../assets/js/browser.min.js"></script>
+			<script src="../../assets/js/breakpoints.min.js"></script>
+			<script src="../../assets/js/util.js"></script>
+			<script src="../../assets/js/main.js"></script>
+
+	</body>
+</html>

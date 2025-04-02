@@ -1,3 +1,5 @@
+-v1.90 Nuevos Tutoriales/PS4
+	Se agrego nuevos tutorial de PS4 v6
 -v1.89 Cambio Menores
 	Se Elimina tutoriales PS4 antiguo
 -v1.88 Nuevos Tutoriales/PS4

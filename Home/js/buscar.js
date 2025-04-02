@@ -217,7 +217,15 @@ const contenidoPorCategoria = {
 		{ nombre: "PS2 FPKG", ubicacion: "PS2FPKG", comentario: "Una herramienta que convierte juegos de PS2 en fPKG de PS4" },
 		{ nombre: "PSP FPKG", ubicacion: "PSPFPKG", comentario: "Esta aplicación te permite convertir tus juegos de PSP en fPKG de PS4 utilizando el emulador PSPHD recientemente lanzado de PS-Plus." },
 		{ nombre: "Sega Saturn a Ps4", ubicacion: "SaturnPs4", comentario: "Podemos convertir juegos de sega saturn para nuestra PS4" },
-		{ nombre: "MODS de PC en PS4", ubicacion: "MODSPCPS4", comentario: "Podemos pasar Mods de PC para nuestros juegos de PS4" }
+		{ nombre: "MODS de PC en PS4", ubicacion: "MODSPCPS4", comentario: "Podemos pasar Mods de PC para nuestros juegos de PS4" },
+		{ nombre: "DNS + Cancelar Update", ubicacion: "DNSNotUpdate", comentario: "Para poder impedir la actualización de la consola o poder usar aplicaciones en PS4 debemos bloquear el acceso." },
+		{ nombre: "Distancia PSVita", ubicacion: "DistanciaPSVita", comentario: "Uso a distancia de PSVita con PS4" },
+		{ nombre: "Recuperar Juegos de PS4", ubicacion: "RestaurarJuegos", comentario: "Podemos recuperar juegos que se hayan eliminado de la vista, pero sigan en la consola " },
+		{ nombre: "Activar Cuenta de PSN", ubicacion: "ActivarCuentaPSN", comentario: "Podemos activar una cuenta para uso de partidas y mas" },
+		{ nombre: "Cambiar el HDD", ubicacion: "CambiarHDD", comentario: "Si quieres cambiar el Disco Duro por uno de mayor capacidad" },
+		{ nombre: "Backup fpkg", ubicacion: "Backupfpkg", comentario: "Podemos hacer Copias de seguridad de nuestros juegos físicos o digitales" },
+		{ nombre: "Eliminar DLC en PS4", ubicacion: "EliminarDLC", comentario: "Como Eliminar DLCS de tu PS4" },
+		{ nombre: "Cambiar los Iconos PS4", ubicacion: "CambiarIconos", comentario: "Podemos cambiar todos los iconos de nuestra consola para darle un nuevo estilo " }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [
