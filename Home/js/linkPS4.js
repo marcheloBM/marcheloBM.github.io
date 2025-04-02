@@ -109,6 +109,14 @@ function MODSPCPS4(){verificarSesionYAbrirEnlace("https://mega.nz/folder/qBQy3I7
 function MODSPCPS4REPAKWeb(){verificarSesionYAbrirEnlace("https://github.com/Backporter/RE-PAK/releases/tag/5.3");}
 function MODSPCPS4RETEXWeb(){verificarSesionYAbrirEnlace("https://github.com/Backporter/PS4-RE-TEX/releases");}
 function MODSPCPS4GoldHENPWeb(){verificarSesionYAbrirEnlace("https://github.com/GoldHEN/GoldHEN_Plugins_Repository/releases");}
+function RestaurarJuegos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jEoyWRrC#FUYKkQftQ6VrCNgX4s2_JA");}
+function RestaurarJuegosWeb(){verificarSesionYAbrirEnlace("https://github.com/aizenar/PS4_db_Rebuilder_EXT");}
+function Backupfpkg(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6VpXxDSb#H5sC-eGlG88gwmHW1ojdMw");}
+function CambiarIconos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SYBB1ZDZ#eIRLbleQXYZSEh31-6lWWQ");}
+function CambiarIconosWeb(){verificarSesionYAbrirEnlace("https://github.com/OfficialAhmed/Iconit-PS4");}
+
+
+
 
 
 
