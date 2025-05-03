@@ -27,7 +27,7 @@ function datos() {
     }
     //Uso con web service 
     function enviarSolicitud(usuario, password) {
-        fetch('http://marchelobm.kesug.com/wsLogin/jsonBuscar.php?usuario=' + usuario + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
+        fetch('https://marchelobm.kesug.com/wsLogin/jsonBuscar.php?usuario=' + usuario + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
         .then(response => {
             if (!response.ok) {
                 throw new Error('No se pudo iniciar sesión. Por favor, verifica tus credenciales.');

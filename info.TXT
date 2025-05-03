@@ -1,3 +1,5 @@
+-v1.92 Cambio Login
+	Cambio menores para ver resultados
 -v1.91 Cambio Login
 	Se volvio agregar el WEB Server
 -v1.90 Nuevos Tutoriales/PS4
