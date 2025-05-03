@@ -15,17 +15,18 @@ function datos() {
         var passwordSha1 = sha1(password);
 
         // Si los datos son válidos, enviar la solicitud al servidor
+		//Cambiar este Metodo para WEBServer o Estatico
         enviarSolicitud(usuario, passwordSha1);
     });
     //Uso estatico
-    function enviarSolicitud(usuario, password) {
+    function enviarSolicitud2(usuario, password) {
         sessionStorage.usuario="admin";
         sessionStorage.nombre="admin";
         sessionStorage.apellido="admin";
         window.location.href='Home.html';
     }
     //Uso con web service 
-    function enviarSolicitud2(usuario, password) {
+    function enviarSolicitud(usuario, password) {
         fetch('http://marchelobm.kesug.com/wsLogin/jsonBuscar.php?usuario=' + usuario + '&pass=' + password) // Reemplazar la URL con la ruta correcta al script PHP en el servidor
         .then(response => {
             if (!response.ok) {
