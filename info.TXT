@@ -1,3 +1,5 @@
+-v1.92.2 Cambio Login
+	Cambio menores para ver resultados
 -v1.92.1 Cambio Login
 	Cambio menores para ver resultados
 -v1.92 Cambio Login
