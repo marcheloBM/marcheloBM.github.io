@@ -1,74 +1,48 @@
-<!doctype html>
-<html>
-
-	<head>
-		<meta charset="utf-8">
-		<title>PS4 9.00x</title>
-		<link rel="stylesheet" href="css/estilo.css" />
-		<script src="js/Info.js"></script>
-	</head>
-
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS4 9.00x</title>
+    <link rel="stylesheet" href="css/estilos.css"> <!-- Enlazar CSS externo -->
+    <script src="js/Info.js"></script>
+</head>
 <body>
-	<!--<h1>PS4 9.00</h1>-->
-	<h2 id="msj">PS4 9.00 Host x MarcheBM</h2>
-	<br>
-	<div id="wrapper">
-		<div id="contentHeader"></div>
-		<div id="content">
-			<div id="contentBody">
-				<h1>Payloads</h1>
-				<!--<a onMouseOver="infoBinLoader()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/BinLoader/index.html"><button class="btn btn-main">BinLoader</button></a>
-				<a onMouseOver="infoGoldhen2b2()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2b2/index.html"><button class="btn btn-main">Goldhen 2.0b2</button></a>
-				<a onMouseOver="infoGoldhen21()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.1/index.html"><button class="btn btn-main">Goldhen 2.1</button></a>
-				<a onMouseOver="infoGoldhen211()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.1.1/index.html"><button class="btn btn-main">Goldhen 2.1.1</button></a>
-				<br>
-				<a onMouseOver="infoGoldhen212()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.1.2/index.html"><button class="btn btn-main">Goldhen 2.1.2</button></a>
-				<a onMouseOver="infoGoldhen22()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.2/index.html"><button class="btn btn-main">Goldhen 2.2</button></a>-
-                <a onMouseOver="infoGoldhen222()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.2.2/index.html"><button class="btn btn-main">Goldhen 2.2.2
-                    </button></a>
-				<a onMouseOver="infoGoldhen23b2()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.3b.2/index.html"><button class="btn btn-main">Goldhen 2.3b.2
-                    </button></a>
-                
-                <a onMouseOver="infoGoldhen223()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.2.3/index.html"><button class="btn btn-main">Goldhen 2.2.3
-                    </button></a>
-                <br>
-                <a onMouseOver="infoGoldhen224()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.2.4/index.html"><button class="btn btn-main">Goldhen 2.2.4
-                    </button></a>
-                <a onMouseOver="infoGoldhen225b7()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.2.5b7/index.html"><button class="btn btn-main">Goldhen 2.2.5b7
-                    </button></a>
-                <a onMouseOver="infoGoldhen225b8()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.2.5b8/index.html"><button class="btn btn-main">Goldhen 2.2.5b8
-                    </button></a>-->
-                <a onMouseOver="infoGoldhen23()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.3/index.html"><button class="btn btn-main">Goldhen 2.3
-                    </button></a>
-				<a onMouseOver="infoGoldhenCache23()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.4b14/cache.html"><button class="btn btn-main">Goldhen 2.3 Cache
-                    </button></a>
-                <!--<a onMouseOver="infoGoldhen24b5()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.4b5/index.html"><button class="btn btn-main">Goldhen 2.4b5
-                    </button></a>
-                <a onMouseOver="infoGoldhen24b13()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.4b13/index.html"><button class="btn btn-main">Goldhen 2.4b13
-                    </button></a>-->
-				<a onMouseOver="infoGoldhen24b14()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.4b14/index.html"><button class="btn btn-main">Goldhen 2.4b14
-                    </button></a>
-                <a onMouseOver="infoGoldhenCache24b14()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.4b14/cache.html"><button class="btn btn-main">Goldhen 2.4b14 Cache
-                    </button></a>
-                <a onMouseOver="infoGoldhen24b15()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.4b15/index.html"><button class="btn btn-main">Goldhen 2.4b15
-                    </button></a>
-                <a onMouseOver="infoGoldhenCache24b15()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen2.4b15/cache.html"><button class="btn btn-main">Goldhen 2.4b15 Cache
-                    </button></a>
-				
-                <a onMouseOver="allPayloads()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Payloads/index.html"><button class="btn btn-main">Todos los Payloads</button></a>
+    <h2 id="msj">PS4 9.00 Host x MarcheBM</h2>
+    <h1>Payloads</h1>
 
-				<a onMouseOver="infopsfreeGoldhen24b16()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/psfree/goldhen_2.4b16/index.html"><button class="btn btn-main">psfree Goldhen 2.4b16.2</button></a>
-				<a onMouseOver="infopsfreeGoldhen24b17()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/psfree/goldhen_2.4b17/index.html"><button class="btn btn-main">psfree Goldhen 2.4b17</button></a>
-				<a onMouseOver="infopsfreeGoldhen24b173()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/psfree/goldhen_2.4b17.3/index.html"><button class="btn btn-main">psfree Goldhen 2.4b17.3</button></a>
-				<a onMouseOver="infopsfreeGoldhen24b18()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/psfree/goldhen_2.4b18/index.html"><button class="btn btn-main">psfree Goldhen 2.4b18</button></a>
-				
+    <h2>Goldhen Sin USB</h2>
+    <div class="fila">
+        <a onMouseOver="infopsfreeGoldhen24b183SinUSB1()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/PSFreeSinUSB/PSFree 2.4b18.3 v1/index.html"><button class="btn-azul">PSFree SinUSB 2.4b18.3 v1</button></a>
+		<a onMouseOver="infopsfreeGoldhen24b183SinUSB2()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/PSFreeSinUSB/PSFree 2.4b18.3 v2/index.html"><button class="btn-azul">PSFree SinUSB 2.4b18.3 v2</button></a>
+		<!--<a href="#"><button class="btn-azul">PSFree SinUSB </button></a>-->
+		<a href="https://kmeps4.github.io/PSFree/"><button class="btn-azul">PSFree SinUSB Fuente Original</button></a>
+    </div>
 
-				<a onMouseOver="infoAtras()" onMouseOut="titulopag()" href="../Home.html"><button class="btn btn-main">Atras</button></a>
-				<br>
-			</div>
-		</div>
-	</div>
+    <h2>Goldhen psfree</h2>
+    <div class="fila">
+        <a onMouseOver="infopsfreeGoldhen24b17()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/psfree/goldhen_2.4b17/index.html"><button class="btn-azul">Goldhen psfree 2.4b17</button></a>
+        <a onMouseOver="infopsfreeGoldhen24b173()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/psfree/goldhen_2.4b17.3/index.html"><button class="btn-azul">Goldhen psfree 2.4b17.3</button></a>
+        <a onMouseOver="infopsfreeGoldhen24b18()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/psfree/goldhen_2.4b18/index.html"><button class="btn-azul">Goldhen psfree 2.4b18</button></a>
+		<a onMouseOver="infopsfreeGoldhen24b183()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/psfree/goldhen_2.4b18.3/index.html"><button class="btn-azul">Goldhen psfree 2.4b18.3</button></a>
+    </div>
+    
+    <h2>Goldhen</h2>
+    <div class="fila">
+        <a onMouseOver="infoGoldhen23()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen/Goldhen2.3/index.html"><button class="btn-azul">Goldhen 2.3</button></a>
+        <a onMouseOver="infoGoldhenCache23()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen/Goldhen2.4b14/cache.html"><button class="btn-azul">Goldhen 2.3 Cache</button></a>
+        <a onMouseOver="infoGoldhen24b14()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen/Goldhen2.4b14/index.html"><button class="btn-azul">Goldhen 2.4b14</button></a>
+        <a onMouseOver="infoGoldhenCache24b14()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen/Goldhen2.4b14/cache.html"><button class="btn-azul">Goldhen 2.4b14 Cache</button></a>
+        <a onMouseOver="infoGoldhen24b15()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen/Goldhen2.4b15/index.html"><button class="btn-azul">Goldhen 2.4b15</button></a>
+        <a onMouseOver="infoGoldhenCache24b15()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Goldhen/Goldhen2.4b15/cache.html"><button class="btn-azul">Goldhen 2.4b15 Cache</button></a>
+    </div>
 
+    <h2>Otros</h2>
+    <div class="fila">
+        <a onMouseOver="GoldhenAnteriores()" onMouseOut="titulopag()" href="9.00All.html"><button class="btn-azul">Goldhen Anteriores</button></a>
+        <a onMouseOver="allPayloads()" onMouseOut="titulopag()" href="../exploits/Firmware/9.00/Payloads/index.html"><button class="btn-azul">Todos los Payloads</button></a>
+        <a onMouseOver="infoAtras()" onMouseOut="titulopag()" href="../Home.html"><button class="btn-azul">Atras</button></a>
+    </div>
 
 </body>
 </html>

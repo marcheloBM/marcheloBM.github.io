@@ -1,0 +1,73 @@
+body {
+    background-image: url('../ps4.jpg'); /* Reemplaza con la URL de la imagen */
+    background-size: cover; /* La imagen cubrirá toda la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+
+.btn-azul {
+    padding: 10px 20px;
+    font-size: 18px;
+    font-family: 'Helvetica', sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #007bff; /* Azul intenso */
+    border: 2px solid #000fb3; /* Borde azul oscuro */
+    border-radius: 10px;
+    cursor: pointer;
+    transition: box-shadow 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+/* Cuando el botón es seleccionado (clic o tecla Tab) */
+.btn-azul:focus {
+    outline: none; /* Evita el borde predeterminado */
+    box-shadow: 0px 0px 12px 3px black; /* Sombra negra más intensa */
+}
+
+/* Cuando se hace clic en el botón */
+.btn-azul:active {
+    background-color: #006bb3; /* Azul más oscuro al presionar */
+    box-shadow: 0px 0px 15px 5px black; /* Sombra negra aún más fuerte */
+}
+
+
+.fila {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 100%; /* Asegura que la fila ocupe toda la página */
+}
+
+.fila a {
+    display: inline-block; /* Evita que los botones se estiren */
+}
+
+.btn-main {
+    width: 100%; /* Cada botón ocupa todo el espacio disponible en la fila */
+    max-width: 250px; /* Limita el tamaño máximo de los botones */
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.btn-main:active {
+    background-color: rgba(0, 0, 0, 0.5); /* Efecto al hacer clic */
+    color: white;
+}
+h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+h2 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
