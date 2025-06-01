@@ -1,3 +1,5 @@
+-v1.94 Nuevo GoldHEN 2.4b18.3 Sin USB PS4
+	Se agrego nuevos GoldHEN para PS4 Sin USB v3 31-05-2025
 -v1.93 Nuevo GoldHEN 2.4b18.3 Sin USB PS4
 	Se agrego nuevos GoldHEN para PS4 Sin USB 
 -v1.92.2 Cambio Login
