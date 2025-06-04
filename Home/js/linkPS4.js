@@ -114,8 +114,10 @@ function RestaurarJuegosWeb(){verificarSesionYAbrirEnlace("https://github.com/ai
 function Backupfpkg(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6VpXxDSb#H5sC-eGlG88gwmHW1ojdMw");}
 function CambiarIconos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SYBB1ZDZ#eIRLbleQXYZSEh31-6lWWQ");}
 function CambiarIconosWeb(){verificarSesionYAbrirEnlace("https://github.com/OfficialAhmed/Iconit-PS4");}
-
-
+function PSXFPKG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2VoAnJgT#00L8Dst9Mvm59yX31fRehA");}
+function PSXFPKGWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/psx-fpkg-by-jabu-a-tool-to-convert-ps1-psx-games-for-use-on-ps4.30498/");}
+function psx2ps4(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nNZQAJwC#Ht5CvinE6ayMDXTv0Vgk3Q");}
+function psx2ps4Web(){verificarSesionYAbrirEnlace("https://www.logic-sunrise.com/news-1177662-ps4-psx2ps4-v151-nouvel-emulateur-et-ajout-du-multi-discs.html");}
 
 
 

@@ -225,7 +225,8 @@ const contenidoPorCategoria = {
 		{ nombre: "Cambiar el HDD", ubicacion: "CambiarHDD", comentario: "Si quieres cambiar el Disco Duro por uno de mayor capacidad" },
 		{ nombre: "Backup fpkg", ubicacion: "Backupfpkg", comentario: "Podemos hacer Copias de seguridad de nuestros juegos físicos o digitales" },
 		{ nombre: "Eliminar DLC en PS4", ubicacion: "EliminarDLC", comentario: "Como Eliminar DLCS de tu PS4" },
-		{ nombre: "Cambiar los Iconos PS4", ubicacion: "CambiarIconos", comentario: "Podemos cambiar todos los iconos de nuestra consola para darle un nuevo estilo " }
+		{ nombre: "Cambiar los Iconos PS4", ubicacion: "CambiarIconos", comentario: "Podemos cambiar todos los iconos de nuestra consola para darle un nuevo estilo " },
+		{ nombre: "PSX FPKG", ubicacion: "PSXFPKG", comentario: "Una herramienta que convierte juegos de PS1 en fPKG de PS4" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [
