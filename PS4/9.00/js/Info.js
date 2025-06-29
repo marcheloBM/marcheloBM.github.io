@@ -91,6 +91,9 @@ function infopsfreeGoldhen24b183SinUSB3(){
 function infopsfreeGoldhen24b183SinUSB4(){
 	document.getElementById("msj").innerHTML = "PSFree Sin USB 2.4b18.3 v4 08-06-2025";
 }
+function infopsfreeGoldhen24b183SinUSB5(){
+	document.getElementById("msj").innerHTML = "PSFree Sin USB 2.4b18.3 v5 26-06-2025";
+}
 
 /* Payloads */
 function allPayloads(){
