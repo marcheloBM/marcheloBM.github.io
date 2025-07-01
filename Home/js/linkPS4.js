@@ -18,7 +18,9 @@ function PatchInstallerWeb(){verificarSesionYAbrirEnlace("https://orbispatches.c
 function ApolloSaveTool(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SFRmgZrZ#B3yQckRuL_KT-iAg_pqnwg");}
 function ApolloSaveToolWeb(){verificarSesionYAbrirEnlace("https://github.com/bucanero/apollo-ps4");}
 function PS4Toolset(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nRIRUALQ#Xnth32ik3TBhDBVdw0Af-g");}
-function StoreR2(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LNgXmIoS#GNVvwUOId6nb_7tWThB0eg");}
+function PS4ToolsetWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/SAAT29385");}
+function HomebrewStore(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LNgXmIoS#GNVvwUOId6nb_7tWThB0eg");}
+function HomebrewStoreWeb(){verificarSesionYAbrirEnlace("https://github.com/LightningMods/PS4-Store");}
 function RemotePKGinstaller(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nNwWQBIK#m5Z1mBUVHZrlrIpY_Yb2tg");}
 function RemotePKGinstallerPC(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GZIACaAR#ibNs0adNZQnBfgt3PsiQkg");}
 function RemotePKGinstallerWeb(){verificarSesionYAbrirEnlace("https://github.com/BenjaminFaal/ps4-remote-pkg-installer");}
@@ -26,6 +28,9 @@ function PS4XPLORER(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TQhxSZ
 function PS4XPLORERWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/LAPY20009");}
 function GoldHENCHEATSManagerPKG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bFxwmYrZ#Pgs_sB3-gRq1lYhMSTgz8Q");}
 function GoldHENCHEATSManagerPKGWeb(){verificarSesionYAbrirEnlace("https://github.com/GoldHEN/GoldHEN_Cheat_Manager/releases");}
+function GoldHENCHEATSchronoss09(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CcwhjCCS#5fgqaSxksQYLAPuzl7TPhQ");}
+function GoldHENCHEATSchronoss09Web(){verificarSesionYAbrirEnlace("https://github.com/chronoss09/GoldHen-Cheats-PKG/releases/tag/v29.04.24");}
+function GoldHENCHEATSchronoss09AntiguoWeb(){verificarSesionYAbrirEnlace("https://github.com/chronoss09/GoldHen-Cheats-PKG/releases/tag/cheat_ps4");}
 function GoldCheatsUpdaterPC(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CIB1UC6b#yQgXXwtyGG9OtG6qrw6ILA");}
 function GoldCheatsUpdaterPCWeb(){verificarSesionYAbrirEnlace("https://github.com/Nazky/GoldCheats-Updater/releases");}
 function GoldHENCHEATSBD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LU4HnBRQ#cmUfPySUEOHwE8TlpywIOQ");}
@@ -34,6 +39,8 @@ function Patches(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KRQ23RiA#
 function PatchesWeb(){verificarSesionYAbrirEnlace("https://github.com/GoldHEN/GoldHEN_Patch_Repository");}
 function GoldHENCheatsPS2(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TAIHWaSI#nod0sfEGaY5ZTuTfg8wYqQ");}
 function GoldHENCheatsPS2Web(){verificarSesionYAbrirEnlace("https://github.com/chronoss09/GoldHen-Cheats-PKG/releases");}
+function GoldHENCheatsPlugins(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6AxyAKTL#ua8uLZElrAulUJy1HdzK5A");}
+function GoldHENCheatsPluginsWeb(){verificarSesionYAbrirEnlace("https://github.com/GoldHEN/GoldHEN_Plugins_Repository/releases");}
 function OrbisToolbox(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iURWlLLS#CNkILwThCacnBbHbiJOjLg");}
 function OrbisToolboxWeb(){verificarSesionYAbrirEnlace("https://github.com/OSM-Made/Orbis-Toolbox");}
 function ItemzflowGameManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yY5j1IjL#np3frmFC8qYoSLUo2kWhgA");}
@@ -83,6 +90,7 @@ function PARAMSFOEditor(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6E
 function PARAMSFOEditorWeb(){verificarSesionYAbrirEnlace("https://github.com/xXxTheDarkprogramerxXx/PS3Tools/releases/tag/V1.2-SFO");}
 function Dumpsjuegos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TZgWiZJa#8JTfQQxrnTE-lmTy7ta0Jw");}
 function DumpsjuegosWeb(){verificarSesionYAbrirEnlace("https://github.com/hippie68/ftpdump");}
+function DumpsjuegosWeb2(){verificarSesionYAbrirEnlace("https://github.com/CyB1K/PS4-Fake-PKG-Tools-3.87");}
 function CreaAccesosDirecto(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XUx1HAiA#lqosBS0_a-wLarSYgbUK8A");}
 function CreaAccesosDirectoWeb(){verificarSesionYAbrirEnlace("https://sqlitebrowser.org/");}
 function CrearPSXyPSP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nV53SZBI#czNgCjqVVYZTFn_Y_VnnOg");}
@@ -118,8 +126,26 @@ function PSXFPKG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2VoAnJgT#
 function PSXFPKGWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/psx-fpkg-by-jabu-a-tool-to-convert-ps1-psx-games-for-use-on-ps4.30498/");}
 function psx2ps4(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nNZQAJwC#Ht5CvinE6ayMDXTv0Vgk3Q");}
 function psx2ps4Web(){verificarSesionYAbrirEnlace("https://www.logic-sunrise.com/news-1177662-ps4-psx2ps4-v151-nouvel-emulateur-et-ajout-du-multi-discs.html");}
-
-
+function FPKGi(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yNICnRKR#xLeYjN8LZToleMp2EqRrqw");}
+function FPKGiWeb(){verificarSesionYAbrirEnlace("https://github.com/ItsJokerZz/FPKGi");}
+function GAMEBATO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zIQE3SiC#_60W3iXyW4OhvEWUhn4KvA");}
+function GAMEBATOWeb(){verificarSesionYAbrirEnlace("https://gamebatoapp.ir/home/en/");}
+function PS2CodeBreaker(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uZQkgRRJ#VpRwO-ZTW1e8FoRQMN4dGQ");}
+function PS4Controller(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KJg1xC4L#P8iEtGirC9gtxP6rtEyKkA");}
+function PS4ControllerWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/NPXX51364");}
+function RetroarchPS2enPS4(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XVx0TZiK#k5wx0qTa9YGYrKtqILAi0Q");}
+function RetroarchPS2enPS4Web(){verificarSesionYAbrirEnlace("https://www.logic-sunrise.com/news-1175709-ps4-creer-un-fpkg-demulateur-en-un-clic.html");}
+function PS4PKGTool(){verificarSesionYAbrirEnlace("https://mega.nz/folder/yQ5w1RpI#fPxl5IeW88zs0sixBvLNwg");}
+function PS4PKGToolWeb(){verificarSesionYAbrirEnlace("https://github.com/pearlxcore/PS4-PKG-Tool?tab=readme-ov-file");}
+function OnlineLan(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mZoXBS6C#b-Vu_4RwQlDZx4w0rVP1Og");}
+function OnlineLanWeb(){verificarSesionYAbrirEnlace("https://discord.com/invite/u8tcA6HpbK");}
+function PlutoTV(){verificarSesionYAbrirEnlace("https://mega.nz/folder/3QpjDRwC#ot_Yd97EgbmtRnd6blHAWA");}
+function PlutoTVWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/CUSA04688");}
+function Flash0NORDump(){verificarSesionYAbrirEnlace("https://mega.nz/folder/3JRklQBA#qMQczn7Th83OXzBpUtzswQ");}
+function Flash0NORDumpWeb(){verificarSesionYAbrirEnlace("https://github.com/Andryshik345/ps4-sflash0-dumper");}
+function AllNotificaciones(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LVxXAKgI#sUNdOW6bfSaUi19kx7GWVQ");}
+function AvatarChanger(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eVR0lZbC#LZSA10JkQPK5GSvGm9WyZg");}
+function AvatarChangerWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/LAPY20015");}
 
 
 
