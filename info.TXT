@@ -1,3 +1,5 @@
+-v1.99 Nuevos Tutoriales/PS4
+	Se agrego nuevos tutorial de PS4 v9
 -v1.98 Nuevos Tutoriales/PS4
 	Se agrego nuevos tutorial de PS4 v8
 -v1.97 Nuevo GoldHEN 2.4b18.3 Sin USB PS4

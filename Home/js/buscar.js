@@ -226,7 +226,19 @@ const contenidoPorCategoria = {
 		{ nombre: "Backup fpkg", ubicacion: "Backupfpkg", comentario: "Podemos hacer Copias de seguridad de nuestros juegos físicos o digitales" },
 		{ nombre: "Eliminar DLC en PS4", ubicacion: "EliminarDLC", comentario: "Como Eliminar DLCS de tu PS4" },
 		{ nombre: "Cambiar los Iconos PS4", ubicacion: "CambiarIconos", comentario: "Podemos cambiar todos los iconos de nuestra consola para darle un nuevo estilo " },
-		{ nombre: "PSX FPKG", ubicacion: "PSXFPKG", comentario: "Una herramienta que convierte juegos de PS1 en fPKG de PS4" }
+		{ nombre: "PSX FPKG", ubicacion: "PSXFPKG", comentario: "Una herramienta que convierte juegos de PS1 en fPKG de PS4" },
+		{ nombre: "FPKGi", ubicacion: "FPKGi", comentario: "FPKGi (Fake PKG Installer) es una aplicación homebrew de código abierto para instalar archivos .pkg modificados en PS4" },
+		{ nombre: "GameBato", ubicacion: "GameBato", comentario: "Accede a la tienda de juegos en línea con más de 2000 juegos, actualizaciones de juegos y DLC directamente en PS4 e instálalo con un solo clic" },
+		{ nombre: "PS2 CodeBreaker Cheats", ubicacion: "PS2CodeBreaker", comentario: "CodeBreaker es una herramienta de trucos inicialmente desarrollada para consolas como PlayStation 2 y Sega Dreamcast" },
+		{ nombre: "PS4 Controller Homebrew", ubicacion: "PS4Controller", comentario: "Utilidad para probar mandos de PS4, ADVERTENCIA: presionar la barra táctil lo bloqueará." },
+		{ nombre: "Retroarch PS2 en PS4", ubicacion: "RetroarchPS2enPS4", comentario: "Podemos crear emuladores con retroarch de PS2 para nuestra consola PS4" },
+		{ nombre: "PS4 PKG Tool", ubicacion: "PS4PKGTool", comentario: "Esta herramienta nos permite visualizar la biblioteca de paquetes de PS4, administrarla y realizar diversas operaciones en ella" },
+		{ nombre: "Online-Lan", ubicacion: "OnlineLan", comentario: "Nos permite jugar los juegos online de nuestra consola desbloqueada con unos simples pasos " },
+		{ nombre: "PlutoTV", ubicacion: "PlutoTV", comentario: "comentarioVer Televisión GRATIS en tu PS4 Hackeada" },
+		{ nombre: "Flash0 NOR Dump", ubicacion: "Flash0NORDump", comentario: "cómo volcar el NOR de la PS4 Fat, Slim y Pro" },
+		{ nombre: "Activar Multimedia", ubicacion: "Multimedia", comentario: "Activar todos los códex para nuestros DVD y Blu-ray" },
+		{ nombre: "Todo desde Notificaciones", ubicacion: "AllNotificaciones", comentario: "Todos los accesos desde notificaciones de nuestra consola" },
+		{ nombre: "Avatar Changer", ubicacion: "AvatarChanger", comentario: "Avatar para nuestra consola PS4" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PC: [
