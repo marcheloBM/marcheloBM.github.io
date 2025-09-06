@@ -1,8 +1,8 @@
-function RetroArchAnd() {verificarSesionYAbrirEnlace("https://mega.nz/folder/aQg0lZBB#CLlITOYrv_HBq9dXTeb6EQ");}
+function RetroArchAnd() {verificarSesionYAbrirEnlace("https://mega.nz/folder/eUxSXATT#haVNqG37Rklu19WV3xRebQ");}
 function RetroArchWeb() {verificarSesionYAbrirEnlace("https://www.retroarch.com/index.php?page=platforms");}
-function YoutubeVanced() {verificarSesionYAbrirEnlace("https://mega.nz/folder/6coXkIxT#zqscjPtfNfm5naVZjP2ucA");}
+function YoutubeVanced() {verificarSesionYAbrirEnlace("https://mega.nz/folder/jM5ywCCA#vaUPPRMbTnhNbmhPR3fBHQ");}
 function YoutubeVancedWeb() {verificarSesionYAbrirEnlace("https://youtubevanced.com/");}
-function RAR() {verificarSesionYAbrirEnlace("https://mega.nz/folder/rdZAmSgA#wgSKWd58nvljkG4UrQTewg");}
+function RAR() {verificarSesionYAbrirEnlace("https://mega.nz/folder/7UZGyBZI#a-gaJCaFOUzVVk2UFZ8srQ");}
 
 
 function verificarSesionYAbrirEnlace(enlace) {
