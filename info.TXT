@@ -1,3 +1,5 @@
+-v2.01 Nuevos Link de descargas PS2
+	Se cambio los link de descargas de PS2
 -v2.00 Nuevos Link de descargas PC/Android
 	Se cambio los link de descargas de Windows y los de Android
 -v1.99 Nuevos Tutoriales/PS4
