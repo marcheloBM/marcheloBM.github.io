@@ -1,37 +1,44 @@
-function OFW(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OYoRxRTb#ZPLzHrBzGSb2UpW0YbaJ7A");}
-function CFW(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SNpFUQQI#u9SUaBVQnUdtpMdvLlpH9Q");}
-function INFINITY(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uYYFgZ5Z#aUnAlf16iwfaqw9AqnGaCQ");}
-function PSPPDA(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vdwHSSyJ#IAQqVR3bImwqQUSPCxRIRg");}
-function AirCrackPSP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/edBH1RJY#eXfcHDPbtA2P7wQeA40cNQ");}
-function Alarma(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LFoWUTBa#Psa_rxu82-E2RC-9S6nTKA");}
-function PSPOSB(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WQQznDJS#eSepVULESCzEwh3rjvHcwQ");}
+//Firmware oficial
+function OFW(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OAp01LyB#2iME8GWTOBWEYPK69_OawQ");}
+//Hackear
+function CFW(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7c5FwKLR#tdEqfRuInhfUYxXUro6Czg");}
+//Hombrew-Aplicaciones
+function INFINITY(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OdIT1QSA#Rhpxbhpvr9vrDMIfOM58mA");}
+function PSPPDA(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OdIT1QSA#Rhpxbhpvr9vrDMIfOM58mA");}
+function AirCrackPSP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uMxHxDbZ#8P0Qu2sV9zH5052KZzurgA");}
+function Alarma(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DUQHiCBZ#33v9jkSi4O_cacm8un3JHA");}
+function PSPOSB(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7QZVxYhT#XU3VEQZ-r8MQGe-Ps7XkBw");}
 function PSPOSBWeb(){verificarSesionYAbrirEnlace("https://github.com/xerpi/psp-uvc-usb-video-class/releases");}
-function Chronoswitch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/3JQBWCiC#sitlkNAVQyVPbWksTHaXaQ");}
-function CIPLFlasher(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WIBCgZha#LuaXQxk8qYugzn0n6aHgmg");}
-function FuSaGAMEPAD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/ydpBhTRA#wucWT1SzOVhlRC7kaol-Dg");}
-function PSPLight(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iARxXRYS#Z3tRoyeANHzsijcf27zhZQ");}
-function LIVETV(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eVYx2bSQ#HXQr9Aiwljh-hEzzBtuURA");}
-function MapaSantiago(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vJYzAaiD#TAppM2Sp0eZAyUzTEonKGw");}
-function CWCheat(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OAASXYxa#ANnU_to1gijc4V-goqqYIQ");}
-function NitePr(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SBR0TI4Q#Gbm2X3l4QXfX1yVH8e3DdQ");}
-function PSPRadio(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WMJnzLyb#W7pS-Z96L273SqJs8fpwbg");}
-function PSPReader(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2dB0SRgK#m3Kv6MXhVmKM0hBOWkAcYg");}
-function Ubuntu(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jYJTQLBZ#mxOi0J_6Z25yXnWzh1UbDw");}
-function Windows(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CBgmxDKR#FNUxaMD30RckgSyyYzASlg");}
-function NavegadorHTML(){verificarSesionYAbrirEnlace("https://mega.nz/folder/rNYwzQwR#XTKSCKYCGfJv9oGlYpKzIw");}
-function Atari(){verificarSesionYAbrirEnlace("https://mega.nz/folder/acxlTJII#BJ6YTyHkcwi9aIuiOeRfqQ");}
-function ColecoVision(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SNg1WKzS#stv64KRvZ-fpZTCn-DCHHQ");}
-function DosBox(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iEBEHRhB#4FPonSnJNhR5o2Zaj7YuoA");}
-function GameBoyColor(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DMAjQQwT#fM82Rjsdtc9P9ZqGfh1AEg");}
-function MAMEFBA(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DU42RBaA#xI6YgamcRijmGz89bv7bXg");}
-function Picodrive(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LYIBRDQB#_0Pg1JruuQ51dzfGqaKRog");}
-function RETROARCH(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2MpzXBaT#V9S8zqJ_a1hISZI6X1ZR1g");}
-function SMSplus(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vAYmFRTD#CtGrNRhx3-z2wZGAZpWZtQ");}
-function SuperNintendo(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uEQzkaSL#NfMZ3mHV7Z11eCM59Y_80A");}
-function Nintendo64(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vdZl0Aqa#zRZSqZ7JDZFfuMtRQVp69Q");}
-function Picture(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nFAAzSwT#OR2EdzWeIi-hgDD9w8uUmA");}
-function Temas(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OdIkCQiJ#qNBN9j_yTTjmZJX_PQ3U9w");}
-function PSX2PSP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fdISCAxI#TcLaYTBcSKetJMgQDcEVgw");}
+function Chronoswitch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/nYhTSD5Z#Qi5DIhd_ukk6_ie6O0z9eA");}
+function CIPLFlasher(){verificarSesionYAbrirEnlace("https://mega.nz/folder/PM5yGaKI#PjSjDPghquA03tNoUBlrgg");}
+function FuSaGAMEPAD(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CJIx2bpK#9Ns6v8ovWUwbboutvCEyjA");}
+function PSPLight(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LMY3ybbZ#MvGjMHfX4HFOgkLftRgSEw");}
+function LIVETV(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uFRxABrB#ZJXbQ8U8gChSC2vuBcgWqg");}
+function MapaSantiago(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bd4nUKba#_RPvh83gFplMlhKqeBSnWA");}
+function CWCheat(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aNw1hDKD#14cKh-EHmSsNC89wtGV3Yg");}
+function NitePr(){verificarSesionYAbrirEnlace("https://mega.nz/folder/SNpUlZiJ#cB-ovP4fUYI8_JrWSHn4Mg");}
+function PSPRadio(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zZAhTYqS#MDQmk2Kj7VFZG609ZvuhMw");}
+function PSPReader(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XUJ2RYxJ#48n3DPad_hed4BobVYxc5w");}
+function Ubuntu(){verificarSesionYAbrirEnlace("https://mega.nz/folder/qc5wnDiB#ZqKPDc-O0eMZlNk0rkeGjw");}
+function Windows(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eEoWTRTK#z1nRWn95WvrnLX-q3cguYQ");}
+function NavegadorHTML(){verificarSesionYAbrirEnlace("https://mega.nz/folder/Scoi1BwQ#PIEe_NMzpJbrT23brrD4OA");}
+//Emuladores
+function Atari(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aQ5AQZBa#lXg_feiMilYYrH73wd_wLw");}
+function ColecoVision(){verificarSesionYAbrirEnlace("https://mega.nz/folder/qBJVHZBT#_wtYCVdFtzvnI2L6nzzaTg");}
+function DosBox(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GE5lyRRb#DwOIXlbQXPk_AUVSjwotpQ");}
+function GameBoyColor(){verificarSesionYAbrirEnlace("https://mega.nz/folder/3Ig3yAjS#Z44jWd0lDRj5a1KO0HxYmg");}
+function MAMEFBA(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eEYiUQwS#E-o--6N8_Lw_AZIN8YwBww");}
+function Picodrive(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2BxVGArQ#7VPP-kyuJhmpal5c889LvQ");}
+function RETROARCH(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vdACVDpI#0M1Va6ZFWVQYgeRM3avxZg");}
+function SMSplus(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GRoFTB7Z#B0CxwXHPE4fJKDqlFB8aLA");}
+function SuperNintendo(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bVp0QIwS#OFTG06ajaW_sAmhIktJz7w");}
+function Nintendo64(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WQhG0Bib#laTWLKmvae3j4C7sDFgqjg");}
+//PICTURE
+function Picture(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iBACjIAS#7YhL2Rqk3TmUHKGzRRy9Dw");}
+//Temas
+function Temas(){verificarSesionYAbrirEnlace("https://mega.nz/folder/HAgQzRKR#ZeQTDuSy_coRFMtFpUMXeg");}
+//PC
+function PSX2PSP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fEIinT7A#5r01qkjawl2PIteX0x3t8w");}
 function AllPSPWeb(){verificarSesionYAbrirEnlace("https://archive.org/details/psp-homebrew-library");}
 
 
