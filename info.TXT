@@ -1,3 +1,5 @@
+-v2.05 Nuevos Link de descargas PSVita
+	Se cambio los link de descargas de PSVita
 -v2.04 Nuevos Link de descargas PS4
 	Se cambio los link de descargas de PS4
 -v2.03 Nuevos Link de descargas PS3
