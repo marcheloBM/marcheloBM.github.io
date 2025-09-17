@@ -1,3 +1,5 @@
+-v2.06 Nuevos Tutoriales/PSVita
+	Se agrego nuevos tutorial de PSVita v7.0
 -v2.05 Nuevos Link de descargas PSVita
 	Se cambio los link de descargas de PSVita
 -v2.04 Nuevos Link de descargas PS4

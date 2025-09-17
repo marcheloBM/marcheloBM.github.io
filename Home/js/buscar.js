@@ -165,7 +165,9 @@ const contenidoPorCategoria = {
 		{ nombre: "HexFlow Launcher", ubicacion: "HexFlowLauncher", comentario: "Muestra y ejecuta tus juegos y creaciones caseras con estilo." },
 		{ nombre: "RetroFlow Launcher", ubicacion: "RetroFlowLauncher", comentario: "Esta es una versión modificada de HexFlow Launcher; un lanzador tipo coverflow 3D para PS Vita" },
 		{ nombre: "Moonlight", ubicacion: "Moonlight", comentario: "Podemos juegos nuestros juegos de PC en nuestra PSVita" },
-		{ nombre: "Moonlight en AMD", ubicacion: "MoonlightAMD", comentario: "Podemos juegos nuestros juegos de PC en nuestra PSVita con computadores antiguas" }
+		{ nombre: "Moonlight en AMD", ubicacion: "MoonlightAMD", comentario: "Podemos juegos nuestros juegos de PC en nuestra PSVita con computadores antiguas" },
+		{ nombre: "Emu4Vita++", ubicacion: "Emu4Vita", comentario: "Una interfaz para núcleos Libretro para PSVITA. Para Emular muchos sistemas" },
+		{ nombre: "simpleVPK", ubicacion: "simpleVPK", comentario: "Aplicación para descargar los datos de los juegos directamente en PS Vita" }
 		//{ nombre: "nombre", ubicacion: "#", comentario: "comentario" }
     ],
     PS4: [
