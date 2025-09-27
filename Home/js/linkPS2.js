@@ -8,6 +8,7 @@ function PS2ApolloSaveTool(){verificarSesionYAbrirEnlace("https://mega.nz/folder
 function PS2ApolloSaveToolWeb(){verificarSesionYAbrirEnlace("https://github.com/bucanero/apollo-ps2");}
 function OpenPS2Loader(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jRB3iT5K#tYTboCYhj6PzZlpOaQlOYg");}
 function OpenPS2LoaderWeb(){verificarSesionYAbrirEnlace("https://github.com/ps2homebrew/Open-PS2-Loader");}
+function APPSUSB(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jc5SBQhA#8m1jvxaTsEpjj9p59uwO3Q");}
 function Aplicaciones(){verificarSesionYAbrirEnlace("https://mega.nz/file/GE53VIgQ#g_No4H2bwJNwx341lHXO4VvXTD5wQB3I3OJGGB4px4E");}
 function MEGAPACKAPPSPS2(){verificarSesionYAbrirEnlace("https://mega.nz/file/vBpEFChI#kfHwrD6MSz0WKeHBwMgOkwXeKGi76fSVL0ZBNdRf8X8");}
 function PS2Temps(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CRgV2KhT#X0NuceLpLABiPDczTNCqmQ");}
@@ -17,18 +18,20 @@ function wLaunchELFISRWeb(){verificarSesionYAbrirEnlace("https://github.com/isra
 function PSXaPS2(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TIBQhKgS#poYl08VUzSelt1F8c71bMw");}
 function Retroarch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uUIUkRYT#AyJT9Mz5BAEt7PsCqEDOtA");}
 function RetroarchWeb(){verificarSesionYAbrirEnlace("https://www.retroarch.com/?page=platforms");}
-function APPSUSB(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jc5SBQhA#8m1jvxaTsEpjj9p59uwO3Q");}
 function OPLManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7IYE3JQT#viGBs1qKb6Wzey-hG6l85A");}
 function OPLManagerWeb(){verificarSesionYAbrirEnlace("https://oplmanager.com/site/index.php");}
 function OPLSERVER(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iAhAhbpD#s_n6rtINweFYGjc-H_5OdA");}
 function OPLSERVERWeb(){verificarSesionYAbrirEnlace("https://github.com/elmariolo/OPL-Server");}
 function PSXiSO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/qA4ABR5Q#EndB6bpNyeAeZBNP6gTP5g");}
 function PSXiSOWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/psxiso-compression-tool-v0-1-r4-chd-zso.37543/");}
+function JLojch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/3UwUxTiQ#cuW5mvjLtWg80hLsEjOqag");}
+function JLojchWeb(){verificarSesionYAbrirEnlace("https://github.com/nokiajavi/JLojch");}
 function USBUTIL(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jBx3QSRZ#Hsn4XZsSHdvyi-sZfNXREQ");}
 function PackdeTemasOPL(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fVozRBTB#bKaEZdxyi7rbXdPhvwg9Hw");}
 function XtremeEliteBoot(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vF5DlDgQ#XaER7fdgIrl7ApnsaTDgLA");}
 function PS2SX(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GMIGzBxD#ZZaKjzsWlOkisa_sewocTQ");}
-
+function MemoryCard(){verificarSesionYAbrirEnlace("https://mega.nz/folder/eMhyDQ6L#JPVIkgoMhnNUhlrNso5WhQ");}
+function MemoryCardWeb(){verificarSesionYAbrirEnlace("https://github.com/ffgriever-pl/Memory-Card-Annihilator/releases");}
 
 
 
