@@ -1,5 +1,8 @@
 function PS3ModoSeguro(){verificarSesionYAbrirEnlace("../Consolas/PS3ModoSeguro.html#MSP3");}
 function WEBPS3(){verificarSesionYAbrirEnlace("../Consolas/PS3ModoSeguro.html#MSP3");}
+//IDPS-NOR
+function NOR(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bUAHBDjZ#fWeDMJ171zFKRy5njNCoPg");}
+function NORWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/forums/the-starting-line.280/");}
 //Update
 function Update(){verificarSesionYAbrirEnlace("https://mega.nz/folder/mRRUySZJ#HZCB43qooux9ibJZdZWEKQ");}
 function UpdateWEBOficial(){verificarSesionYAbrirEnlace("https://www.playstation.com/es-cl/support/hardware/ps3/system-software/");}
@@ -12,30 +15,31 @@ function BTGA303CORO48X(){verificarSesionYAbrirEnlace("https://mega.nz/folder/ad
 function UpCompCFW(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DAon2bbB#5Smd5RT1-sw_abEVTxaQOg");}
 function FileManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/qZBzmK5R#hiySMtMkzIyXOTRAxuKX8g");}
 function FileManagerWeb(){verificarSesionYAbrirEnlace("https://github.com/Zarh/ManaGunZ/releases");}
+function ManaGunZ(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CdY01Z4Q#SPnzEe6nTwVOhP4YrlaNDg");}
+function ManaGunZWeb(){verificarSesionYAbrirEnlace("https://github.com/Zarh/ManaGunZ/releases");}
 function HybrindFirmwareTools(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aUgAFS7D#Q-c4M9hbWr9BNH5g8imMZA");}
 function IRISMAN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/PBgAUaAA#4nrzqLYGp1kT6P2rgrYTTA");}
 function IRISMANWeb(){verificarSesionYAbrirEnlace("https://github.com/aldostools/IRISMAN/releases");}
 function Licencias(){verificarSesionYAbrirEnlace("https://mega.nz/folder/2EQ22S4K#yhgCX1VkhHwZVzBf4mNDqA");}
 function LinkWEBRED(){verificarSesionYAbrirEnlace("https://mega.nz/folder/PQxEDAQR#9l273gbEfXIQDR7oXKOmQQ");}
 function LinkWEBREDWeb(){verificarSesionYAbrirEnlace("https://marchelobm.github.io/PS3/PS3.html");}
-function ManaGunZ(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CdY01Z4Q#SPnzEe6nTwVOhP4YrlaNDg");}
-function ManaGunZWeb(){verificarSesionYAbrirEnlace("https://github.com/Zarh/ManaGunZ/releases");}
 function MOVIAN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/rUxDwSoR#uPlx-3EmAOrpJPt3y4bXuA");}
 function MOVIANDesWeb(){verificarSesionYAbrirEnlace("https://store.brewology.com/ahomebrew.php?brewid=196");}
 function MOVIANOffWeb(){verificarSesionYAbrirEnlace("https://apps.movian.eu/");}
 function multiMAN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CI5WHQiJ#G3mMs8kYJhdR3oO7HON6Nw");}
 function multiMANWEB(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/multiman-v04-82-00-deank-adds-4-82-cfw-support.15615/page-3#post-207778/");}
 function Plex(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DM5GEapI#RqajEOfAixJeBjsXliis1w");}
+function PlexWeb(){verificarSesionYAbrirEnlace("https://www.plex.tv/es/blog/category/playstation-3/");}
 function prepISO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WNAlAIYI#cSluP4ASu3GATjLmdTG4QQ");}
 function prepISOWeb(){verificarSesionYAbrirEnlace("https://github.com/aldostools/webMAN-MOD/releases");}
 function PS3ezremoteclient(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aAgWkaQI#E_GcAB3KrblRf_wiqmr9LQ");}
 function PS3ezremoteclientWeb(){verificarSesionYAbrirEnlace("https://github.com/cy33hc/ps3-ezremote-client/releases");}
 function PSNPatch(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TFIBkL4C#cVaaQAxGWVWTgBlWSfWM5A");}
+function PSNPatchWeb(){verificarSesionYAbrirEnlace("https://store.brewology.com/ahomebrew.php?brewid=244");}
 function SimpleFileManager(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jA4jSBgD#E44xoZ9RRxEehyt4WCkhEw");}
 function SimpleFileManagerWeb(){verificarSesionYAbrirEnlace("https://github.com/lmirel/fm_psx/releases");}
 function PS3UnlockHDDSpace(){verificarSesionYAbrirEnlace("https://mega.nz/folder/aM4VUaRL#Nbosp7B622Is2WaB53koAg");}
 function PS3UnlockHDDSpaceWEB(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/tutorial-unlock-up-to-8-extra-total-space-on-the-ps3-internal-hard-drive.20773/");}
-function PS3exFATNTFS(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bEQykZ6T#skmeK_G8iJRhClH51hRYAw");}
 function webMANMODAPP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/HBhECI7S#X-QHQFMzuFWQZ4kQXpVdoQ");}
 function webMANMODAPPWeb(){verificarSesionYAbrirEnlace("https://github.com/aldostools/webMAN-MOD/releases");}
 function PS2CONFIG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WcgEAZaI#RhpphwgstfdUwQl8wQCzxQ");}
