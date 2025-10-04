@@ -67,7 +67,7 @@ function WIKISTOREWeb(){verificarSesionYAbrirEnlace("https://github.com/TheWizWi
 function ZukoStore(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zQogUaQS#li4NYPdF56k84wXMBOcJiQ");}
 //Extras
 function Caratulas(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GUhWlLwZ#jS2azbfM0SgouGR3mDHaJA");}
-function IconDifer(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GUhWlLwZ#jS2azbfM0SgouGR3mDHaJA");}
+function IconDifer(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WQhjEAyC#7VYcdXfrhjoDqafUdHRhEQ");}
 function IconDiferWeb(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/custom-xmb-icon0-pic0-for-various-ps3-apps.40454/#post-363989");}
 function LogosHen(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TFZTja5B#wOoPNL0EjLS3N3xAJQ2hsg");}
 function MonstrTPACK(){verificarSesionYAbrirEnlace("https://mega.nz/folder/uNpk0JjR#aSceNXgBZtXKKsWLr050Aw");}

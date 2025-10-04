@@ -1,3 +1,5 @@
+-v2.11 Cambios menores
+	Cambios en la vista de descargas por el nombre de cada archivos a descargar por mega de programas de consolas 
 -v2.10 Nueva lista de programas de consolas
 	Actualizacion de la lista de programas para PS2 y nueva lista PS3 y otros cambios
 -v2.09 Modificacion a los link
