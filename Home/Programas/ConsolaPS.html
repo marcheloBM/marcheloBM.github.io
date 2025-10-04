@@ -20,7 +20,7 @@
             window.onload = cargarInfoContacto;
         </script>
         <!-- link de programas -->
-        <script src="../js/linkPS2.js"></script>
+        <script src="../js/linkPS.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -62,12 +62,12 @@
 									<div>
 										<h4>Lista de Programas</h4>
 										<div class="table-wrapper">
-											<table class="alt">
+											<table class="alt" id="miTabla">
 												<thead>
 													<tr>
 														<th>ID</th>
 														<th>Archivos</th>
-														<th>Descargar</th>
+														<th>Descargas</th>
 														<th>WEB Oficial</th>
 														<th>Tutorial</th>
 													</tr>
@@ -89,14 +89,13 @@
 														<td><a href="../Tutoriales/???">Guia</a></td>
 													</tr>
 													<tr>
-														<td>03</td>
+														<td rowspan="2">03</td>
 														<td>NombreAPP</td>
 														<td><a onclick="link()">Mega</a></td>
 														<td><a onclick="linkWeb()">WEBOficial</a></td>
 														<td><a href="../Tutoriales/???">Guia</a></td>
 													</tr>
 													<tr>
-														<td>04</td>
 														<td>NombreAPP</td>
 														<td><a onclick="link()">Mega</a></td>
 														<td><a onclick="linkWeb()">WEBOficial</a></td>
@@ -110,6 +109,14 @@
 													</tr>
 												</tfoot>
 											</table>
+											<script>
+											document.querySelectorAll('#miTabla td').forEach(td => {
+												if (td.textContent.trim() === '') {
+												td.textContent = 'No Tiene';
+												}
+											});
+											</script>
+
 										</div>
 									</div>
 
@@ -235,5 +242,60 @@
 				document.getElementById("total-programas").textContent = filas.length;
 			});
 			</script>
+			
+			<script>
+			function checkURL(url, callback) {
+			// Elimina esta parte si quieres marcar Mega como ✅
+			if (url.includes("mega.nz")) {
+			callback(true); // o callback("mega") si quieres ❔
+			return;
+			}
+
+			fetch(url, { method: 'HEAD', mode: 'no-cors' })
+				.then(() => callback(true))
+				.catch(() => callback(false));
+			}
+
+			function extraerURLDesdeFuncion(nombreFuncion) {
+			try {
+				const fnTexto = window[nombreFuncion].toString();
+				const match = fnTexto.match(/verificarSesionYAbrirEnlace\(["'](https?:\/\/[^"']+)["']\)/);
+				return match ? match[1] : null;
+			} catch (e) {
+				console.warn(`No se pudo analizar la función ${nombreFuncion}`, e);
+				return null;
+			}
+			}
+
+			function verificarTabla() {
+			const links = document.querySelectorAll("td a[onclick]");
+			links.forEach(link => {
+				const onclickAttr = link.getAttribute("onclick");
+				const nombreFuncion = onclickAttr.replace("()", "").trim();
+
+				if (typeof window[nombreFuncion] === "function") {
+				const url = extraerURLDesdeFuncion(nombreFuncion);
+				const statusIcon = document.createElement("span");
+
+				if (url) {
+					statusIcon.textContent = " ⏳";
+					link.after(statusIcon);
+
+					checkURL(url, estado => {
+					if (estado === true) statusIcon.textContent = " ✅";
+					else if (estado === false) statusIcon.textContent = " ❌";
+					else if (estado === "mega") statusIcon.textContent = " ❔"; // Mega no verificable
+					});
+				} else {
+					statusIcon.textContent = " ⚠️";
+					link.after(statusIcon);
+				}
+				}
+			});
+			}
+
+			window.addEventListener("DOMContentLoaded", verificarTabla);
+			</script>
+
 	</body>
 </html>

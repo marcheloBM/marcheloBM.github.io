@@ -1,3 +1,5 @@
+-v2.10 Nueva lista de programas de consolas
+	Actualizacion de la lista de programas para PS2 y nueva lista PS3 y otros cambios
 -v2.09 Modificacion a los link
 	se arreglo algunos link de PS3 para la nueva lista de programas de consolas
 -v2.08 HTML ayuda para promagramas Consolas

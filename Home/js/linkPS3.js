@@ -26,8 +26,9 @@ function LinkWEBREDWeb(){verificarSesionYAbrirEnlace("https://marchelobm.github.
 function MOVIAN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/rUxDwSoR#uPlx-3EmAOrpJPt3y4bXuA");}
 function MOVIANDesWeb(){verificarSesionYAbrirEnlace("https://store.brewology.com/ahomebrew.php?brewid=196");}
 function MOVIANOffWeb(){verificarSesionYAbrirEnlace("https://apps.movian.eu/");}
-function multiMAN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CI5WHQiJ#G3mMs8kYJhdR3oO7HON6Nw");}
-function multiMANWEB(){verificarSesionYAbrirEnlace("https://www.psx-place.com/threads/multiman-v04-82-00-deank-adds-4-82-cfw-support.15615/page-3#post-207778/");}
+function multiMAN(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7doBXBqB#hiGmwfcf2fcAOt56o7Su1A");}
+function multiMANTheme(){verificarSesionYAbrirEnlace("https://mega.nz/folder/OQBDwYIC#wCUJsfcwo2Y2BCpFsXSF3A");}
+function multiMANWEB(){verificarSesionYAbrirEnlace("https://github.com/aldostools/Resources/releases/Launchers");}
 function Plex(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DM5GEapI#RqajEOfAixJeBjsXliis1w");}
 function PlexWeb(){verificarSesionYAbrirEnlace("https://www.plex.tv/es/blog/category/playstation-3/");}
 function prepISO(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WNAlAIYI#cSluP4ASu3GATjLmdTG4QQ");}
@@ -44,6 +45,7 @@ function webMANMODAPP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/HBhE
 function webMANMODAPPWeb(){verificarSesionYAbrirEnlace("https://github.com/aldostools/webMAN-MOD/releases");}
 function PS2CONFIG(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WcgEAZaI#RhpphwgstfdUwQl8wQCzxQ");}
 function PS2CONFIGWeb(){verificarSesionYAbrirEnlace("https://github.com/aldostools/webMAN-MOD/releases");}
+function GamepadTestPS3(){verificarSesionYAbrirEnlace("https://mega.nz/folder/6IQUEKQT#kuwhJ8hvAotVoXZCAa4CzA");}
 //ProgramaPC
 function PS2APP(){verificarSesionYAbrirEnlace("https://mega.nz/folder/XAw01SZJ#4GbWAW33KhZ5SCrI2lKi8A");}
 function exdata(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CAIxXbLa#5TR9GayYMocsLUK--hemOA");}
@@ -62,6 +64,7 @@ function VIDEOSTOREWeb(){verificarSesionYAbrirEnlace("https://github.com/Videoga
 function WebStore(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fJpg3ZSa#AZJ9cB3HFzhRd9Np__rCrQ");}
 function WIKISTORE(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CVJXRKrK#vbLNM4fWPAW5yiTTdBLGZQ");}
 function WIKISTOREWeb(){verificarSesionYAbrirEnlace("https://github.com/TheWizWikii/WIKISTORE-PSN-EDITION/releases");}
+function ZukoStore(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zQogUaQS#li4NYPdF56k84wXMBOcJiQ");}
 //Extras
 function Caratulas(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GUhWlLwZ#jS2azbfM0SgouGR3mDHaJA");}
 function IconDifer(){verificarSesionYAbrirEnlace("https://mega.nz/folder/GUhWlLwZ#jS2azbfM0SgouGR3mDHaJA");}
