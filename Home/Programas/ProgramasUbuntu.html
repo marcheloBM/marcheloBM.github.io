@@ -67,18 +67,24 @@
 										</script>
 
                                     <hr class="major" />
-
+                                    
 									<div class="row gtr-200">
 										<div class="col-6 col-12-medium">
 												<h4>Neofetch</h4>
 												<p><span class="image right"><img src="../images/ubuntu/neofetch.jpg" alt="Imagen No Disponible" /></span>Neofetch muestra información en el terminal sobre su sistema junto a una imagen, el logotipo de su sistema operativo o cualquier archivo ASCII de su elección. </p>
                                             <ul>
+                                                <li>actualizamos</li>
+                                                <code>sudo apt update</code>
                                                 <li>Instalamos neofetch</li>
                                                 <code>sudo apt install neofetch</code>
                                                 <li>Ejecutar neofetch al abrir la terminal</li>
-                                                <code>sudo gedit /etc/bash.bashrc</code>
-                                                <li>Al final del documento agregamos el nombre del programa</li>
+                                                <li>Abre tu archivo <b>.bashrc</b></li>
+                                                <code>nano ~/.bashrc</code>
+                                                <li>Ve al final del archivo y agrega esta línea</li>
                                                 <code>neofetch</code>
+                                                <li>- Guarda y cierra (Ctrl + O, luego Enter, y Ctrl + X).</li>
+                                                <li>Aplica los cambios</li>
+                                                <code>source ~/.bashrc</code>
                                             </ul>
 										</div>
 
@@ -86,11 +92,15 @@
 												<h4>grub customizer</h4>
 												<p><span class="image right"><img src="../images/ubuntu/grubcustomizer.jpg" alt="Imagen No Disponible" /></span>Grub Customizer es una interfaz gráfica para configurar los ajustes y las entradas de menú de GRUB2/BURG</p>
                                             <ul>
-                                                <li>Agremamos el Repositorio</li>
-                                                <code>sudo add-apt-repository ppa:trebelnik-stefina/grub-customizer</code>
-                                                <li>Actualizamos</li>
+                                                <li>Actualiza tu sistema:</li>
                                                 <code>sudo apt update</code>
-                                                <li>Instalamos grub customizer</li>
+                                                <li>Instala Grub Customizer</li>
+                                                <code>sudo apt install grub-customizer</code>
+                                                <li>Si estás usando una versión de Ubuntu donde no está en los repositorios, puedes agregar el PPA manualmente</li>
+                                                <code>sudo add-apt-repository ppa:danielrichter2007/grub-customizer</code>
+                                                <li>Actualizamos/li>
+                                                <code>sudo apt update</code>
+                                                <li>instalamos</li>
                                                 <code>sudo apt install grub-customizer</code>
                                                 <li>Pagina de temas</li>
                                                 <a href="https://www.gnome-look.org/browse?cat=109&ord=latest" target="_blank">gnome-look.org</a>
@@ -102,7 +112,7 @@
                                                 <li>Ej: <code>sudo cp -R [ruta del tema descargado] /boot/grub/themes/</code></li>
                                                 <code>sudo cp -R /home/usuario/Descargas/toshiba /boot/grub/themes/</code>
                                                 <li>Editar el archivo /etc/default/grub</li>
-                                                <code>sudo gedit /etc/default/grub</code>
+                                                <code>sudo nano /etc/default/grub</code>
                                                 <li>Buscamos la linea #GRUB_THEME, de no existir hay que crearla. Tiene que quedar asi: GRUB_THEME=/boot/grub/themes/[nombre de la carpeta]/[nombre del archivo de texto dentro de la carpeta]</li>
                                                 <code>GRUB_THEME=/boot/grub/themes/toshiba/theme.txt</code>
                                                 <li>Por último actualizamos el grub</li>
@@ -116,10 +126,10 @@
 												<h4>Bleachbit</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/bleachBit.jpg" alt="Imagen No Disponible" /></span>BleachBit es una herramienta gratuita y de código abierto para ayudarlo a deshacerse de los archivos basura en su máquina . Es potente y fácil de usar, lo que le permite no solo eliminar archivos basura, sino también triturar y borrar archivos.</p>
                                             <ul>
-                                                <li>Descargar el Instalador deb desde la Pagina Web Official</li>
-                                                <a href="https://www.bleachbit.org/download" target="_blank">bleachbit.org</a>
-                                                <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.dev</a></li>
-                                                <code>sudo dpkg -i Descargas/bleachbit_4.4.2-0_all_ubuntu2104.deb</code>
+                                                <li>En la Termina</li>
+                                                <code>sudo apt update</code>
+                                                <li>Instalamos</li>
+                                                <code>sudo apt install bleachbit</code>
                                             </ul>
 										</div>
 
@@ -128,10 +138,12 @@
 												<h4>Google Chrome</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/googlechrome.jpg" alt="Imagen No Disponible" /></span>Google Chrome es un navegador web de código cerrado desarrollado por Google</p>
                                                 <ul>
-                                                    <li>Descargar el Instalador deb desde la Pagina Web Official</li>
-                                                    <a href="https://www.google.com/intl/es-419/chrome/dev/" target="_blank">Google Chrome</a>
-                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.dev</a></li>
-                                                    <code>sudo dpkg -i Descargas/google-chrome-stable_current_amd64.deb</code>
+                                                    <li>Desde terminal</li>
+                                                    <code>wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb</code>
+                                                    <li>Instala el paquete .deb de Google Chrom</li>
+                                                    <code>sudo dpkg -i google-chrome-stable_current_amd64.deb</code>
+                                                    <li>el sistema buscará e instalará automáticamente los paquetes que faltan</li>
+                                                    <code>sudo apt -f install</code>
                                                 </ul>
 											</div>
 										</div>
@@ -143,26 +155,22 @@
 												<h4>Chromium</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/chromium.jpg" alt="Imagen No Disponible" /></span>Chromium es una base de código abierto para desarrollar un navegador web, mantenida por diversas compañías que posteriormente usan el código fuente para crear su propia versión de navegador con características adicionales</p>
                                                 <ul>
-                                                    <li>Ejecutamos el comando desde la Terminal</li>
-                                                    <code>sudo apt install chromium-browser</code>
+                                                    <li>Usando Snap (recomendado por Ubuntu)</li>
+                                                    <code>sudo snap install chromium</code>
+                                                    <li>Esto instalará la versión oficial y se actualizará automáticamente</li>
                                                 </ul>
 											</div>
 										</div>
 
 										<div class="col-6 col-12-medium">
 											<div class="table-wrapper">
-												<h4>foxit reader | PDF</h4>
+												<h4>Okular | PDF</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/foxitreaderpdf.jpg" alt="Imagen No Disponible" /></span>Foxit Reader es un lector PDF multilingüe. Tanto la versión completa, como la básica pueden descargarse gratis. Este software es notable por su corto tiempo para cargar y el tamaño pequeño de sus archivos. Ha sido favorablemente comparado con Adobe Reader. No puede leer archivos PDX.</p>
                                                 <ul>
-                                                    <li>Descargar el Instalador deb desde la Pagina Web Official</li>
-                                                    <a href="https://www.foxit.com/es-la/pdf-reader/" target="_blank">foxit.com</a>
-                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#run.tar.gz">run.tar.gz</a></li>
-                                                    <li>Descomprimir el archivo, buscamos el archivo .run para ejecutarlo</li>
-                                                    <li>Dentro de la carpeta desde la terminal le damos los permisos para el archivo</li>
-                                                    <code>sudo chmod 777 "nombre del archivo"</code>
-                                                    <li>Para ejecutarlo desde la Terminal</li>
-                                                    <code>sudo ./"nombre del archivo"</code>
-                                                    <li>Listo</li>
+                                                    <li>En la Terminal</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>instalamos</li>
+                                                    <code>sudo apt install okular</code>
                                                 </ul>
 											</div>
 										</div>
@@ -175,6 +183,8 @@
                                                 <p><span class="image right"><img src="../images/ubuntu/codecs.jpg" alt="Imagen No Disponible" /></span>Si no se instalan desde la instalacion de ubuntu o para actualizar. Los códecs de vídeo más populares actualmente son Theora, VP8, MPEG-2, h. 264, Xvid y Divx. Respecto a los códecs de audio: AAC, FLAC, MP3, Vorbis (ogg) y WMA son los que más abundan. Los contenedores más utilizados son AVI, Divx, Matroska, Flash video, MP4, MPEG, Ogg, Quicktime, MXF y WebM.</p>
                                                 <ul>
                                                     <li>Desde una Terminal</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Instalamos</li>
                                                     <code>sudo apt install ubuntu-restricted-extras</code>
                                                 </ul>
 											</div>
@@ -186,13 +196,11 @@
                                                 <p><span class="image right"><img src="../images/ubuntu/gnometweaktool.jpg" alt="Imagen No Disponible" /></span>GNOME Tweak Tool es una herramienta para habilitar la personalización de opciones avanzadas para GNOME3. GNOME Tweak Tool permite el ajuste de varias opciones avanzadas de GNOME que no pueden configurarse en gnome-control-center. (Tener más ajustes en la apariencia y configuraciones de Gnome)</p>
                                                 <ul>
                                                     <li>Desde una Terminal</li>
-                                                    <li>Agremamos el Repositorio</li>
-                                                    <code>sudo add-apt-repository universe</code>
-                                                    <li>Instalamos gnome-tweaks</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Instalamos</li>
                                                     <code>sudo apt install gnome-tweaks</code>
-                                                    <li>Buscar retoques desde el menu de incio</li>
-                                                    <li>Modificar la Fecha</li>
-                                                    <li>Mostrar porcentaje de batería</li>
+                                                    <li>Para aprovechar al máximo Tweaks, puedes instalar</li>
+                                                    <code>sudo apt install gnome-shell-extensions</code>
                                                 </ul>
 											</div>
 										</div>
@@ -204,6 +212,8 @@
                                                 <p><span class="image right"><img src="../images/ubuntu/vlc.jpg" alt="Imagen No Disponible" /></span>VLC media player es un reproductor y framework multimedia, libre y de código abierto desarrollado por el proyecto VideoLAN.</p>
                                                 <ul>
                                                     <li>Desde una Terminal</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Instalamos</li>
                                                     <code>sudo apt install vlc</code>
                                                     <li>Listo</li>
                                                 </ul>
@@ -214,8 +224,11 @@
                                                 <p><span class="image right"><img src="../images/ubuntu/audacious.jpg" alt="Imagen No Disponible" /></span>Audacious es un reproductor de audio disponible como software libre para sistemas POSIX, como por ejemplo, GNU/Linux</p>
                                                 <ul>
                                                     <li>Desde una Terminal</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Instalamos</li>
                                                     <code>sudo apt install audacious</code>
-                                                    <li>Listo</li>
+                                                    <li>También puedes instalar el paquete audacious-plugins para ampliar funcionalidades</li>
+                                                    <code>sudo apt install audacious-plugins</code>
                                                 </ul>
 										</div>
 									</div>
@@ -232,19 +245,15 @@
 										</div>
 
 										<div class="col-6 col-12-medium">
-                                            <h4>Balena etcher</h4>
+                                            <h4>Balena etcher(Probar de otro)</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/balenaetcher.jpg" alt="Imagen No Disponible" /></span>balenaEtcher es un utilitario libre y de código abierto que se utiliza para escribir archivos de imagen, como archivos .iso y .img, así como carpetas comprimidas en medios de almacenamiento para crear tarjetas de memoria SD Live y unidades flash USB.</p>
                                                 <ul>
                                                     <li>Descargar desde la Pagina Web Official</li>
                                                     <a href="https://www.balena.io/etcher/" target="_blank">balena.io</a>
-                                                    <li>Si es .zip, descomprime el archivo con el siguiente comando:</li>
-                                                    <code>unzip balena-etcher-electron-1.7.7-linux-x64.zip</code>
-                                                    <li>Mover el archivo AppImage al directorio /opt con el siguiente comando:</li>
-                                                    <code>sudo mv balena-etcher-electron-1.7.7-linux-x64.AppImage /opt</code>
-                                                    <li>Ejecuta Etcher con el siguiente comando</li>
-                                                    <code>/opt/balena-etcher-electron-1.7.7-linux-x64.AppImage</code>
-                                                    <li>Creamos un acceso al <a href="#menuLibre">Menu Libre</a>.</li>
-
+                                                    <li>Hazlo ejecutable</li>
+                                                    <code>chmod +x balenaEtcher-*.AppImage</code>
+                                                    <li>Ejecuta el programa</li>
+                                                    <code>./balenaEtcher-*.AppImage</code>
                                                 </ul>
 										</div>
 									</div>
@@ -267,15 +276,23 @@
                                                 <code>sudo apt install soundconverter</code>
                                             </ul>
 										</div>
-                                     <div class="row gtr-200">
+                                    <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
                                             <h4>Curlew</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/curlew.jpg" alt="Imagen No Disponible" /></span>Curlew es un convertidor multimedia de código abierto, gratuito y fácil de usar para Linux. Está escrito en Python y GTK3 y depende de FFmpeg o Libav .</p>
                                                 <ul>
-                                                    <li>Pagina Web Official <a href="https://sourceforge.net/projects/curlew/" target="_blank">sourceforge.net</a></li>
-                                                    <li>Pagina Web Para Descargar <a href="https://sourceforge.net/projects/curlew/files/" target="_blank">curlew/files</a> </li>
-                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
-                                                    <code>sudo dpkg -i Descargas/curlew_0.2.5-1_all.deb</code>
+                                                    <li>Descarga el paquete comprimido</li>
+                                                    <code>wget https://sourceforge.net/projects/curlew/files/latest/download -O curlew.tar.gz</code>
+                                                    <li>Extrae el contenido</li>
+                                                    <code>tar -xvf curlew.tar.gz</code>
+                                                    <li>Entra al directorio extraído</li>
+                                                    <code>ls</code>
+                                                    <li>Busca el nombre exacto de la carpeta y entra con</li>
+                                                    <code>cd curlew</code>
+                                                    <li>Da permisos de ejecución</li>
+                                                    <code>chmod +x curlew</code>
+                                                    <li>Ejecuta Curlew</li>
+                                                    <code>./curlew</code>
                                                 </ul>
 										</div>
 
@@ -290,13 +307,11 @@
 
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
-                                            <h4>indicator-keylock</h4>
-                                                <p><span class="image right"><img src="../images/ubuntu/indicatorkeylock.jpg" alt="Imagen No Disponible" /></span>indicator-keylock es una pequeña herramienta que puede ser muy útil en caso de que tu teclado no posea LEDs que muestren el estado de las teclas Lock: Caps de letras mayusculas</p>
+                                            <h4>Glances</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/Glances.jpg" alt="Imagen No Disponible" /></span>Monitor técnico en tiempo real, Muestra uso de CPU, RAM, disco, red, procesos, sensores, etc.</p>
                                                 <ul>
-                                                    <li>Pagina Web Official</li>
-                                                    <a href="https://launchpad.net/~tsbarnes/+archive/ubuntu/indicator-keylock/+packages" target="_blank">launchpad.net</a>
-                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
-                                                    <code>sudo dpkg -i Descargas/indicator-keylock_3.1.1-0_ppa1_amd64.deb</code>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>sudo apt install glances glances</code>
                                                 </ul>
 										</div>
 
@@ -306,42 +321,17 @@
                                                 <ul>
                                                     <li>Desde la Terminal</li>
                                                     <code>sudo apt install k3b</code>
+                                                    <li>Esto instalará K3b junto con sus dependencias. Si quieres soporte completo para formatos multimedia, también puedes instalar</li>
+                                                    <code>sudo add-apt-repository universe</code>
+                                                    <li>update</li>
+                                                    <code>sudo apt update</code>
                                                 </ul>
 										</div>
                                     </div>
 
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
-                                            <h4>slimbook battery</h4>
-                                                <p><span class="image right"><img src="../images/ubuntu/slimbookbattery.jpg" alt="Imagen No Disponible" /></span>Slimbook Battery 4 es una nueva versión de la aplicación para controlar y aumentar la duración de la batería de los portátiles. Estos son algunos de los cambios más visibles. <b>(Cuidado )</b></p>
-                                                <ul>
-                                                    <li>Desde la Terminal Agregar repositorio slimbook battery</li>
-                                                    <code>sudo add-apt-repository ppa:slimbook/slimbook</code>
-                                                    <li>Instalamos</li>
-                                                    <code>sudo apt install slimbookbattery</code>
-                                                </ul>
-										</div>
-
-										<div class="col-6 col-12-medium">
-                                            <h4>ucaresystem</h4>
-                                                <p><span class="image right"><img src="../images/ubuntu/ucaresystem.jpg" alt="Imagen No Disponible" /></span>uCaresystem es un programa que reúne todas las funciones de actualización en una sola. Una manera de estar seguros de que mantenemos nuestro sistema Ubuntu siempre actualizado. De esta manera evitaremos posibles problemas de seguridad que pongan en riesgo nuestro equipo y nuestra privacidad. (update-upgrade elimina paquetes y kerne, etc)</p>
-                                                <ul>
-                                                    <li>Pagina Web Official</li>
-                                                    <a href="https://github.com/Utappia/uCareSystem/releases" target="_blank">github.com</a>
-                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
-                                                    <code>sudo dpkg -i Descargas/ucaresystem-core_4.4.0_all.deb</code>
-                                                </ul>
-										</div>
-                                    </div>
-
-                                    <div class="row gtr-200">
-										<div class="col-6 col-12-medium">
-                                            <h4>openshot</h4>
-                                                <p><span class="image right"><img src="../images/ubuntu/openshot.jpg" alt="Imagen No Disponible" /></span>OpenShot Video Editor es un software de edición de vídeo no lineal multiplataforma de Software Libre.</p>
-                                                <ul>
-                                                    <li>Desde la Terminal</li>
-                                                    <code>sudo apt install openshot</code>
-                                                </ul>
+                                            <!--para Agregar-->
 										</div>
 
                                         <div class="col-6 col-12-medium">
@@ -349,12 +339,8 @@
                                             <a name="menuLibre" id="menuLibre"></a>
                                                 <p><span class="image right"><img src="../images/ubuntu/menuLibre.jpg" alt="Imagen No Disponible" /></span>MenuLibre es un aplicación con la que podrás editar menús en Linux Mint y Ubuntu, modificando no solo el propio menú, sino también los lanzadores que hay en tu equipo, de forma muy detallada. Pero además tiene la cualidad de presentar una interfaz sencilla, limpia y sobre todo fácil de usar.</p>
                                                 <ul>
-                                                    <li>Para Instslar</li>
+                                                    <li>Para Instalar</li>
                                                     <code>sudo apt install menulibre</code>
-                                                    <!--<li>Para tener la última vesión estable</li>
-                                                    <code>sudo add-apt-repository ppa:menulibre-dev/devel</code>
-                                                    <code>sudo apt update</code>
-                                                    <code>sudo apt install menulibre</code>-->
                                                 </ul>
 										</div>
 
@@ -364,8 +350,6 @@
                                             <h4>Stacer</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/stacer.jpg" alt="Imagen No Disponible" /></span>Según sus propios creadores, Stacer» es un software optimizador de sistema de código abierto y un monitor de aplicaciones que ayuda a los usuarios a administrar todo el sistema con diferentes aspectos, es una utilidad del sistema todo en uno.</p>
                                                 <ul>
-                                                    <li>Pagina Web Official</li>
-                                                    <a href="https://github.com/oguzhaninan/Stacer" target="_blank">github.com</a>
                                                     <li>Comando para Instalar</li>
                                                     <code>sudo apt install stacer</code>
                                                 </ul>
@@ -375,10 +359,12 @@
                                             <h4>jDownloader 2</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/jDownloader2.jpg" alt="Imagen No Disponible" /></span>Es un gestor de descargas de código abierto escrito en Java. Permite la descarga automática de archivos de sitios de alojamiento inmediato como MediaFire y MEGA, entre otros.</p>
                                                 <ul>
-                                                    <li>Descargar de la Pagina Web Official el archivo</li>
-                                                    <a href="https://jdownloader.org/es/download/index" target="_blank">jdownloader.org</a>
-                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#sh">.sh</a></li>
-                                                    <code>sh JD2Setup_x64.sh</code>
+                                                    <li>Update</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Instalamos snapd</li>
+                                                    <code>sudo apt install snapd</code>
+                                                    <li>instalamos</li>
+                                                    <code>sudo snap install jdownloader2</code>
                                                 </ul>
 										</div>
                                     </div>
@@ -388,17 +374,11 @@
                                             <h4>OBS Studio</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/obsStudio.jpg" alt="Imagen No Disponible" /></span>Open Broadcaster Software está escrito en C y C++, y permite captura de fuentes de video en tiempo real, composición de escena, codificación, grabación y retransmisión. La transmisión de datos puede realizarse a través del protocolo Real Time Messaging Protocol (RTMP), y puede ser enviado a cualquier destino que soporte RTMP (por ejemplo Youtube), incluyendo muchos presets para sitios de streaming como Twitch, Admefy y DailyMotion. Pagina Web Official <a href="https://jdownloader.org/es/download/index" target="_blank">jdownloader.org</a></p>
                                                 <ul>
-                                                    <li>Tenga en cuenta que OBS Studio no funciona en Chrome OS.</li>
-                                                    <li>Se recomienda xserver-xorg versión 1.18.4 o posterior para evitar posibles problemas de rendimiento con determinadas funciones de OBS, como el proyector de pantalla completa.</li>
-                                                    <li>Se requiere FFmpeg. Si no tiene FFmpeg instalado (si no está seguro, probablemente no lo tenga), puede obtenerlo con los siguientes comandos:</li>
-                                                    <code>sudo apt install ffmpeg</code>
-                                                    <li>Si desea soporte de cámara virtual, necesita v4l2loopback-dkms instalado. Puedes instalarlo con el siguiente comando:</li>
-                                                    <code>sudo apt install v4l2loopback-dkms</code>
-                                                    <li>Asegúrese de haber habilitado el repositorio multiverso en el centro de software de Ubuntu (NOTA: en las versiones más recientes de Ubuntu, agregar un repositorio automáticamente apta actualizaciones). Luego, puede instalar OBS con los siguientes comandos:</li>
+                                                    <li>la versión más reciente desde el PPA oficial</li>
                                                     <code>sudo add-apt-repository ppa:obsproject/obs-studio</code>
-                                                    <li>Actualizar Lista de Paquetes</li>
+                                                    <li>Update al directorio</li>
                                                     <code>sudo apt update</code>
-                                                    <li>Intalar la aplicacion</li>
+                                                    <li>instalamos</li>
                                                     <code>sudo apt install obs-studio</code>
                                                 </ul>
 										</div>
@@ -418,10 +398,6 @@
                                             <h4>Inkscape</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/inkscape.jpg" alt="Imagen No Disponible" /></span>Inkscape es un editor de gráficos vectoriales libre y de código abierto. Inkscape puede crear y editar diagramas, líneas, gráficos, logotipos, e ilustraciones complejas. El formato principal que utiliza el programa es Scalable Vector Graphics versión 1.1. Pagina Web Official <a href="https://inkscape.org/es/release/inkscape-1.0.2/gnulinux/ubuntu/ppa/dl/" target="_blank">inkscape.org</a></p>
                                                 <ul>
-                                                    <li>Agregar a Repositorios</li>
-                                                    <code>sudo add-apt-repository ppa:inkscape.dev/stable</code>
-                                                    <li>Actualizar Lista de Paquetes</li>
-                                                    <code>sudo apt update</code>
                                                     <li>Para Instalar</li>
                                                     <code>sudo apt install inkscape</code>
                                                 </ul>
@@ -431,12 +407,8 @@
                                             <h4>krita</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/krita.jpg" alt="Imagen No Disponible" /></span>Krita es el software de pintura digital e ilustración basado en las bibliotecas de la plataforma KDE e incluido en Calligra Suite. Diseñado como una suite de dibujo e ilustración digital, Krita es software libre distribuido bajo la licencia GNU GPL. Pagina Web Official <a href="https://linuxhint.com/install_krita_ubuntu/" target="_blank">linuxhint.com</a></p>
                                                 <ul>
-                                                    <li>Agregar a Repositorios</li>
-                                                    <code>sudo add-apt-repository ppa:kritalime/ppa</code>
-                                                    <li>Actualizar Lista de Paquetes</li>
-                                                    <code>sudo apt update</code>
                                                     <li>Para Instalar</li>
-                                                    <code>sudo apt-get install krita</code>
+                                                    <code>sudo apt install krita</code>
                                                 </ul>
 										</div>
                                     </div>
@@ -446,86 +418,33 @@
                                             <h4>Android Studio</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/androidStudio.jpg" alt="Imagen No Disponible" /></span>Android Studio es el entorno de desarrollo integrado oficial para la plataforma Android. Fue anunciado el 16 de mayo de 2013 en la conferencia Google I/O, y reemplazó a Eclipse como el IDE oficial para el desarrollo de aplicaciones para Android. La primera versión estable fue publicada en diciembre de 2014.</p>
                                                 <ul>
+                                                    <li>Instalacion automatica</li>
+                                                    <li>Instalamos smapd</li>
+                                                    <code>sudo apt install snapd</code>
+                                                    <li>Instalamos android</li>
+                                                    <code>sudo snap install android-studio --classic</code>
+                                                    
+                                                </ul>
+                                                <ul>
                                                     <li>Descargar desde la Pagina Web Official <a href="https://developer.android.com/studio" target="_blank">developer.android.com</a></li>
-                                                    <li>Cambian el nombre por "android-studio"</li>
-                                                    <li>La librerias necesarias para android studio con el comando</li>
-                                                    <code>sudo apt-get install libc6:i386 libncurses5:i386 libstdc++6:i386 lib32z1 libbz2-1.0:i386</code>
-                                                    <li>Para Descomprimir el archivo</li>
-                                                    <li>Si el archivo tiene extension .zip usa este comando:</li>
-                                                    <code>sudo unzip ~/Descargas/android-studio.zip -d /opt</code>
-                                                    <li>Si el archivo tiene otra extencion .tar.gz utiliza este comando:</li>
-                                                    <code>sudo tar -xvzf ~/Descargas/android-studio.tar.gz -C /opt</code>
-                                                    <li>Para ejecutar android studio</li>
-                                                    <code>sudo /opt/android-studio/bin/studio.sh</code>
-                                                    <li>continuar hasta el munu de setup wizard para cancelar</li>
-                                                    <li>En el menu de welcome nos vamos a configure, create Desktop Entry</li>
-                                                    <li>y a si podemos tener el en menu de aplicacion y lo abrimos desde ese enlace</li>
-                                                    <li>y configuramos nuestro android-studio hasta la ventana de welcome</li>
-                                                    <li>en la venta de welcome nos vamos a SDK Manager</li>
-                                                    <li>en SDK Tools y instalamos Android SDK Command-line Tools y instalamos</li>
-                                                    <li>Para tener las linias de comandos en terminal</li>
-                                                    <li>Abrir archivo .profile</li>
-                                                    <code>nano .profile</code>
-                                                    <li>PEGAMOS ESTO EN EL ARCHIVO</li>
-                                                    <code>export JAVA_HOME="/opt/android-studio/jre"
-                                                            export ANDROID_HOME="$HOME/Android/Sdk"
-                                                            export PATH="$PATH:$ANDROID_HOME/emulator"
-                                                            export PATH="$PATH:$ANDROID_HOME/platform-tools"
-                                                            export PATH="$PATH:$ANDROID_HOME/cmdline-tools/latest/bin"
-                                                            export PATH="$PATH:/opt/android-studio/jre/bin"</code>
-                                                    <li>Para Guardar le damos a Ctrl+X</li>
-                                                    <li>recargamos path</li>
-                                                    <code>source .profile</code>
-                                                    <li>comandos para terminal</li>
-                                                    <code>adb</code>
-                                                    <code>sdkmanager</code>
-                                                    <code>emulator</code>
-                                                    <code>java -version</code>
+                                                    <li>Extrae el archivo .zip y ejecuta el instalador</li>
+                                                    <li>Buscamos la ruta</li>
+                                                    <code>cd android-studio/bin</code>
+                                                    <li>Ejecutamos el instalador</li>
+                                                    <code>./studio.sh</code>
                                                 </ul>
 										</div>
 
 										<div class="col-6 col-12-medium">
-                                            <h4>Atom</h4>
-                                                <p><span class="image right"><img src="../images/ubuntu/atom.jpg" alt="Imagen No Disponible" /></span>Atom es un editor de código fuente de código abierto para macOS, Linux, y Windows con soporte para múltiples plug-in escritos en Node.js y control de versiones Git integrado, desarrollado por GitHub. Atom es una aplicación de escritorio construida utilizando tecnologías web.</p>
-                                                <ul>
-                                                    <li>Descargar desde la Pagina Web Official <a href="https://atom.io/" target="_blank">atom.io</a></li>
-                                                    <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
-                                                    <code>sudo dpkg -i Descargas/atom-amd64.deb</code>
-                                                    <li><b>Ayuda despues instalamos algunos </b>Complementos Para instalar paquetes ctrl + shift + p</li>
-                                                    <li>buscamos</li>
-                                                    <code>install pack</code>
-                                                    <li>Buscamos el paquetes </li>
-                                                    <li>para autocompletar el codigo</li>
-                                                    <code>Emmet</code>
-                                                    <li>Para montar un servidor y ver el codigo en vivo</li>
-                                                    <code>live-server</code>
-                                                    <li>por si no funciona o emite errores descargar</li>
-                                                    <li><a href="https://nodejs.org/es/" target="_blank">nodejs.org</a></li>
-                                                    <li>para tener la terminal de consola</li>
-                                                    <code>platformio-ide-terminal</code>
-                                                    <li>para descargar Temas al programa</li>
-                                                    <li><a href="https://atom.io/themes" target="_blank">themes</a></li>
-                                                    <li>buscamos ej</li>
-                                                    <code>monokai</code>
-                                                    <code>seti ui</code>
-                                                    <li>para iconos </li>
-                                                    <code>file-icons</code>
-                                                    <li>o en la Terminal</li>
-                                                    <code>apm install --production file-icons</code>
-                                                    <li><a href="https://atom.io/packages/file-icons" target="_blank">file-icons</a></li>
-                                                </ul>
+                                            <!--para Agregar-->
 										</div>
                                     </div>
 
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
-                                            <h4>NetBeans Ubuntu</h4>
+                                            <h4>NetBeans</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/netBeans.jpg" alt="Imagen No Disponible" /></span>NetBeans es un entorno de desarrollo integrado libre, hecho principalmente para el lenguaje de programación Java. Existe además un número importante de módulos para extenderlo. NetBeans IDE es un producto libre y gratuito sin restricciones de uso. Pagina Web Official <a href="https://netbeans.apache.org/download/index.html" target="_blank">netbeans.apache.org</a></p>
                                                 <ul>
-                                                    <li>Verificamos si java esta Instalado</li>
-                                                    <code>java -version</code>
-                                                    <li>Instlacion de java JDK</li>
-                                                    <code>sudo apt install default-jdk</code>
                                                     <li>Instalar netbeans </li>
                                                     <code>sudo snap install netbeans --classic</code>
                                                     <li>Listo</li>
@@ -533,10 +452,10 @@
 										</div>
 
 										<div class="col-6 col-12-medium">
-                                            <h4>Visual Studio</h4>
+                                            <h4>Visual Studio Code</h4>
                                                 <p><span class="image right"><img src="../images/ubuntu/visualStudio.jpg" alt="Imagen No Disponible" /></span>Microsoft Visual Studio es un entorno de desarrollo integrado para Windows y macOS. Es compatible con múltiples lenguajes de programación, tales como C++, C#, Visual Basic.</p>
                                                 <ul>
-                                                    <li>Para instalar VS Code solo tendremos que abrir una terminal (Ctrl+Alt+T) y ejecutar el siguiente comando:</li>
+                                                    <li>En una terminal</li>
                                                     <code>sudo snap install --classic code</code>
                                                 </ul>
 										</div>
@@ -550,11 +469,80 @@
                                                     <li>Descargar el intalador</li>
                                                     <code>sudo wget https://github.com/shiftkey/desktop/releases/download/release-2.8.1-linux2/GitHubDesktop-linux-2.8.1-linux2.deb</code>
                                                     <li>Instalar Archivos <a href="../Ayuda/ComandosUbuntu.html#dev">.deb</a></li>
-                                                    <code>sudo dpkg -i GitHubDesktop-linux-2.8.1-linux2.deb</code>
+                                                    <code>sudo dpkg -i GitHubDesktop-linux-*.deb</code>
+                                                    <li>Para resolver dependencias</li>
+                                                    <code>sudo apt -f install</code>
+                                                </ul>
+										</div>
+                                        <div class="col-6 col-12-medium">
+                                            <!--para Agregar-->
+										</div>
+                                    </div>
+
+                                    <div class="row gtr-200">
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Wine</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/Wine.jpg" alt="Imagen No Disponible" /></span>es una capa de compatibilidad libre que permite ejecutar aplicaciones diseñadas para Windows en sistemas operativos Linux, macOS y otros basados en Unix</p>
+                                                <ul>
+                                                    <li>Añadir soporte para arquitectura de 32 bits</li>
+                                                    <code>sudo dpkg --add-architecture i386</code>
+                                                    <li>actualizar</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Instalar dependencias necesarias</li>
+                                                    <code>sudo apt install -y software-properties-common wget gnupg2</code>
+                                                    <li>Instalar Wine sin usar el repositorio externo</li>
+                                                    <code>sudo apt install -y wine64 wine32</code>
+                                                </ul>
+										</div>
+
+                                        <div class="col-6 col-12-medium">
+                                            <h4>Discord</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/Discord.jpg" alt="Imagen No Disponible" /></span>es una plataforma de comunicación libre y multiplataforma que combina chat de texto, voz y video</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>sudo snap install discord</code>
                                                 </ul>
 										</div>
                                     </div>
-                                         <!--
+
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>Telegram</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/Telegram.jpg" alt="Imagen No Disponible" /></span>es una plataforma de mensajería rápida, segura y multiplataforma, ideal para comunicación técnica, automatización y gestión de comunidades</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>sudo snap install telegram-desktop</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <!--para Agregar-->
+										</div>
+                                    </div>
+
+                                    <div class="row gtr-200">
+										<div class="col-6 col-12-medium">
+                                            <h4>VirtualBox</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/VirtualBox.jpg" alt="Imagen No Disponible" /></span>es una herramienta de virtualización libre y multiplataforma que te permite ejecutar sistemas operativos completos como máquinas virtuales dentro de tu sistema principal</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>sudo apt update</code>
+                                                    <li>Intalar</li>
+                                                    <code>sudo apt install virtualbox</code>
+                                                </ul>
+										</div>
+
+										<div class="col-6 col-12-medium">
+                                            <h4>LibreOffice</h4>
+                                                <p><span class="image right"><img src="../images/ubuntu/LibreOffice.jpg" alt="Imagen No Disponible" /></span>LibreOffice es un poderoso paquete de oficina. Su interfaz limpia y sus potentes herramientas permiten dar rienda suelta a tu creatividad</p>
+                                                <ul>
+                                                    <li>Desde la Terminal</li>
+                                                    <code>sudo apt install libreoffice</code>
+                                                </ul>
+										</div>
+                                    </div>
+
+                                    <!--
                                     <div class="row gtr-200">
 										<div class="col-6 col-12-medium">
                                             <h4>Titulo</h4>

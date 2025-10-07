@@ -1,3 +1,5 @@
+-v2.12 Actualizacion de programas
+	actualizacion de programas de linux de ubuntu de pruebas
 -v2.11 Cambios menores
 	Cambios en la vista de descargas por el nombre de cada archivos a descargar por mega de programas de consolas 
 -v2.10 Nueva lista de programas de consolas
