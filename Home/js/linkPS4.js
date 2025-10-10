@@ -5,6 +5,8 @@ function PS4UpdateWebAllWeb(){verificarSesionYAbrirEnlace("https://darthsternie.
 //Liberar
 function USB900(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KY4hAISY#S3eo7XFGwx1HYH3fAVYyBw");}
 function USB900Web(){verificarSesionYAbrirEnlace("https://github.com/ChendoChap/pOOBs4");}
+function ExploitDisco(){verificarSesionYAbrirEnlace("https://mega.nz/folder/DIAnQDhD#ABu6LFmaBnmA1efL3kb0GQ");}
+function ExploitDiscoWeb(){verificarSesionYAbrirEnlace("https://github.com/Gezine/BD-JB-1250");}
 //Payload
 function PayloadsPKG(){verificarSesionYAbrirEnlace("https://mega.nz/file/vEwCVTYI#oLzZOJTFiJfRzQzSSxE3-4e7rqub1m6nYeHA6f8mtT4");}
 function AllPayloads(){verificarSesionYAbrirEnlace("https://mega.nz/folder/iBgxkZCS#XK_WH8E8GJzWno5BJ86qgw");}
@@ -86,6 +88,8 @@ function PS4Player(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LIIThBr
 function PS4PlayerWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/LAPY20002");}
 function PlutoTV(){verificarSesionYAbrirEnlace("https://mega.nz/folder/CNRyQAAD#ot_Yd97EgbmtRnd6blHAWA");}
 function PlutoTVWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/details/CUSA04688");}
+function PlataformasMulti(){verificarSesionYAbrirEnlace("https://mega.nz/folder/TQ5WxTJI#Ly82kGyP2cJs6mTrArcX5w");}
+function PlataformasMultiWeb(){verificarSesionYAbrirEnlace("https://pkg-zone.com/?category=media&console&q");}
 //Juegos Retro
 function PNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7JQkiZpA#c98AXWgNpETUWqNmdP1cMg");}
 function PSNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/7JQkiZpA#c98AXWgNpETUWqNmdP1cMg");}
@@ -147,6 +151,8 @@ function RetroarchPS2enPS4(){verificarSesionYAbrirEnlace("https://mega.nz/folder
 function RetroarchPS2enPS4Web(){verificarSesionYAbrirEnlace("https://www.logic-sunrise.com/news-1175709-ps4-creer-un-fpkg-demulateur-en-un-clic.html");}
 function PS4PKGTool(){verificarSesionYAbrirEnlace("https://mega.nz/folder/Hc5iQL7I#6PeLoNywopih0i_wawqbJQ");}
 function PS4PKGToolWeb(){verificarSesionYAbrirEnlace("https://github.com/pearlxcore/PS4-PKG-Tool?tab=readme-ov-file");}
+function TrophyUnlocker(){verificarSesionYAbrirEnlace("https://mega.nz/folder/fBI2iZJK#9ShHdozeziyA5dXfY2RWMg");}
+function TrophyUnlockerWeb(){verificarSesionYAbrirEnlace("https://github.com/xXxTheDarkprogramerxXx/PS4_Tools/tree/master/TrophyUnlocker");}
 //Solucion
 function RestaurarJuegos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/bBRCHLDC#f5Jvla-dFcJ6PZExRjU41A");}
 function RestaurarJuegosWeb(){verificarSesionYAbrirEnlace("https://github.com/aizenar/PS4_db_Rebuilder_EXT");}

@@ -1,3 +1,5 @@
+-v2.13 Nueva lista de programas de consolas
+	Actualizacion de la lista de programas para PS4 y otros cambios
 -v2.12 Actualizacion de programas
 	actualizacion de programas de linux de ubuntu de pruebas
 -v2.11 Cambios menores
