@@ -54,7 +54,7 @@ function VitaShellForkWeb(){verificarSesionYAbrirEnlace("https://github.com/LiEn
 function VitaTester(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vchFyChJ#lyEuCqsZ7J2DtKYiP_1MPg");}
 function VitaTesterWeb(){verificarSesionYAbrirEnlace("https://www.rinnegatamante.eu/vitadb/#/info/1079");}
 //Retro
-function CapcomPlaySystem3(){verificarSesionYAbrirEnlace("https://mega.nz/folder/vchFyChJ#lyEuCqsZ7J2DtKYiP_1MPg");}
+function CapcomPlaySystem3(){verificarSesionYAbrirEnlace("https://mega.nz/folder/WVZHmAJa#_9k9sLKxlUpOHj57xtyH5A");}
 function DREAMCAST(){verificarSesionYAbrirEnlace("https://mega.nz/folder/zVQTUBqZ#OOrArgFkMoQ26s7-TTGOqA");}
 function DREAMCASTWeb(){verificarSesionYAbrirEnlace("https://github.com/Rinnegatamante/flycast-vita");}
 function Emu4Vita(){verificarSesionYAbrirEnlace("https://mega.nz/folder/KZIGDJKK#f_3BsLAI8lxOl2ckqOEADg");}
@@ -83,6 +83,8 @@ function SNES(){verificarSesionYAbrirEnlace("https://mega.nz/folder/PZ5GyRrD#IeL
 function SNESWeb(){verificarSesionYAbrirEnlace("https://github.com/frangarcj/Snes9xVITA/releases");}
 function YOYOLOADER(){verificarSesionYAbrirEnlace("https://mega.nz/folder/jNAhyZ4L#ZvXOIEfM5rDNhtA4O_cLBw");}
 function YOYOLOADERWeb(){verificarSesionYAbrirEnlace("https://github.com/Rinnegatamante/yoyoloader_vita");}
+function OpenBOR(){verificarSesionYAbrirEnlace("https://mega.nz/folder/LF5x2CpB#Prn74NRexibOfqAvBHqJPg");}
+function OpenBORWeb(){verificarSesionYAbrirEnlace("https://github.com/rsn8887/openbor");}
 //Help
 function Mandos(){verificarSesionYAbrirEnlace("https://mega.nz/folder/ydZVwTBB#rkW6jcYCwPQjZ51Lh6O7jw");}
 

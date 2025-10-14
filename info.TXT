@@ -1,3 +1,5 @@
+-v2.15 Nueva lista de programas de consolas
+	Actualizacion de la lista de programas para PSVita y otros cambios
 -v2.14 Nueva lista de programas de consolas
 	Actualizacion de la lista de programas para PSP y otros cambios
 -v2.13 Nueva lista de programas de consolas
