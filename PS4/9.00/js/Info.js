@@ -75,6 +75,9 @@ function infopsfreeGoldhen24b18(){
 function infopsfreeGoldhen24b183(){
 	document.getElementById("msj").innerHTML = "Goldhen v2.4b18.3 para Firmware 9.00";
 }
+function infopsfreeGoldhen24b185(){
+	document.getElementById("msj").innerHTML = "Goldhen v2.4b18.5 para Firmware 9.00";
+}
 
 function infopsfreeGoldhenfuente(){
 	document.getElementById("msj").innerHTML = "PSFree Sin USB WEB official";
@@ -93,6 +96,9 @@ function infopsfreeGoldhen24b183SinUSB4(){
 }
 function infopsfreeGoldhen24b183SinUSB5(){
 	document.getElementById("msj").innerHTML = "PSFree Sin USB 2.4b18.3 v5 26-06-2025";
+}
+function infopsfreeGoldhen24b183SinUSB6(){
+	document.getElementById("msj").innerHTML = "PSFree Sin USB 2.4b18.5 v6 21-08-2025";
 }
 
 /* Payloads */
