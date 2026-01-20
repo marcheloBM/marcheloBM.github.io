@@ -1,0 +1,24 @@
+#Mantenedor de la pagina
+
+
+#Pagina Principal
+https://marchelobm.github.io/Home/
+
+#Web Para información
+https://marchelobm.github.io/Info/
+
+#PS3
+https://marchelobm.github.io/PS3/PS3.html
+
+#PS4
+https://marchelobm.github.io/PS4/PS4.html
+https://marchelobm.github.io/PS4/Home.html
+
+#PSVita
+https://marchelobm.github.io/PSVita/Home.html
+https://marchelobm.github.io/PSVita/PSVita.html
+
+#Pagina con BD
+http://marchelobm.kesug.com/Home/login.php
+	fue eliminado
+https://marchebm.000webhostapp.com/

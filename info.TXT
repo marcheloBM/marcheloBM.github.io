@@ -1,3 +1,5 @@
+-v2.17 Actualizacion de progrmas
+	Se eliminaron programas de Windows sin uso (Emuladores)
 -v2.16 Nuevo GoldHEN 2.4b18.5
 	Se agrego nuevos GoldHEN para PS4 Sin USB y psfree
 -v2.15 Nueva lista de programas de consolas
