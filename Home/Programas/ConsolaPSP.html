@@ -20,7 +20,7 @@
             window.onload = cargarInfoContacto;
         </script>
         <!-- link de programas -->
-        <script src="../js/linkPS.js"></script>
+        <script src="../js/linkPSP.js"></script>
 
 	</head>
 	<body class="is-preload">
@@ -507,7 +507,7 @@
 			function extraerURLDesdeFuncion(nombreFuncion) {
 			try {
 				const fnTexto = window[nombreFuncion].toString();
-				const match = fnTexto.match(/verificarSesionYAbrirEnlace\(["'](https?:\/\/[^"']+)["']\)/);
+				const match = fnTexto.match(/window\.open\(["'](https?:\/\/[^"']+)["']\)/);
 				return match ? match[1] : null;
 			} catch (e) {
 				console.warn(`No se pudo analizar la función ${nombreFuncion}`, e);

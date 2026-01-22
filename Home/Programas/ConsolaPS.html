@@ -259,7 +259,7 @@
 			function extraerURLDesdeFuncion(nombreFuncion) {
 			try {
 				const fnTexto = window[nombreFuncion].toString();
-				const match = fnTexto.match(/verificarSesionYAbrirEnlace\(["'](https?:\/\/[^"']+)["']\)/);
+				const match = fnTexto.match(/window\.open\(["'](https?:\/\/[^"']+)["']\)/);
 				return match ? match[1] : null;
 			} catch (e) {
 				console.warn(`No se pudo analizar la función ${nombreFuncion}`, e);

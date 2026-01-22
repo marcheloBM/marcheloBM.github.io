@@ -115,14 +115,22 @@ function validarSession(){
 }
 
 //cargar las 2 funciones al cargar las Pagina WEB
-function cargarBotonInfo(){
+function cargarBotonInfo2(){
     cargarBoton();
     cargarInfoContacto();
 }
-function cargarDatos(){
+function cargarDatos2(){
     cargarBoton();
     validarSession();
     cargarInfoContacto();
+}
+
+//Funciones de informacion de contacto por la eliminacion de session
+function cargarBotonInfo(){
+    window.alert('session eliminada porfavor informar al administrador si ve este mensaje');
+}
+function cargarDatos(){
+    window.alert('session eliminada porfavor informar al administrador si ve este mensaje');
 }
 
 //cerrar sesión elimina todos los datos

@@ -1,3 +1,5 @@
+-v2.18 Cambios en el Login
+	se elimino todo el login de las pagina principal (Home)
 -v2.17 Actualizacion de progrmas
 	Se eliminaron programas de Windows sin uso (Emuladores)
 -v2.16 Nuevo GoldHEN 2.4b18.5
