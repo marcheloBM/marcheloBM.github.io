@@ -3,80 +3,63 @@
 <head>
 <meta charset="utf-8">
 <title>PS4</title>
+<script type="text/javascript">
+function obtenerFirmware() {
+    var ua = navigator.userAgent;
+    var inicio = ua.indexOf("5.0 (") + 32;
+    var fin = ua.indexOf(") Apple");
+    var fwVersion = ua.substring(inicio, fin);
+    return fwVersion;
+}  
+</script>
+
+
 </head>
 
-<body onload="ejemplo();">
-	<p>Consola PS4 Detectada</p>
+<body style="background-color:#016fff;">
 	<a>Estamos trabajando para su </a>
-	<script type="text/javascript"> 
-		document.write(navigator.platform);
-	</script>
+	<script type="text/javascript"> document.write(navigator.platform);	</script>
 	<a> con Firmware </a>
-	<script type="text/javascript"> 
-		var ua = navigator.userAgent;
-		var fwVersion = ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple"));
-		document.write(fwVersion);
-	</script>
-	<a> que es compatible con PS4xploit</a>
-	<p>Manténgase al tanto para esperar Nuevas Actualización para poder Desbloquear su Consola</p>
-	<a>o tener Actualización de aplicaciones para su consola</a>
-	<p>Nuestra pagina WEB es <a href="../Home/index.html">MarcheBMPC</a></p>
-    <div id="qrcode">
-        <img src="https://www.codigos-qr.com/qr/php/qr_img.php?d=https%3A%2F%2Fmarchelo1989.github.io%2F&s=4&e=m" alt="Generador de Códigos QR Codes"/>
-    </div>
+	<script type="text/javascript"> document.write(obtenerFirmware()); </script> <a> que es compatible con PS4Exploit</a>
+	<p>Manténgase al tanto para esperar Nuevas Actualización para poder Desbloquear su Consola</a>
+	<p>Nuestra pagina WEB es <a href="../Home/index.html">https://marchelobm.github.io/</a></p>
 	
-	<table border="1">
+	<table border="1" width="100%">
+	<thead>
 		<tr>
-			<th width="20%" scope="col">Web Host Menu</th>
-			<th width="20%" scope="col">Firmware</th>
-			<th width="50%" scope="col">Direccion Url</th>
-		</tr>
-		<tr>
-			<th>xHOST</th>
-			<th>9.00</th>
-			<th><a href="http://xperiments.in/xhost">http://xperiments.in/xhost</a></th>
+			<th scope="col" colspan="2">Exploit Disponible para <script type="text/javascript"> document.write(obtenerFirmware());</script> la fecha: 20-02-2026</th>
 		</tr>
 		<tr>
-			<th>Leeful v10</th>
-			<th>6.72</th>
-			<th><a href="https://leeful.github.io/v10/index.html">https://leeful.github.io/v10/index.html</a></th>
+			<th scope="col">Metodo</th>
+			<th scope="col">Descripcion</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>WebKit + USB</td>
+			<td>Usa el navegador y un dispositivo USB preparado para activar el exploit.</td>
 		</tr>
 		<tr>
-			<th>PS-Phive</th>
-			<th>6.72</th>
-			<th><a href="https://leeful.github.io/psphive/index.html">https://leeful.github.io/psphive/index.html</a></th>
+			<td>WebKit psfree + USB</td>
+			<td>Variante más rápida del anterior, con optimización en el disparo del exploit.</td>
 		</tr>
 		<tr>
-			<th>Night King</th>
-			<th>5.05 / 6.72 / 7.02 / 7.50 / 7.51 / 7.55 / 9.00</th>
-			<th><a href="https://nightkinghost.com">https://nightkinghost.com</a></th>
+			<td>WebKit sin USB</td>
+			<td>No requiere USB; se ejecuta directamente desde el navegador.</td>
 		</tr>
 		<tr>
-			<th>TheWolf</th>
-			<th>7.50 / 7.51 / 7.55</th>
-			<th><a href="https://wolf-5.github.io">https://wolf-5.github.io</a></th>
+			<td>Disco Blu-ray</td>
+			<td>Aprovecha vulnerabilidades en la ejecución de discos Blu-ray con Java.</td>
 		</tr>
 		<tr>
-			<th>HAKKURAIFU</th>
-			<th>5.05 / 6.72 / 7.02 / 7.50 / 7.51 / 7.55</th>
-			<th><a href="https://hakkuraifu.github.io/PS4xploit/">https://hakkuraifu.github.io/PS4xploit/</a></th>
+			<td>App Exploit VUE</td>
+			<td>Basado en la aplicación PlayStation VUE.</td>
 		</tr>
-		<tr>
-			<th>Karo</th>
-			<th>5.05 / 6.72 / 7.02 / 7.50 / 7.51 / 7.55 / 9.55</th>
-			<th><a href="https://karo218.ir/">https://karo218.ir/</a></th>
-		</tr>
-		<tr>
-			<th>gamerhack</th>
-			<th>6.72 / 7.02 / 7.50 / 7.51 / 7.55 / 9.55</th>
-			<th><a href="https://gamerhack.github.io/index.html">https://gamerhack.github.io/index.html</a></th>
-		</tr>
-        <tr>
-			<th></th>
-			<th></th>
-			<th><a href=""></a></th>
-		</tr>
+
+			<!-- Agrega más filas aquí si lo necesitas -->
+	</tbody>
 	</table>
-    <p>Toda la información obtenida desde <a href="https://itstime2play.com/threads/todos-los-sitios-web-host-para-utilizar-exploits-fw-1-76-hasta-9-00.125/">TheWizWiki Pagina Información</a></p>
+
+    <p>Toda la información obtenida desde <a href="../Home/index.html">Pagina Información</a></p>
 </body>
 </html>
