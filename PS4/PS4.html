@@ -1,65 +1,84 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="es">
+
 <head>
-<meta charset="utf-8">
-<title>PS4</title>
-<script type="text/javascript">
-function obtenerFirmware() {
-    var ua = navigator.userAgent;
-    var inicio = ua.indexOf("5.0 (") + 32;
-    var fin = ua.indexOf(") Apple");
-    var fwVersion = ua.substring(inicio, fin);
-    return fwVersion;
-}  
-</script>
-
-
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>PS4 Exploit 9.00</title>
+	<link rel="stylesheet" href="css/boton.css">
 </head>
 
-<body style="background-color:#016fff;">
-	<a>Estamos trabajando para su </a>
-	<script type="text/javascript"> document.write(navigator.platform);	</script>
-	<a> con Firmware </a>
-	<script type="text/javascript"> document.write(obtenerFirmware()); </script> <a> que es compatible con PS4Exploit</a>
-	<p>Manténgase al tanto para esperar Nuevas Actualización para poder Desbloquear su Consola</a>
-	<p>Nuestra pagina WEB es <a href="../Home/index.html">https://marchelobm.github.io/</a></p>
-	
-	<table border="1" width="100%">
-	<thead>
-		<tr>
-			<th scope="col" colspan="2">Exploit Disponible para <script type="text/javascript"> document.write(obtenerFirmware());</script> la fecha: 20-02-2026</th>
-		</tr>
-		<tr>
-			<th scope="col">Metodo</th>
-			<th scope="col">Descripcion</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>WebKit + USB</td>
-			<td>Usa el navegador y un dispositivo USB preparado para activar el exploit.</td>
-		</tr>
-		<tr>
-			<td>WebKit psfree + USB</td>
-			<td>Variante más rápida del anterior, con optimización en el disparo del exploit.</td>
-		</tr>
-		<tr>
-			<td>WebKit sin USB</td>
-			<td>No requiere USB; se ejecuta directamente desde el navegador.</td>
-		</tr>
-		<tr>
-			<td>Disco Blu-ray</td>
-			<td>Aprovecha vulnerabilidades en la ejecución de discos Blu-ray con Java.</td>
-		</tr>
-		<tr>
-			<td>App Exploit VUE</td>
-			<td>Basado en la aplicación PlayStation VUE.</td>
-		</tr>
+<body>
 
-			<!-- Agrega más filas aquí si lo necesitas -->
-	</tbody>
-	</table>
+	<header>
+		<h1>Exploit PS4 Firmware 9.00</h1>
+		<span>Marchelo</span>
+	</header>
 
-    <p>Toda la información obtenida desde <a href="../Home/index.html">Pagina Información</a></p>
+	<div class="search-bar">
+		<input type="text" placeholder="Buscar...">
+	</div>
+
+	<div class="content">
+		<h2>PlayStation 4 Firmware 9.00</h2>
+		<p>Estamos trabajando para su PlayStation 4 con firmware 9.00 compatible con PS4Exploit.</p>
+		<p>Manténgase al tanto para nuevas actualizaciones que permitirán desbloquear su consola.</p>
+		<p><strong>Exploit disponible desde el:</strong> 20-02-2026</p>
+
+		<table>
+			<thead>
+				<tr>
+					<th colspan="3">Métodos de Exploit Disponibles</th>
+				</tr>
+				<tr>
+					<th>Método</th>
+					<th>Descripción</th>
+					<th>Payload</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>WebKit + USB</td>
+					<td>Requiere navegador y dispositivo USB preparado para activar el exploit.</td>
+					<td>goldhen v2.4b18.9</td>
+				</tr>
+				<tr>
+					<td>WebKit psfree + USB</td>
+					<td>Variante optimizada del anterior, más rápida en la ejecución.</td>
+					<td>goldhen v2.4b18.9</td>
+				</tr>
+				<tr>
+					<td>WebKit sin USB</td>
+					<td>No requiere USB; se ejecuta directamente desde el navegador.</td>
+					<td>goldhen v2.4b18.9</td>
+				</tr>
+				<tr>
+					<td>Disco Blu-ray</td>
+					<td>Exploit activado mediante disco Blu-ray con carga especial.</td>
+					<td>goldhen v2.4b18.9</td>
+				</tr>
+				<tr>
+					<td>App Exploit VUE</td>
+					<td>Basado en la aplicación PlayStation VUE.</td>
+					<td>goldhen v2.4b18.9</td>
+				</tr>
+			</tbody>
+		</table>
+
+		<div class="buttons">
+			<button onclick="history.back()">Atrás</button>
+			<button onclick="document.documentElement.requestFullscreen()">Pantalla Completa</button>
+			<button onclick="alert('Zoom no disponible')">Zoom</button>
+			<button onclick="alert('Menú de opciones')">Menú</button>
+			<button onclick="alert('OK')">Aceptar</button>
+		</div>
+	</div>
+
+	<footer>
+		<span>© 2026 PS4 Exploit - Marchelo</span>
+		<span>Última actualización: 20-02-2026</span>
+	</footer>
+
 </body>
+
 </html>

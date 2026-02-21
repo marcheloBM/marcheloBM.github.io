@@ -1,3 +1,5 @@
+-v2.20 Actualizacion de goldhen_2.4b18.9
+	se actualizacion Exploit de GoldHEN, psfree, PSFreeSinUSB
 -v2.19 Cambios para PS4
 	se elimina soporte para 5.05, 6.72, 7.02, 7.5x y se cambia de ubicacion la carpeta de 9.00
 -v2.18 Cambios en el Login

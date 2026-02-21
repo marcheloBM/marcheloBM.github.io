@@ -1,50 +1,98 @@
 /*Estilos Generales*/
-.button {
-	background:#7f8c8d;
-	color:#fff;
-	display:inline-block;
-	font-size:1.25em;
-	margin:20px;
-	padding:10px 0;
-	text-align:center;
-	width:200px;
-	text-decoration:none;
-	box-shadow:0px 3px 0px #373c3c;
-}
+* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
 
-.button span {
-	margin-right:10px;
-}
+		body {
+			background-color: #003087;
+			color: white;
+			font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+			line-height: 1.6;
+		}
 
-/*Colores*/
-.button.blue {
-	background:#3498db;
-	box-shadow:0px 3px 0px #266792;
-}
+		header,
+		footer {
+			background-color: #001f5c;
+			padding: 15px 20px;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			border-bottom: 2px solid #0055cc;
+		}
 
-.button.yellow {
-	background:#e67e22;
-	box-shadow:0px 3px 0px #b55704;
-}
+		header h1 {
+			font-size: 1.5em;
+		}
 
+		.search-bar {
+			margin: 20px;
+			display: flex;
+			gap: 10px;
+		}
 
-/*Tamaños*/
-.button.medium {
-	width:350px;
-}
+		.search-bar input {
+			flex: 1;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			font-size: 1em;
+		}
 
+		.content {
+			padding: 20px;
+			max-width: 1200px;
+			margin: 0 auto;
+		}
 
-.button.large {
-	width:450px;
-}
+		table {
+			width: 100%;
+			border-collapse: collapse;
+			margin-top: 20px;
+			background-color: #0044aa;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+		}
 
+		th,
+		td {
+			padding: 12px;
+			border: 1px solid #ffffff33;
+			text-align: left;
+		}
 
-.button.radius {
-	border-radius:50px;
-}
+		th {
+			background-color: #0055cc;
+			font-weight: bold;
+		}
 
-/*Efectos, Hover*/
-.button:hover {
-	box-shadow:0px 0px 0px;
-	padding-top:7px;
-}
+		tbody tr:hover {
+			background-color: #00559e;
+		}
+
+		.buttons {
+			display: flex;
+			justify-content: space-around;
+			margin-top: 30px;
+			gap: 10px;
+		}
+
+		.buttons button {
+			background-color: #0055cc;
+			color: white;
+			border: none;
+			padding: 12px 24px;
+			border-radius: 5px;
+			font-size: 1em;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+			flex: 1;
+		}
+
+		.buttons button:hover {
+			background-color: #0077ff;
+		}
+
+		.buttons button:active {
+			background-color: #003d99;
+		}
