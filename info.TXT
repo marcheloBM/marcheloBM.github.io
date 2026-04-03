@@ -1,3 +1,5 @@
+-v2.21 Actualizacion de index.html principal
+	para verificacion con google
 -v2.20 Actualizacion de goldhen_2.4b18.9
 	se actualizacion Exploit de GoldHEN, psfree, PSFreeSinUSB
 -v2.19 Cambios para PS4
