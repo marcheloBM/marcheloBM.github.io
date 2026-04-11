@@ -1,3 +1,5 @@
+-v2.23 Actualizacion de index.html principal Home
+	Se agrego el SEO para identificarla la Pagina WEB
 -v2.22 Actualizacion de index.html principal
 	Se agrego el SEO para identificarla la Pagina WEB
 -v2.21 Actualizacion de index.html principal
