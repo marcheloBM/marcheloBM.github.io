@@ -1,3 +1,5 @@
+-v2.22 Actualizacion de index.html principal
+	Se agrego el SEO para identificarla la Pagina WEB
 -v2.21 Actualizacion de index.html principal
 	para verificacion con google
 -v2.20 Actualizacion de goldhen_2.4b18.9
