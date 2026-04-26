@@ -1,3 +1,5 @@
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/marcheloBM?cardType=github&theme=github-dark&fontFamily=&preferLogin=true)](https://git.io/awesome-stats-card)
+
 # Pagina WEB, Exploits, Webkit, Jailbreak para PS3 & PS4
 ---
 
