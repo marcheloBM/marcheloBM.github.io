@@ -1,3 +1,5 @@
+-v2.25 Actualizacion de goldhen_2.4b18.10
+	se actualizacion Exploit de GoldHEN, psfree, PSFreeSinUSB
 -v2.24 Actualizacion de README.md 
 	Se agrego nuevo logo para informacion
 -v2.23 Actualizacion de index.html principal Home

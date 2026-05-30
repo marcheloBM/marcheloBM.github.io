@@ -65,6 +65,12 @@ function infoGoldhen24b189(){
 function infoGoldhenCache24b189(){
 	document.getElementById("msj").innerHTML = "Cargando El Cache Goldhen v2.4b18.9 para Firmware 9.00";
 }
+function infoGoldhen24b1810(){
+	document.getElementById("msj").innerHTML = "Goldhen v2.4b18.10 para Firmware 9.00";
+}
+function infoGoldhenCache24b1810(){
+	document.getElementById("msj").innerHTML = "Cargando El Cache Goldhen v2.4b18.10 para Firmware 9.00";
+}
 
 function infopsfreeGoldhen24b16(){
 	document.getElementById("msj").innerHTML = "Goldhen v2.4b16 para Firmware 9.00";
@@ -86,6 +92,9 @@ function infopsfreeGoldhen24b185(){
 }
 function infopsfreeGoldhen24b189(){
 	document.getElementById("msj").innerHTML = "Goldhen 2.4b18.9 para Firmware 9.00";
+}
+function infopsfreeGoldhen24b1810(){
+	document.getElementById("msj").innerHTML = "Goldhen 2.4b18.10 para Firmware 9.00";
 }
 
 function infopsfreeGoldhenfuente(){
@@ -112,6 +121,10 @@ function infopsfreeGoldhen24b183SinUSB6(){
 function infopsfreeGoldhen24b189SinUSB6(){
 	document.getElementById("msj").innerHTML = "PSFree Sin USB 2.4b18.9 v7 21-02-2026";
 }
+function infopsfreeGoldhen24b1810SinUSB6(){
+	document.getElementById("msj").innerHTML = "PSFree Sin USB 2.4b18.10 v8 30-05-2026";
+}
+
 
 /* Payloads */
 function allPayloads(){
