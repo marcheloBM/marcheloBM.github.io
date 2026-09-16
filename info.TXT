@@ -1,3 +1,5 @@
+-v2.26 Actualizacion de PS3
+	Se actualizo la interzas de ps3 para la version 4.92 - 4.93 activacion 
 -v2.25 Actualizacion de goldhen_2.4b18.10
 	se actualizacion Exploit de GoldHEN, psfree, PSFreeSinUSB
 -v2.24 Actualizacion de README.md 

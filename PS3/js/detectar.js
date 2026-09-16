@@ -1,7 +1,7 @@
 //########################## End ROP Framework functions by bguerville(under development) #########################
 function ps3chk(){
 
-	var fwCompat = ["4.00","4.10","4.11","4.20","4.21","4.25","4.30","4.31","4.40","4.41","4.45","4.46","4.50","4.53","4.55","4.60","4.65","4.66","4.70","4.75","4.76","4.78","4.80","4.81","4.82","4.83","4.84","4.85","4.86","4.87","4.88","4.89","4.90","4.91"];
+	var fwCompat = ["4.00","4.10","4.11","4.20","4.21","4.25","4.30","4.31","4.40","4.41","4.45","4.46","4.50","4.53","4.55","4.60","4.65","4.66","4.70","4.75","4.76","4.78","4.80","4.81","4.82","4.83","4.84","4.85","4.86","4.87","4.88","4.89","4.90","4.91","4.92","4.93"];
 	var ua = navigator.userAgent;
 	var uaStringCheck = ua.substring(ua.indexOf("5.0 (") + 5, ua.indexOf(") Apple") - 7);
 	var fwVersion = ua.substring(ua.indexOf("5.0 (") + 19, ua.indexOf(") Apple"));
@@ -63,9 +63,21 @@ function ps3chk(){
 //					initDEX();
 					//loadcex_491();
 					break;
-					
+				case fwCompat[34]:
+					//alert(msgCongrats);
+					window.location.href ="./PS3.html"
+//					initDEX();
+					//loadcex_492();
+					break;	
+				case fwCompat[35]:
+					//alert(msgCongrats);
+					window.location.href ="./PS3.html"
+//					initDEX();
+					//loadcex_493();
+					break;
+				
 				default:
-					alert('¡Tu PS3 no está en FW 4.84 - 4.91 Su versión actual de FW en ejecución es '+ fwVersion +', que no es compatible con ps3hen 1.0. Todas las funciones han sido deshabilitadas.');
+					alert('¡Tu PS3 no está en FW 4.84 - 4.93 Su versión actual de FW en ejecución es '+ fwVersion +', que no es compatible con ps3hen 1.0. Todas las funciones han sido deshabilitadas.');
 					//document.write( "Informacion Navegador:"+uaStringCheck+" <p />" );
 					disable_PS3();
 					break;
@@ -88,7 +100,7 @@ function disable_all(){
 }
 
 function sistemaPS3(){
-  var plataforma = navigator.platform  ;
+	var plataforma = navigator.platform  ;
     document.getElementById("PS3").innerHTML = plataforma;
 }
 function firmware(){
