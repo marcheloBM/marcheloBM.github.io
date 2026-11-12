@@ -1,13 +1,21 @@
 function FreeDVDBoot(){ window.open("https://mega.nz/folder/OJQ3wJwT#NVGgoTWrqUyf_ILKqDQ5zw");}
 function FreeDVDBootWeb(){ window.open("https://github.com/CTurt/FreeDVDBoot");}
 function FreeMemoryCardBoot(){ window.open("https://mega.nz/folder/SVAWTTLb#dOt2fvuBsnqGFpqW7jZSYw");}
-function FreeMemoryCardBootWeb(){ window.open("https://www.psx-place.com/resources/free-memory-card-boot-fmcb-free-harddisk-drive-boot-fhdb-by-sp193.712/updates");}
+function FreeMemoryCardBootWeb(){ window.open("https://github.com/israpps/FreeMcBoot-Installer");}
 function FunTuna(){ window.open("https://mega.nz/folder/LYITyTjJ#V-WgMLYoAtrs0BY4V6p1Ow");}
 function FunTunaWeb(){ window.open("https://github.com/israpps/Funtuna-Fork");}
+function OpenTuna(){ window.open("https://mega.nz/folder/nEZVSIhb#HDBreWUms5DT6bedy8bIgg");}
+function OpenTunaWeb(){ window.open("https://github.com/ps2homebrew/opentuna-installer");}
+function PS2BBL(){window.open("https://mega.nz/folder/SN51lKLa#Zs0uLqlzU0-ZY_FEeqw8jQ");}
+function PS2BBLWeb(){window.open("https://israpps.github.io/PlayStation2-Basic-BootLoader/Downloads/");}
+function FreeMcTuna(){window.open("https://mega.nz/folder/7VZB2LpJ#FLgdCJwZSTHdEWkz87-DmQ");}
+function FreeMcTunaWeb(){window.open("https://github.com/saildot4k/OpenTuna_2_PS2BBL_2_OSDMenu");}
 function PS2ApolloSaveTool(){ window.open("https://mega.nz/folder/CY5UyCwR#Me7K6UpAD3u2-QWpQnmDZA");}
 function PS2ApolloSaveToolWeb(){ window.open("https://github.com/bucanero/apollo-ps2");}
 function OpenPS2Loader(){ window.open("https://mega.nz/folder/jRB3iT5K#tYTboCYhj6PzZlpOaQlOYg");}
 function OpenPS2LoaderWeb(){ window.open("https://github.com/ps2homebrew/Open-PS2-Loader");}
+function BDMAssault(){ window.open("https://mega.nz/folder/SYBlFaRA#d4eCtmgdca3ZO7_SiDdN9w");}
+function BDMAssaultWeb(){ window.open("https://github.com/israpps/BDMAssault");}
 function APPSUSB(){ window.open("https://mega.nz/folder/jc5SBQhA#8m1jvxaTsEpjj9p59uwO3Q");}
 function Aplicaciones(){ window.open("https://mega.nz/file/GE53VIgQ#g_No4H2bwJNwx341lHXO4VvXTD5wQB3I3OJGGB4px4E");}
 function MEGAPACKAPPSPS2(){ window.open("https://mega.nz/file/vBpEFChI#kfHwrD6MSz0WKeHBwMgOkwXeKGi76fSVL0ZBNdRf8X8");}
@@ -35,5 +43,5 @@ function MemoryCardWeb(){ window.open("https://github.com/ffgriever-pl/Memory-Ca
 
 
 
-function nombre(){"";}
-function Web(){"";}
+function nombre(){window.open("");}
+function Web(){window.open("");}

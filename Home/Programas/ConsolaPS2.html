@@ -16,7 +16,7 @@
 		<!--<script src="../js/detectar.js"></script>-->
         <!-- Para el Encabezado -->
         <script src="../js/InfoWebMenu.js"></script>
-				<script>
+		<script>
             window.onload = cargarInfoContacto;
         </script>
         <!-- link de programas -->
@@ -46,7 +46,7 @@
 									<li><a onclick="Github()" href="#" class="icon brands fa-github" target="_blank"><span class="label">Github</span></a></li>
 									<li><a onclick="Telegram()" href="#" class="icon brands fa-telegram" target="_blank"><span class="label">Telegram</span></a></li>
 								</ul>
-							</header>
+							</header>							
 
 							<!-- Content -->
 								<section>
@@ -55,7 +55,11 @@
 									</header>
 
 									<!-- Content -->
-										<p>Programas con links oficiales, algunos incluyen cracks (desactivar antivirus), descarga bajo responsabilidad, verifique compatibilidad por arquitectura y revise archivos en VirusTotal.</p>
+									<p>En esta sección encontrará programas para la consola PS2, incluyendo herramientas de carga, emuladores y utilidades para gestionar juegos y archivos. Asegúrese de seguir las guías proporcionadas para una correcta instalación y uso de cada programa.</p>
+									<li>USB (mass:/) <b>Formatos soportados: FAT32 o exFAT.</b></li>
+									<li>MX4SIO (MX4SIO:/) <b>Formato soportado: exFAT.</b></li>
+									<li>PSxMemCard Gen2 (MMCE:/) <b>Formatos soportados: exFAT.</b></li>
+									<!--<p>Programas con links oficiales, algunos incluyen cracks (desactivar antivirus), descarga bajo responsabilidad, verifique compatibilidad por arquitectura y revise archivos en VirusTotal.</p>-->
 
 									<hr class="major" />
 
@@ -67,6 +71,8 @@
 													<tr>
 														<th>ID</th>
 														<th>Archivos</th>
+														<th>USB - MX4SIO</th>
+														<th>MMCE</th>
 														<th><i class="fas fa-cloud-download-alt" aria-hidden="true"></i> Descargas de Mega</th>
 														<th>WEB Oficial</th>
 														<th>Tutorial</th>
@@ -74,29 +80,75 @@
 												</thead>
 												<tbody>
 													<tr>
-														<td rowspan="2" style="text-align: center; vertical-align: middle;">01</td>
-														<td>Free Memory Card Boot(FMCB)</td>
+														<td>01</td>
+														<td>FreeDVDBoot (uLaunchELF)</td>
+														<td>✅</td>
+														<td>❌</td>
 														<a name="id" id="id"></a>
-														<td><a onclick="FreeMemoryCardBoot()">FMCB</a></td>
-														<td><a onclick="FreeMemoryCardBootWeb()">github.com</a></td>
-														<td><a href="../Tutoriales/PS2/PS2FreeDVDBoot.html">Guia</a></td>
-													</tr>
-													<tr>
-														<td>FreeDVDBoot</td>
 														<td><a onclick="FreeDVDBoot()">FreeDVDBoot</a></td>
 														<td><a onclick="FreeDVDBootWeb()">psx-place.com</a></td>
 														<td><a href="../Tutoriales/PS2/PS2FreeDVDBoot.html">Guia</a></td>
 													</tr>
 													<tr>
-														<td>03</td>
-														<td>Funtuna</td>
+														<td>02.01</td>
+														<td>Funtuna Fork</td>
+														<td>✅</td>
+														<td>✅</td>
 														<td><a onclick="FunTuna()">FunTuna</a></td>
 														<td><a onclick="FunTunaWeb()">github.com</a></td>
 														<td><a href="../Tutoriales/PS2/PS2FunTuna.html">Guia</a></td>
 													</tr>
 													<tr>
+														<td>02.02</td>
+														<td>FreeMcBoot (FMCB)</td>
+														<td>✅</td>
+														<td>✅</td>
+														<td><a onclick="FreeMemoryCardBoot()">FMCB</a></td>
+														<td><a onclick="FreeMemoryCardBootWeb()">github.com</a></td>
+														<td><a href="../Tutoriales/PS2/PS2FreeDVDBoot.html">Guia</a></td>
+														
+													</tr>
+													<tr>
+														<td>02.03</td>
+														<td>OpenTuna</td>
+														<td>✅</td>
+														<td>✅</td>
+														<td><a onclick="OpenTuna()">OpenTuna</a></td>
+														<td><a onclick="OpenTunaWeb()">github.com</a></td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>02.04</td>
+														<td>PS2BBL</td>
+														<td>✅</td>
+														<td>✅</td>
+														<td><a onclick="PS2BBL()">PS2BBL</a></td>
+														<td><a onclick="PS2BBLWeb()">github.io</a></td>
+														<td></td>
+													</tr>
+													<tr>
+														<td>02.05</td>
+														<td>Free McTuna</td>
+														<td>✅</td>
+														<td>✅</td>
+														<td><a onclick="FreeMcTuna()">Free McTuna</a></td>
+														<td><a onclick="FreeMcTunaWeb()">github.com</a></td>
+														<td></td>
+													</tr>
+													<!-- <tr>
+														<td>03.00</td>
+														<td>ACTUALIZA PsxMemCard Gen2</td>
+														<td>❌</td>
+														<td>✅</td>
+														<td><a onclick="link()">Mega</a></td>
+														<td><a onclick="linkWeb()">WEBOficial</a></td>
+														<td><a href="../Tutoriales/???">Guia</a></td>
+													</tr> -->
+													<tr>
 														<td>04.01</td>
 														<td>PS2 Apollo Save Tool</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="PS2ApolloSaveTool()">Apollo Save Tool</a></td>
 														<td><a onclick="PS2ApolloSaveToolWeb()">github.com</a></td>
 														<td><a href="../Tutoriales/PS2/PS2ApolloSaveTool.html">Guia</a></td>
@@ -104,6 +156,8 @@
 													<tr>
 														<td>04.02</td>
 														<td>OPL Actualizar/Configurar</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="OpenPS2Loader()">Open PS2 Loader</a></td>
 														<td><a onclick="OpenPS2LoaderWeb()">github.com</a></td>
 														<td><a href="../Tutoriales/PS2/PS2OPLActConfig.html">Guia</a></td>
@@ -111,17 +165,23 @@
 													<tr>
 														<td rowspan="2" style="text-align: center; vertical-align: middle;">04.03</td>
 														<td>Aplicaciones (Conjunto de Apps)</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="Aplicaciones()">Pack de Apps</a></td>
 														<td rowspan="2" style="text-align: center; vertical-align: middle;"></td>
 														<td rowspan="2" style="text-align: center; vertical-align: middle;"><a href="../Tutoriales/PS2/PS2APPSUSB.html">Guia</a></td>
 													</tr>
 													<tr>
 														<td>MEGAPACK DE APPS PS2</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="MEGAPACKAPPSPS2()">MEGAPACK DE APPS</a></td>
 													</tr>
 													<tr>
 														<td>04.04</td>
 														<td>PS2Temps</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="PS2Temps()">PS2 TEMPS</a></td>
 														<td><a onclick="PS2TempsWeb()">psx-place.com</a></td>
 														<td><a href="../Tutoriales/PS2/PS2Temps.html">Guia</a></td>
@@ -129,6 +189,8 @@
 													<tr>
 														<td>04.05</td>
 														<td>wLaunchELF_ISR</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="wLaunchELFISR()">wLaunchELF_ISR</a></td>
 														<td><a onclick="wLaunchELFISRWeb()">github.com</a></td>
 														<td><a href="../Tutoriales/PS2/wLaunchELFISR.html">Guia</a></td>
@@ -136,6 +198,8 @@
 													<tr>
 														<td>05.01</td>
 														<td>RetroArch</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="Retroarch()">RetroArch</a></td>
 														<td><a onclick="RetroarchWeb()">retroarch.com</a></td>
 														<td><a href="../Tutoriales/PS2/PS2RetroArch.html">Guia</a></td>
@@ -143,6 +207,8 @@
 													<tr>
 														<td>05.02</td>
 														<td>PS1 en PS2</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="PSXaPS2()">PSX en PS2</a></td>
 														<td></td>
 														<td><a href="../Tutoriales/PS2/PS2PS1EnPS2.html">Guia</a></td>
@@ -150,12 +216,16 @@
 													<tr>
 														<td rowspan="2" style="text-align: center; vertical-align: middle;">06.01</td>
 														<td>OPL Manager</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="OPLManager()">OPL Manager</a></td>
 														<td><a onclick="OPLManagerWeb()">oplmanager.com</a></td>
 														<td><a href="../Tutoriales/PS2/PS2Juegos.html">Guia</a></td>
 													</tr>
 													<tr>
 														<td>USBUTIL</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="USBUTIL()">USBUTIL</a></td>
 														<td></td>
 														<td><a href="../Tutoriales/PS2/PS2Juegos.html">Guia</a></td>
@@ -163,6 +233,8 @@
 													<tr>
 														<td>06.02</td>
 														<td>OPL Server</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="OPLSERVER()">OPL Server</a></td>
 														<td><a onclick="OPLSERVERWeb()">github.com</a></td>
 														<td><a href="../Tutoriales/PS2/PS2OPLServer.html">Guia</a></td>
@@ -170,6 +242,8 @@
 													<tr>
 														<td>06.03</td>
 														<td>PSXiSO Compression Tool</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="PSXiSO()">PSXiSO Compression Tool</a></td>
 														<td><a onclick="PSXiSOWeb()">psx-place.com</a></td>
 														<td><a href="../Tutoriales/PS2/PSXiSOCompressionTool.html">Guia</a></td>
@@ -177,6 +251,8 @@
 													<tr>
 														<td>06.04</td>
 														<td>JLojch</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="JLojch()">JLojch</a></td>
 														<td><a onclick="JLojchWeb()">github.com</a></td>
 														<td></td>
@@ -184,6 +260,8 @@
 													<tr>
 														<td>07</td>
 														<td>APPS USB</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="APPSUSB()">APPS USB</a></td>
 														<td></td>
 														<td><a href="../Tutoriales/PS2/PS2APPSUSB.html">Guia</a></td>
@@ -191,6 +269,8 @@
 													<tr>
 														<td>08</td>
 														<td>Pack de TemasOPL</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="PackdeTemasOPL()">Temas</a></td>
 														<td></td>
 														<td><a href="../Tutoriales/PS2/PS2Temas.html">Guia</a></td>
@@ -198,6 +278,8 @@
 													<tr>
 														<td>09.01</td>
 														<td>XtremeEliteBoot</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="XtremeEliteBoot()">XtremeEliteBoot+PS2SX</a></td>
 														<td></td>
 														<td><a href="../Tutoriales/PS2/PS2XtremeEliteBootPS2SX.html">Guia</a></td>
@@ -205,6 +287,8 @@
 													<tr>
 														<td>09.02</td>
 														<td>PS2SX</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="PS2SX()">PS1PS2SX</a></td>
 														<td></td>
 														<td><a href="../Tutoriales/PS2/PS2XtremeEliteBootPS2SX.html">Guia</a></td>
@@ -212,6 +296,8 @@
 													<tr>
 														<td>10</td>
 														<td>Memory Card</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="MemoryCard()">Memory Card</a></td>
 														<td><a onclick="MemoryCardWeb()">github.com</a></td>
 														<td></td>
@@ -219,6 +305,8 @@
 													<tr>
 														<td>11</td>
 														<td>PS2 Chip Matrix</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td></td>
 														<td></td>
 														<td><a href="../Tutoriales/PS2/PS2ChipMatrix.html">Guia</a></td>
@@ -226,6 +314,8 @@
 													<!-- <tr>
 														<td>1</td>
 														<td>NombreAPP</td>
+														<td>✅</td>
+														<td>❌</td>
 														<td><a onclick="link()">Mega</a></td>
 														<td><a onclick="linkWeb()">WEBOficial</a></td>
 														<td><a href="../Tutoriales/???">Guia</a></td>
@@ -233,8 +323,8 @@
 												</tbody>
 												<tfoot>
 													<tr>
-														<td colspan="4"><strong>Total de programas:</strong> <span id="total-programas"></span></td>
-														<td>Actualizado 2025</td>
+														<td colspan="6"><strong>Total de programas:</strong> <span id="total-programas"></span></td>
+														<td>Actualizado 2026</td>
 													</tr>
 												</tfoot>
 											</table>
