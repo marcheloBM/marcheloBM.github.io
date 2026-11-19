@@ -162,6 +162,56 @@ let html = "";
 
 renderApps();
 
+container.addEventListener("click", event => {
+    const button = event.target.closest(".download-menu .download");
+
+    if(!button)
+        return;
+
+    const menu = button.closest(".download-menu");
+    const isOpen = menu.classList.contains("is-open");
+
+    container
+    .querySelectorAll(".download-menu.is-open")
+    .forEach(openMenu => {
+        openMenu.classList.remove("is-open");
+        openMenu.querySelector(".download").setAttribute("aria-expanded", "false");
+    });
+
+    if(!isOpen)
+    {
+        menu.classList.add("is-open");
+        button.setAttribute("aria-expanded", "true");
+    }
+});
+
+document.addEventListener("click", event => {
+    if(event.target.closest(".download-menu"))
+        return;
+
+    container
+    .querySelectorAll(".download-menu.is-open")
+    .forEach(menu => {
+        menu.classList.remove("is-open");
+        menu.querySelector(".download").setAttribute("aria-expanded", "false");
+    });
+});
+
+document.addEventListener("keydown", event => {
+    if(event.key !== "Escape")
+        return;
+
+    const menu = container.querySelector(".download-menu.is-open");
+
+    if(!menu)
+        return;
+
+    menu.classList.remove("is-open");
+    const button = menu.querySelector(".download");
+    button.setAttribute("aria-expanded", "false");
+    button.focus();
+});
+
 document
 .querySelectorAll(".filter-btn")
 .forEach(button => {

@@ -136,7 +136,7 @@ nav{
 
     border-radius:15px;
 
-    overflow:hidden;
+    overflow:visible;
 
     transition:.25s;
 
@@ -150,6 +150,8 @@ nav{
 .card:hover{
 
     transform:translateY(-5px);
+
+    z-index:1;
 }
 
 .card-image{
@@ -157,6 +159,8 @@ nav{
     height:220px;
 
     background:#111827;
+
+    border-radius:15px 15px 0 0;
 
     display:flex;
 
@@ -589,6 +593,11 @@ footer{
     flex:1;
 }
 
+.download-menu.is-open{
+
+    z-index:2;
+}
+
 .download-menu .btn{
 
     width:100%;
@@ -609,8 +618,6 @@ footer{
     background:#1e293b;
 
     border-radius:8px;
-
-    margin-top:5px;
 
     overflow:hidden;
 
@@ -635,8 +642,7 @@ footer{
     background:#334155;
 }
 
-.download-menu:hover
-.download-dropdown{
+.download-menu.is-open .download-dropdown{
 
     display:block;
 }

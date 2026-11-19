@@ -51,7 +51,7 @@ const ps2Apps = [
 
     website: "https://github.com/ps2homebrew/Open-PS2-Loader",
     download: "https://github.com/ps2homebrew/Open-PS2-Loader/releases",
-    mirror: ""
+    mirror: "https://mega.nz/"
 },
 
 {
