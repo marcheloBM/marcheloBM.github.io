@@ -5,17 +5,11 @@
 
     <meta charset="UTF-8">
 
-    <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-    >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Sony Homebrew Hub</title>
 
-    <link
-        rel="stylesheet"
-        href="css/style.css"
-    >
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
 
@@ -35,55 +29,33 @@
 
         </div>
 
-        <input
-            type="text"
-            id="search"
-            placeholder="Buscar aplicación..."
-        >
+        <input type="text" id="search" placeholder="Buscar aplicación...">
 
     </header>
 
     <nav>
 
-        <button
-            class="filter-btn active"
-            data-console="all"
-        >
+        <button class="filter-btn active" data-console="all">
             Todas
         </button>
 
-        <button
-            class="filter-btn"
-            data-console="PS2"
-        >
+        <button class="filter-btn" data-console="PS2">
             PS2
         </button>
 
-        <button
-            class="filter-btn"
-            data-console="PSP"
-        >
+        <button class="filter-btn" data-console="PSP">
             PSP
         </button>
 
-        <button
-            class="filter-btn"
-            data-console="PS Vita"
-        >
+        <button class="filter-btn" data-console="PS Vita">
             PS Vita
         </button>
 
-        <button
-            class="filter-btn"
-            data-console="PS3"
-        >
+        <button class="filter-btn" data-console="PS3">
             PS3
         </button>
 
-        <button
-            class="filter-btn"
-            data-console="PS4"
-        >
+        <button class="filter-btn" data-console="PS4">
             PS4
         </button>
 
@@ -104,33 +76,30 @@
     </footer>
 
     <script src="js/ps2.js"></script>
-	<script src="js/psp.js"></script>
-	<script src="js/vita.js"></script>
-	<script src="js/ps3.js"></script>
-	<script src="js/ps4.js"></script>
+    <script src="js/psp.js"></script>
+    <script src="js/vita.js"></script>
+    <script src="js/ps3.js"></script>
+    <script src="js/ps4.js"></script>
 
-	<script src="js/app.js"></script>
+    <script src="js/app.js"></script>
 
-<!-- Modal de Guía -->
+    <!-- Modal de Guía -->
 
-<div id="guideModal" class="modal">
+    <div id="guideModal" class="modal">
 
-    <div class="modal-content">
+        <div class="modal-content">
 
-        <button
-			id="closeModal"
-			class="close-btn"
-			onclick="closeGuide()">
+            <button id="closeModal" class="close-btn" onclick="closeGuide()">
 
-			✕
+                ✕
 
-		</button>
+            </button>
 
-        <div id="guideContent"></div>
+            <div id="guideContent"></div>
+
+        </div>
 
     </div>
-
-</div>
 </body>
 
 </html>

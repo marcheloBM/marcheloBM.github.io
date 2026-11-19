@@ -106,32 +106,38 @@ let html = "";
                         ""
                     }
 
-                    <div class="download-menu">
+                    ${
+                        downloadLinks.length > 0
+                            ? `
+                            <div class="download-menu">
 
-                        <button
-                            type="button"
-                            class="btn download"
-                            aria-haspopup="true"
-                            aria-expanded="false">
+                                <button
+                                    type="button"
+                                    class="btn download"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
 
-                            Descargar ▼
+                                    Descargar ▼
 
-                        </button>
+                                </button>
 
-                        <div class="download-dropdown">
+                                <div class="download-dropdown">
 
-                            ${downloadLinks.map(download => `
-                                <a
-                                    href="${download.url}"
-                                    target="_blank"
-                                    rel="noopener noreferrer">
-                                    ${download.name}
-                                </a>
-                            `).join("")}
+                                    ${downloadLinks.map(download => `
+                                        <a
+                                            href="${download.url}"
+                                            target="_blank"
+                                            rel="noopener noreferrer">
+                                            ${download.name}
+                                        </a>
+                                    `).join("")}
 
-                        </div>
+                                </div>
 
-                    </div>
+                            </div>
+                            `
+                            : ""
+                    }
 
                 </div>
 
@@ -270,6 +276,40 @@ function showGuide(appName)
 
         ).join("");
 
+    const details =
+    (app.guide.details || [])
+    .map(detail => `
+
+        <details  class="detail-card">
+
+            <summary  class="detail-header">
+
+                ${detail.title}
+
+            </summary>
+
+            <div class="detail-body">
+
+                <p>${detail.description}</p>
+
+                <ul>
+
+                    ${
+                        (detail.items || [])
+                        .map(item =>
+                            `<li>${item}</li>`)
+                        .join("")
+                    }
+
+                </ul>
+
+            </div>
+
+        </details>
+
+    `)
+    .join("");
+
     document
     .getElementById("guideContent")
     .innerHTML = `
@@ -363,6 +403,18 @@ function showGuide(appName)
             <p>
                 ${app.guide.notes || ""}
             </p>
+
+        </div>
+
+        <div class="guide-section">
+
+            <h3>Información detallada</h3>
+
+            <div class="guide-details">
+
+                ${details}
+
+            </div>
 
         </div>
 
