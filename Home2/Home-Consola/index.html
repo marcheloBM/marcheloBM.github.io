@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Sony Homebrew Hub</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+
+            <h1>
+                SONY HOMEBREW HUB
+            </h1>
+
+            <p>
+                Apps, tutoriales y descargas para PlayStation
+            </p>
+
+        </div>
+
+        <input
+            type="text"
+            id="search"
+            placeholder="Buscar aplicación..."
+        >
+
+    </header>
+
+    <nav>
+
+        <button
+            class="filter-btn active"
+            data-console="all"
+        >
+            Todas
+        </button>
+
+        <button
+            class="filter-btn"
+            data-console="PS2"
+        >
+            PS2
+        </button>
+
+        <button
+            class="filter-btn"
+            data-console="PSP"
+        >
+            PSP
+        </button>
+
+        <button
+            class="filter-btn"
+            data-console="PS Vita"
+        >
+            PS Vita
+        </button>
+
+        <button
+            class="filter-btn"
+            data-console="PS3"
+        >
+            PS3
+        </button>
+
+        <button
+            class="filter-btn"
+            data-console="PS4"
+        >
+            PS4
+        </button>
+
+    </nav>
+
+    <main id="app-container">
+
+        <!-- Las aplicaciones se generan desde app.js -->
+
+    </main>
+
+    <footer>
+
+        <p>
+            Sony Homebrew Hub © 2026
+        </p>
+
+    </footer>
+
+    <script src="js/ps2.js"></script>
+	<script src="js/psp.js"></script>
+	<script src="js/vita.js"></script>
+	<script src="js/ps3.js"></script>
+	<script src="js/ps4.js"></script>
+
+	<script src="js/app.js"></script>
+
+<!-- Modal de Guía -->
+
+<div id="guideModal" class="modal">
+
+    <div class="modal-content">
+
+        <button
+			id="closeModal"
+			class="close-btn"
+			onclick="closeGuide()">
+
+			✕
+
+		</button>
+
+        <div id="guideContent"></div>
+
+    </div>
+
+</div>
+</body>
+
+</html>
