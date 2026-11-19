@@ -11,7 +11,10 @@ const r3zDeviceModeDetails = [
       rows: [
         ["MC0:/", "Memory Card física 1."],
         ["MC1:/", "Memory Card física 2."],
-        ["hdd0:/", "Disco duro interno; solo PS2 FAT con adaptador de red IDE."],
+        [
+          "hdd0:/",
+          "Disco duro interno; solo PS2 FAT con adaptador de red IDE.",
+        ],
         ["cdfs:/", "Unidad lectora de DVD/CD."],
         ["MASS:", "Unidad USB en formato exFAT o FAT32."],
         ["host:/", "Directorio compartido mediante PC/host bridge."],
@@ -52,7 +55,10 @@ const r3zDeviceModeDetails = [
 
       rows: [
         ["MC0:/", "Memory Card física 1."],
-        ["hdd0:/", "Disco duro interno; solo PS2 FAT con adaptador de red IDE."],
+        [
+          "hdd0:/",
+          "Disco duro interno; solo PS2 FAT con adaptador de red IDE.",
+        ],
         ["cdfs:/", "Unidad lectora de DVD/CD."],
         ["MASS:", "Unidad USB en formato exFAT o FAT32."],
         ["MX4SIO:/", "Tarjeta SD en el adaptador MX4SIO."],
@@ -1674,10 +1680,7 @@ const ps2Apps = [
           description:
             "Guarda el archivo de idioma SPA.LNG en una de las ubicaciones recomendadas.",
 
-          items: [
-            "Memory Card: MC?:/BOOT/SPA.LNG",
-            "USB: mass:/LNG/",
-          ],
+          items: ["Memory Card: MC?:/BOOT/SPA.LNG", "USB: mass:/LNG/"],
         },
       ],
     },
@@ -1774,10 +1777,7 @@ const ps2Apps = [
           description:
             "Guarda el archivo de idioma SPA.LNG en una de las ubicaciones recomendadas.",
 
-          items: [
-            "Memory Card: MC?:/BOOT/SPA.LNG",
-            "USB: mass:/LNG/",
-          ],
+          items: ["Memory Card: MC?:/BOOT/SPA.LNG", "USB: mass:/LNG/"],
         },
 
         {
@@ -1909,10 +1909,7 @@ const ps2Apps = [
           description:
             "Guarda el archivo de idioma SPA.LNG en una de las ubicaciones recomendadas.",
 
-          items: [
-            "Memory Card: MC?:/BOOT/SPA.LNG",
-            "USB: mass:/LNG/",
-          ],
+          items: ["Memory Card: MC?:/BOOT/SPA.LNG", "USB: mass:/LNG/"],
         },
 
         {
@@ -1931,7 +1928,7 @@ const ps2Apps = [
             "udpfs:/ para acceso de red mediante un servidor UDPFSD compatible.",
           ],
         },
-        
+
         {
           title: "Tabla de dispositivos compatibles",
 
@@ -1990,7 +1987,7 @@ const ps2Apps = [
   {
     console: "PS2",
 
-    name: "Apollo Save Tool",
+    name: "Apollo Save Tool PS2",
 
     image: "img/PS2/apollo-save-tool.png",
 
@@ -2053,8 +2050,7 @@ const ps2Apps = [
         {
           title: "Preparar el USB y ejecutar Apollo",
 
-          description:
-            "Instala y abre la aplicación desde el dispositivo USB.",
+          description: "Instala y abre la aplicación desde el dispositivo USB.",
 
           items: [
             "Formatear el USB como FAT32.",
@@ -2083,8 +2079,7 @@ const ps2Apps = [
         {
           title: "Importar una partida a la Memory Card",
 
-          description:
-            "Copia el save seleccionado a la tarjeta física de PS2.",
+          description: "Copia el save seleccionado a la tarjeta física de PS2.",
 
           items: [
             "En Ext Saves, seleccionar y abrir la partida deseada.",
@@ -2417,7 +2412,8 @@ const ps2Apps = [
 
       compatibility: {
         Consola: "PlayStation 2 con posibilidad de ejecutar homebrew.",
-        Lanzador: "uLaunchELF, wLaunchELF u otro lanzador para ejecutar el ELF.",
+        Lanzador:
+          "uLaunchELF, wLaunchELF u otro lanzador para ejecutar el ELF.",
         Idioma: "SMS.lng distingue entre mayúsculas y minúsculas.",
       },
 
@@ -2539,7 +2535,7 @@ const ps2Apps = [
       ],
     },
   },
-//PS2 Controller Tester (jbit)
+  //PS2 Controller Tester (jbit)
   {
     console: "PS2",
 
@@ -2570,8 +2566,7 @@ const ps2Apps = [
 
       compatibility: {
         Consola: "PlayStation 2 con posibilidad de ejecutar homebrew.",
-        Mandos:
-          "PS1 original, Dual Analog, DualShock 1 y DualShock 2.",
+        Mandos: "PS1 original, Dual Analog, DualShock 1 y DualShock 2.",
         Lecturas: "Pruebas digitales y analógicas con escala de 0 a 255.",
       },
 
@@ -2626,7 +2621,7 @@ const ps2Apps = [
       ],
     },
   },
-//R3CONFIGURATOR
+  //R3CONFIGURATOR
   {
     console: "PS2",
 
@@ -2658,7 +2653,8 @@ const ps2Apps = [
         FMCB: "Compatible con 1.966 y versiones anteriores en su mayoría.",
         OSDMenu: "Compatible con 1.3.0.",
         PS2BBL: "Compatible con PS2BBL Extended 2.0.0-beta.",
-        Idioma: "Incluye español; L1/R1 cambian el idioma en el menú principal.",
+        Idioma:
+          "Incluye español; L1/R1 cambian el idioma en el menú principal.",
       },
 
       requirements: [
@@ -2725,7 +2721,7 @@ const ps2Apps = [
       ],
     },
   },
-//SD2Cloud
+  //SD2Cloud
   {
     console: "PS2",
 
@@ -2836,7 +2832,7 @@ const ps2Apps = [
       ],
     },
   },
-//Memory Card Annihilator (MCA)
+  //Memory Card Annihilator (MCA)
   {
     console: "PS2",
 
@@ -2936,7 +2932,7 @@ const ps2Apps = [
       ],
     },
   },
-//RetroArch PS2
+  //RetroArch PS2
   {
     console: "PS2",
 
@@ -3041,7 +3037,7 @@ const ps2Apps = [
       ],
     },
   },
-//POPSLoader PS1
+  //POPSLoader PS1
   {
     console: "PS2",
 
@@ -3192,7 +3188,7 @@ const ps2Apps = [
       ],
     },
   },
-//RETROLauncher
+  //RETROLauncher
   {
     console: "PS2",
 
@@ -3287,7 +3283,7 @@ const ps2Apps = [
       ],
     },
   },
-//DKWDRV
+  //DKWDRV
   {
     console: "PS2",
 
@@ -3322,8 +3318,7 @@ const ps2Apps = [
       compatibility: {
         "Controlador PS1":
           "El mismo ELF está diseñado para consolas PS2 PGIF y DECKARD; la compatibilidad puede variar según el hardware, el juego y los modchips.",
-        "Carga USB":
-          "Beta y solo disponible en consolas DECKARD.",
+        "Carga USB": "Beta y solo disponible en consolas DECKARD.",
         Estado:
           "El proyecto advierte que DKWDRV sigue en desarrollo y puede presentar errores.",
       },
@@ -3403,5 +3398,1072 @@ const ps2Apps = [
       ],
     },
   },
+  //OPL Manager
+  {
+    console: "PS2",
 
+    name: "OPL Manager",
+
+    image: "img/PS2/OPLManager.jpg",
+
+    description:
+      "Herramienta para Windows que detecta juegos de PS2 en un dispositivo y ayuda a descargar carátulas, discos, logotipos y editar la información CFG usada por OPL.",
+
+    website: "https://oplmanager.com/site/index.php",
+
+    downloads: [
+      {
+        name: "WEB Oficial",
+        url: "https://static2.oplmanager.com/releases/OPL_Manager_V24.zip",
+      },
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/7IYE3JQT#viGBs1qKb6Wzey-hG6l85A",
+      },
+    ],
+
+    guide: {
+      function:
+        "Administra información y material gráfico de juegos para Open PS2 Loader. Puede escanear la ubicación de los juegos, descargar carátulas, imágenes de disco o logotipos y editar los archivos CFG.",
+
+      compatibility: {
+        Sistema: "Windows 7 SP1 o superior.",
+        Runtime:
+          ".NET 6 Runtime; el sitio oficial ofrece instaladores x86 y x64.",
+        OPL: "Administra archivos y recursos para juegos usados con OPL.",
+      },
+
+      requirements: [
+        "PC con Windows 7 SP1 o superior.",
+        ".NET 6 Runtime instalado (x86 o x64, según el sistema).",
+        "Dispositivo o carpeta con los juegos que se desean gestionar.",
+        "Conexión a Internet para descargar recursos gráficos desde los servidores de OPL Manager.",
+      ],
+
+      installation: [
+        "Descargar OPL Manager v24 desde el sitio oficial y extraer el archivo ZIP.",
+        "Instalar .NET 6 Runtime si todavía no está instalado.",
+        "Abrir OPL Manager y seleccionar el idioma preferido si se solicita.",
+        "Indicar la ruta del dispositivo o carpeta que contiene los juegos; la aplicación puede crear las carpetas necesarias.",
+      ],
+
+      usage:
+        "Una vez seleccionada la ruta, deja que OPL Manager detecte los juegos. Elige los recursos gráficos que quieres descargar y pulsa comenzar. Para añadir o corregir información, usa Edit CFG y guarda los cambios.",
+
+      notes:
+        "El mirror MEGA podría no ser la versión más reciente; se recomienda la descarga oficial v24. Según el sitio oficial, las versiones anteriores a V23 ya no son compatibles con la descarga y subida de ART.",
+
+      version: "V24",
+
+      author: "OPL Manager",
+
+      details: [
+        {
+          title: "Añadir carátulas e información",
+
+          description: "Este flujo resume los pasos de OPL Manager.",
+
+          items: [
+            "Abrir la aplicación y seleccionar el idioma si es el primer inicio.",
+            "Indicar la ruta del USB u otra carpeta donde están los juegos.",
+            "Esperar a que OPL Manager detecte la biblioteca.",
+            "Seleccionar los recursos que se desean obtener, como carátulas, discos o logotipos, y comenzar la descarga.",
+            "Usar Edit CFG para corregir o completar los datos del juego.",
+          ],
+        },
+        {
+          title: "Tipos de recursos gráficos",
+
+          description:
+            "La documentación oficial lista recursos ART y sus tamaños recomendados para OPL.",
+
+          table: {
+            headers: ["Recurso", "Nombre", "Tamaño", "Formato"],
+            rows: [
+              ["Carátula frontal PS2", "COV", "140 × 200", "PNG"],
+              ["Lomo PS2", "LAB", "18 × 240", "PNG"],
+              ["Carátula trasera PS2", "COV2", "242 × 344", "PNG"],
+              ["Disco", "ICO", "64 × 64", "PNG"],
+              ["Logotipo", "LGO", "300 × 125", "PNG"],
+              ["Fondo", "BG", "640 × 480", "PNG"],
+            ],
+          },
+        },
+      ],
+    },
+  },
+  //OPL Server
+  {
+    console: "PS2",
+
+    name: "OPL Server",
+
+    image: "img/PS2/OPLServer.jpg",
+
+    description:
+      "Servidor SMBv1 para conectar Open PS2 Loader a una carpeta compartida del PC y acceder a juegos por la red local.",
+
+    website: "https://github.com/elmariolo/OPL-Server",
+
+    downloads: [
+      {
+        name: "GitHub Releases",
+        url: "https://github.com/elmariolo/OPL-Server/releases/latest",
+      },
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/iAhAhbpD#s_n6rtINweFYGjc-H_5OdA",
+      },
+    ],
+
+    guide: {
+      function:
+        "Proporciona un servidor SMBv1 dedicado para que OPL acceda a juegos alojados en una carpeta compartida del PC, sin tener que copiarlos a un USB.",
+
+      compatibility: {
+        "Sistema operativo":
+          "La guía existente indica Windows 7 o superior; el README del proyecto no especifica requisitos detallados.",
+        Protocolo: "SMBv1/Samba, según la descripción del proyecto.",
+        Red: "La PS2 y el PC deben estar conectados a la misma red local.",
+      },
+
+      requirements: [
+        "PC Windows que pueda ejecutar OPL Server.",
+        "PlayStation 2 con Open PS2 Loader y conexión a la misma red local que el PC.",
+        "Carpeta de juegos preparada para OPL, por ejemplo PS2/DVD para juegos en formato ISO.",
+        "Configurar el servidor y OPL con el mismo puerto, nombre de recurso compartido e IP del PC.",
+      ],
+
+      installation: [
+        "Descargar OPL Server desde GitHub Releases y extraerlo.",
+        "Elegir la carpeta de juegos para compartir; la versión 2.0 permite seleccionar la ruta y el puerto del servidor.",
+        "Iniciar OPLServer.exe y permitir el acceso solo en la red privada de confianza, si el Firewall de Windows solicita autorización.",
+        "En OPL, configurar los ajustes de red con la IP del PC, el puerto del servidor y el nombre del recurso compartido.",
+        "Guardar los cambios y abrir la sección SMB en OPL para comprobar que aparecen los juegos.",
+      ],
+
+      usage:
+        "Inicia el servidor en el PC y mantenlo ejecutándose mientras OPL accede a la carpeta compartida. En OPL usa la IP local actual del PC, el puerto configurado en el servidor y el nombre del recurso compartido.",
+
+      notes:
+        "SMBv1 es un protocolo antiguo con riesgos de seguridad. Úsalo solo en una red local privada y de confianza; evita exponer el puerto a Internet, habilitar SMB1 globalmente o conceder permisos de escritura/control total a Everyone. La guía usa el puerto 1024 como ejemplo, pero v2.0 permite elegir otro. El mirror MEGA podría no corresponder a la última versión.",
+
+      version: "v2.0 (24 de agosto de 2022)",
+
+      author: "elmariolo",
+
+      details: [
+        {
+          title: "Preparar la carpeta de juegos",
+
+          description:
+            "La configuración de ejemplo usa una carpeta PS2 compartida y coloca las imágenes en subcarpetas según el tipo de juego.",
+
+          items: [
+            "Crear o seleccionar la carpeta PS2 que se compartirá con OPL.",
+            "Para juegos en ISO, usar la ruta PS2/DVD.",
+            "Configurar OPL Manager para trabajar directamente sobre la carpeta PS2 si se van a administrar nombres o carátulas.",
+            "La carpeta y los archivos deben tener permisos de lectura para el usuario con el que se ejecuta OPL Server.",
+          ],
+        },
+        {
+          title: "Configurar OPL",
+
+          description:
+            "Los valores de conexión en OPL deben coincidir con los valores configurados en OPL Server.",
+
+          items: [
+            "En Network Settings, habilitar Advanced Options y seleccionar IP como tipo de dirección.",
+            "Introducir la IP local del PC y el puerto que usa OPL Server; la configuración de ejemplo usa 1024.",
+            "Escribir PS2 como nombre del recurso compartido si esa es la carpeta configurada en el servidor.",
+            "Guardar los ajustes y revisar la sección SMB. Si el router cambia la IP del PC, actualizar la dirección en OPL.",
+          ],
+        },
+        {
+          title: "Precauciones de red",
+
+          description:
+            "Las instrucciones antiguas incluyen ajustes de seguridad que conviene adaptar a la configuración actual de Windows.",
+
+          items: [
+            "No expongas SMBv1 ni el puerto del servidor a Internet; limita el uso a una red local confiable.",
+            "Si el Firewall solicita una regla, permite el acceso solo en el perfil de red privada y restringe los equipos de origen cuando sea posible.",
+            "Evita compartir con Everyone con control total; concede únicamente los permisos mínimos necesarios.",
+            "No habilites globalmente el componente de Windows SMB 1.0/CIFS sin confirmar que esta aplicación lo requiere; SMBv1 es un protocolo obsoleto.",
+          ],
+        },
+      ],
+    },
+  },
+  //PSXiSO Compression Tool
+  {
+    console: "PS2",
+
+    name: "PSXiSO Compression Tool",
+
+    image: "img/PS2/PSXiSOCompressionTool.jpg",
+
+    description:
+      "Interfaz para convertir y comprimir imágenes de juegos de PS2 con herramientas como ZISO, CHDMan y MaxCSO. ZSO es la opción recomendada para probar con OPL.",
+
+    website:
+      "https://www.psx-place.com/threads/psxiso-compression-tool-chd-zso-cso.37543/",
+
+    downloads: [
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/qA4ABR5Q#EndB6bpNyeAeZBNP6gTP5g",
+      },
+      {
+        name: "Tema de PSX-Place",
+        url: "https://www.psx-place.com/threads/psxiso-compression-tool-chd-zso-cso.37543/",
+      },
+    ],
+
+    guide: {
+      function:
+        "Facilita la conversión de imágenes de juegos mediante distintas utilidades incluidas o integradas, como chdman, ziso, maxcso y bin2iso. La opción ZSO permite preparar juegos para probarlos con OPL.",
+
+      compatibility: {
+        Sistema: "Aplicación de escritorio para Windows (PSXiSO.exe).",
+        Entrada: "Admite imágenes ISO y BIN/CUE, según la guía disponible.",
+        Salida:
+          "La herramienta ofrece opciones relacionadas con ZSO, CHD y CSO; comprueba por separado qué formatos acepta tu versión de OPL.",
+      },
+
+      requirements: [
+        "PC con Windows para ejecutar PSXiSO.exe.",
+        "Imagen propia de un juego compatible, en ISO o BIN/CUE.",
+        "Espacio libre suficiente para conservar la imagen original y crear la imagen convertida.",
+        "USB FAT32 o una ubicación de red compartida si se copiará el resultado para OPL.",
+      ],
+
+      installation: [
+        "Descargar y extraer PSXiSO Compression Tool.",
+        "Ejecutar PSXiSO.exe desde la carpeta extraída. Si presenta problemas al iniciarse desde una ubicación protegida, probar una carpeta local con permisos adecuados.",
+        "Copiar o seleccionar la imagen del juego y elegir el formato de salida que se quiera probar.",
+        "Para preparar un juego para OPL, seleccionar ZSO y Output as Filename para conservar el nombre del archivo.",
+        "Esperar a que termine la conversión y comprobar que el archivo resultante esté completo antes de copiarlo a la biblioteca.",
+      ],
+
+      usage:
+        "Selecciona la imagen, elige ZSO y Output as Filename, y pulsa ziso para iniciar la conversión. Luego copia el archivo resultante a la carpeta DVD del USB o del servidor SMB utilizado por OPL.",
+
+      notes:
+        "ZSO es la opción recomendada para probar con OPL, pero no se garantiza que todas las salidas (CHD o CSO) sean compatibles con cada versión o dispositivo. Verifica la compatibilidad antes de convertir toda la biblioteca. Conserva una copia de la imagen original: la compresión no garantiza que el resultado quede por debajo del límite de 4 GB por archivo de FAT32.",
+
+      version: "Consultar el tema de PSX-Place",
+
+      author: "PSXiSO / autor del tema en PSX-Place",
+
+      details: [
+        {
+          title: "Conversión recomendada",
+
+          description:
+            "Este procedimiento prepara una imagen ZSO para probarla desde OPL.",
+
+          items: [
+            "Abrir PSXiSO.exe y seleccionar la imagen ISO.",
+            "Elegir ZSO como formato de salida y activar Output as Filename para conservar el nombre.",
+            "Pulsar ziso y esperar a que finalice el proceso.",
+            "Copiar el archivo convertido a DVD dentro del USB o de la carpeta compartida por SMB.",
+          ],
+        },
+        {
+          title: "Formatos y precauciones",
+
+          description:
+            "PSXiSO reúne varias utilidades de conversión; el formato de salida debe elegirse según el loader y el dispositivo de destino.",
+
+          items: [
+            "La interfaz permite trabajar con imágenes BIN/CUE e ISO.",
+            "Entre las utilidades incluidas se nombran ziso para ZSO, chdman para CHD, maxcso para CSO y bin2iso.",
+            "Que una opción aparezca en PSXiSO no significa que OPL pueda cargarla: consulta la documentación de tu versión de OPL.",
+            "Mantén las imágenes originales y prueba primero un juego; revisa también el tamaño final si el destino es FAT32.",
+          ],
+        },
+      ],
+    },
+  },
+  //JLojch
+  {
+    console: "PS2",
+
+    name: "JLojch",
+
+    image: "img/PS2/JLojch.png",
+
+    description:
+      "Aplicación para consultar y mantener información de compatibilidad de juegos de PS2 con distintos métodos de carga y emulación.",
+
+    website: "https://github.com/nokiajavi/JLojch",
+
+    downloads: [
+      {
+        name: "GitHub Releases",
+        url: "https://github.com/nokiajavi/JLojch/releases",
+      },
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/3UwUxTiQ#cuW5mvjLtWg80hLsEjOqag",
+      },
+    ],
+
+    guide: {
+      function:
+        "Permite consultar, añadir, modificar y borrar registros de compatibilidad de juegos de PlayStation 2 para diferentes métodos de carga o emulación.",
+
+      compatibility: {
+        HDLoader: "Incluido en la base de compatibilidad.",
+        "Open PS2 Loader": "Incluido en la base de compatibilidad.",
+        "USBExtreme / USBAdvance": "Incluidos en la base de compatibilidad.",
+        ESR: "Incluido en la base de compatibilidad.",
+        PCSX2: "Incluido en la base de compatibilidad.",
+      },
+
+      requirements: [
+        "PC compatible con el instalador Windows o con Java para ejecutar el archivo JAR.",
+        "JLojch v4.72 o la versión más reciente disponible en GitHub Releases.",
+      ],
+
+      installation: [
+        "Descargar el instalador Windows, el archivo JAR o el paquete portable desde GitHub Releases.",
+        "En Windows, ejecutar JLojchSetup_v4.72.exe; para la versión JAR, tener Java instalado y abrir JLojch.jar.",
+        "Si se usa la versión portable, extraer el archivo RAR y ejecutar la aplicación desde la carpeta extraída.",
+      ],
+
+      usage:
+        "Busca el juego en JLojch y revisa los datos de compatibilidad asociados a HDLoader, OPL, USBExtreme/USBAdvance, ESR o PCSX2. La aplicación también permite añadir, modificar y eliminar entradas de sus listados.",
+
+      notes:
+        "La base de compatibilidad es una referencia para comparar métodos de carga; el resultado puede variar según la revisión de OPL, la consola, el juego y la configuración. Verifica los datos antes de cambiar una instalación funcional.",
+
+      version: "4.72",
+
+      author: "nokiajavi",
+
+      details: [
+        {
+          title: "Métodos incluidos",
+
+          description:
+            "JLojch reúne listados de compatibilidad de varios métodos de carga y emulación de PS2.",
+
+          items: [
+            "HDLoader y HDAdvance.",
+            "Open PS2 Loader.",
+            "USBExtreme y USBAdvance.",
+            "ESR.",
+            "PCSX2.",
+          ],
+        },
+        {
+          title: "Consulta y edición de datos",
+
+          description:
+            "La aplicación está diseñada para consultar y contribuir a los listados de compatibilidad.",
+
+          items: [
+            "Localizar un juego en los listados para consultar la información disponible.",
+            "Comparar el resultado correspondiente al método de carga o emulación que se planea usar.",
+            "JLojch permite añadir, modificar o eliminar registros; comprueba cuidadosamente los datos antes de guardarlos.",
+            "La release 4.72 ofrece instalador Windows, JAR y paquete portable.",
+          ],
+        },
+      ],
+    },
+  },
+  //USBUtil
+  {
+    console: "PS2",
+
+    name: "USBUtil",
+
+    image: "img/PS2/USBUtil.jpg",
+
+    description:
+      "Herramienta para preparar juegos de PS2 desde imágenes ISO y gestionarlos en una unidad USB FAT32 mediante el formato de juegos USB de OPL.",
+
+    website:
+      "https://www.psx-place.com/resources/usbutil-by-iseko-translated-by-jbliz7665.679/",
+
+    downloads: [
+      {
+        name: "Recurso de PSX-Place",
+        url: "https://www.psx-place.com/resources/usbutil-by-iseko-translated-by-jbliz7665.679/",
+      },
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/jBx3QSRZ#Hsn4XZsSHdvyi-sZfNXREQ",
+      },
+    ],
+
+    guide: {
+      function:
+        "Crea entradas de juegos para USB desde imágenes ISO, administra la lista guardada en ul.cfg y permite añadir, renombrar o eliminar juegos.",
+
+      compatibility: {
+        Almacenamiento: "Unidad USB formateada en FAT32.",
+        "Open PS2 Loader":
+          "Usa el formato de juegos USB gestionado por USBUtil; configura OPL para detectar juegos USB.",
+      },
+
+      requirements: [
+        "PC con Windows para ejecutar USBUtil v2.2 rev1.0.exe.",
+        "Unidad USB en formato FAT32.",
+        "Imagen ISO de un juego de PS2.",
+        "Espacio libre en la unidad USB para los archivos generados.",
+      ],
+
+      installation: [
+        "Descargar y extraer USBUtil.rar.",
+        "Abrir USBUtil v2.2 rev1.0.exe desde la carpeta extraída.",
+        "Conectar la unidad USB FAT32 al PC y preparar la imagen ISO de origen.",
+      ],
+
+      usage:
+        "En USBUtil, selecciona Archivo > Crear juego desde ISO, elige una o varias imágenes, selecciona la unidad USB de destino y pulsa Crear. Deja Medio en AUTO y usa un nombre de juego de hasta 32 caracteres. Para continuar una biblioteca existente, abre su archivo ul.cfg.",
+
+      notes:
+        "El tutorial diferencia entre copiar directamente ISOs pequeñas a DVD y usar USBUtil para preparar juegos en el formato de USB gestionado por ul.cfg. En FAT32 no se puede guardar un archivo individual de 4 GB o más; conserva una copia de las ISOs originales y verifica el resultado en OPL.",
+
+      version: "v2.2 rev1.0",
+
+      author: "ISEKO; traducción de JBLiz7665",
+
+      details: [
+        {
+          title: "Crear juegos desde ISO",
+
+          description:
+            "Prepara uno o más juegos en la unidad USB y crea o actualiza su lista ul.cfg.",
+
+          items: [
+            "Abrir Archivo > Crear juego desde ISO.",
+            "Elegir la carpeta de origen que contiene las ISOs; se puede seleccionar una o varias.",
+            "Seleccionar como destino la unidad USB correspondiente.",
+            "Opcionalmente, editar el nombre del juego; la guía recomienda no superar 32 caracteres.",
+            "Dejar Medio en AUTO, pulsar Crear y esperar a que finalice el proceso.",
+            "Cerrar la ventana y comprobar que el juego aparezca en la lista de USBUtil.",
+          ],
+        },
+        {
+          title: "Continuar o modificar una lista",
+
+          description:
+            "Para añadir juegos a una biblioteca ya preparada, abre el ul.cfg existente desde la unidad de destino.",
+
+          items: [
+            "Seleccionar Abrir juegos ul.cfg.",
+            "Buscar la carpeta de la unidad USB y abrir el ul.cfg existente.",
+            "Añadir más juegos con Archivo > Crear juego desde ISO.",
+            "Usar los controles de USBUtil para renombrar o eliminar entradas según sea necesario.",
+          ],
+        },
+      ],
+    },
+  },
+  //PSUManager
+  {
+    console: "PS2",
+
+    name: "PSUManager",
+
+    image: "img/PS2/PSUManager.png",
+
+    description:
+      "Administrador multiplataforma de archivos PSU para partidas guardadas de PlayStation 2. Permite crear y extraer archivos de respaldo de Memory Card.",
+
+    website: "https://git.techwritescode.dev/techwritescode/PSUManager",
+
+    downloads: [
+      {
+        name: "GitHub Releases",
+        url: "https://git.techwritescode.dev/techwritescode/PSUManager/releases",
+      },
+      {
+        name: "Mirror MEGA (pendiente)",
+        url: "https://mega.nz/folder/WQQTGJiY#FI9oE-UY4dHyF2WAFclzpA",
+      },
+    ],
+
+    guide: {
+      function:
+        "Crea archivos de respaldo .psu a partir de partidas de PS2 y extrae el contenido de archivos .psu existentes. El proyecto incluye una interfaz gráfica y asociación de archivos/contexto en el sistema.",
+
+      compatibility: {
+        Windows: "Instalador MSI x64 disponible en la release v1.0.1.",
+        Linux:
+          "El repositorio incluye instrucciones para compilar e instalar desde el código fuente; el paquete Linux no figura como publicado en la release.",
+        Formato: "Archivos de respaldo de partidas de PS2 con extensión .psu.",
+      },
+
+      requirements: [
+        "PC con Windows x64 para instalar el MSI publicado.",
+        "Para compilar en Linux: CMake 3.21 o superior, compilador C++17 y wxWidgets 3.2.",
+        "Archivo .psu o carpeta de partida de PS2 que se desea respaldar o extraer.",
+      ],
+
+      installation: [
+        "Descargar psumanager-v1.0.1-windows-amd64.msi desde la release oficial e instalarlo.",
+        "En Linux, seguir las instrucciones de compilación del README; la release indica que el empaquetado Linux no fue publicado.",
+        "Abrir PSUManager desde el sistema o asociar los archivos .psu con la aplicación si se desea.",
+      ],
+
+      usage:
+        "Usa PSUManager para crear un archivo .psu desde una partida de PS2 o para extraer una partida desde un archivo .psu. El menú contextual del sistema también permite acceder a las acciones disponibles para esos archivos.",
+
+      notes:
+        "La opción Open extrae la partida a un archivo temporal y la abre con la aplicación predeterminada, pero no detecta cambios ni los escribe de vuelta en el archivo .psu. Guarda y verifica tus respaldos antes de modificar o reemplazar archivos.",
+
+      version: "v1.0.1",
+
+      author: "techwritescode",
+
+      details: [
+        {
+          title: "Crear y extraer respaldos",
+
+          description:
+            "PSUManager está enfocado en el formato de archivo .psu de partidas guardadas de PlayStation 2.",
+
+          items: [
+            "Crear archivos .psu para respaldar partidas.",
+            "Extraer el contenido de un archivo .psu.",
+            "Usar la interfaz gráfica o las acciones del sistema operativo disponibles tras la instalación.",
+            "Conservar una copia independiente de los archivos originales antes de realizar cambios.",
+          ],
+        },
+        {
+          title: "Integración con el sistema",
+
+          description:
+            "El programa ofrece asociación de archivos y acciones desde el menú contextual del sistema.",
+
+          items: [
+            "En Windows 11, el menú contextual clásico aparece dentro de Show more options (Mostrar más opciones).",
+            "La opción Open abre una extracción temporal con la aplicación predeterminada.",
+            "Los cambios realizados sobre esa extracción temporal no se guardan automáticamente dentro del archivo .psu.",
+            "El mirror MEGA queda pendiente; usa la release oficial para descargar la versión publicada.",
+          ],
+        },
+      ],
+    },
+  },
+  //conf_apps.BAT y title.cfg_maker.BAT
+  {
+    console: "PS2",
+
+    name: "conf_apps.BAT y title.cfg_maker.BAT",
+
+    image: "img/PS2/.bat.jpg",
+
+    description:
+      "Scripts de Windows para automatizar la configuración del menú APPS de OPL: generar conf_apps.cfg o crear carpetas de configuración por aplicación.",
+
+    website: null,
+
+    downloads: [
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/jc5SBQhA#8m1jvxaTsEpjj9p59uwO3Q",
+      },
+    ],
+
+    guide: {
+      function:
+        "Automatiza dos tareas distintas para el menú APPS de OPL. El generador de conf_apps.cfg crea la lista de nombres y rutas de los ELF; title.cfg_maker.BAT intenta generar una carpeta por aplicación.",
+
+      compatibility: {
+        "conf_apps.cfg":
+          "El archivo generado puede ubicarse en la raíz del USB/servidor OPL o en mc0:/OPL/.",
+        "title.cfg_maker.BAT":
+          "La guía lo indica para OPL v12.77 o superior; ese método no está probado.",
+        "Origen de aplicaciones": "USB FAT32 o servidor OPL configurado.",
+      },
+
+      requirements: [
+        "PC con Windows para ejecutar los archivos BAT.",
+        "PlayStation 2 con OPL y menú APPS.",
+        "Aplicaciones de PS2 en formato ELF organizadas en APPS.",
+        "Unidad USB FAT32 o carpeta de servidor OPL accesible desde el PC.",
+      ],
+
+      installation: [
+        "Descargar y extraer el paquete APPS USB.",
+        "Copiar los ELF y sus carpetas de datos dentro de APPS en el USB o servidor.",
+        "Para generar conf_apps.cfg, preparar el archivo de entrada que relacione cada nombre visible con la ruta del ELF y copiarlo a APPS.",
+        "Ejecutar el BAT generador de conf_apps.cfg, seleccionar USB o OPL Server y esperar a que cree cfg/conf_apps.cfg.",
+        "Copiar el archivo generado a la raíz del USB/servidor OPL o a mc0:/OPL/.",
+      ],
+
+      usage:
+        "Usa el generador de conf_apps.cfg para crear una lista de aplicaciones basada en sus rutas. Usa title.cfg_maker.BAT como método alternativo para crear carpetas por ELF solo si tu versión de OPL es compatible y puedes comprobar el resultado.",
+
+      notes:
+        "Son dos scripts con propósitos diferentes: uno genera conf_apps.cfg y el otro crea carpetas por aplicación. La guía señala que title.cfg_maker.BAT para OPL v12.77 o superior no fue probado; haz una copia de seguridad y verifica cada resultado en OPL antes de reemplazar una configuración funcional.",
+
+      version: "Depende del paquete APPS USB y de la versión de OPL",
+
+      author: "No especificado",
+
+      details: [
+        {
+          title: "Generador de conf_apps.cfg",
+
+          description:
+            "Este método produce un archivo con las entradas que OPL muestra en su menú APPS.",
+
+          items: [
+            "Preparar conf_apps.cfg con las aplicaciones y rutas de sus ELF.",
+            "Copiar conf_apps.cfg a la carpeta APPS y ejecutar el BAT generador desde Windows.",
+            "Seleccionar 1 para USB o 2 para OPL Server y confirmar con Enter.",
+            "Al finalizar, buscar el resultado en cfg/conf_apps.cfg.",
+            "Copiar el resultado a la raíz del dispositivo o servidor, o a mc0:/OPL/.",
+          ],
+        },
+        {
+          title: "title.cfg_maker.BAT",
+
+          description:
+            "La alternativa por carpetas intenta generar una carpeta de configuración para cada aplicación ELF.",
+
+          items: [
+            "Copiar title.cfg_maker.BAT a la carpeta APPS y ejecutarlo.",
+            "La guía indica OPL v12.77 o superior para este método.",
+            "El procedimiento no está probado; comprueba las carpetas generadas y la detección en OPL.",
+            "Conserva una copia de APPS antes de probarlo.",
+          ],
+        },
+        {
+          title: "Videos de referencia",
+
+          description:
+            "Los videos enlazados presentan diferentes métodos para configurar el menú APPS.",
+
+          items: [
+            "Método #1 para distintos OPL.",
+            "Método #2 para OPL actualizado.",
+            "Explicación ampliada de tres formas de configurar APPS.",
+          ],
+        },
+      ],
+    },
+  },
+  //Temas para OPL
+  {
+    console: "PS2",
+
+    name: "Temas para OPL",
+
+    image: "img/PS2/TemasOPL.jpg",
+
+    description:
+      "Guía para instalar temas en Open PS2 Loader desde USB, Memory Card o el disco duro interno de una PS2 FAT.",
+
+    website: null,
+
+    downloads: [
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/fVozRBTB#bKaEZdxyi7rbXdPhvwg9Hw",
+      },
+    ],
+
+    guide: {
+      function:
+        "Instala temas para personalizar la interfaz de Open PS2 Loader y permite seleccionar el tema desde las opciones de pantalla de OPL.",
+
+      compatibility: {
+        OPL: "Admite selección de tema desde Display Settings.",
+        USB: "La guía utiliza una unidad FAT32 con la carpeta THM en la raíz.",
+        MemoryCard:
+          "Ruta indicada: mc0:/THM/; el espacio limita la cantidad de temas.",
+        "Disco duro interno":
+          "En PS2 FAT, la guía indica la ruta hdd0:/+OPL/THM/.",
+      },
+
+      requirements: [
+        "PlayStation 2 con Open PS2 Loader.",
+        "Pack de temas OPL extraído.",
+        "USB FAT32, Memory Card o disco duro interno compatible para almacenar los temas.",
+        "uLaunchELF si se copiarán los temas a una Memory Card o al disco duro interno desde la consola.",
+      ],
+
+      installation: [
+        "Descargar y extraer el pack; dentro se encuentra la carpeta THM con los temas.",
+        "Para USB, copiar la carpeta THM a la raíz del dispositivo.",
+        "Para una Memory Card, usar uLaunchELF para copiar las carpetas de temas a mc0:/THM/.",
+        "En PS2 FAT con disco duro interno, copiar los temas a hdd0:/+OPL/THM/.",
+        "Iniciar OPL, abrir el menú con Start y entrar a Display Settings.",
+        "Elegir el tema, confirmar con OK y seleccionar Save Changes.",
+      ],
+
+      usage:
+        "Después de copiar los temas a la ubicación correspondiente, abre OPL y selecciónalo en Start > Display Settings > Theme. Guarda los cambios para conservar la selección.",
+
+      notes:
+        "La guía advierte que en Memory Card normalmente caben solo uno o dos temas. Mantén la estructura de carpetas del pack y comprueba la ruta disponible en tu versión de OPL; las opciones pueden variar entre dispositivos y versiones.",
+
+      version: "Depende de la versión de OPL y del pack",
+
+      author: "MarcheBMPC",
+
+      details: [
+        {
+          title: "Ubicaciones de instalación",
+
+          description:
+            "Copia la carpeta THM en la ubicación correspondiente al dispositivo donde OPL buscará los temas.",
+
+          table: {
+            headers: ["Dispositivo", "Ruta"],
+            rows: [
+              ["USB", "Raíz del dispositivo: THM/"],
+              ["Memory Card", "mc0:/THM/"],
+              ["Disco duro interno de PS2 FAT", "hdd0:/+OPL/THM/"],
+            ],
+          },
+        },
+        {
+          title: "Copiar con uLaunchELF",
+
+          description:
+            "Para transferir temas desde USB a una Memory Card o al disco duro interno, usa el explorador de archivos de la consola.",
+
+          items: [
+            "Abrir el dispositivo de origen en uLaunchELF y localizar la carpeta del tema.",
+            "Presionar R1 y elegir Copy.",
+            "Abrir la carpeta de destino y presionar R1 > Paste.",
+            "En una Memory Card, instala solo los temas que quepan y deja espacio disponible para otros archivos.",
+          ],
+        },
+        {
+          title: "Seleccionar el tema en OPL",
+
+          description:
+            "Los temas instalados se seleccionan desde las opciones de pantalla de OPL.",
+
+          items: [
+            "Presionar Start para abrir el menú de OPL.",
+            "Entrar a Display Settings y elegir Theme.",
+            "Seleccionar el tema deseado, confirmar con OK y guardar con Save Changes.",
+          ],
+        },
+      ],
+    },
+  },
+  //XtremeEliteBoot (XEBPlus)
+  {
+    console: "PS2",
+
+    name: "XtremeEliteBoot (XEBPlus)",
+
+    image: "img/PS2/XtremeEliteBoot.jpg",
+
+    description:
+      "Dashboard y lanzador homebrew para PlayStation 2, con interfaz personalizable y acceso a aplicaciones ELF desde USB.",
+
+    website:
+      "https://www.psx-place.com/threads/xtremeeliteboot-s-dashboard-special-xmas-showcase.38959/",
+
+    downloads: [
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/vF5DlDgQ#XaER7fdgIrl7ApnsaTDgLA",
+      },
+    ],
+
+    guide: {
+      function:
+        "Inicia XEBPlus como dashboard para navegar y abrir aplicaciones homebrew de PS2. Permite cambiar el tema y puede añadirse como acceso desde FMCB/FunTuna u OPL.",
+
+      compatibility: {
+        Sistema: "PlayStation 2 capaz de ejecutar archivos ELF homebrew.",
+        Almacenamiento: "La guía usa una unidad USB FAT32.",
+        "Archivo de inicio": "XEBPLUS/XEBPLUS_XMAS.ELF en el paquete descrito.",
+        Integración:
+          "Puede configurarse como acceso de FMCB/FunTuna o como ruta de inicio desde OPL.",
+      },
+
+      requirements: [
+        "PlayStation 2 con un método para ejecutar homebrew, como FMCB o FunTuna.",
+        "USB en formato FAT32.",
+        "Paquete de XtremeEliteBoot extraído, conservando la carpeta XEBPLUS.",
+      ],
+
+      installation: [
+        "Extraer XtremeEliteBoot y copiar la carpeta XEBPLUS a la raíz del USB.",
+        "Conectar el USB a la PS2 y abrir XEBPLUS/XEBPLUS_XMAS.ELF desde un lanzador ELF.",
+        "Opcionalmente, crear un acceso en FMCB/FunTuna o configurar en OPL la ruta MASS:/XEBPLUS/XEBPLUS_XMAS.ELF.",
+        "Si se modifica el menú de FMCB/FunTuna, guardar la configuración en la Memory Card correspondiente y probar el acceso.",
+      ],
+
+      usage:
+        "Ejecuta XEBPLUS_XMAS.ELF y navega por el dashboard para iniciar las aplicaciones disponibles. Para cambiar el tema, selecciona una carpeta dentro de XEBPLUS/THM y configura su nombre en XEBPLUS/CFG/xebplus.cfg.",
+
+      notes:
+        "Conserva la estructura de carpetas del paquete. Verifica las rutas antes de asignar XEBPlus como inicio automático; si la unidad o carpeta cambia, el acceso configurado puede dejar de funcionar.",
+
+      version: "XEBPlus XMAS (según el paquete enlazado)",
+
+      author: "Proyecto XtremeEliteBoot",
+
+      details: [
+        {
+          title: "Agregar XEBPlus al menú de FMCB/FunTuna",
+
+          description:
+            "Puedes registrar un acceso directo en un espacio disponible del menú OSDSYS.",
+
+          items: [
+            "Abrir Configure OSDSYS options en la herramienta de configuración de FMCB/FunTuna.",
+            "Seleccionar un ítem vacío y asignarle un nombre, por ejemplo XtremeEliteBoot.",
+            "Configurar Path1 como MASS:/XEBPLUS/XEBPLUS_XMAS.ELF.",
+            "Guardar la configuración en la Memory Card que utiliza la consola y reiniciar para probar el acceso.",
+          ],
+        },
+        {
+          title: "Configurar el inicio automático desde OPL",
+
+          description:
+            "Como alternativa, configura una tecla de inicio de OPL para ejecutar el ELF de XEBPlus.",
+
+          items: [
+            "En los ajustes de OPL, abrir Configure E1 Launch Keys.",
+            "Seleccionar Auto y establecer la ruta MASS:/XEBPLUS/XEBPLUS_XMAS.ELF.",
+            "Guardar los cambios y confirmar que el archivo siga en esa ubicación del USB.",
+          ],
+        },
+        {
+          title: "Cambiar el tema de XEBPlus",
+
+          description:
+            "XEBPlus guarda sus temas en XEBPLUS/THM y selecciona el tema por nombre desde su archivo de configuración.",
+
+          items: [
+            "Abrir XEBPLUS/THM y elegir la carpeta del tema que se desea usar.",
+            "Abrir XEBPLUS/CFG/xebplus.cfg.",
+            'Editar el valor XEBPlusTheme="nombre_de_carpeta" con el nombre exacto de la carpeta elegida.',
+            "Guardar el archivo y reiniciar XEBPlus para comprobar el cambio.",
+          ],
+        },
+      ],
+    },
+  },
+  //Project Titan Magenta Edition
+  {
+    console: "PS2",
+
+    name: "Project Titan Magenta Edition",
+
+    image: "img/PS2/ProjectTitan.jpg",
+
+    description:
+      "Sistema operativo experimental y plataforma de aplicaciones nativas para PS2, con su propia cadena de arranque, kernel, servicios de runtime e integración para ejecutar juegos.",
+
+    website:
+      "https://github.com/sobecapaklebs-dev/project-titan-magenta-edition",
+
+    downloads: [
+      {
+        name: "GitHub Release",
+        url: "https://github.com/sobecapaklebs-dev/project-titan-magenta-edition/releases",
+      },
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/SExTxAbB#id2Cx6wdTkbl5YdnPiJSzg",
+      },
+    ],
+
+    guide: {
+      function:
+        "Project Titan instala un entorno de sistema para PS2 con bootloader, kernel, shell, servicios, runtime de aplicaciones y paquetes TPKG. También integra backends Titan Neutrino y Titan UL para ejecutar juegos; no es solo un lanzador ni una interfaz visual para OPL.",
+
+      compatibility: {
+        Plataforma:
+          "Proyecto diseñado para PlayStation 2; consulta las notas de cada release para los requisitos y dispositivos compatibles.",
+        Estado:
+          "Sistema en desarrollo activo y experimental; la documentación exige validar el funcionamiento en hardware real.",
+        Instalación:
+          "Incluye un paquete de instalación y otro installerless con una cadena de arranque basada en Memory Card y USB.",
+      },
+
+      requirements: [
+        "PlayStation 2 compatible con el flujo de instalación descrito en la release.",
+        "Memory Card y unidad USB preparadas según las instrucciones oficiales.",
+        "Copia de seguridad de los datos y archivos de arranque actuales antes de probar otro entorno de sistema.",
+        "Revisar las notas de release y la documentación de arquitectura antes de elegir el método de instalación.",
+      ],
+
+      installation: [
+        "Descargar los paquetes desde la página oficial de Releases y leer las instrucciones de la versión elegida.",
+        "Preferir TITAN_INSTALL.zip para los flujos de instalación o actualización admitidos por el proyecto.",
+        "Usar el paquete Installerless solo si se va a seguir su procedimiento manual específico; su cadena documentada es Memory Card BOOT.ELF → Titan Bootloader → USB kernel.elf → Project Titan.",
+        "No mezclar archivos de versiones distintas ni reemplazar el arranque existente sin preparar un método de recuperación.",
+        "Verificar el resultado y la compatibilidad en la consola real; las pruebas de PC no garantizan el comportamiento en hardware PS2.",
+      ],
+
+      usage:
+        "Una vez iniciado Titan, explora su shell y servicios del sistema, administra aplicaciones instalables TPKG y utiliza los backends incluidos para juegos. Las funciones disponibles dependen de la versión instalada.",
+
+      notes:
+        "Project Titan es un sistema operativo/plataforma de PS2, no un frontend de OPL. El proyecto está en desarrollo y requiere pruebas en hardware real. La release publicada se titula RC4.5 Big Update, sus archivos llevan nombres R4.4 y el README de la rama principal menciona 0.3.91-rc15; confirma en Releases cuál paquete corresponde a la versión que vas a instalar.",
+
+      version: "RC4.5 Big Update (paquetes publicados como R4.4)",
+
+      author: "sobecapaklebs-dev",
+
+      details: [
+        {
+          title: "Componentes de Project Titan",
+
+          description:
+            "El proyecto reúne varios componentes del sistema y servicios compartidos para aplicaciones y juegos.",
+
+          items: [
+            "Titan Bootloader, shell y runtime de sistema.",
+            "Servicios de almacenamiento, entrada, audio, red, gráficos, perfiles y notificaciones.",
+            "Formato TPKG para instalar aplicaciones compatibles con Titan.",
+            "Titan Neutrino y Titan UL como backends integrados de ejecución de juegos.",
+            "SDK y APIs para desarrollar aplicaciones nativas para la plataforma Titan.",
+          ],
+        },
+        {
+          title: "Paquetes de la release",
+
+          description:
+            "La release consultada distribuye un paquete instalable y una alternativa de instalación manual.",
+
+          items: [
+            "TITAN_INSTALL.zip está destinado a los flujos de instalación o actualización admitidos.",
+            "El paquete Installerless requiere seguir la disposición de archivos y la cadena de arranque documentadas.",
+            "Los videos enlazados son referencias adicionales de instalación y presentación; para los pasos vigentes, prevalecen las instrucciones de la release.",
+          ],
+        },
+        {
+          title: "Estado y comprobación",
+
+          description:
+            "Titan es una plataforma compleja y experimental; una interfaz que arranca no implica que todos sus servicios o juegos sean compatibles.",
+
+          items: [
+            "Comprueba la versión de la release, nombres de archivo y changelog antes de copiar paquetes.",
+            "Respalda la Memory Card y el contenido del USB antes de cambiar el bootloader o kernel.",
+            "Confirma las funciones en hardware PS2 y revisa avisos de compatibilidad específicos.",
+          ],
+        },
+      ],
+    },
+  },
+  //BlueRetro
+  {
+    console: "PS2",
+
+    name: "Wireless Controller Adapter BlueRetro",
+
+    image: "img/PS2/BlueRetro.jpg",
+
+    description:
+      "Firmware y plataforma Bluetooth para adaptadores físicos BlueRetro compatibles con PS2, que permiten conectar mandos inalámbricos a la consola.",
+
+    website: "https://github.com/darthcloud/BlueRetro",
+
+    downloads: [
+      {
+        name: "GitHub Release",
+        url: "https://github.com/darthcloud/BlueRetro/releases",
+      },
+      {
+        name: "Mirror MEGA",
+        url: "https://mega.nz/folder/uQRlBSZD#Bl1MOXK-UdYvC0waNsxcKw",
+      },
+    ],
+
+    guide: {
+      function:
+        "BlueRetro es un adaptador Bluetooth para consolas retro. En PS2, un receptor físico compatible conecta mandos inalámbricos y ofrece configuración de botones, perfiles y actualización de firmware OTA.",
+
+      compatibility: {
+        Hardware:
+          "Se necesita un receptor/adaptador BlueRetro físico compatible con PS2; el firmware por sí solo no convierte la consola ni el mando.",
+        "Revisión de placa":
+          "El firmware se distribuye en paquetes distintos para HW1 y HW2; confirma la revisión de tu adaptador antes de descargar o actualizar.",
+        Mandos:
+          "El proyecto lista mandos Wii, Switch, PS3, PS4/PS5, Xbox One/Series y dispositivos HID; revisa la guía de emparejamiento para el modelo exacto.",
+        Configuración:
+          "La Web Bluetooth de BlueRetro se admite en Chrome de escritorio o Android.",
+      },
+
+      requirements: [
+        "PlayStation 2 y adaptador/receptor BlueRetro compatible con su puerto de mando.",
+        "Mando Bluetooth compatible y cargado.",
+        "Para configurar o actualizar: dispositivo con Chrome de escritorio o Android y Bluetooth LE.",
+        "Archivo de firmware correspondiente exactamente a la revisión HW1 o HW2 del adaptador.",
+      ],
+
+      installation: [
+        "Conectar el adaptador BlueRetro compatible al puerto de mando de la PS2 y encender la consola.",
+        "Para emparejar, activar el modo de búsqueda del adaptador y poner el mando Bluetooth en modo de sincronización.",
+        "Si se actualiza el firmware, desconectar todos los mandos del adaptador antes de iniciar la conexión OTA.",
+        "Abrir la página oficial de OTA en Chrome y conectar con BlueRetro mediante Web Bluetooth.",
+        "Extraer el ZIP del firmware y elegir el archivo BlueRetro_*.bin que corresponda a la revisión de hardware del adaptador.",
+        "Pulsar Update Firmware y esperar hasta que el proceso llegue al 100 % y el dispositivo se desconecte de la página.",
+      ],
+
+      usage:
+        "Una vez emparejado, usa el mando inalámbrico como controlador de la PS2. La página Advance Config permite ajustar tipo de salida, botones, ejes y perfiles; desconecta los mandos antes de entrar al modo de configuración Bluetooth.",
+
+      notes:
+        "El repositorio de BlueRetro fue archivado el 14 de diciembre de 2025 y ya no recibe mantenimiento. No instales un firmware HW1 en una placa HW2 ni al revés. La guía oficial advierte que OTA puede tardar unos 10 minutos en una laptop y más desde un teléfono; no desconectes el adaptador durante la actualización.",
+
+      version: "v25.04 (repositorio archivado)",
+
+      author: "BlueRetro / darthcloud",
+
+      details: [
+        {
+          title: "Emparejar un mando Bluetooth",
+
+          description:
+            "El comportamiento predeterminado pone al adaptador en modo de búsqueda cuando no hay mandos conectados.",
+
+          items: [
+            "Encender la PS2 con el adaptador conectado; el LED pulsante indica modo de búsqueda.",
+            "Poner el mando compatible en modo de sincronización y completar el emparejamiento.",
+            "En conexiones posteriores, normalmente basta con encender el mando o pulsar un botón.",
+            "Si el adaptador está en modo manual, activa el emparejamiento con el botón BOOT según la guía del modelo.",
+          ],
+        },
+        {
+          title: "Actualizar firmware por OTA",
+
+          description:
+            "La actualización se realiza desde el sitio de BlueRetro usando Web Bluetooth.",
+
+          items: [
+            "Desconectar todos los mandos del adaptador.",
+            "En Chrome de escritorio o Android, abrir blueretro.io/ota.html y conectar el dispositivo.",
+            "Descomprimir el ZIP de firmware correspondiente a HW1 o HW2.",
+            "Seleccionar el archivo BlueRetro_*.bin adecuado para ese adaptador y pulsar Update Firmware.",
+            "Esperar a que llegue al 100 % y a que BlueRetro se desconecte de la página; esa desconexión indica que terminó.",
+            "No apagar ni desconectar el adaptador durante el proceso.",
+          ],
+        },
+        {
+          title: "Configuración adicional",
+
+          description:
+            "La configuración avanzada también permite personalizar controles y guardar perfiles.",
+
+          items: [
+            "Usar Advance Config para elegir el tipo de salida y ajustar botones o ejes.",
+            "Usar Presets para cargar mapeos predefinidos y guardar los cambios para cada mando.",
+            "Consultar la guía de emparejamiento para confirmar pasos específicos del controlador Bluetooth.",
+          ],
+        },
+      ],
+    },
+  },
 ];

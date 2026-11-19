@@ -1,7 +1,7 @@
 const apps = [
     ...ps2Apps,
     ...pspApps,
-    ...vitaApps,
+    ...psvitaApps,
     ...ps3Apps,
     ...ps4Apps
 ];
