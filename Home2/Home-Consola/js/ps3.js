@@ -797,7 +797,497 @@ const ps3Apps = [
   },
 },
 
+// BTGA Audio USB/Bluetooth
+{
+  console: "PS3",
+  name: "BTGA Audio USB/Bluetooth",
+  image: "img/PS3/audio-usb-bluetooth.jpg",
 
+  description:
+    "Permite utilizar audífonos USB o Bluetooth para escuchar el audio de los juegos en PlayStation 3.",
+
+  website: "https://thewizwikii.github.io/BTGA-303-488/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/adhCQByL#eWHY58dLqyPLXL0itFjjEQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Habilita la salida de audio mediante dispositivos USB y Bluetooth compatibles.",
+
+    compatibility: {
+      HEN: "✅ Requerido",
+      USB: "✅ Compatible",
+      Bluetooth: "✅ Compatible",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "Audífonos USB o Bluetooth",
+      "BTGA instalado",
+    ],
+
+    installation: [
+      "Instalar BTGA mediante Web Host o PKG.",
+      "Reiniciar la consola.",
+      "Activar HEN.",
+      "Emparejar el dispositivo de audio.",
+    ],
+
+    usage:
+      "Permite enviar el audio de los juegos a auriculares USB o Bluetooth compatibles.",
+
+    notes:
+      "No todos los adaptadores o auriculares Bluetooth son compatibles con PS3.",
+
+    version: "BTGA 303",
+    author: "TheWizWiki / Comunidad PS3",
+
+    details: [
+      {
+        title: "¿Qué es BTGA?",
+        description:
+          "Parche que añade soporte para dispositivos de audio USB y Bluetooth.",
+        items: [
+          "Permite usar auriculares compatibles.",
+          "Funciona junto con HEN.",
+          "Puede instalarse mediante host web.",
+          "También existe versión PKG.",
+        ],
+      },
+
+      {
+        title: "Instalación mediante Host",
+        description:
+          "Método más rápido desde el navegador.",
+        items: [
+          "Abrir el navegador de Internet.",
+          "Acceder al host compatible.",
+          "La WEB de Nostros WEB es https://marchelobm.github.io/PS3/index.html.",
+          "La WEB oficial es https://thewizwikii.github.io/BTGA-303-488/.",
+          "Seleccionar BTGA Install.",
+          "Esperar la descarga automática.",
+          "La consola se reiniciará.",
+        ],
+      },
+
+      {
+        title: "Instalación mediante PKG",
+        description:
+          "Método alternativo usando un USB.",
+        items: [
+          "Copiar el PKG al USB.",
+          "Instalar desde Administrador de archivos PKG.",
+          "Reiniciar la consola.",
+          "Activar HEN.",
+        ],
+      },
+
+      {
+        title: "Desinstalar BTGA",
+        description:
+          "Restaurar la configuración original.",
+        items: [
+          "Instalar el paquete Restore.",
+          "Reiniciar la consola.",
+          "Activar HEN nuevamente.",
+          "La consola volverá al estado original.",
+        ],
+      },
+
+      {
+        title: "Emparejar dispositivo Bluetooth",
+        description:
+          "Agregar auriculares o adaptadores Bluetooth.",
+        items: [
+          "Ir a Ajustes.",
+          "Abrir Ajustes de accesorios.",
+          "Entrar en Administrar dispositivos Bluetooth.",
+          "Seleccionar Registrar nuevo dispositivo.",
+          "Realizar la búsqueda.",
+          "Emparejar el dispositivo.",
+        ],
+      },
+
+      {
+        title: "Códigos de emparejamiento",
+        description:
+          "Claves habituales utilizadas por algunos dispositivos.",
+        items: [
+          "0000",
+          "1234",
+          "Consultar el manual del dispositivo.",
+        ],
+      },
+
+      {
+        title: "Configurar salida de audio",
+        description:
+          "Seleccionar el dispositivo conectado.",
+        items: [
+          "Ir a Ajustes de accesorios.",
+          "Abrir Ajustes de dispositivo de audio.",
+          "Seleccionar Dispositivo de salida.",
+          "Elegir los auriculares USB o Bluetooth.",
+        ],
+      },
+
+      {
+        title: "Activar BTGA",
+        description:
+          "Paso necesario después de cada reinicio.",
+        items: [
+          "Iniciar la consola.",
+          "Activar HEN.",
+          "Esperar la carga completa.",
+          "Disfrutar del audio en los auriculares.",
+        ],
+      },
+
+      {
+        title: "Problemas frecuentes",
+        description:
+          "Soluciones para errores comunes.",
+        items: [
+          "Verificar compatibilidad del dispositivo.",
+          "Volver a emparejar el Bluetooth.",
+          "Comprobar la salida de audio seleccionada.",
+          "Reactivar HEN.",
+          "Reinstalar BTGA si es necesario.",
+        ],
+      },
+    ],
+  },
+},
+
+// Comprobar Compatibilidad CFW
+{
+  console: "PS3",
+  name: "Comprobar Compatibilidad CFW",
+  image: "img/PS3/compatible-cfw.jpg",
+
+  description:
+    "Permite verificar si una PlayStation 3 es compatible con la instalación de Custom Firmware (CFW).",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/DAon2bbB#5Smd5RT1-sw_abEVTxaQOg",
+    },
+  ],
+
+  guide: {
+    function:
+      "Muestra la versión mínima permitida por la consola para determinar si puede instalar CFW.",
+
+    compatibility: {
+      USB: "✅ FAT32",
+      CFW: "✅ Comprobación",
+    },
+
+    requirements: [
+      "Pendrive FAT32",
+      "Archivo de comprobación",
+      "Consola PS3",
+    ],
+
+    installation: [
+      "Copiar el archivo al USB.",
+      "Conectar el USB a la consola.",
+      "Abrir Actualización del sistema.",
+      "Comprobar la versión mínima compatible.",
+    ],
+
+    usage:
+      "Permite saber si la consola puede instalar CFW o si debe utilizar otros métodos.",
+
+    notes:
+      "Esta comprobación no actualiza la consola ni modifica ningún archivo del sistema.",
+
+    version: "Actual",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "¿Para qué sirve?",
+        description:
+          "Identificar si una consola es candidata para instalar CFW.",
+        items: [
+          "Comprueba la versión mínima del sistema.",
+          "No modifica la consola.",
+          "No instala ningún firmware.",
+          "Es completamente segura.",
+        ],
+      },
+
+      {
+        title: "Preparar el USB",
+        description:
+          "Copiar el archivo de comprobación.",
+        items: [
+          "Formatear en FAT32.",
+          "Copiar los archivos necesarios.",
+          "Expulsar correctamente el USB.",
+          "Conectar a la consola.",
+        ],
+      },
+
+      {
+        title: "Iniciar la comprobación",
+        description:
+          "Acceder al menú de actualización.",
+        items: [
+          "Abrir Ajustes.",
+          "Entrar en Actualización del sistema.",
+          "Seleccionar Actualizar mediante soporte de almacenamiento.",
+          "Esperar la lectura del USB.",
+        ],
+      },
+
+      {
+        title: "Interpretar el resultado",
+        description:
+          "Analizar la versión mostrada por la consola.",
+        items: [
+          "Anotar la versión indicada.",
+          "Comprobar el valor mostrado.",
+          "La consola mostrará la versión mínima permitida.",
+          "No se realizará ninguna actualización.",
+        ],
+      },
+
+      {
+        title: "Compatible con CFW",
+        description:
+          "Resultado favorable para instalar CFW.",
+        items: [
+          "Versión mínima igual a 3.55.",
+          "Versión mínima inferior a 3.55.",
+          "Puede continuar investigando métodos CFW compatibles.",
+        ],
+      },
+
+      {
+        title: "No compatible con CFW",
+        description:
+          "Resultado no compatible con instalación CFW.",
+        items: [
+          "Versión mínima superior a 3.55.",
+          "CFW no será una opción disponible.",
+          "Puede utilizar métodos compatibles con HEN.",
+        ],
+      },
+
+      {
+        title: "Recomendaciones",
+        description:
+          "Antes de modificar una consola.",
+        items: [
+          "Realizar siempre esta comprobación.",
+          "Anotar modelo y versión.",
+          "Guardar capturas del resultado.",
+          "No instalar archivos sin verificar compatibilidad.",
+        ],
+      },
+    ],
+  },
+},
+
+// File Manager
+{
+  console: "PS3",
+  name: "File Manager",
+  image: "img/PS3/file-manager.jpg",
+
+  description:
+    "Administrador de archivos para PlayStation 3 que permite copiar, mover, eliminar y gestionar contenido entre dispositivos USB y el disco duro interno.",
+
+  website: "https://github.com/Zarh/ManaGunZ",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/qZBzmK5R#hiySMtMkzIyXOTRAxuKX8g",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/Zarh/ManaGunZ/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Explorar y administrar archivos del sistema, discos USB y almacenamiento interno.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      USB: "✅ FAT32 / NTFS",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "File Manager instalado",
+    ],
+
+    details: [
+      {
+        title: "Instalación",
+        description: "Instalar el gestor de archivos.",
+        items: [
+          "Copiar el PKG al USB.",
+          "Abrir Administrar archivos PKG.",
+          "Instalar desde Directorio estándar.",
+          "Abrir desde el menú Juegos.",
+        ],
+      },
+
+      {
+        title: "Funciones principales",
+        description: "Operaciones soportadas.",
+        items: [
+          "Copiar archivos.",
+          "Mover archivos.",
+          "Eliminar archivos.",
+          "Renombrar archivos.",
+          "Crear carpetas.",
+          "Explorar dispositivos USB.",
+        ],
+      },
+
+      {
+        title: "Usos comunes",
+        description: "Tareas habituales.",
+        items: [
+          "Copiar SaveData.",
+          "Gestionar licencias.",
+          "Transferir homebrew.",
+          "Mover juegos entre discos.",
+        ],
+      },
+    ],
+  },
+},
+
+// ManaGunZ
+{
+  console: "PS3",
+  name: "ManaGunZ",
+  image: "img/PS3/managunz.jpg",
+
+  description:
+    "Launcher avanzado para PlayStation 3 con soporte para PS3ISO, PS2ISO, PSXISO, BDISO y juegos en formato carpeta.",
+
+  website: "https://github.com/Zarh/ManaGunZ",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/CdY01Z4Q#SPnzEe6nTwVOhP4YrlaNDg",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/Zarh/ManaGunZ/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Gestionar y ejecutar juegos en formato ISO o carpeta desde almacenamiento interno y externo.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      PS1: "✅ Compatible",
+      PS2: "✅ Compatible",
+      PS3: "✅ Compatible",
+      ISO: "✅ Compatible",
+    },
+
+    requirements: [
+      "Consola con HEN activado",
+      "ManaGunZ instalado",
+    ],
+
+    installation: [
+      "Copiar PKG al USB.",
+      "Instalar desde Administrador de archivos PKG.",
+      "Abrir ManaGunZ.",
+      "Activar HEN antes de utilizarlo.",
+    ],
+
+    details: [
+      {
+        title: "¿Qué puede cargar?",
+        description: "Formatos soportados.",
+        items: [
+          "PS3ISO",
+          "PS2ISO",
+          "PSXISO",
+          "BDISO",
+          "Juegos en formato carpeta",
+        ],
+      },
+
+      {
+        title: "Configuración recomendada",
+        description: "Primer inicio.",
+        items: [
+          "Abrir Configuración Global.",
+          "Descargar carátulas.",
+          "Cambiar la interfaz a Flow.",
+          "Seleccionar tema Wallshow Grey.",
+        ],
+      },
+
+      {
+        title: "Carátulas",
+        description: "Descargar imágenes automáticamente.",
+        items: [
+          "Abrir Configuración Global.",
+          "Seleccionar Descargar carátulas.",
+          "Esperar la descarga.",
+        ],
+      },
+
+      {
+        title: "Iniciar juegos",
+        description: "Ejecución de títulos.",
+        items: [
+          "Seleccionar el juego.",
+          "Presionar TRIÁNGULO.",
+          "Montar el juego.",
+          "Volver al XMB.",
+          "Iniciar desde el icono del disco.",
+        ],
+      },
+
+      {
+        title: "Opciones PS2",
+        description: "Funciones disponibles para PS2.",
+        items: [
+          "Ajustar resolución.",
+          "Modificar configuraciones de compatibilidad.",
+          "Cambiar opciones de visualización.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Características destacadas.",
+        items: [
+          "Interfaz moderna.",
+          "Soporte para carátulas.",
+          "Compatible con varios formatos.",
+          "Gestión avanzada de ISOs.",
+          "Ideal para bibliotecas grandes.",
+        ],
+      },
+    ],
+  },
+},
 
 
 
