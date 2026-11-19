@@ -1289,9 +1289,2085 @@ const ps3Apps = [
   },
 },
 
+// Hybrid Firmware Tools
+{
+  console: "PS3",
+  name: "Hybrid Firmware Tools",
+  image: "img/PS3/hybrid-firmware-tools.jpg",
 
+  description:
+    "Herramienta que agrega un menú avanzado en la categoría Red para acceder a funciones adicionales del sistema.",
 
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/aUgAFS7D#Q-c4M9hbWr9BNH5g8imMZA",
+    },
+  ],
 
+  guide: {
+    function:
+      "Permite acceder a opciones ocultas de mantenimiento y configuración relacionadas con Hybrid Firmware y HEN.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      USB: "✅ FAT32",
+    },
+
+    requirements: [
+      "Consola compatible con HEN",
+      "Pendrive FAT32",
+      "Hybrid Firmware Tools",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir Administrar archivos PKG.",
+      "Instalar HFT PS3.pkg.",
+      "Reiniciar la consola si es necesario.",
+    ],
+
+    usage:
+      "Una vez instalado aparecerá una nueva entrada dentro de la categoría Red.",
+
+    notes:
+      "Las opciones disponibles pueden variar según la versión instalada.",
+
+    version: "Actual",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "¿Qué es Hybrid Firmware Tools?",
+        description:
+          "Menú adicional con herramientas de mantenimiento.",
+        items: [
+          "Se integra en la categoría Red.",
+          "Añade accesos rápidos.",
+          "Incluye opciones avanzadas.",
+          "Facilita la administración de HEN.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Proceso básico de instalación.",
+        items: [
+          "Copiar el PKG al USB.",
+          "Abrir Instalar archivos PKG.",
+          "Seleccionar Directorio estándar.",
+          "Instalar Hybrid Firmware Tools.",
+        ],
+      },
+
+      {
+        title: "Acceso al menú",
+        description:
+          "Ubicación de la herramienta.",
+        items: [
+          "Abrir la categoría Red.",
+          "Buscar Hybrid Firmware Tools.",
+          "Entrar en el menú principal.",
+        ],
+      },
+
+      {
+        title: "Mantenimiento",
+        description:
+          "Opciones disponibles dentro del menú.",
+        items: [
+          "Acceder a Maintenance.",
+          "Ver herramientas adicionales.",
+          "Administrar configuraciones compatibles.",
+        ],
+      },
+
+      {
+        title: "Actualizaciones automáticas",
+        description:
+          "Activar o desactivar comprobaciones automáticas.",
+        items: [
+          "Entrar en Maintenance.",
+          "Seleccionar Toggle Automatic Update.",
+          "Activar o desactivar la función.",
+        ],
+      },
+
+      {
+        title: "Recomendaciones",
+        description:
+          "Buenas prácticas de uso.",
+        items: [
+          "Mantener una copia de seguridad.",
+          "Leer cada opción antes de aplicarla.",
+          "Usar únicamente funciones conocidas.",
+          "Mantener la consola actualizada.",
+        ],
+      },
+    ],
+  },
+},
+
+// IRISMAN
+{
+  console: "PS3",
+  name: "IRISMAN",
+  image: "img/PS3/irisman.jpg",
+
+  description:
+    "Gestor de juegos, administrador de archivos y herramienta multifunción para PlayStation 3.",
+
+  website: "https://github.com/aldostools/IRISMAN/releases",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/PBgAUaAA#4nrzqLYGp1kT6P2rgrYTTA",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/aldostools/IRISMAN/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite cargar juegos, gestionar archivos, instalar PKG y transferir archivos grandes desde unidades FAT32 y NTFS.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      FAT32: "✅ Compatible",
+      NTFS: "✅ Compatible",
+      PS3ISO: "✅ Compatible",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "IRISMAN instalado",
+      "USB FAT32 o NTFS",
+    ],
+
+    installation: [
+      "Copiar el archivo PKG al USB.",
+      "Abrir Administrar archivos PKG.",
+      "Seleccionar Directorio estándar.",
+      "Instalar IRISMAN.",
+      "Ejecutar la aplicación desde Juegos.",
+    ],
+
+    usage:
+      "IRISMAN puede utilizarse para gestionar juegos, copiar archivos, instalar PKG y acceder al administrador de archivos integrado.",
+
+    notes:
+      "Una de sus funciones más útiles es copiar archivos PKG de más de 4 GB desde dispositivos NTFS al disco duro interno de la consola.",
+
+    version: "Actual",
+    author: "aldostools",
+
+    details: [
+      {
+        title: "Configuración inicial",
+        description: "Primer inicio de la aplicación.",
+        items: [
+          "Ajustar el tamaño de pantalla.",
+          "Configurar idioma.",
+          "Personalizar opciones básicas.",
+        ],
+      },
+
+      {
+        title: "Menú SELECT",
+        description: "Herramientas disponibles.",
+        items: [
+          "Manejador de archivos.",
+          "Instalar PKG.",
+          "Borrar caché.",
+          "Opciones Cobra.",
+          "Spoof Console ID.",
+          "Configuración general.",
+        ],
+      },
+
+      {
+        title: "Menú TRIÁNGULO",
+        description: "Opciones disponibles para juegos.",
+        items: [
+          "Configurar juego.",
+          "Copiar juego.",
+          "Eliminar juego.",
+          "Corregir permisos.",
+          "Crear ISO.",
+          "Buscar actualizaciones.",
+        ],
+      },
+
+      {
+        title: "Copiar PKG mayores de 4GB",
+        description: "Transferencia desde dispositivos NTFS.",
+        items: [
+          "Conectar USB NTFS.",
+          "Abrir Manejador de archivos.",
+          "Ir a /ntfs0:.",
+          "Seleccionar el PKG.",
+          "Copiar a /dev_hdd0/packages.",
+          "Instalar desde almacenamiento interno.",
+        ],
+      },
+
+      {
+        title: "Administrador de archivos",
+        description: "Gestión de contenidos.",
+        items: [
+          "Copiar archivos.",
+          "Mover archivos.",
+          "Eliminar archivos.",
+          "Crear carpetas.",
+          "Gestionar almacenamiento interno.",
+        ],
+      },
+    ],
+  },
+},
+
+// Licencias RAP
+{
+  console: "PS3",
+  name: "Licencias RAP",
+  image: "img/PS3/licencias.jpg",
+
+  description:
+    "Guía para gestionar archivos RAP y licencias necesarias para determinados contenidos digitales de PlayStation 3.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/2EQ22S4K#yhgCX1VkhHwZVzBf4mNDqA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite instalar y gestionar licencias RAP asociadas a juegos, DLC y contenido digital.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      USB: "✅ FAT32",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "USB FAT32",
+      "Archivos RAP",
+    ],
+
+    installation: [
+      "Copiar el paquete o los archivos RAP al USB.",
+      "Conectar el USB a la consola.",
+      "Instalar el PKG o copiar manualmente los RAP.",
+      "Verificar que las licencias estén en la carpeta correcta.",
+    ],
+
+    usage:
+      "Permite habilitar contenido digital utilizando archivos RAP compatibles con el Title ID correspondiente.",
+
+    notes:
+      "El Title ID de la licencia debe coincidir exactamente con el Title ID del juego o DLC que se desea utilizar.",
+
+    version: "Actual",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "¿Qué son las licencias RAP?",
+        description: "Archivos utilizados por contenido digital.",
+        items: [
+          "Están asociadas a juegos digitales.",
+          "También se utilizan en algunos DLC.",
+          "Cada licencia corresponde a un Title ID.",
+        ],
+      },
+
+      {
+        title: "Instalación automática",
+        description: "Método mediante PKG.",
+        items: [
+          "Copiar el PKG al USB.",
+          "Abrir Administrar archivos PKG.",
+          "Instalar desde Directorio estándar.",
+          "Esperar a que finalice el proceso.",
+        ],
+      },
+
+      {
+        title: "Instalación manual",
+        description: "Método usando archivos RAP.",
+        items: [
+          "Buscar el RAP correspondiente.",
+          "Comprobar el Title ID.",
+          "Copiar los archivos a exdata.",
+          "Reiniciar si es necesario.",
+        ],
+      },
+
+      {
+        title: "Carpeta EXDATA",
+        description: "Ubicaciones habituales.",
+        items: [
+          "USB:/exdata/",
+          "dev_hdd0/exdata/",
+          "Compatible mediante FTP.",
+        ],
+      },
+
+      {
+        title: "Verificación de Title ID",
+        description: "Paso fundamental.",
+        items: [
+          "Comprobar el ID del juego.",
+          "Comprobar el ID de la licencia.",
+          "Deben coincidir exactamente.",
+        ],
+      },
+
+      {
+        title: "Errores comunes",
+        description: "Problemas más habituales.",
+        items: [
+          "Title ID incorrecto.",
+          "Licencia equivocada.",
+          "Archivo RAP dañado.",
+          "Carpeta exdata incorrecta.",
+        ],
+      },
+
+      {
+        title: "Recomendaciones",
+        description: "Buenas prácticas.",
+        items: [
+          "Guardar copia de seguridad.",
+          "Mantener organizadas las licencias.",
+          "Verificar Title ID antes de copiar.",
+          "No eliminar archivos originales.",
+        ],
+      },
+    ],
+  },
+},
+
+// MarcheBMPC WEB
+{
+  console: "PS3",
+  name: "MarcheBMPC WEB",
+  image: "img/PS3/link-web-red.jpg",
+
+  description:
+    "Añade un acceso directo en la categoría Red de la PS3 para abrir páginas web personalizadas sin necesidad de usar el navegador manualmente.",
+
+  website: "https://marchelobm.github.io/PS3/PS3.html",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/PQxEDAQR#9l273gbEfXIQDR7oXKOmQQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite agregar accesos rápidos a páginas web directamente desde el menú Red de la consola.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      USB: "✅ FAT32",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "Pendrive FAT32",
+      "Paquete WEB para PS3",
+    ],
+
+    installation: [
+      "Copiar los archivos PKG al USB.",
+      "Abrir Administrar archivos PKG.",
+      "Seleccionar Directorio estándar.",
+      "Instalar MarcheBMPC WEB.pkg.",
+      "Reiniciar la consola si es necesario.",
+    ],
+
+    usage:
+      "Una vez instalado aparecerá un nuevo acceso dentro de la categoría Red que abrirá la página web configurada.",
+
+    notes:
+      "Si desea eliminar el acceso personalizado puede restaurar la categoría original instalando el paquete de restauración.",
+
+    version: "Actual",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Instalación",
+        description:
+          "Agregar el acceso web al menú Red.",
+        items: [
+          "Copiar los PKG al USB.",
+          "Instalar MarcheBMPC WEB.pkg.",
+          "Esperar a que finalice la instalación.",
+          "Comprobar que aparece en Red.",
+        ],
+      },
+
+      {
+        title: "Acceso desde Red",
+        description:
+          "Ubicación del nuevo acceso.",
+        items: [
+          "Abrir la categoría Red.",
+          "Seleccionar el acceso instalado.",
+          "Esperar la carga de la página.",
+          "Navegar normalmente.",
+        ],
+      },
+
+      {
+        title: "Restaurar categoría original",
+        description:
+          "Eliminar el acceso personalizado.",
+        items: [
+          "Copiar RESTAURAR CATEGORY.pkg al USB.",
+          "Instalar el paquete.",
+          "Reiniciar la consola.",
+          "Verificar la restauración.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios del acceso directo.",
+        items: [
+          "Acceso rápido a herramientas online.",
+          "Menos pasos que usar el navegador.",
+          "Integración directa en el XMB.",
+          "Fácil instalación y eliminación.",
+        ],
+      },
+
+      {
+        title: "Usos recomendados",
+        description:
+          "Ejemplos de utilización.",
+        items: [
+          "Hosts para HEN.",
+          "Herramientas PS3 online.",
+          "Páginas de soporte.",
+          "Accesos personalizados.",
+        ],
+      },
+    ],
+  },
+},
+// Movian
+{
+  console: "PS3",
+  name: "Movian",
+  image: "img/PS3/movian.jpg",
+
+  description:
+    "Centro multimedia para PlayStation 3 que permite reproducir vídeos, música, IPTV, listas M3U y contenido mediante plugins.",
+
+  website: "https://apps.movian.eu/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/rUxDwSoR#uPlx-3EmAOrpJPt3y4bXuA",
+    },
+    {
+      name: "WEB Descargar",
+      url: "https://store.brewology.com/ahomebrew.php?brewid=196",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite convertir la PS3 en un centro multimedia para reproducir películas, series, música, IPTV y contenido online.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      USB: "✅ FAT32",
+      IPTV: "✅ Compatible",
+      M3U: "✅ Compatible",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "Pendrive FAT32",
+      "Movian instalado",
+    ],
+
+    installation: [
+      "Copiar los archivos PKG al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Instalar Movian.",
+      "Instalar los plugins adicionales incluidos.",
+      "Abrir la aplicación desde TV/Video.",
+    ],
+
+    usage:
+      "Movian permite reproducir contenido local, listas IPTV M3U, servidores multimedia y plugins compatibles desde una única interfaz.",
+
+    notes:
+      "Muchos complementos requieren conexión a Internet y pueden dejar de funcionar si el desarrollador deja de mantenerlos.",
+
+    version: "Actual",
+    author: "Movian Team",
+
+    details: [
+      {
+        title: "Instalación",
+        description: "Primeros pasos.",
+        items: [
+          "Copiar los PKG al USB.",
+          "Instalar desde Directorio estándar.",
+          "Instalar todos los paquetes incluidos.",
+          "Abrir Movian.",
+        ],
+      },
+
+      {
+        title: "Plugins",
+        description: "Complementos disponibles.",
+        items: [
+          "Instalar plugins compatibles.",
+          "Ampliar funciones multimedia.",
+          "Agregar nuevos servicios.",
+          "Actualizar cuando sea necesario.",
+        ],
+      },
+
+      {
+        title: "PS3Ultimate",
+        description: "Plugin incluido en el tutorial.",
+        items: [
+          "Abrir PS3 HDD.",
+          "Entrar en la carpeta Ps3Flix.",
+          "Seleccionar PS3Ultimate.com.",
+          "Instalar el plugin.",
+        ],
+      },
+
+      {
+        title: "IPTV y listas M3U",
+        description: "Reproducción de televisión online.",
+        items: [
+          "Abrir una lista M3U.",
+          "Importar listas personalizadas.",
+          "Actualizar listas cuando sea necesario.",
+          "Probar distintos servidores IPTV.",
+        ],
+      },
+
+      {
+        title: "Contenido multimedia",
+        description: "Tipos de archivos soportados.",
+        items: [
+          "Películas.",
+          "Series.",
+          "Música.",
+          "Canales IPTV.",
+          "Contenido en red local.",
+        ],
+      },
+
+      {
+        title: "Fuentes de contenido",
+        description: "Ubicaciones compatibles.",
+        items: [
+          "Disco duro interno.",
+          "Memorias USB.",
+          "Recursos de red.",
+          "Listas M3U.",
+          "Plugins instalados.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Características destacadas.",
+        items: [
+          "Interfaz sencilla.",
+          "Soporte IPTV.",
+          "Plugins instalables.",
+          "Reproducción multimedia.",
+          "Compatible con HEN.",
+        ],
+      },
+
+      {
+        title: "Problemas comunes",
+        description: "Errores habituales.",
+        items: [
+          "Plugin desactualizado.",
+          "Lista M3U caída.",
+          "Problemas de conexión.",
+          "Contenido eliminado por el proveedor.",
+        ],
+      },
+    ],
+  },
+},
+// multiMAN
+{
+  console: "PS3",
+  name: "MultiMAN",
+  image: "img/PS3/multiman.png",
+
+  description:
+    "Administrador de juegos, explorador de archivos y cliente FTP para PlayStation 3.",
+
+  website: "https://github.com/aldostools/Resources",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/CI5WHQiJ#G3mMs8kYJhdR3oO7HON6Nw",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/aldostools/Resources/releases/Launchers",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite gestionar juegos, archivos, contenido multimedia y transferencias FTP desde una sola aplicación.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      FAT32: "✅ Compatible",
+      FTP: "✅ Compatible",
+      PS1: "✅ Compatible",
+      PS3: "✅ Compatible",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "Pendrive FAT32",
+      "multiMAN instalado",
+      "PC para FTP (opcional)",
+    ],
+
+    installation: [
+      "Copiar el PKG a un USB FAT32.",
+      "Abrir Administrador de archivos PKG.",
+      "Seleccionar Directorio estándar.",
+      "Instalar multiMAN.",
+      "Ejecutar la aplicación desde Juegos.",
+    ],
+
+    usage:
+      "Permite cargar juegos, copiar archivos, gestionar contenido multimedia y transferir archivos mediante FTP.",
+
+    notes:
+      "multiMAN incluye su propio administrador de archivos (mmOS) y servidor FTP integrado.",
+
+    version: "04.xx",
+    author: "deank",
+
+    details: [
+      {
+        title: "Juegos PS3",
+        description:
+          "Administración de juegos instalados.",
+        items: [
+          "Cargar juegos.",
+          "Copiar juegos.",
+          "Eliminar juegos.",
+          "Renombrar juegos.",
+          "Buscar actualizaciones.",
+          "Verificar archivos.",
+        ],
+      },
+
+      {
+        title: "Menú de juego",
+        description:
+          "Opciones disponibles con CUADRADO.",
+        items: [
+          "Copy.",
+          "Delete.",
+          "Rename.",
+          "Update.",
+          "Test.",
+          "Permissions.",
+        ],
+      },
+
+      {
+        title: "Juegos Retro",
+        description:
+          "Compatibilidad con sistemas clásicos.",
+        items: [
+          "Carga de juegos PS1.",
+          "Acceso desde la sección Retro.",
+          "Organización independiente del catálogo PS3.",
+        ],
+      },
+
+      {
+        title: "Favoritos",
+        description:
+          "Acceso rápido a los juegos más utilizados.",
+        items: [
+          "Seleccionar un juego.",
+          "Presionar CUADRADO.",
+          "Elegir Favorite.",
+          "Acceder desde la pestaña Favoritos.",
+        ],
+      },
+
+      {
+        title: "Vídeos",
+        description:
+          "Reproducción multimedia.",
+        items: [
+          "Vídeos desde USB.",
+          "Vídeos desde HDD.",
+          "Distintos formatos compatibles.",
+        ],
+      },
+
+      {
+        title: "Música",
+        description:
+          "Reproducción de audio.",
+        items: [
+          "Bibliotecas musicales.",
+          "Música desde USB.",
+          "Música desde HDD.",
+        ],
+      },
+
+      {
+        title: "Fotos",
+        description:
+          "Visualización de imágenes.",
+        items: [
+          "Imágenes desde USB.",
+          "Imágenes desde HDD.",
+          "Galerías fotográficas.",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description:
+          "Opciones generales.",
+        items: [
+          "Cambiar idioma.",
+          "Configurar interfaz.",
+          "Actualizar la aplicación.",
+          "Personalizar ajustes.",
+        ],
+      },
+
+      {
+        title: "Administrador de archivos",
+        description:
+          "Explorador integrado mmOS.",
+        items: [
+          "Acceder a PS3 Root.",
+          "Gestionar DEV_HDD0.",
+          "Gestionar DEV_USB000.",
+          "Copiar y mover archivos.",
+          "Eliminar archivos.",
+        ],
+      },
+
+      {
+        title: "FTP",
+        description:
+          "Transferencias desde el ordenador.",
+        items: [
+          "Obtener la IP de la consola.",
+          "Conectar PS3 y PC a la misma red.",
+          "Usar FileZilla.",
+          "Puerto 21.",
+          "Transferir juegos y aplicaciones.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Funciones destacadas.",
+        items: [
+          "Gestión de juegos.",
+          "Administrador de archivos.",
+          "Cliente FTP integrado.",
+          "Soporte multimedia.",
+          "Organización por favoritos.",
+        ],
+      },
+    ],
+  },
+},
+// Plex
+{
+  console: "PS3",
+  name: "Plex",
+  image: "img/PS3/plex.jpg",
+
+  description:
+    "Cliente multimedia para PlayStation 3 que permite reproducir películas, series, música y fotografías almacenadas en un servidor Plex.",
+
+  website: "https://www.plex.tv/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/DM5GEapI#RqajEOfAixJeBjsXliis1w",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite acceder desde la PS3 al contenido multimedia almacenado en un servidor Plex dentro de la misma red.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      RedLocal: "✅ Compatible",
+      Video: "✅ Compatible",
+      Música: "✅ Compatible",
+      Fotos: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Conexión de red",
+      "Servidor Plex instalado en PC o NAS",
+      "Cuenta Plex",
+    ],
+
+    installation: [
+      "Descargar Plex desde PlayStation Store o instalar el PKG.",
+      "Abrir Administrar archivos PKG si utilizas la versión PKG.",
+      "Instalar la aplicación.",
+      "Ejecutar Plex desde TV/Video.",
+      "Vincular la consola con tu cuenta Plex.",
+    ],
+
+    usage:
+      "Accede desde la PS3 a películas, series, música y fotografías almacenadas en tu servidor Plex sin necesidad de copiar archivos a la consola.",
+
+    notes:
+      "Para obtener el mejor rendimiento, la PS3 y el servidor Plex deben estar conectados a la misma red local.",
+
+    version: "Actual",
+    author: "Plex Inc.",
+
+    details: [
+      {
+        title: "¿Qué es Plex?",
+        description:
+          "Sistema multimedia cliente-servidor.",
+        items: [
+          "Organiza bibliotecas multimedia.",
+          "Transmite contenido por red.",
+          "Compatible con múltiples dispositivos.",
+          "Acceso centralizado al contenido.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Configurar Plex en la consola.",
+        items: [
+          "Instalar Plex.",
+          "Abrir la aplicación.",
+          "Iniciar sesión.",
+          "Vincular el dispositivo.",
+        ],
+      },
+
+      {
+        title: "Servidor Plex",
+        description:
+          "Preparación del equipo principal.",
+        items: [
+          "Instalar Plex Media Server.",
+          "Crear bibliotecas.",
+          "Agregar películas.",
+          "Agregar series.",
+          "Agregar música.",
+        ],
+      },
+
+      {
+        title: "Activación",
+        description:
+          "Conectar la consola con la cuenta.",
+        items: [
+          "Abrir Plex en PS3.",
+          "Obtener código de vinculación.",
+          "Iniciar sesión en Plex.",
+          "Registrar el dispositivo.",
+        ],
+      },
+
+      {
+        title: "Bibliotecas",
+        description:
+          "Contenido accesible desde la PS3.",
+        items: [
+          "Películas.",
+          "Series.",
+          "Música.",
+          "Fotografías.",
+        ],
+      },
+
+      {
+        title: "Reproducción",
+        description:
+          "Visualización multimedia.",
+        items: [
+          "Streaming por red local.",
+          "Acceso a bibliotecas Plex.",
+          "Navegación por categorías.",
+          "Reproducción de contenido multimedia.",
+        ],
+      },
+
+      {
+        title: "Red local",
+        description:
+          "Configuración recomendada.",
+        items: [
+          "Servidor y PS3 en la misma red.",
+          "Preferir conexión por cable.",
+          "Verificar acceso al servidor.",
+          "Mantener Plex actualizado.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Funciones principales.",
+        items: [
+          "No requiere copiar archivos.",
+          "Bibliotecas organizadas.",
+          "Streaming multimedia.",
+          "Acceso desde varios dispositivos.",
+          "Interfaz sencilla.",
+        ],
+      },
+
+      {
+        title: "Problemas comunes",
+        description:
+          "Errores habituales.",
+        items: [
+          "Servidor no detectado.",
+          "Problemas de red.",
+          "Bibliotecas sin actualizar.",
+          "Problemas de autenticación.",
+        ],
+      },
+    ],
+  },
+},
+// prepISO
+{
+  console: "PS3",
+  name: "prepISO",
+  image: "img/PS3/prepiso.jpg",
+
+  description:
+    "Herramienta complementaria para webMAN MOD que permite detectar e instalar contenidos desde dispositivos NTFS y exFAT.",
+
+  website: "https://github.com/aldostools/webMAN-MOD/releases",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/WNAlAIYI#cSluP4ASu3GATjLmdTG4QQ",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/aldostools/webMAN-MOD/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Escanea unidades NTFS y exFAT para que webMAN MOD pueda detectar juegos e instaladores PKG.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      NTFS: "✅ Compatible",
+      exFAT: "✅ Compatible",
+      webMAN: "✅ Requerido",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "webMAN MOD instalado",
+      "prepISO instalado",
+      "USB NTFS o exFAT",
+    ],
+
+    installation: [
+      "Copiar prepISO.pkg al USB.",
+      "Instalar desde Administrador de archivos PKG.",
+      "Verificar que aparezca en el menú Juegos.",
+      "Mantener webMAN MOD actualizado.",
+    ],
+
+    usage:
+      "Ejecutar prepISO para escanear dispositivos NTFS o exFAT conectados a la consola y actualizar la base de datos de webMAN.",
+
+    notes:
+      "La aplicación no posee interfaz gráfica. Tras ejecutarla volverá automáticamente al XMB.",
+
+    version: "Actual",
+    author: "aldostools",
+
+    details: [
+      {
+        title: "Preparar el USB",
+        description: "Configurar la unidad.",
+        items: [
+          "Formatear en NTFS o exFAT.",
+          "Crear la carpeta PKG.",
+          "Copiar archivos PKG grandes.",
+        ],
+      },
+
+      {
+        title: "Escaneo de contenido",
+        description: "Actualizar webMAN.",
+        items: [
+          "Abrir prepISO.",
+          "Esperar el escaneo.",
+          "Volver al XMB.",
+          "Abrir menú webMAN.",
+        ],
+      },
+
+      {
+        title: "Instalar PKG grandes",
+        description: "Archivos superiores a 4 GB.",
+        items: [
+          "Copiar PKG en carpeta PKG.",
+          "Ejecutar prepISO.",
+          "Abrir webMAN.",
+          "Instalar desde Blu-ray y DVD.",
+        ],
+      },
+
+      {
+        title: "Requisitos",
+        description: "Dependencias necesarias.",
+        items: [
+          "webMAN MOD.",
+          "HEN activo.",
+          "USB NTFS o exFAT.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Beneficios principales.",
+        items: [
+          "Compatible con NTFS.",
+          "Compatible con exFAT.",
+          "Instalación de PKG grandes.",
+          "Integración con webMAN.",
+        ],
+      },
+    ],
+  },
+},
+// USB exFAT y NTFS
+{
+  console: "PS3",
+  name: "USB exFAT y NTFS",
+  image: "img/PS3/usb-exfat-ntfs.jpg",
+
+  description:
+    "Guía para utilizar discos duros y memorias USB en formato exFAT o NTFS junto con webMAN MOD y prepISO.",
+
+  website: "https://github.com/aldostools/webMAN-MOD/releases",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "TU_LINK_MEGA",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/aldostools/webMAN-MOD/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite utilizar dispositivos NTFS y exFAT para almacenar juegos ISO sin las limitaciones de FAT32.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      NTFS: "✅ Compatible",
+      exFAT: "✅ Compatible",
+      ISO: "✅ Compatible",
+      webMAN: "✅ Compatible",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "webMAN MOD",
+      "prepISO",
+      "USB o HDD NTFS/exFAT",
+    ],
+
+    installation: [
+      "Instalar prepISO.",
+      "Instalar webMAN MOD.",
+      "Conectar el disco USB.",
+      "Ejecutar prepISO.",
+    ],
+
+    usage:
+      "Permite detectar juegos almacenados en discos NTFS o exFAT y ejecutarlos desde webMAN MOD.",
+
+    notes:
+      "Los juegos deben almacenarse en las carpetas correctas para que webMAN pueda encontrarlos.",
+
+    version: "Actual",
+    author: "aldostools",
+
+    details: [
+      {
+        title: "Preparar el disco",
+        description: "Configurar el almacenamiento.",
+        items: [
+          "Formatear en NTFS o exFAT.",
+          "Asignar etiqueta si se desea.",
+          "Copiar los juegos.",
+        ],
+      },
+
+      {
+        title: "Carpetas recomendadas",
+        description: "Organización básica.",
+        items: [
+          "PS3ISO",
+          "PS2ISO",
+          "PSXISO",
+          "BDISO",
+          "DVDISO",
+        ],
+      },
+
+      {
+        title: "Detección de juegos",
+        description: "Actualizar biblioteca.",
+        items: [
+          "Ejecutar prepISO.",
+          "Refrescar webMAN.",
+          "Esperar el escaneo.",
+          "Verificar los juegos detectados.",
+        ],
+      },
+
+      {
+        title: "Ubicaciones NTFS",
+        description: "Cómo aparecen las unidades.",
+        items: [
+          "ntfs0:",
+          "ntfs1:",
+          "ntfs2:",
+          "Dependiendo de las unidades conectadas.",
+        ],
+      },
+
+      {
+        title: "Ventajas frente a FAT32",
+        description: "Beneficios principales.",
+        items: [
+          "Sin límite de 4 GB.",
+          "Ideal para ISOs grandes.",
+          "Menos divisiones de archivos.",
+          "Mayor comodidad de uso.",
+        ],
+      },
+
+      {
+        title: "Problemas comunes",
+        description: "Errores habituales.",
+        items: [
+          "No aparece el juego.",
+          "Falta ejecutar prepISO.",
+          "Carpetas incorrectas.",
+          "Falta refrescar webMAN.",
+        ],
+      },
+    ],
+  },
+},
+// PS3 ezRemote Client
+{
+  console: "PS3",
+  name: "PS3 ezRemote Client",
+  image: "img/PS3/ps3-ezremote-client.jpg",
+
+  description:
+    "Administrador de archivos avanzado para PlayStation 3 con soporte para almacenamiento local y servicios remotos.",
+
+  website: "https://github.com/cy33hc/ps3-ezremote-client",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/aAgWkaQI#E_GcAB3KrblRf_wiqmr9LQ",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/cy33hc/ps3-ezremote-client/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite administrar archivos del sistema, dispositivos USB y ubicaciones remotas desde una única interfaz.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      FAT32: "✅ Compatible",
+      Red: "✅ Compatible",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "USB FAT32",
+      "PS3 ezRemote Client",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir Administrar archivos PKG.",
+      "Instalar ps3-ezremote-client.pkg.",
+      "Ejecutar desde el menú Red.",
+    ],
+
+    usage:
+      "Permite explorar, copiar, mover y administrar archivos directamente desde la consola.",
+
+    notes:
+      "Es una alternativa moderna a otros gestores de archivos clásicos de PS3.",
+
+    version: "Actual",
+    author: "cy33hc",
+
+    details: [
+      {
+        title: "Gestor de archivos",
+        description: "Administración avanzada.",
+        items: [
+          "Explorar disco interno.",
+          "Explorar dispositivos USB.",
+          "Copiar archivos.",
+          "Mover archivos.",
+          "Eliminar archivos.",
+        ],
+      },
+
+      {
+        title: "Almacenamiento",
+        description: "Dispositivos compatibles.",
+        items: [
+          "Disco interno.",
+          "Pendrive USB.",
+          "Discos externos.",
+          "Recursos de red compatibles.",
+        ],
+      },
+
+      {
+        title: "Uso básico",
+        description: "Primeros pasos.",
+        items: [
+          "Abrir la aplicación.",
+          "Seleccionar ubicación.",
+          "Elegir archivo.",
+          "Realizar operaciones.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Características destacadas.",
+        items: [
+          "Interfaz moderna.",
+          "Gestión rápida.",
+          "Compatible con HEN.",
+          "Acceso a múltiples ubicaciones.",
+        ],
+      },
+    ],
+  },
+},
+// PSNPatch (Obsoleto)
+{
+  console: "PS3",
+  name: "⚠️ PSNPatch (Obsoleto)",
+  image: "img/PS3/psnpatch.jpg",
+
+  description:
+    "Herramienta clásica para PlayStation 3 utilizada en sistemas CFW para aplicar funciones relacionadas con PSN. Actualmente está obsoleta y ha sido reemplazada por métodos más modernos.",
+
+  website: "https://store.brewology.com/ahomebrew.php?brewid=244",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/TFIBkL4C#cVaaQAxGWVWTgBlWSfWM5A",
+    },
+    {
+      name: "WEB Descargar",
+      url: "https://store.brewology.com/ahomebrew.php?brewid=244",
+    },
+  ],
+
+  guide: {
+    function:
+      "Aplicación histórica utilizada principalmente en sistemas CFW para tareas relacionadas con PSN.",
+
+    compatibility: {
+      CFW: "✅ Compatible",
+      HEN: "⚠️ No recomendado",
+      PSN: "⚠️ Obsoleto",
+    },
+
+    requirements: [
+      "PlayStation 3 con CFW",
+      "PSNPatch instalado",
+    ],
+
+    installation: [
+      "Copiar el archivo PKG al USB.",
+      "Abrir Administrar archivos PKG.",
+      "Instalar PSNPatch.",
+      "Ejecutar la aplicación desde Juegos.",
+    ],
+
+    usage:
+      "Actualmente se recomienda únicamente para fines históricos o de compatibilidad con configuraciones antiguas.",
+
+    notes:
+      "La aplicación se considera obsoleta. En la mayoría de configuraciones modernas ya no es necesaria y existen alternativas más actuales.",
+
+    version: "Legacy",
+    author: "KW",
+
+    details: [
+      {
+        title: "Estado actual",
+        description: "Situación de la aplicación.",
+        items: [
+          "Proyecto antiguo.",
+          "Uso cada vez menos frecuente.",
+          "Compatibilidad limitada con configuraciones modernas.",
+          "Recomendada solo para usuarios avanzados.",
+        ],
+      },
+
+      {
+        title: "¿Para qué se utilizaba?",
+        description: "Funciones históricas.",
+        items: [
+          "Herramienta orientada a CFW.",
+          "Opciones relacionadas con PSN.",
+          "Gestión de determinadas configuraciones del sistema.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description: "Sistemas recomendados.",
+        items: [
+          "Principalmente CFW.",
+          "No necesaria en la mayoría de instalaciones HEN.",
+          "Puede presentar limitaciones en firmware recientes.",
+        ],
+      },
+
+      {
+        title: "Alternativas actuales",
+        description: "Opciones recomendadas actualmente.",
+        items: [
+          "webMAN MOD.",
+          "Herramientas integradas en CFW modernos.",
+          "Ajustes nativos del sistema.",
+          "Homebrew actualizado.",
+        ],
+      },
+
+      {
+        title: "Advertencia",
+        description: "Antes de utilizarla.",
+        items: [
+          "No es imprescindible hoy en día.",
+          "Verificar compatibilidad antes de instalar.",
+          "Usar bajo responsabilidad del usuario.",
+          "Mantener copias de seguridad importantes.",
+        ],
+      },
+
+      {
+        title: "Información histórica",
+        description: "Importancia dentro de la escena PS3.",
+        items: [
+          "Fue una de las herramientas más populares de su época.",
+          "Ampliamente utilizada en sistemas CFW.",
+          "Todavía puede encontrarse en tutoriales antiguos.",
+        ],
+      },
+    ],
+  },
+},
+// Simple File Manager
+{
+  console: "PS3",
+  name: "Simple File Manager",
+  image: "img/PS3/simple-file-manager.png",
+
+  description:
+    "Administrador de archivos ligero para PlayStation 3 compatible con dispositivos FAT32 y exFAT.",
+
+  website: "https://github.com/lmirel/fm_psx",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/jA4jSBgD#E44xoZ9RRxEehyt4WCkhEw",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/lmirel/fm_psx/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite copiar archivos entre dispositivos USB, discos externos y el almacenamiento interno de la consola.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      FAT32: "✅ Compatible",
+      exFAT: "✅ Compatible",
+    },
+
+    requirements: [
+      "Consola con HEN",
+      "USB FAT32 o exFAT",
+      "Simple File Manager instalado",
+    ],
+
+    installation: [
+      "Copiar sfm_ps3.pkg al USB.",
+      "Instalar desde Administrador de archivos PKG.",
+      "Abrir la aplicación desde Juegos.",
+    ],
+
+    usage:
+      "Permite transferir archivos desde dispositivos externos al almacenamiento interno de la PS3.",
+
+    notes:
+      "Es especialmente útil para copiar archivos PKG grandes antes de instalarlos desde el almacenamiento interno.",
+
+    version: "Actual",
+    author: "lmirel",
+
+    details: [
+      {
+        title: "Navegación",
+        description: "Explorar dispositivos.",
+        items: [
+          "R1 para avanzar.",
+          "L1 para retroceder.",
+          "Cambiar paneles.",
+          "Seleccionar ubicaciones.",
+        ],
+      },
+
+      {
+        title: "Origen y destino",
+        description: "Transferencia de archivos.",
+        items: [
+          "fat0:/ para USB.",
+          "sys://dev_hdd0/ para PS3.",
+          "Carpeta packages.",
+          "Transferencia directa.",
+        ],
+      },
+
+      {
+        title: "Copiar PKG",
+        description: "Instalación desde HDD.",
+        items: [
+          "Seleccionar archivo PKG.",
+          "Copiar con CUADRADO.",
+          "Esperar la transferencia.",
+          "Salir de la aplicación.",
+        ],
+      },
+
+      {
+        title: "Instalar PKG copiado",
+        description: "Instalación final.",
+        items: [
+          "Abrir Administrar archivos PKG.",
+          "Entrar en Almacenamiento del sistema.",
+          "Seleccionar el PKG.",
+          "Instalar normalmente.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Puntos fuertes.",
+        items: [
+          "Muy ligero.",
+          "Interfaz sencilla.",
+          "Compatible con exFAT.",
+          "Ideal para transferencias rápidas.",
+        ],
+      },
+    ],
+  },
+},
+// PS3 Unlock HDD Space
+{
+  console: "PS3",
+  name: "PS3 Unlock HDD Space",
+  image: "img/PS3/unlock-hdd-space.jpg",
+
+  description:
+    "Herramienta que permite desbloquear espacio reservado del disco duro interno de la PlayStation 3 y recuperar hasta un 8% de almacenamiento adicional.",
+
+  website:
+    "https://www.psx-place.com/threads/tutorial-unlock-up-to-8-extra-total-space-on-the-ps3-internal-hard-drive.20773/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/aM4VUaRL#Nbosp7B622Is2WaB53koAg",
+    },
+    {
+      name: "GitHub",
+      url: "https://github.com/einsteinx2/PS3-Reclaim-HDD-Space",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite liberar espacio oculto reservado en el disco duro interno de la consola.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      HDD: "✅ Compatible",
+      SSD: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Pendrive FAT32",
+      "PS3 Unlock HDD Space",
+    ],
+
+    installation: [
+      "Copiar el archivo PKG al USB.",
+      "Abrir Administrar archivos PKG.",
+      "Instalar el paquete.",
+      "Ejecutar la aplicación desde el menú Juegos.",
+    ],
+
+    usage:
+      "Una vez ejecutada la aplicación, la consola aplicará automáticamente la modificación y regresará al XMB.",
+
+    notes:
+      "La primera ejecución activa la liberación de espacio. La segunda ejecución revierte los cambios y restaura la configuración anterior.",
+
+    version: "Actual",
+    author: "3141card",
+
+    details: [
+      {
+        title: "Comprobar espacio disponible",
+        description: "Verificar capacidad antes de modificar.",
+        items: [
+          "Abrir Ajustes.",
+          "Entrar en Ajustes del sistema.",
+          "Abrir Información del sistema.",
+          "Anotar espacio libre disponible.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description: "Preparar la herramienta.",
+        items: [
+          "Copiar el PKG al USB.",
+          "Instalar desde Directorio estándar.",
+          "Abrir la aplicación.",
+          "Esperar a que finalice.",
+        ],
+      },
+
+      {
+        title: "Primera ejecución",
+        description: "Liberar espacio reservado.",
+        items: [
+          "Ejecutar PS3 Unlock HDD Space.",
+          "La pantalla puede quedar en negro unos segundos.",
+          "La consola volverá al XMB.",
+          "Comprobar el nuevo espacio libre.",
+        ],
+      },
+
+      {
+        title: "Segunda ejecución",
+        description: "Restaurar el estado original.",
+        items: [
+          "Ejecutar nuevamente la aplicación.",
+          "Eliminar la modificación aplicada.",
+          "Restaurar la reserva original.",
+          "Volver a la configuración anterior.",
+        ],
+      },
+
+      {
+        title: "Verificación",
+        description: "Confirmar que funcionó.",
+        items: [
+          "Abrir Información del sistema.",
+          "Comparar espacio disponible.",
+          "Verificar aumento de capacidad.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description: "Beneficios de la herramienta.",
+        items: [
+          "Más espacio disponible.",
+          "Instalación sencilla.",
+          "Proceso reversible.",
+          "No requiere configuración adicional.",
+        ],
+      },
+
+      {
+        title: "Advertencias",
+        description: "Aspectos importantes.",
+        items: [
+          "Utilizar bajo responsabilidad propia.",
+          "No apagar la consola durante el proceso.",
+          "Comprobar espacio antes y después.",
+          "Mantener copias de seguridad importantes.",
+        ],
+      },
+    ],
+  },
+},
+// webMAN MOD
+{
+  console: "PS3",
+  name: "webMAN MOD",
+  image: "img/PS3/webman-mod.jpg",
+  
+  description:
+    "Plugin imprescindible para PlayStation 3 que permite montar juegos, controlar los ventiladores, monitorizar temperaturas y administrar la consola desde un navegador web.",
+
+  website: "https://github.com/aldostools/webMAN-MOD",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/HBhECI7S#X-QHQFMzuFWQZ4kQXpVdoQ",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/aldostools/webMAN-MOD/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite cargar juegos desde el XMB, gestionar ISOs, controlar la temperatura, utilizar FTP y administrar la consola remotamente.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      FAT32: "✅ Compatible",
+      NTFS: "✅ Compatible",
+      exFAT: "✅ Compatible",
+      FTP: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3 con HEN o CFW",
+      "Pendrive FAT32",
+      "webMAN MOD",
+    ],
+
+    installation: [
+      "Copiar el instalador al USB.",
+      "Instalar desde Administrar archivos PKG.",
+      "Ejecutar el instalador desde Juegos.",
+      "Mantener presionado L1 + X para instalación completa.",
+      "Esperar el reinicio automático.",
+    ],
+
+    usage:
+      "Permite montar juegos desde el XMB, acceder a una interfaz web de administración, controlar temperaturas, gestionar el ventilador y utilizar funciones FTP.",
+
+    notes:
+      "Es una de las herramientas más importantes de PS3 y muchas aplicaciones modernas dependen de ella para funcionar correctamente.",
+
+    version: "Actual",
+    author: "aldostools",
+
+    details: [
+      {
+        title: "Carga de juegos",
+        description: "Función principal.",
+        items: [
+          "Montar juegos PS3.",
+          "Montar juegos PS1.",
+          "Montar juegos PS2 compatibles.",
+          "Montar archivos ISO.",
+          "Compatibilidad con HDD interno y externo.",
+        ],
+      },
+
+      {
+        title: "Actualizar biblioteca",
+        description: "Detectar nuevos juegos.",
+        items: [
+          "Actualizar juegos de webMAN.",
+          "Actualizar juegos y XMB.",
+          "Actualizar lista web.",
+          "Refrescar contenido automáticamente.",
+        ],
+      },
+
+      {
+        title: "Acceso web",
+        description:
+          "Administrar la consola desde cualquier navegador.",
+
+        items: [
+          "Consultar temperaturas.",
+          "Montar juegos.",
+          "Actualizar contenido.",
+          "Gestionar configuraciones.",
+          "Acceder mediante la IP de la consola.",
+        ],
+      },
+
+      {
+        title: "Nueva interfaz de juegos",
+        description:
+          "Explorar la biblioteca desde una interfaz web integrada.",
+
+        items: [
+          "Abrir el navegador de Internet de la PS3.",
+          "Acceder a la dirección 0/games.ps3.",
+          "Visualizar los juegos mediante una interfaz web.",
+          "Montar juegos directamente desde la lista.",
+          "Acceder rápidamente al catálogo almacenado.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad PS2 (PS2CONFIG)",
+        description:
+          "Base de configuraciones utilizada para mejorar la ejecución de algunos títulos de PlayStation 2.",
+
+        items: [
+          "Instalar PS2CONFIG.pkg.",
+          "Aplicar configuraciones automáticas compatibles.",
+          "Corregir problemas de compatibilidad.",
+          "Reducir congelamientos durante la partida.",
+          "Mejorar determinados títulos PS2.",
+          "No todos los juegos requieren configuraciones especiales.",
+          "Volver a ejecutar el juego después de la instalación.",
+        ],
+      },
+      {
+        title: "Control del ventilador",
+        description: "Gestión térmica.",
+        items: [
+          "Modo SYSCON.",
+          "Control manual.",
+          "50% velocidad recomendada.",
+          "60% para temperaturas elevadas.",
+          "Protección contra sobrecalentamiento.",
+        ],
+      },
+
+      {
+        title: "Temperatura",
+        description: "Monitorización del sistema.",
+        items: [
+          "Visualizar temperatura CPU.",
+          "Visualizar temperatura RSX.",
+          "Supervisión desde navegador.",
+          "Control en tiempo real.",
+        ],
+      },
+
+      {
+        title: "Servidor Web",
+        description: "Administración remota.",
+        items: [
+          "Acceso desde PC.",
+          "Configuración desde navegador.",
+          "Gestión de juegos.",
+          "Herramientas del sistema.",
+        ],
+      },
+
+      {
+        title: "FTP",
+        description: "Transferencia de archivos.",
+        items: [
+          "Servidor FTP integrado.",
+          "Compatible con FileZilla.",
+          "Transferencia por red local.",
+          "Acceso al almacenamiento interno.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad NTFS y exFAT",
+        description: "Discos externos.",
+        items: [
+          "Compatible con prepISO.",
+          "Compatible con HDD externos.",
+          "Sin límite de 4 GB.",
+          "Carga de ISOs grandes.",
+        ],
+      },
+
+      {
+        title: "Rutas recomendadas",
+        description: "Ubicación de juegos.",
+        items: [
+          "PS3ISO",
+          "PS2ISO",
+          "PSXISO",
+          "BDISO",
+          "DVDISO",
+        ],
+      },
+
+      {
+        title: "Funciones avanzadas",
+        description: "Herramientas adicionales.",
+        items: [
+          "Desmontar disco.",
+          "Control del sistema.",
+          "Acceso web.",
+          "Escaneo automático.",
+          "Montaje rápido.",
+        ],
+      },
+
+      {
+        title: "Temperaturas recomendadas",
+        description: "Referencia general.",
+        items: [
+          "30°C - 50°C Excelente.",
+          "50°C - 70°C Normal.",
+          "70°C - 75°C Precaución.",
+          "75°C - 80°C Alta temperatura.",
+          "80°C o más Riesgo.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones relacionadas",
+        description: "Complementos recomendados.",
+        items: [
+          "prepISO",
+          "IRISMAN",
+          "multiMAN",
+          "Apollo Save Tool",
+          "PS3 Unlock HDD Space",
+        ],
+      },
+    ],
+  },
+},
+// Gamepad Test
+{
+  console: "PS3",
+  name: "Gamepad Test",
+  image: "img/PS3/gamepad-test.jpg",
+
+  description:
+    "Herramienta de diagnóstico para comprobar el funcionamiento de mandos PlayStation 3 y verificar botones, sticks analógicos y sensores.",
+
+  website: "https://www.psx-place.com/resources/gamepad-test.498/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/6IQUEKQT#kuwhJ8hvAotVoXZCAa4CzA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite verificar el correcto funcionamiento de mandos DualShock 3 y Sixaxis conectados a la consola.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      DualShock3: "✅ Compatible",
+      Sixaxis: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Mando DualShock 3 o Sixaxis",
+      "Gamepad Test instalado",
+    ],
+
+    installation: [
+      "Copiar el archivo PKG al USB.",
+      "Abrir Administrar archivos PKG.",
+      "Instalar Gamepad Test.",
+      "Ejecutar desde el menú Juegos.",
+    ],
+
+    usage:
+      "Permite visualizar en tiempo real la respuesta de botones, cruceta, sticks analógicos, gatillos y sensores del mando.",
+
+    notes:
+      "Ideal para detectar botones defectuosos, sticks con drift o problemas de calibración.",
+
+    version: "Actual",
+    author: "PS3 Homebrew Community",
+
+    details: [
+      {
+        title: "Prueba de botones",
+        description:
+          "Verifica todas las entradas digitales.",
+        items: [
+          "△ Triángulo",
+          "○ Círculo",
+          "✕ Equis",
+          "□ Cuadrado",
+          "START",
+          "SELECT",
+        ],
+      },
+
+      {
+        title: "Prueba de cruceta",
+        description:
+          "Comprobación de dirección.",
+        items: [
+          "Arriba",
+          "Abajo",
+          "Izquierda",
+          "Derecha",
+        ],
+      },
+
+      {
+        title: "Prueba de sticks",
+        description:
+          "Monitoreo de analógicos.",
+        items: [
+          "Stick izquierdo.",
+          "Stick derecho.",
+          "Movimiento completo.",
+          "Detección de drift.",
+        ],
+      },
+
+      {
+        title: "Prueba de gatillos",
+        description:
+          "Verificar botones analógicos.",
+        items: [
+          "L1",
+          "L2",
+          "R1",
+          "R2",
+        ],
+      },
+
+      {
+        title: "Sensor de movimiento",
+        description:
+          "Comprobación del acelerómetro.",
+        items: [
+          "Movimiento horizontal.",
+          "Movimiento vertical.",
+          "Inclinación del mando.",
+        ],
+      },
+
+      {
+        title: "Diagnóstico",
+        description:
+          "Problemas que permite detectar.",
+        items: [
+          "Botones dañados.",
+          "Sticks con drift.",
+          "Gatillos defectuosos.",
+          "Problemas de sensores.",
+          "Fallas de calibración.",
+        ],
+      },
+
+      {
+        title: "Cuándo utilizarlo",
+        description:
+          "Casos recomendados.",
+        items: [
+          "Comprar un mando usado.",
+          "Reparar un DualShock 3.",
+          "Verificar un mando nuevo.",
+          "Comprobar fallos en juegos.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Características principales.",
+        items: [
+          "Pruebas en tiempo real.",
+          "Diagnóstico rápido.",
+          "Ligero y sencillo.",
+          "Compatible con PS3.",
+        ],
+      },
+    ],
+  },
+},
 
 // webMAN MOD
 {
