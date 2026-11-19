@@ -628,6 +628,29 @@ footer {
   margin-bottom: 5px;
 }
 
+.detail-table-wrapper {
+  overflow-x: auto;
+  margin-top: 15px;
+}
+
+.detail-table-wrapper table {
+  width: 100%;
+  min-width: 520px;
+  border-collapse: collapse;
+}
+
+.detail-table-wrapper th,
+.detail-table-wrapper td {
+  padding: 10px;
+  border-bottom: 1px solid #475569;
+  text-align: left;
+  vertical-align: top;
+}
+
+.detail-table-wrapper th {
+  color: #f8fafc;
+}
+
 .detail-header::after {
   content: "+";
 

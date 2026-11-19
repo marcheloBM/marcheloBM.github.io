@@ -292,16 +292,32 @@ function showGuide(appName)
 
                 <p>${detail.description}</p>
 
-                <ul>
-
-                    ${
-                        (detail.items || [])
-                        .map(item =>
-                            `<li>${item}</li>`)
-                        .join("")
-                    }
-
-                </ul>
+                ${
+                    detail.table
+                    ? `
+                    <div class="detail-table-wrapper">
+                        <table>
+                            <thead>
+                                <tr>
+                                    ${detail.table.headers.map(header => `<th>${header}</th>`).join("")}
+                                </tr>
+                            </thead>
+                            <tbody>
+                                ${detail.table.rows.map(row => `
+                                    <tr>
+                                        ${row.map(cell => `<td>${cell}</td>`).join("")}
+                                    </tr>
+                                `).join("")}
+                            </tbody>
+                        </table>
+                    </div>
+                    `
+                    : `
+                    <ul>
+                        ${(detail.items || []).map(item => `<li>${item}</li>`).join("")}
+                    </ul>
+                    `
+                }
 
             </div>
 
