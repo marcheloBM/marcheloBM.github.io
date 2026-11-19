@@ -38,8 +38,16 @@ const vitaApps = [
 },
 
     website: "https://github.com/TheOfficialFloW/VitaShell",
-    download: "https://github.com/TheOfficialFloW/VitaShell/releases",
-    mirror: "https://mega.nz/"
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/TheOfficialFloW/VitaShell/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -81,8 +89,16 @@ const vitaApps = [
 },
 
     website: "https://github.com/SKGleba/VitaDeploy",
-    download: "https://github.com/SKGleba/VitaDeploy/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/SKGleba/VitaDeploy/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -128,10 +144,16 @@ const vitaApps = [
 
     website:
         "https://github.com/bucanero/apollo-vita",
-
-    download:
-        "https://github.com/bucanero/apollo-vita/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/bucanero/apollo-vita/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 }
 
 ];

@@ -50,8 +50,16 @@ const ps2Apps = [
 },
 
     website: "https://github.com/ps2homebrew/Open-PS2-Loader",
-    download: "https://github.com/ps2homebrew/Open-PS2-Loader/releases",
-    mirror: "https://mega.nz/"
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/ps2homebrew/Open-PS2-Loader/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -94,8 +102,16 @@ const ps2Apps = [
 },
 
     website: "https://github.com/ps2homebrew/wLaunchELF",
-    download: "https://github.com/ps2homebrew/wLaunchELF/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/ps2homebrew/wLaunchELF/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -137,8 +153,16 @@ const ps2Apps = [
 },
 
     website: "https://www.ps2-home.com",
-    download: "#",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: ""
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -180,8 +204,16 @@ const ps2Apps = [
 },
 
     website: "https://github.com/israpps",
-    download: "#",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: ""
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -229,10 +261,16 @@ const ps2Apps = [
 
     website:
         "https://github.com/bucanero/apollo-ps2",
-
-    download:
-        "https://github.com/bucanero/apollo-ps2/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/bucanero/apollo-ps2/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 }
 
 ];

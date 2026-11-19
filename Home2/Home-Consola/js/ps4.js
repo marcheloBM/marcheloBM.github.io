@@ -36,8 +36,16 @@ const ps4Apps = [
 },
 
     website: "https://github.com/GoldHEN/GoldHEN",
-    download: "https://github.com/GoldHEN/GoldHEN/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/GoldHEN/GoldHEN/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -76,8 +84,16 @@ const ps4Apps = [
 },
 
     website: "https://github.com/LightningMods/Itemzflow",
-    download: "https://github.com/LightningMods/Itemzflow/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/LightningMods/Itemzflow/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -124,10 +140,16 @@ const ps4Apps = [
 
     website:
         "https://github.com/bucanero/apollo-ps4",
-
-    download:
-        "https://github.com/bucanero/apollo-ps4/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/bucanero/apollo-ps4/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 }
 
 ];

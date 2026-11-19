@@ -38,8 +38,16 @@ const pspApps = [
 },
 
     website: "https://github.com/PSP-Archive/ARK-4",
-    download: "https://github.com/PSP-Archive/ARK-4/releases",
-    mirror: "https://mega.nz/"
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/PSP-Archive/ARK-4/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -85,11 +93,16 @@ const pspApps = [
 
     website:
         "https://github.com/bucanero/apollo-psp",
-
-    download:
-        "https://github.com/bucanero/apollo-psp/releases",
-
-    mirror: "https://mega.nz/"
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/bucanero/apollo-psp/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 }
 
 ];

@@ -41,6 +41,12 @@ function renderApps(filter = "all", search = "")
 let html = "";
 
     filteredApps.forEach(app => {
+        const downloadLinks = Array.isArray(app.downloads)
+            ? app.downloads.filter(download => download?.name && download?.url)
+            : [
+                app.download && { name: "WEB principal", url: app.download },
+                app.mirror && { name: "Mirror MEGA", url: app.mirror }
+            ].filter(Boolean);
 
         html += `
         <div class="card">
@@ -114,37 +120,14 @@ let html = "";
 
                         <div class="download-dropdown">
 
-                            ${
-                                app.download
-                                ?
-                                `
+                            ${downloadLinks.map(download => `
                                 <a
-                                    href="${app.download}"
-                                    target="_blank">
-
-                                    WEB principal
-
+                                    href="${download.url}"
+                                    target="_blank"
+                                    rel="noopener noreferrer">
+                                    ${download.name}
                                 </a>
-                                `
-                                :
-                                ""
-                            }
-
-                            ${
-                                app.mirror
-                                ?
-                                `
-                                <a
-                                    href="${app.mirror}"
-                                    target="_blank">
-
-                                    Mirror MEGA
-
-                                </a>
-                                `
-                                :
-                                ""
-                            }
+                            `).join("")}
 
                         </div>
 

@@ -37,8 +37,16 @@ const ps3Apps = [
 },
 
     website: "https://github.com/aldostools/webMAN-MOD",
-    download: "https://github.com/aldostools/webMAN-MOD/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/aldostools/webMAN-MOD/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 },
 
 {
@@ -77,8 +85,24 @@ const ps3Apps = [
 },
 
     website: "https://store.brewology.com",
-    download: "#",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/deank/multiMAN/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        },
+        {
+            name: "Brewology",
+            url: "https://store.brewology.com"
+        },
+        {
+            name: "Caratulas",
+            url: "https://github.com/deank/multiMAN/releases"
+        }
+    ]
 },
 
 {
@@ -124,10 +148,16 @@ const ps3Apps = [
 
     website:
         "https://github.com/bucanero/apollo-ps3",
-
-    download:
-        "https://github.com/bucanero/apollo-ps3/releases",
-    mirror: ""
+    downloads: [
+        {
+            name: "GitHub",
+            url: "https://github.com/bucanero/apollo-ps3/releases"
+        },
+        {
+            name: "MEGA",
+            url: "https://mega.nz/"
+        }
+    ]
 }
 
 ];
