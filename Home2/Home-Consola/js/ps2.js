@@ -1393,7 +1393,7 @@ const ps2Apps = [
         "OPL puede ejecutarse desde USB y configurarse como una opción del menú de FMCB o FunTuna.",
 
       notes:
-        "Este procedimiento adapta un tutorial antiguo de FunTuna/FMCB. Antes de reemplazar un ELF o modificar el menú, conserva una copia de seguridad de los archivos y la configuración actuales. Los nombres de archivo y las opciones pueden variar entre versiones.",
+        "Antes de reemplazar un ELF o modificar el menú de FunTuna/FMCB, conserva una copia de seguridad de los archivos y la configuración actuales. Los nombres de archivo y las opciones pueden variar entre versiones.",
 
       version: "Consultar GitHub Releases",
 
@@ -1437,7 +1437,7 @@ const ps2Apps = [
           title: "Uso desde USB",
 
           description:
-            "El tutorial original requiere un USB FAT32 para transferir el ELF.",
+            "Usa un USB FAT32 para transferir el ELF.",
 
           items: [
             "Formatear el USB como FAT32.",
@@ -2131,7 +2131,7 @@ const ps2Apps = [
         "Muestra en pantalla las lecturas de temperatura disponibles de la consola.",
 
       compatibility: {
-        PS2: "✅ SCPH-500xx y modelos posteriores, según el tutorial",
+        PS2: "✅ SCPH-500xx y modelos posteriores; confirma el modelo exacto en la documentación del proyecto",
 
         USB: "✅ FAT32 para ejecutar la aplicación",
       },
@@ -2153,7 +2153,7 @@ const ps2Apps = [
         "Al iniciar PS2Temps, la aplicación muestra las lecturas de temperatura en pantalla.",
 
       notes:
-        "El tutorial indica compatibilidad con SCPH-500xx y modelos posteriores. Consulta el hilo de PSX-Place para obtener la aplicación y revisar la información más reciente.",
+        "La compatibilidad indicada incluye SCPH-500xx y modelos posteriores. Consulta el hilo de PSX-Place para obtener la aplicación y revisar la información más reciente.",
 
       version: "Consultar hilo de PSX-Place",
 
@@ -2164,7 +2164,7 @@ const ps2Apps = [
           title: "Ejecutar PS2Temps desde USB",
 
           description:
-            "Pasos del tutorial para iniciar la aplicación desde un dispositivo USB.",
+            "Inicia la aplicación desde un dispositivo USB.",
 
           items: [
             "Formatear el USB como FAT32.",
@@ -2229,7 +2229,7 @@ const ps2Apps = [
         "La configuración relaciona el nombre mostrado en OPL con la ruta del archivo ELF que se desea ejecutar.",
 
       notes:
-        "El tutorial también menciona title.cfg_maker.BAT para OPL v.12.77 o superior, pero indica que ese método no fue probado.",
+        "El método automatizado con title.cfg_maker.BAT para OPL v.12.77 o superior no está probado.",
 
       version: "Depende de la versión de OPL",
 
@@ -2304,7 +2304,7 @@ const ps2Apps = [
         "Crea un archivo .cht cuyo nombre corresponda al ID del juego, agrega el Mastercode y luego los trucos de la región correcta.",
 
       notes:
-        "El tutorial indica que esta función requiere OPL 1.2 Beta 2179 o superior. Verifica que el Mastercode y los códigos correspondan al ID y región exactos del juego.",
+        "Esta función requiere OPL 1.2 Beta 2179 o superior. Verifica que el Mastercode y los códigos correspondan al ID y región exactos del juego.",
 
       version: "Consultar GitHub Releases",
 
@@ -2787,7 +2787,7 @@ const ps2Apps = [
 
           items: [
             "Activa la sincronización automática en los ajustes de SD2Cloud.",
-            'En OPL, configura "IGR Path" con la ruta indicada en el tutorial: mc0:/APP_SD2CLOUD/IGR.ELF.',
+            'En OPL, configura "IGR Path" con la ruta mc0:/APP_SD2CLOUD/IGR.ELF.',
             "Usa un OPL compatible con MMCE e IGR; de lo contrario, la sincronización automática puede no iniciarse al salir del juego.",
           ],
         },
@@ -2966,7 +2966,7 @@ const ps2Apps = [
 
       compatibility: {
         Consola: "Compilación de RetroArch específica para PlayStation 2.",
-        Almacenamiento: "El tutorial utiliza una memoria USB en formato FAT32.",
+        Almacenamiento: "Usa una memoria USB en formato FAT32.",
         Descargas:
           "El Buildbot ofrece compilaciones nightly y cores PS2 por separado; la compatibilidad puede variar entre cores.",
       },
@@ -3109,7 +3109,7 @@ const ps2Apps = [
         "Inicia POPSLOADER.ELF, selecciona un juego de la biblioteca y ejecútalo. Los juegos convertidos para POPStarter se ubican en la carpeta POPS del dispositivo.",
 
       notes:
-        "El tutorial adjunto menciona POPSLoader 1.3.1; el repositorio ofrece la versión 1.4.4. Las notas del proyecto advierten que algunos cambios recientes, rutas y controladores no están verificados en una PS2 real. Revisa su matriz de compatibilidad antes de depender de ellos.",
+        "El repositorio ofrece POPSLoader 1.4.4. Algunos cambios recientes, rutas y controladores no están verificados en una PS2 real; revisa la matriz de compatibilidad antes de depender de ellos.",
 
       version: "1.4.4",
 
@@ -3120,7 +3120,7 @@ const ps2Apps = [
           title: "Convertir juegos y preparar la biblioteca VCD",
 
           description:
-            "El tutorial utiliza POPS-VCD-Manager para convertir juegos desde archivos CUE al formato VCD usado por POPStarter.",
+            "POPS-VCD-Manager convierte juegos desde archivos CUE al formato VCD usado por POPStarter.",
 
           items: [
             "En POPS-VCD-Manager, selecciona Archivo > Convertir juego a VCD y carga el archivo .cue correspondiente.",
@@ -3826,7 +3826,7 @@ const ps2Apps = [
         "En USBUtil, selecciona Archivo > Crear juego desde ISO, elige una o varias imágenes, selecciona la unidad USB de destino y pulsa Crear. Deja Medio en AUTO y usa un nombre de juego de hasta 32 caracteres. Para continuar una biblioteca existente, abre su archivo ul.cfg.",
 
       notes:
-        "El tutorial diferencia entre copiar directamente ISOs pequeñas a DVD y usar USBUtil para preparar juegos en el formato de USB gestionado por ul.cfg. En FAT32 no se puede guardar un archivo individual de 4 GB o más; conserva una copia de las ISOs originales y verifica el resultado en OPL.",
+        "Copia ISOs pequeñas directamente a DVD o usa USBUtil para preparar juegos en el formato USB gestionado por ul.cfg. FAT32 no admite archivos individuales de 4 GB o más; conserva una copia de las ISOs originales y verifica el resultado en OPL.",
 
       version: "v2.2 rev1.0",
 

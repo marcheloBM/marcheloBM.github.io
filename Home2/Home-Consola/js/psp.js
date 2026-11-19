@@ -56,7 +56,7 @@ const pspApps = [
 
                 items: [
                     "El centro de soporte enlazado como Web Oficial es la página general de PlayStation, no aloja el firmware PSP.",
-                    "El espejo MEGA corresponde al enlace que ya utiliza el tutorial del sitio; verifica que el archivo descargado sea EBOOT.PBP de PSP 6.61.",
+                    "Verifica que el archivo descargado desde el espejo MEGA sea EBOOT.PBP del firmware PSP 6.61.",
                     "Chronoswitch se enlaza por separado para los casos de downgrade; consulta sus instrucciones y compatibilidad antes de usarlo."
                 ]
             },
@@ -98,7 +98,7 @@ const pspApps = [
     guide: {
 
         function:
-            "Infinity hace persistente un Custom Firmware compatible. Esta tarjeta sigue el método del tutorial con PRO-C2 e Infinity 2.0.3.",
+            "Infinity hace persistente un Custom Firmware compatible. Esta guía describe la instalación de PRO-C2 con Infinity 2.0.3.",
 
         compatibility: {
             "PSP-1000/2000/3000/Street": "Infinity 2.0.3 admite estos modelos con firmware 6.60 o 6.61.",
@@ -127,7 +127,7 @@ const pspApps = [
             "Después de configurarlo, Infinity carga PRO-C2 al encender la consola, sin ejecutar FastRecovery tras cada apagado completo.",
 
         notes:
-            "La guía del autor de Infinity indica instalar el CFW compatible primero, instalar Infinity después y volver a abrir Infinity para seleccionar el CFW. El tutorial antiguo repite PROUPDATE; no repitas ese paso salvo que las instrucciones incluidas en tu paquete lo indiquen. Una instalación incorrecta o archivos de otro modelo/firmware pueden dejar la consola inutilizable. Infinity se puede retirar reflasheando el firmware; no es una modificación irreversible.",
+            "Instala primero el CFW compatible, luego Infinity y vuelve a abrir Infinity para seleccionar el CFW. No repitas PROUPDATE salvo que las instrucciones incluidas en tu paquete lo indiquen. Una instalación incorrecta o archivos de otro modelo/firmware pueden dejar la consola inutilizable. Infinity se puede retirar reflasheando el firmware; no es una modificación irreversible.",
 
         version: "PRO-C2 + Infinity 2.0.3",
 
@@ -150,7 +150,7 @@ const pspApps = [
                 title: "Descargas y documentación",
 
                 description:
-                    "El repositorio de Infinity es la fuente del desarrollador. El paquete PRO-C2 se enlaza desde el mirror usado por el tutorial.",
+                    "El repositorio de Infinity es la fuente del desarrollador. PRO-C2 está disponible desde el espejo indicado en Descargas.",
 
                 items: [
                     "Antes de instalar, lee el README de Infinity y confirma que la consola esté en firmware 6.60 o 6.61.",
@@ -328,7 +328,7 @@ const pspApps = [
                     "La publicación del autor ofrece paquetes distintos según el firmware.",
 
                 items: [
-                    "Para el tutorial, descarga la versión fw3x.",
+                    "Descarga la versión fw3x.",
                     "El autor ofrece además una compilación fw15, destinada a firmware 1.50.",
                     "La publicación original describe el soporte para PSP Slim como esperado; verifica el funcionamiento en tu modelo."
                 ]
@@ -364,7 +364,7 @@ const pspApps = [
     guide: {
 
         function:
-            "El tutorial la presenta como una herramienta relacionada con el análisis de contraseñas Wi-Fi. Esta ficha se limita a contexto histórico y recomendaciones de seguridad.",
+            "AirCrack-PSP es una herramienta histórica relacionada con el análisis de contraseñas Wi-Fi. Esta ficha se limita a contexto histórico y recomendaciones de seguridad.",
 
         compatibility: {
             PSP: "La compatibilidad concreta depende del modelo, firmware y accesorios; no se verifica aquí.",
@@ -385,7 +385,7 @@ const pspApps = [
         notes:
             "El contenido fuente describe funciones de descifrado de contraseñas. Por seguridad, esta tarjeta no enlaza la descarga ni reproduce instrucciones que faciliten el acceso a redes Wi-Fi.",
 
-        version: "test 0.52 (según el tutorial)",
+        version: "test 0.52",
 
         author: "No confirmado",
 
@@ -457,7 +457,7 @@ const pspApps = [
             "Programa la hora de la alarma desde la aplicación. En suspensión puede reproducir un MP3 personalizado llamado Alarm.mp3 dentro de la carpeta de HaSuite2.",
 
         notes:
-            "El modo de apagado necesita HAPoweroffSupport; sin ese plugin la alarma no sonará al despertar desde ese estado. En el tutorial local aparece por error la carpeta «AirCrack-PSP by Devasth» y el nombre AirCrack-PSP: el paquete y la aplicación de alarma corresponden a HaSuite2. No es lo mismo que apagar completamente la consola desconectando la batería.",
+            "El modo de apagado necesita HAPoweroffSupport; sin ese plugin la alarma no sonará al despertar desde ese estado. La carpeta «AirCrack-PSP by Devasth» y el nombre AirCrack-PSP no corresponden a esta aplicación: el paquete y la aplicación de alarma son HaSuite2. No es lo mismo que apagar completamente la consola desconectando la batería.",
 
         version: "2.7 bld 1730",
 
@@ -519,7 +519,7 @@ const pspApps = [
         compatibility: {
             "PSP": "Requiere Custom Firmware con soporte para plugins PRX.",
             "Video":             "Formato YUY2 a 480x272; 30 FPS y 60 FPS en desarrollo.",
-            "PC": "UVC funciona en distintos sistemas operativos; la guía del tutorial usa OBS en Windows."
+            "PC": "UVC funciona en distintos sistemas operativos; para capturar en Windows, utiliza OBS."
         },
 
         requirements: [
@@ -557,7 +557,7 @@ const pspApps = [
                 items: [
                     "Usa VSH.TXT para capturar el XMB y GAME.TXT para capturar durante los juegos.",
                     "No reemplaces los archivos de configuración que ya tengas: agrega la ruta del plugin en una línea aparte.",
-                    "Si la PSP no inicia correctamente, el tutorial recomienda arrancar manteniendo R para entrar al modo de recuperación."
+                    "Si la PSP no inicia correctamente, prueba arrancar manteniendo R para entrar al modo de recuperación."
                 ]
             },
             {
@@ -633,7 +633,7 @@ const pspApps = [
             "Se usa para volver a una versión oficial compatible o reinstalar el firmware en los casos admitidos. No es una herramienta para instalar un Custom Firmware.",
 
         notes:
-            "Un downgrade a un firmware no compatible puede bloquear la consola. El tutorial local menciona Chronoswitch 7.0; el repositorio krazynez fue archivado y redirige al proyecto PSP-Archive, cuya versión más reciente consultada es 7.6.5. No uses firmware de PSP Go en otros modelos ni al revés.",
+            "Un downgrade a un firmware no compatible puede bloquear la consola. El repositorio krazynez fue archivado y redirige al proyecto PSP-Archive; la versión más reciente consultada es 7.6.5. No uses firmware de PSP Go en otros modelos ni al revés.",
 
         version: "7.6.5",
 
@@ -656,10 +656,10 @@ const pspApps = [
                 title: "Repositorios y versión",
 
                 description:
-                    "El enlace krazynez/Chronoswitch proporcionado en el tutorial está archivado y el README apunta al repositorio de PSP-Archive.",
+                    "El repositorio krazynez/Chronoswitch está archivado y el README apunta al repositorio de PSP-Archive.",
 
                 items: [
-                    "El tutorial utiliza Chronoswitch 7.0; para nuevas instalaciones, consulta la release actual de PSP-Archive.",
+                    "Para nuevas instalaciones, consulta la release actual de PSP-Archive.",
                     "Chronoswitch necesita el EBOOT.PBP oficial de destino, que no viene incluido en la descarga del programa.",
                     "La utilidad también se cita como método para retirar versiones de Infinity anteriores a 2.0 cuando la guía de Infinity así lo requiera."
                 ]
@@ -698,7 +698,7 @@ const pspApps = [
             "CIPL Flasher instala el cargador de PRO-C en el IPL de la PSP para que el Custom Firmware se active al encender la consola.",
 
         compatibility: {
-            "PSP-1000": "Compatible según el tutorial con las placas compatibles.",
+            "PSP-1000": "Compatible solo con las placas incluidas en la lista de compatibilidad.",
             "PSP-2000": "Solo placas antiguas compatibles; TA-088v3 no es compatible.",
             "PSP-3000/Go/Street": "No compatibles con este CIPL Flasher de PRO-C.",
             "CFW requerido": "Requiere PRO-C/PRO-C2 ya instalado y funcionando."
@@ -725,7 +725,7 @@ const pspApps = [
         notes:
             "Este CIPL Flasher pertenece a PRO-C y no es el instalador cIPL de ARK-4. No lo ejecutes en PSP-2000 TA-088v3, PSP-3000, PSP Go ni PSP Street/E1000: instalar un IPL incompatible puede dejar la consola inutilizable. Usa solo el método de permanencia admitido por el CFW y la placa de tu consola.",
 
-        version: "Paquete CIPL_Flasher del tutorial",
+        version: "Paquete CIPL_Flasher de PRO-C",
 
         author: "PRO Team",
 
@@ -734,11 +734,11 @@ const pspApps = [
                 title: "Placas indicadas como compatibles",
 
                 description:
-                    "El tutorial enumera estas placas para PRO-C2 y excluye las revisiones posteriores incompatibles.",
+                    "Estas placas son compatibles con PRO-C2; las revisiones posteriores no son compatibles.",
 
                 items: [
                     "TA-079 v1/v2, TA-081, TA-082, TA-085 v1/v2 y TA-086.",
-                    "TA-088 v1/v2: compatibles según el tutorial.",
+                    "TA-088 v1/v2: compatibles.",
                     "TA-088v3: no compatible con este flasher."
                 ]
             },
@@ -751,7 +751,7 @@ const pspApps = [
                 items: [
                     "No uses las instrucciones de ARK_cIPL con CIPL Flasher para PRO-C ni al revés.",
                     "Para PSP-3000, PSP Go, PSP Street o placas incompatibles, consulta un método específicamente compatible en vez de forzar este flasher.",
-                    "El tutorial local recomienda no usar este método salvo que hayas confirmado la compatibilidad de hardware."
+                    "No ejecutes este método sin confirmar primero la compatibilidad de la placa."
                 ]
             }
         ]
@@ -825,7 +825,7 @@ const pspApps = [
                 items: [
                     "cwcheat.prx se habilita en game.txt; vsh.txt es opcional para mostrar el plugin en el XMB.",
                     "cwcheatpops.prx se habilita en pops.txt para juegos PS1.",
-                    "El tutorial también menciona game150.txt para entornos antiguos; usa solo las entradas necesarias para tu Custom Firmware."
+                    "game150.txt se usa en algunos entornos antiguos; agrega solo las entradas necesarias para tu Custom Firmware."
                 ]
             },
             {
@@ -899,7 +899,7 @@ const pspApps = [
             "Usa los botones y el stick de la PSP como controles del mando conectado. Al conectar USB, la pantalla de la PSP se apaga automáticamente después de unos 7 segundos.",
 
         notes:
-            "Es un homebrew antiguo. El README recomienda kernel 5.00 o superior para v0.3; el tutorial incluye también el archivo v0.2, por lo que conviene usar v0.3. La carpeta de instalación de PSP FAT puede diferir de la de los otros modelos.",
+            "Es un homebrew antiguo. El README recomienda kernel 5.00 o superior para v0.3; el paquete incluye también el archivo v0.2, por lo que conviene usar v0.3. La carpeta de instalación de PSP FAT puede diferir de la de los otros modelos.",
 
         version: "v0.3",
 
@@ -978,7 +978,7 @@ const pspApps = [
             "Descarga y extrae PSPLight 3.0.",
             "Copia la carpeta PSP incluida en el archivo a la raíz de la Memory Stick.",
             "En Juego > Memory Stick, inicia PSPLight o el lanzador incluido por el paquete.",
-            "El tutorial local menciona LuaPlayer Plus; si el archivo descargado solo incluye un script Lua, ábrelo con una versión compatible del reproductor."
+            "Si el archivo descargado solo incluye un script Lua, ábrelo con una versión compatible de LuaPlayer Plus."
         ],
 
         usage:
@@ -1012,7 +1012,7 @@ const pspApps = [
                     "GameBrew cataloga PSPLight como homebrew versión 3.0 y enlaza su archivo comprimido.",
 
                 items: [
-                    "El tutorial local indica iniciar LuaPlayer Plus, mientras que la ficha de GameBrew presenta PSPLight como la aplicación; comprueba el contenido del paquete descargado."
+                    "El paquete puede incluir PSPLight o un script Lua que requiere LuaPlayer Plus; comprueba su contenido antes de iniciarlo."
                 ]
             }
         ]
@@ -1045,7 +1045,7 @@ const pspApps = [
             "PSP LIVE TV está pensada para ver contenido de televisión en streaming desde la consola. La disponibilidad depende de que la PSP pueda conectarse a Internet y de que los flujos sigan activos y sean compatibles.",
 
         compatibility: {
-            PSP: "Homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos.",
+            PSP: "Homebrew para PSP; no se especifican modelos ni firmware mínimos.",
             Red: "Requiere conexión Wi-Fi con acceso a Internet."
         },
 
@@ -1062,19 +1062,19 @@ const pspApps = [
         ],
 
         usage:
-            "Conecta la PSP a una red Wi-Fi con Internet y abre PSP Live TV. El tutorial no documenta controles ni configuración adicional.",
+            "Conecta la PSP a una red Wi-Fi con Internet y abre PSP Live TV. No se documentan controles ni configuración adicional.",
 
         notes:
-            "Es una aplicación antigua. El tutorial no identifica el origen de los canales ni garantiza que los enlaces de streaming sigan activos; la reproducción también depende de los formatos y servicios que aún sean compatibles con la aplicación.",
+            "Es una aplicación antigua. No se identifica el origen de los canales ni se garantiza que los enlaces de streaming sigan activos; la reproducción también depende de los formatos y servicios que aún sean compatibles con la aplicación.",
 
-        version: "No especificada en el tutorial",
+        version: "No especificada",
 
         details: [
             {
                 title: "Sobre la transmisión",
 
                 description:
-                    "La tarjeta refleja únicamente lo indicado en el tutorial local: ver televisión por streaming usando Wi-Fi.",
+                    "La aplicación permite ver televisión por streaming usando Wi-Fi.",
 
                 items: [
                     "No se incluyen listas de canales ni servicios de terceros.",
@@ -1108,10 +1108,10 @@ const pspApps = [
     guide: {
 
         function:
-            "Permite abrir en la PSP el mapa de Santiago incluido en el paquete. El tutorial no documenta funciones de navegación ni el uso de GPS.",
+            "Permite abrir en la PSP el mapa de Santiago incluido en el paquete. No se documentan funciones de navegación ni uso de GPS.",
 
         compatibility: {
-            PSP: "Homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -1130,9 +1130,9 @@ const pspApps = [
             "Inicia Map this! GPS Edition desde el menú Juego de la PSP para consultar el mapa incluido.",
 
         notes:
-            "El tutorial advierte que el mapa no está actualizado al día de hoy. No se indican fecha de los datos, cobertura detallada ni requisitos de GPS; no debe usarse como fuente de navegación actual.",
+            "El mapa no está actualizado. No se indican fecha de los datos, cobertura detallada ni requisitos de GPS; no debe usarse como fuente de navegación actual.",
 
-        version: "No especificada en el tutorial",
+        version: "No especificada",
 
         details: [
             {
@@ -1142,7 +1142,7 @@ const pspApps = [
                     "El paquete se presenta como un mapa de Santiago de Chile y la carpeta de la aplicación se llama mapViewer.",
 
                 items: [
-                    "El nombre que indica el tutorial en el menú de la PSP es Map this! GPS Edition.",
+                    "En el menú de la PSP, el nombre de la aplicación es Map this! GPS Edition.",
                     "No se incluyen datos sobre actualización, rutas ni puntos de interés."
                 ]
             }
@@ -1173,10 +1173,10 @@ const pspApps = [
     guide: {
 
         function:
-            "Permite abrir páginas web desde la PSP mediante su conexión Wi-Fi. Aunque el tutorial lo promociona como Chrome, la aplicación que se muestra en el menú es NetFront Internet Browser p86 Mod; no es Google Chrome.",
+            "Permite abrir páginas web desde la PSP mediante su conexión Wi-Fi. Aunque se promociona como Chrome, la aplicación que se muestra en el menú es NetFront Internet Browser p86 Mod; no es Google Chrome.",
 
         compatibility: {
-            PSP: "El tutorial afirma que funciona con PSP con o sin Custom Firmware; no especifica modelos ni versiones de firmware."
+            PSP: "Funciona con PSP con o sin Custom Firmware; no se especifican modelos ni versiones de firmware."
         },
 
         requirements: [
@@ -1194,19 +1194,19 @@ const pspApps = [
             "Conecta la PSP a una red Wi-Fi con Internet y abre el navegador desde Juego > Memory Stick.",
 
         notes:
-            "Es un navegador antiguo y puede no abrir sitios modernos por limitaciones de seguridad, certificados, memoria o compatibilidad web. El tutorial no especifica versión ni controles detallados.",
+            "Es un navegador antiguo y puede no abrir sitios modernos por limitaciones de seguridad, certificados, memoria o compatibilidad web. No se especifican versión ni controles detallados.",
 
-        version: "No especificada en el tutorial",
+        version: "No especificada",
 
         details: [
             {
                 title: "Identificación",
 
                 description:
-                    "El archivo se llama HtmlMax_Eng y el tutorial indica que la aplicación aparece como NetFront Internet Browser – p86 Mod.",
+                    "El archivo se llama HtmlMax_Eng y la aplicación aparece como NetFront Internet Browser – p86 Mod.",
 
                 items: [
-                    "La referencia a Chrome en el tutorial es promocional; el navegador instalado no es Google Chrome.",
+                    "La referencia a Chrome es promocional; el navegador instalado no es Google Chrome.",
                     "El acceso a Internet y la compatibilidad con cada sitio dependen de la red Wi-Fi y de las tecnologías web admitidas por este navegador antiguo."
                 ]
             }
@@ -1274,7 +1274,7 @@ const pspApps = [
                     "Cada archivo debe corresponder al ID del juego y guardarse en ms0:/seplugins/nitePR/.",
 
                 items: [
-                    "El tutorial usa UCUS-98645.txt como ejemplo; reemplaza el nombre por el ID exacto del juego.",
+                    "UCUS-98645.txt es un ejemplo; reemplaza el nombre por el ID exacto del juego.",
                     "No uses códigos de otro juego o de otra región, ya que pueden provocar errores."
                 ]
             },
@@ -1321,7 +1321,7 @@ const pspApps = [
             "PSPRadio 1.18.1400 reproduce audio en streaming y permite navegar por la lista de emisoras incluida en la aplicación.",
 
         compatibility: {
-            PSP: "Homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -1411,7 +1411,7 @@ const pspApps = [
         installation: [
             "Descarga y extrae PSP textos.rar.",
             "Copia la carpeta PSP incluida en el archivo a la raíz de la Memory Stick.",
-            "Copia los documentos que quieras leer a la raíz de la Memory Stick, como indica el tutorial.",
+            "Copia los documentos que quieras leer a la raíz de la Memory Stick.",
             "En Juego > Memory Stick, abre la aplicación identificada como Lector."
         ],
 
@@ -1472,7 +1472,7 @@ const pspApps = [
     image: "img/PSP/Ubuntu7.10.jpg",
 
     description:
-        "Entorno homebrew con apariencia de Ubuntu para PSP. El paquete del tutorial incluye ediciones basadas en Ubuntu 7.10 y Ubuntu 12; no es una instalación de Ubuntu de escritorio para PC.",
+        "Entorno homebrew con apariencia de Ubuntu para PSP. El paquete incluye ediciones basadas en Ubuntu 7.10 y Ubuntu 12; no es una instalación de Ubuntu de escritorio para PC.",
 
     guide: {
 
@@ -1480,7 +1480,7 @@ const pspApps = [
             "Ejecuta un entorno tipo shell en la PSP con interfaz inspirada en Ubuntu y opciones de inicio manual o automático mediante un plugin.",
 
         compatibility: {
-            PSP: "El tutorial no especifica modelos ni firmware mínimos."
+            PSP: "No se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -1492,12 +1492,12 @@ const pspApps = [
             "Descarga y extrae el paquete Ubuntu 7.10 PSP Edition v1.0 o Ubuntu 12.",
             "Copia la carpeta PSP correspondiente a la raíz de la Memory Stick.",
             "Opcional: copia en PICTURE las carpetas de fondos incluidas para Ubuntu 7.10.",
-            "El tutorial menciona un plugin opcional de inicio automático. Para iniciar la aplicación manualmente, no añadas esa entrada a vsh.txt; si eliges el autoarranque, conserva las líneas existentes y sigue la instrucción incluida en el paquete.",
+            "El inicio automático mediante plugin es opcional. Para iniciar la aplicación manualmente, no añadas esa entrada a vsh.txt; si eliges el autoarranque, conserva las líneas existentes y sigue la instrucción incluida en el paquete.",
             "En Juego > Memory Stick, inicia Ubuntu 7.10, Ubuntu 12 o Ubuntu RAZ, según la versión instalada."
         ],
 
         usage:
-            "En Ubuntu 7.10, usa admin como usuario y contraseña según el tutorial. En Ubuntu 12, selecciona Guest Session.",
+            "En Ubuntu 7.10, usa admin como usuario y contraseña. En Ubuntu 12, selecciona Guest Session.",
 
         notes:
             "Es un homebrew antiguo cuyo funcionamiento puede variar según la PSP y el firmware. El nombre Ubuntu describe el entorno simulado; no debe confundirse con una instalación completa de Ubuntu para PC.",
@@ -1511,12 +1511,12 @@ const pspApps = [
                 title: "Ediciones disponibles",
 
                 description:
-                    "El paquete enlazado incluye dos ediciones descritas por el tutorial.",
+                    "El paquete enlazado incluye dos ediciones: Ubuntu 7.10 y Ubuntu 12.",
 
                 items: [
                     "Ubuntu 7.10 PSP Edition v1.0 en español y Ubuntu RAZ.",
                     "Ubuntu 12 y Ubuntu RAZ.",
-                    "Las carpetas de fondos de pantalla indicadas en el tutorial son opcionales."
+                    "Las carpetas de fondos de pantalla son opcionales."
                 ]
             },
             {
@@ -1552,7 +1552,7 @@ const pspApps = [
     image: "img/PSP/Windows7PSP.jpg",
 
     description:
-        "Aplicación homebrew para PSP con una interfaz inspirada en Windows 7 y herramientas que el tutorial presenta como navegador, mensajería y Paint. No ejecuta Windows 7 de escritorio.",
+        "Aplicación homebrew para PSP con una interfaz inspirada en Windows 7 y herramientas como navegador, mensajería y Paint. No ejecuta Windows 7 de escritorio.",
 
     guide: {
 
@@ -1560,7 +1560,7 @@ const pspApps = [
             "Win7 PSP reúne una interfaz tipo Windows 7 y varias aplicaciones sencillas en una versión beta para PSP.",
 
         compatibility: {
-            PSP: "El tutorial no especifica modelos ni firmware mínimos."
+            PSP: "No se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -1578,7 +1578,7 @@ const pspApps = [
             "Inicia Win7 PSP y selecciona la herramienta que quieras usar desde la interfaz.",
 
         notes:
-            "El tutorial identifica el paquete como una primera versión beta, sin indicar número de versión. El navegador puede no acceder a sitios web actuales y Windows Live Messenger fue descontinuado; no se garantiza que esas funciones conectadas sigan operativas.",
+            "El paquete se identifica como una primera versión beta, sin número de versión. El navegador puede no acceder a sitios web actuales y Windows Live Messenger fue descontinuado; no se garantiza que esas funciones conectadas sigan operativas.",
 
         version: "Beta (versión no especificada)",
 
@@ -1587,7 +1587,7 @@ const pspApps = [
                 title: "Herramientas mencionadas",
 
                 description:
-                    "El tutorial anuncia las siguientes aplicaciones dentro de Win7 PSP:",
+                    "Win7 PSP incluye las siguientes aplicaciones:",
 
                 items: [
                     "Navegador de Internet identificado como Firefox.",
@@ -1881,10 +1881,10 @@ const pspApps = [
     guide: {
 
         function:
-            "Ejecuta juegos de Atari 2600 desde la PSP. El tutorial identifica la aplicación en el menú como ATARI2600.",
+            "Ejecuta juegos de Atari 2600 desde la PSP. La aplicación aparece en el menú como ATARI2600.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -1902,14 +1902,14 @@ const pspApps = [
             "Añade las ROMs compatibles a la carpeta roms del emulador y vuelve a iniciar la aplicación para cargarlas.",
 
         notes:
-            "Usa únicamente ROMs de juegos que hayas creado a partir de tus propios cartuchos o que tengas autorización para usar. El tutorial no identifica la versión ni el nombre técnico del emulador y no especifica las teclas de control.",
+            "Usa únicamente ROMs de juegos que hayas creado a partir de tus propios cartuchos o que tengas autorización para usar. No se especifican la versión, el nombre técnico del emulador ni las teclas de control.",
 
         details: [
             {
                 title: "ROMs y ubicación",
 
                 description:
-                    "El tutorial indica que los juegos se colocan dentro de la carpeta roms del emulador.",
+                    "Coloca los juegos dentro de la carpeta roms del emulador.",
 
                 items: [
                     "Ruta orientativa: PSP/GAME/Emulador Atari 2600/roms.",
@@ -1946,7 +1946,7 @@ const pspApps = [
             "Ejecuta juegos de ColecoVision en la PSP mediante ROMs compatibles.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -1964,7 +1964,7 @@ const pspApps = [
             "Coloca las ROMs compatibles en la carpeta roms del emulador y vuelve a iniciar la aplicación para cargarlas.",
 
         notes:
-            "Usa solo ROMs que hayas creado a partir de tus propios cartuchos o que tengas autorización para usar. El tutorial no indica controles ni opciones de configuración.",
+            "Usa solo ROMs que hayas creado a partir de tus propios cartuchos o que tengas autorización para usar. No se especifican controles ni opciones de configuración.",
 
         version: "2.6.1",
 
@@ -1973,7 +1973,7 @@ const pspApps = [
                 title: "ROMs y ubicación",
 
                 description:
-                    "El tutorial indica que se añaden los juegos a la carpeta roms de ColEm PSP.",
+                    "Añade los juegos a la carpeta roms de ColEm PSP.",
 
                 items: [
                     "Ruta orientativa: PSP/GAME/ColecoVision 2.6.1/roms.",
@@ -2007,10 +2007,10 @@ const pspApps = [
     guide: {
 
         function:
-            "DOSBox recrea un entorno tipo MS-DOS en la PSP. El paquete del tutorial incluye la carpeta de la aplicación y una carpeta Games para colocar programas o juegos compatibles.",
+            "DOSBox recrea un entorno tipo MS-DOS en la PSP. El paquete incluye la carpeta de la aplicación y una carpeta Games para colocar programas o juegos compatibles.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -2028,18 +2028,18 @@ const pspApps = [
             "Coloca cada programa o juego compatible en su propia carpeta dentro de PSP/GAME/Dosbox/Games, siguiendo la estructura del paquete. Inicia DOSBox y usa los archivos de configuración o instrucciones que incluya el programa.",
 
         notes:
-            "La PSP tiene recursos limitados y no todo el software de DOS funcionará a velocidad o compatibilidad aceptables. Usa solo programas y juegos que tengas derecho a utilizar. El tutorial no identifica la versión de DOSBox ni detalla los controles.",
+            "La PSP tiene recursos limitados y no todo el software de DOS funcionará a velocidad o compatibilidad aceptables. Usa solo programas y juegos que tengas derecho a utilizar. No se especifican la versión de DOSBox ni los controles.",
 
         details: [
             {
                 title: "Carpeta Games",
 
                 description:
-                    "El tutorial indica PSP/GAME/Dosbox/Games como ubicación para añadir contenido.",
+                    "Añade el contenido compatible en PSP/GAME/Dosbox/Games.",
 
                 items: [
                     "Coloca carpetas de programas o juegos, no ROMs de consola.",
-                    "El tutorial no especifica extensiones concretas; conserva los archivos y subcarpetas requeridos por cada programa de DOS."
+                    "No se especifican extensiones concretas; conserva los archivos y subcarpetas requeridos por cada programa de DOS."
                 ]
             }
         ]
@@ -2072,7 +2072,7 @@ const pspApps = [
             "MasterBoy permite cargar ROMs compatibles desde la Memory Stick. También emula Sega Master System y Game Gear, aunque esta tarjeta se centra en Game Boy y Game Boy Color.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -2081,7 +2081,7 @@ const pspApps = [
         ],
 
         installation: [
-            "Extrae MasterBoy del paquete indicado por el tutorial.",
+            "Extrae MasterBoy del paquete descargado.",
             "Copia la carpeta MasterBoy a ms0:/PSP/GAME/.",
             "Coloca tus ROMs en la carpeta Roms GBC incluida o elige su ubicación desde Load ROM.",
             "En Juego > Memory Stick, inicia MasterBoy."
@@ -2091,7 +2091,7 @@ const pspApps = [
             "Selecciona Load ROM, navega hasta la carpeta que contiene tus juegos y pulsa X para cargar una ROM.",
 
         notes:
-            "El tutorial etiqueta el paquete como MasterBoy v2.10, pero GameBrew advierte que esa etiqueta corresponde a una copia reempaquetada y que la última versión oficial es la 2.02. No se recomienda presentar ese paquete como una actualización oficial. Usa solo ROMs que tengas derecho a utilizar. GameBrew también informa de un problema conocido con algunos estados guardados; guarda normalmente en el juego y conserva respaldos.",
+            "GameBrew advierte que la etiqueta MasterBoy v2.10 corresponde a una copia reempaquetada; la última versión oficial es la 2.02. No presentes el paquete como una actualización oficial. Usa solo ROMs que tengas derecho a utilizar. GameBrew también informa de un problema conocido con algunos estados guardados; guarda normalmente en el juego y conserva respaldos.",
 
         version: "2.02 (última versión oficial indicada por GameBrew)",
 
@@ -2106,7 +2106,7 @@ const pspApps = [
 
                 items: [
                     "Formatos de ROM listados por GameBrew: .GB, .GBC, .SGB, .CGB y .ZIP.",
-                    "El tutorial incluye carpetas Roms GBC y Roms SMS; esta tarjeta documenta solo el uso de Game Boy y Game Boy Color."
+                    "El paquete incluye carpetas Roms GBC y Roms SMS; esta tarjeta documenta solo el uso de Game Boy y Game Boy Color."
                 ]
             },
             {
@@ -2125,7 +2125,7 @@ const pspApps = [
                 title: "Referencia de versión",
 
                 description:
-                    "La ficha de GameBrew distingue la versión oficial del paquete renombrado como v2.10 que menciona el tutorial.",
+                    "La ficha de GameBrew distingue la versión oficial del paquete renombrado como v2.10.",
 
                 items: [
                     "GameBrew indica que la última release oficial es MasterBoy 2.02.",
@@ -2154,7 +2154,7 @@ const pspApps = [
     image: "img/PSP/MAMEFBA.jpg",
 
     description:
-        "Emulador homebrew de arcade para PSP distribuido en el tutorial como MAME FBA; carga archivos ROM en formato ZIP.",
+        "Emulador homebrew de arcade para PSP identificado como MAME FBA; carga archivos ROM en formato ZIP.",
 
     guide: {
 
@@ -2162,7 +2162,7 @@ const pspApps = [
             "El paquete instala el emulador FBA en la PSP y permite explorar juegos arcade compatibles desde su carpeta ROMS.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -2173,14 +2173,14 @@ const pspApps = [
         installation: [
             "Descarga y extrae Emulador de MAME FBA.rar.",
             "Copia la carpeta PSP incluida en el archivo a la raíz de la Memory Stick.",
-            "En Juego > Memory Stick, inicia PSP PaLL, como lo identifica el tutorial."
+            "En Juego > Memory Stick, inicia PSP PaLL."
         ],
 
         usage:
             "Coloca las ROMs compatibles en PSP/GAME/FBA/ROMS y abre de nuevo el emulador para seleccionarlas.",
 
         notes:
-            "El tutorial no especifica la versión exacta de FBA ni el set de ROM compatible. Las ROMs arcade suelen depender de la versión del emulador; un ZIP válido puede no ser compatible. Usa únicamente ROMs que tengas derecho a utilizar.",
+            "No se especifican la versión exacta de FBA ni el set de ROM compatible. Las ROMs arcade suelen depender de la versión del emulador; un ZIP válido puede no ser compatible. Usa únicamente ROMs que tengas derecho a utilizar.",
 
         details: [
             {
@@ -2195,13 +2195,13 @@ const pspApps = [
                 ]
             },
             {
-                title: "Nombres en el tutorial",
+                title: "Nombre del menú",
 
                 description:
                     "La página se titula MAME FBA, llama FBA a la carpeta del emulador y muestra PSP PaLL en el menú.",
 
                 items: [
-                    "Se conserva PSP PaLL como etiqueta de menú indicada por el tutorial; no se atribuye como nombre oficial del emulador."
+                    "PSP PaLL es la etiqueta que aparece en el menú; no es el nombre oficial del emulador."
                 ]
             }
         ]
@@ -2234,7 +2234,7 @@ const pspApps = [
             "PicoDrive ejecuta ROMs compatibles de Mega Drive desde la Memory Stick.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -2252,7 +2252,7 @@ const pspApps = [
             "Coloca las ROMs compatibles en PSP/GAME/Picodrive1.92.3/ROMS y abre de nuevo PicoDrive para seleccionarlas.",
 
         notes:
-            "El tutorial no detalla los controles ni las extensiones admitidas, solo indica ROMs comprimidas en ZIP o carpetas. Usa únicamente ROMs de juegos que tengas derecho a utilizar.",
+            "No se detallan los controles ni las extensiones admitidas; se admiten ROMs comprimidas en ZIP o carpetas. Usa únicamente ROMs de juegos que tengas derecho a utilizar.",
 
         version: "1.92.3",
 
@@ -2265,7 +2265,7 @@ const pspApps = [
 
                 items: [
                     "Ruta: PSP/GAME/Picodrive1.92.3/ROMS.",
-                    "El tutorial indica archivos ZIP y carpetas; no especifica más extensiones."
+                    "Se indican archivos ZIP y carpetas; no se especifican más extensiones."
                 ]
             }
         ]
@@ -2309,15 +2309,15 @@ const pspApps = [
         installation: [
             "Descarga y extrae RETROARCH.rar.",
             "Copia la carpeta PSP incluida en el archivo a la raíz de la Memory Stick.",
-            "Copia el contenido compatible a la carpeta PSP/roms indicada por el tutorial.",
+            "Copia el contenido compatible a la carpeta PSP/roms.",
             "En Juego > Memory Stick, inicia retroarch."
         ],
 
         usage:
-            "En RetroArch selecciona un core adecuado para el sistema y luego carga un archivo compatible. El tutorial enumera formatos por sistema, pero algunos son específicos del core y no todos funcionan en todos los cores.",
+            "En RetroArch selecciona un core adecuado para el sistema y luego carga un archivo compatible. Algunos formatos son específicos del core y no funcionan en todos los cores.",
 
         notes:
-            "La documentación corresponde a una versión antigua (1.9.13), no a la versión más reciente de RetroArch. La PSP tiene limitaciones de rendimiento y ciertos cores o juegos pueden funcionar lentamente o no ser compatibles. Usa únicamente ROMs y archivos de contenido que tengas derecho a utilizar. En la tabla del tutorial aparece .gb para GBA; es una errata: los juegos de Game Boy Advance suelen usar .gba.",
+            "Esta información corresponde a RetroArch 1.9.13, no a la versión más reciente. La PSP tiene limitaciones de rendimiento y ciertos cores o juegos pueden funcionar lentamente o no ser compatibles. Usa únicamente ROMs y archivos de contenido que tengas derecho a utilizar. La extensión .gb no corresponde a GBA; los juegos de Game Boy Advance suelen usar .gba.",
 
         version: "PSP 1.9.13",
 
@@ -2339,11 +2339,11 @@ const pspApps = [
                 title: "Formatos y carpetas",
 
                 description:
-                    "El tutorial sugiere la carpeta PSP/roms y menciona extensiones como .nes, .sms, .md, .smc, .gb y ZIP.",
+                    "Usa la carpeta PSP/roms. Algunos formatos admitidos son .nes, .sms, .md, .smc, .gb y ZIP.",
 
                 items: [
                     "El formato debe ser admitido por el core seleccionado; un archivo ZIP no garantiza compatibilidad universal.",
-                    "Para GBA, utiliza archivos de juego .gba compatibles con el core, no la extensión .gb indicada por error en el tutorial."
+                    "Para GBA, utiliza archivos de juego .gba compatibles con el core, no archivos .gb."
                 ]
             }
         ]
@@ -2376,7 +2376,7 @@ const pspApps = [
             "Carga ROMs compatibles de Master System y Game Gear desde la Memory Stick.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -2394,7 +2394,7 @@ const pspApps = [
             "Coloca las ROMs compatibles en PSP/GAME/SMSplus/roms y vuelve a iniciar la aplicación para seleccionarlas.",
 
         notes:
-            "El tutorial no detalla los controles ni las extensiones admitidas dentro de los ZIP. La compatibilidad puede depender del formato y de la ROM. Usa únicamente juegos que tengas derecho a utilizar.",
+            "No se detallan los controles ni las extensiones admitidas dentro de los ZIP. La compatibilidad puede depender del formato y de la ROM. Usa únicamente juegos que tengas derecho a utilizar.",
 
         version: "1.5",
 
@@ -2407,14 +2407,14 @@ const pspApps = [
 
                 items: [
                     "Ruta: PSP/GAME/SMSplus/roms.",
-                    "El tutorial no especifica si los ZIP deben contener un único archivo o qué extensiones de ROM acepta."
+                    "No se especifica si los ZIP deben contener un único archivo ni qué extensiones de ROM se aceptan."
                 ]
             },
             {
                 title: "Sistemas",
 
                 description:
-                    "Esta tarjeta se limita a los dos sistemas que nombra el tutorial.",
+                    "Esta tarjeta se limita a Master System y Game Gear.",
 
                 items: [
                     "Sega Master System.",
@@ -2451,7 +2451,7 @@ const pspApps = [
             "El emulador carga juegos compatibles de SNES desde la Memory Stick, admite ROMs comprimidas en ZIP y ofrece opciones de rendimiento y visualización.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos para esta variante."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos para esta variante."
         },
 
         requirements: [
@@ -2479,7 +2479,7 @@ const pspApps = [
                 title: "ROMs",
 
                 description:
-                    "El tutorial indica ZIP y .nes, pero .nes corresponde a juegos de NES y es una errata para esta tarjeta SNES.",
+                    "Los archivos .nes corresponden a juegos de NES, no de SNES.",
 
                 items: [
                     "Snes9xTYL admite ROMs SNES sin comprimir y comprimidas en ZIP; formatos comunes incluyen .smc y .sfc.",
@@ -2529,7 +2529,7 @@ const pspApps = [
             "Carga ROMs compatibles de Nintendo 64 desde la Memory Stick para ejecutarlas en la PSP.",
 
         compatibility: {
-            PSP: "Aplicación homebrew para PSP; el tutorial no especifica modelos ni firmware mínimos."
+            PSP: "Aplicación homebrew para PSP; no se especifican modelos ni firmware mínimos."
         },
 
         requirements: [
@@ -2547,7 +2547,7 @@ const pspApps = [
             "Coloca las ROMs compatibles en PSP/GAME/Nintendo 64/Roms y selecciónalas desde el emulador.",
 
         notes:
-            "La emulación de Nintendo 64 en PSP tiene limitaciones importantes: la velocidad y compatibilidad varían según el juego, y no todos funcionan correctamente. El tutorial solo menciona ROMs .v64; usa únicamente juegos que tengas derecho a utilizar. Aunque la página se titula “Super Nintendo 64”, el sistema y emulador descritos son Nintendo 64 y Daedalus x64.",
+            "La emulación de Nintendo 64 en PSP tiene limitaciones importantes: la velocidad y compatibilidad varían según el juego, y no todos funcionan correctamente. Daedalus x64 utiliza ROMs .v64; usa únicamente juegos que tengas derecho a utilizar. Aunque la página se titula “Super Nintendo 64”, el sistema y emulador descritos son Nintendo 64 y Daedalus x64.",
 
         details: [
             {
@@ -2558,7 +2558,7 @@ const pspApps = [
 
                 items: [
                     "Ruta: PSP/GAME/Nintendo 64/Roms.",
-                    "El único formato que menciona el tutorial es .v64; revisa la compatibilidad de cada archivo con la versión incluida."
+                    "El formato documentado es .v64; revisa la compatibilidad de cada archivo con la versión incluida."
                 ]
             }
         ]
@@ -2616,7 +2616,7 @@ const pspApps = [
                 title: "Contenido del paquete",
 
                 description:
-                    "El tutorial menciona varias carpetas de imágenes incluidas en PICTURE.",
+                    "El paquete incluye varias carpetas de imágenes para PICTURE.",
 
                 items: [
                     "Arte visual by Kenas.",
@@ -2632,7 +2632,7 @@ const pspApps = [
 
                 items: [
                     "Ejemplo: ms0:/PICTURE/.",
-                    "La ruta de ROMs de ColecoVision que aparece más adelante en el tutorial no corresponde a esta colección y debe ignorarse."
+                    "Ignora la ruta de ROMs de ColecoVision: no corresponde a esta colección de imágenes."
                 ]
             }
         ]
@@ -2686,14 +2686,14 @@ const pspApps = [
             "Abre Ajustes > Ajustes de tema > Tema, selecciona el tema disponible y aplícalo.",
 
         notes:
-            "Haz una copia de seguridad de la Memory Stick y de vsh.txt antes de añadir plugins. No sobrescribas seplugins ni habilites uvc.prx para instalar temas: UVC no es necesario para CXMB. Evita temas que modifiquen directamente flash0; la colección/tutorial no permite confirmar la compatibilidad de cada tema con todos los CFW.",
+            "Haz una copia de seguridad de la Memory Stick y de vsh.txt antes de añadir plugins. No sobrescribas seplugins ni habilites uvc.prx para instalar temas: UVC no es necesario para CXMB. Evita temas que modifiquen directamente flash0; no se confirma la compatibilidad de cada tema con todos los CFW.",
 
         details: [
             {
                 title: "Diferencia entre PTF y CTF",
 
                 description:
-                    "El tutorial menciona temas CTF y la instalación de CXMB; los dos formatos no se instalan de la misma manera.",
+                    "Los temas CTF requieren CXMB; los temas PTF se instalan de otra manera.",
 
                 items: [
                     "PTF: normalmente se copia a ms0:/PSP/THEME/ y se aplica desde los ajustes de tema, sin CXMB.",
@@ -2709,7 +2709,7 @@ const pspApps = [
 
                 items: [
                     "La línea de vsh.txt debe ser ms0:/seplugins/cxmb/cxmb.prx 1.",
-                    "El tutorial también menciona uvc.prx, pero no es requisito de CXMB ni de los temas.",
+                    "uvc.prx no es requisito de CXMB ni de los temas.",
                     "No reemplaces vsh.txt ni actives plugins que no necesites."
                 ]
             }
@@ -2761,11 +2761,11 @@ const pspApps = [
             "Utiliza la página como índice para consultar recursos PSP. No todos los elementos son compatibles con todos los modelos o firmwares, y algunos requieren Custom Firmware.",
 
         notes:
-            "El tutorial presenta esta colección como una selección de recursos disponible hasta 2023; es un archivo de terceros, no un catálogo oficial ni necesariamente actualizado. Descarga únicamente homebrew y contenido que tengas derecho a utilizar; evita copias no autorizadas de juegos comerciales.",
+            "Esta colección reúne recursos disponibles hasta 2023; es un archivo de terceros, no un catálogo oficial ni necesariamente actualizado. Descarga únicamente homebrew y contenido que tengas derecho a utilizar; evita copias no autorizadas de juegos comerciales.",
 
         details: [
             {
-                title: "Categorías mencionadas en el tutorial",
+                title: "Categorías incluidas",
 
                 description:
                     "La página reúne distintos tipos de recursos para PSP.",
@@ -2821,8 +2821,8 @@ const pspApps = [
         },
 
         requirements: [
-            "PC con Windows para ejecutar PSX2PSP; el tutorial menciona Windows 7, 8, 8.1 y 10.",
-            "Imagen de un disco de PS1 que tengas derecho a utilizar; el tutorial menciona ISO, BIN e IMG.",
+            "PC con Windows para ejecutar PSX2PSP; se menciona compatibilidad con Windows 7, 8, 8.1 y 10.",
+            "Imagen de un disco de PS1 que tengas derecho a utilizar, en formato ISO, BIN o IMG.",
             "PSP, Memory Stick y cable USB o lector de tarjetas.",
             "Custom Firmware compatible para ejecutar el EBOOT.PBP convertido."
         ],
@@ -2840,16 +2840,16 @@ const pspApps = [
             "Inicia el título desde Juego > Memory Stick. La compatibilidad y el rendimiento dependen del juego, el modelo y la configuración de POPS/CFW.",
 
         notes:
-            "Usa solo copias de juegos que tengas derecho a utilizar; la tarjeta no proporciona juegos ni imágenes de disco. PSX2PSP es una herramienta antigua: el tutorial menciona hasta Windows 10 y no confirma compatibilidad con versiones actuales de Windows. Respalda tus archivos y verifica compatibilidad antes de convertir o instalar.",
+            "Usa solo copias de juegos que tengas derecho a utilizar; la tarjeta no proporciona juegos ni imágenes de disco. PSX2PSP es una herramienta antigua: no se confirma su compatibilidad con versiones actuales de Windows. Respalda tus archivos y verifica compatibilidad antes de convertir o instalar.",
 
-        version: "PSX2PSP 1.4.2 (versión indicada en el tutorial)",
+        version: "PSX2PSP 1.4.2",
 
         details: [
             {
                 title: "Archivos de entrada y salida",
 
                 description:
-                    "El tutorial describe la conversión de una imagen de disco a un EBOOT.PBP ejecutable desde el menú de PSP.",
+                    "Convierte una imagen de disco a un EBOOT.PBP ejecutable desde el menú de PSP.",
 
                 items: [
                     "Formatos de entrada mencionados: ISO, BIN e IMG.",
@@ -2865,8 +2865,8 @@ const pspApps = [
 
                 items: [
                     "Comprueba los requisitos de firmware y CFW de tu consola.",
-                    "El tutorial no detalla los casos multidisco; consulta una guía específica para esos títulos.",
-                    "No descargues ni compartas imágenes de juegos comerciales sin autorización."
+                    "Para juegos multidisco, consulta una guía específica para esos títulos.",
+                    "No descargues ni compartas imágenes de juegos comerciales sin autorización.",
                 ]
             }
         ]
@@ -2919,10 +2919,10 @@ const pspApps = [
         ],
 
         usage:
-            "En CWCheat, elige la operación de carga o exportación correspondiente a la tarjeta virtual 1 o 2. La guía antigua indica abrir el menú durante el arranque de POPS, después de desaparecer el logo rojo de PlayStation; el momento puede variar según la versión.",
+            "En CWCheat, elige la operación de carga o exportación correspondiente a la tarjeta virtual 1 o 2. Abre el menú de POPS después de desaparecer el logo rojo de PlayStation; el momento puede variar según la versión.",
 
         notes:
-            "La guía es antigua y no confirma compatibilidad con todas las versiones de CFW, CWCheat o POPS. Un ID de juego o sufijo incorrecto puede impedir que se detecte la tarjeta. No sobrescribas archivos originales: conserva copias de seguridad y confirma que la tarjeta cargada corresponde al juego correcto.",
+            "La compatibilidad con todas las versiones de CFW, CWCheat o POPS no está confirmada. Un ID de juego o sufijo incorrecto puede impedir que se detecte la tarjeta. No sobrescribas archivos originales: conserva copias de seguridad y confirma que la tarjeta cargada corresponde al juego correcto.",
 
         details: [
             {
