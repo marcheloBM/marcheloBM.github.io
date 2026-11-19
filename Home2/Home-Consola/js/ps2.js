@@ -152,7 +152,7 @@ const ps2Apps = [
     author: "FMCB Team"
 },
 
-    website: "https://www.ps2-home.com",
+    website: null,
     downloads: [
         {
             name: "GitHub",
@@ -229,30 +229,30 @@ const ps2Apps = [
     guide: {
 
         function:
-            "Permite gestionar, importar, exportar y respaldar partidas guardadas de PlayStation 2.",
+            "Tutorial completo para utilizar Apollo Save Tool en PlayStation 2.",
 
         compatibility: {
-            FMCB: "✅ Compatible",
-            FunTuna: "✅ Compatible",
+            MMCE: "✅ Compatible",
+            MX4SIO: "✅ Compatible",
             USB: "✅ Compatible",
             MemoryCard: "✅ Compatible"
         },
 
         requirements: [
-            "PlayStation 2",
-            "Free McBoot o FunTuna"
+            "USB FAT32",
+            "Apollo Save Tool"
         ],
 
         installation: [
-            "Copiar APOLLO.ELF.",
-            "Ejecutar desde el menú Homebrew."
+            "Copiar APOLLO-99PS2 al USB.",
+            "Ejecutar APOLLO.ELF."
         ],
 
         usage:
-            "Gestiona partidas guardadas almacenadas en tarjetas de memoria y dispositivos USB.",
+            "Importar partidas guardadas desde USB a la Memory Card.",
 
         notes:
-            "Permite realizar copias de seguridad antes de modificar cualquier partida.",
+            "Los saves deben estar en PS2/SAVEDATA.",
 
         version: "Actual",
 

@@ -139,8 +139,8 @@ let html = "";
 
         </div>
         `;
-		container.innerHTML = html;
     });
+    container.innerHTML = html;
 }
 
 renderApps();
