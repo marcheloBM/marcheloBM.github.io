@@ -3368,112 +3368,1005 @@ const ps3Apps = [
     ],
   },
 },
-
-// webMAN MOD
+// Convertir ISO de PS2 sin PC
 {
-    console: "PS3",
-    name: "webMAN MOD",
-    image: "img/webman.jpg",
-    description: "Administrador de juegos para PS3.",
+  console: "PS3",
+  name: "Convertir ISO de PS2 sin PC",
+  image: "img/PS3/convertir-iso-ps2.jpg",
 
-    guide: {
+  description:
+    "Convierte juegos de PlayStation 2 directamente desde la PS3 sin utilizar ordenador, permitiendo ejecutarlos mediante el emulador PS2 Classics.",
 
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/ecZlTRhI#0CfQLINlOFqNL2dfyjTKkA",
+    },
+    {
+      name: "Compatibility",
+      url: "https://www.psdevwiki.com/ps3/PS2_Classics_Emulator_Compatibility_List",
+    },
+  ],
+
+  guide: {
     function:
-        "Administrador de juegos para PlayStation 3.",
+      "Permite convertir imágenes ISO de PlayStation 2 al formato compatible con PS2 Classics directamente en la consola.",
 
     compatibility: {
-        HEN: "✅ Compatible",
-        CFW: "✅ Compatible"
+      HEN: "✅ Compatible",
+      PS2ISO: "✅ Compatible",
+      webMAN: "✅ Recomendado",
+      multiMAN: "✅ Requerido",
     },
 
     requirements: [
-        "PS3 modificada"
+      "Consola con HEN",
+      "Juego PS2 en formato ISO",
+      "multiMAN",
+      "webMAN MOD",
+      "PS2 Classics Manager",
     ],
 
     installation: [
-        "Instalar PKG.",
-        "Reiniciar consola."
+      "Instalar PS2 Classics Manager.",
+      "Instalar PS2 Classics Launcher.",
+      "Instalar licencias exdata necesarias.",
+      "Verificar que webMAN MOD esté funcionando.",
     ],
 
     usage:
-        "Montar juegos y administrar recursos.",
+      "Permite convertir una ISO de PS2 a BIN.ENC directamente desde la PS3 para su ejecución mediante PS2 Classics.",
 
     notes:
-        "Permite controlar ventiladores y temperatura.",
+      "Antes de convertir un juego se recomienda revisar la lista de compatibilidad del emulador PS2 Classics.",
 
-    version: "Latest",
+    version: "Actual",
+    author: "PS3 Homebrew Community",
 
-    author: "aldostools"
+    details: [
+      {
+        title: "Compatibilidad",
+        description:
+          "Comprobar antes de comenzar.",
+        items: [
+          "Revisar lista de compatibilidad PS2 Classics.",
+          "Algunos juegos funcionan mejor que otros.",
+          "No todos los títulos son compatibles.",
+        ],
+      },
+
+      {
+        title: "Copiar ISO al HDD",
+        description:
+          "Transferir el juego a la consola.",
+        items: [
+          "Abrir multiMAN.",
+          "Entrar en PS3 Root.",
+          "Copiar la ISO desde el USB.",
+          "Moverla a dev_hdd0/PS2ISO.",
+        ],
+      },
+
+      {
+        title: "Convertir la ISO",
+        description:
+          "Proceso de cifrado.",
+        items: [
+          "Abrir PS2 Classics Manager.",
+          "Entrar en PS2 GAME LIST.",
+          "Seleccionar el juego.",
+          "Abrir Extended Menu.",
+          "Usar ENCRYPT PS2 ISO/BIN.",
+        ],
+      },
+
+      {
+        title: "Crear Memory Card PS2",
+        description:
+          "Preparar guardados.",
+        items: [
+          "Abrir Herramienta Memory Card.",
+          "Crear nueva Memory Card interna.",
+          "Seleccionar tipo PS2.",
+          "Guardar la configuración.",
+        ],
+      },
+
+      {
+        title: "Mover BIN.ENC",
+        description:
+          "Preparar el juego convertido.",
+        items: [
+          "Abrir multiMAN.",
+          "Entrar en dev_hdd0/PS2ISO.",
+          "Localizar ISO.BIN.ENC.",
+          "Mover el archivo a la carpeta principal.",
+          "Renombrarlo si es necesario.",
+        ],
+      },
+
+      {
+        title: "Actualizar webMAN",
+        description:
+          "Mostrar el juego convertido.",
+        items: [
+          "Abrir Configuración de webMAN.",
+          "Actualizar juegos y XMB.",
+          "Esperar el refresco.",
+          "Buscar el juego en PLAYSTATION2.",
+        ],
+      },
+
+      {
+        title: "Ejecutar el juego",
+        description:
+          "Inicio desde PS3.",
+        items: [
+          "Montar el juego desde webMAN.",
+          "Abrir PS2 Classics Launcher.",
+          "Esperar la carga.",
+          "Jugar normalmente.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones necesarias",
+        description:
+          "Herramientas utilizadas.",
+        items: [
+          "multiMAN",
+          "webMAN MOD",
+          "PS2 Classics Manager",
+          "PS2 Classics Launcher",
+        ],
+      },
+
+      {
+        title: "Consejos",
+        description:
+          "Buenas prácticas.",
+        items: [
+          "Usar juegos comprobados.",
+          "Crear Memory Card PS2 antes de jugar.",
+          "Mantener webMAN actualizado.",
+          "Guardar copia de la ISO original.",
+        ],
+      },
+    ],
+  },
 },
-
-    website: "https://github.com/aldostools/webMAN-MOD",
-    downloads: [
-        {
-            name: "GitHub",
-            url: "https://github.com/aldostools/webMAN-MOD/releases"
-        },
-        {
-            name: "MEGA",
-            url: "https://mega.nz/"
-        }
-    ]
-},
-// multiMAN
+// PSP Launcher
 {
-    console: "PS3",
-    name: "multiMAN",
-    image: "img/multiman.png",
-    description: "Gestor de backups.",
+  console: "PS3",
+  name: "PSP Launcher",
+  image: "img/PS3/psp-launcher.jpg",
 
-    guide: {
+  description:
+    "Permite ejecutar juegos de PSP compatibles en PlayStation 3 utilizando el lanzador PSP Remaster o Cobra PSP Launcher.",
 
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/6ZRG2aBa#oVMhGPEKx92fVlLGITqHIA",
+    },
+  ],
+
+  guide: {
     function:
-        "Administrador de backups y archivos para PS3.",
+      "Lanzar juegos de PSP compatibles cargados mediante webMAN MOD.",
 
     compatibility: {
-        CFW: "✅ Compatible",
-        HEN: "✅ Compatible"
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      PSPISO: "✅ Compatible",
+      webMAN: "✅ Requerido",
     },
 
     requirements: [
-        "PS3 modificada"
+      "PlayStation 3 con HEN o CFW",
+      "webMAN MOD",
+      "Juego PSP compatible",
+      "PSP Launcher",
     ],
 
     installation: [
-        "Instalar PKG."
+      "Copiar el PKG al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Instalar una de las aplicaciones PSP Launcher.",
+      "Verificar que aparezca en el menú Juegos.",
     ],
 
     usage:
-        "Escanear y ejecutar juegos instalados.",
+      "Montar el juego PSP desde webMAN MOD y ejecutar PSP Launcher para iniciar el título.",
 
     notes:
-        "Uno de los gestores clásicos de PS3.",
+      "La compatibilidad depende del juego. No todos los títulos de PSP funcionan correctamente en PS3.",
 
-    version: "Latest",
+    version: "Actual",
+    author: "Scene PS3",
 
-    author: "deank"
+    details: [
+      {
+        title: "Lanzadores compatibles",
+        description:
+          "Aplicaciones incluidas en el tutorial.",
+        items: [
+          "Cobra USB PSP Launcher v2.0",
+          "PSP Remaster Launcher Fixed",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Preparar la consola.",
+        items: [
+          "Instalar el PKG.",
+          "Revisar el menú Juegos.",
+          "Activar HEN si corresponde.",
+          "Verificar webMAN MOD.",
+        ],
+      },
+
+      {
+        title: "Carga del juego",
+        description:
+          "Preparar el título PSP.",
+        items: [
+          "Montar el juego mediante webMAN MOD.",
+          "Esperar que finalice el montaje.",
+          "Abrir PSP Launcher.",
+          "Iniciar el juego.",
+        ],
+      },
+
+      {
+        title: "Ubicación recomendada",
+        description: "Organización de juegos PSP.",
+        items: [
+          "PSPISO",
+          "Mantener nombres simples.",
+          "Evitar caracteres especiales.",
+          "Actualizar webMAN después de agregar juegos.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Aspectos importantes.",
+        items: [
+          "No todos los juegos funcionan.",
+          "Algunos títulos presentan errores.",
+          "La compatibilidad varía según el juego.",
+          "Se recomienda probar individualmente.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones relacionadas",
+        description:
+          "Herramientas recomendadas.",
+        items: [
+          "webMAN MOD",
+          "multiMAN",
+          "IRISMAN",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Funciones principales.",
+        items: [
+          "Carga de juegos PSP.",
+          "Integración con webMAN MOD.",
+          "Instalación sencilla.",
+          "Compatible con HEN y CFW.",
+        ],
+      },
+    ],
+  },
 },
+// RetroArch
+{
+  console: "PS3",
+  name: "RetroArch",
+  image: "img/PS3/retroarch.jpg",
 
-    website: "https://store.brewology.com",
-    downloads: [
-        {
-            name: "GitHub",
-            url: "https://github.com/deank/multiMAN/releases"
-        },
-        {
-            name: "MEGA",
-            url: "https://mega.nz/"
-        },
-        {
-            name: "Brewology",
-            url: "https://store.brewology.com"
-        },
-        {
-            name: "Caratulas",
-            url: "https://github.com/deank/multiMAN/releases"
-        }
-    ]
+  description:
+    "Frontend de emulación para PlayStation 3 que permite ejecutar juegos clásicos mediante núcleos (cores) de diferentes sistemas retro.",
+
+  website: "https://github.com/crystalct/RetroArch_PSX_CE",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/2cBlyIYQ#h_RD-GCQUUVzBv4tRiKl6w",
+    },
+    {
+      name: "Web Oficial",
+      url: "https://retroarch.com/",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/crystalct/RetroArch_PSX_CE/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite cargar juegos retro de múltiples consolas utilizando núcleos de emulación desde una única interfaz.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      USB: "✅ Compatible",
+      FAT32: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3 con HEN o CFW",
+      "RetroArch instalado",
+      "ROMs compatibles",
+      "USB o HDD con las ROMs",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Instalar desde Administrar archivos PKG.",
+      "Abrir RetroArch desde Juegos.",
+      "Configurar idioma y opciones iniciales.",
+    ],
+
+    usage:
+      "Permite cargar núcleos de emulación y ejecutar ROMs desde dispositivos USB o almacenamiento interno.",
+
+    notes:
+      "Para obtener la mejor compatibilidad se recomienda utilizar el núcleo adecuado para cada sistema.",
+
+    version: "Actual",
+    author: "Libretro Team",
+
+    details: [
+      {
+        title: "Primer inicio",
+        description:
+          "Configuración básica.",
+        items: [
+          "Abrir RetroArch.",
+          "Configurar idioma.",
+          "Revisar opciones generales.",
+          "Guardar ajustes.",
+        ],
+      },
+
+      {
+        title: "Idioma",
+        description:
+          "Cambiar idioma de la interfaz.",
+        items: [
+          "Settings",
+          "User",
+          "Language",
+          "Seleccionar idioma deseado",
+        ],
+      },
+
+      {
+        title: "Núcleos",
+        description:
+          "Motores de emulación.",
+        items: [
+          "Descargar núcleos.",
+          "Actualizar núcleos.",
+          "Instalar núcleos manualmente.",
+          "Restaurar núcleos.",
+        ],
+      },
+
+      {
+        title: "Carga de ROMs",
+        description:
+          "Método más sencillo.",
+        items: [
+          "Cargar contenido.",
+          "Buscar ROM.",
+          "Seleccionar núcleo.",
+          "Iniciar juego.",
+        ],
+      },
+      
+      {
+        title: "Carpeta recomendada",
+        description: "Organización de ROMs.",
+        items: [
+          "roms/NES",
+          "roms/SNES",
+          "roms/GBA",
+          "roms/PSX",
+          "roms/MEGADRIVE",
+        ],
+      },
+
+      {
+        title: "Organización de ROMs",
+        description:
+          "Ubicaciones recomendadas.",
+        items: [
+          "/dev_usb000/roms",
+          "USB FAT32",
+          "HDD externo",
+          "Carpetas por consola",
+        ],
+      },
+
+      {
+        title: "Sistemas compatibles",
+        description:
+          "Ejemplos de plataformas.",
+        items: [
+          "NES",
+          "SNES",
+          "Game Boy",
+          "Game Boy Advance",
+          "Mega Drive",
+          "Master System",
+          "Neo Geo",
+          "PlayStation",
+        ],
+      },
+
+      {
+        title: "Controles durante el juego",
+        description:
+          "Acceso al menú rápido.",
+        items: [
+          "L3 + R3",
+          "Menú rápido",
+          "Cambiar opciones",
+          "Cerrar juego",
+        ],
+      },
+
+      {
+        title: "Versiones disponibles",
+        description:
+          "Opciones del tutorial.",
+        items: [
+          "RetroArch Oficial",
+          "RetroArch Modificado",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Características principales.",
+        items: [
+          "Multisistema.",
+          "Actualización de núcleos.",
+          "Interfaz unificada.",
+          "Guardado rápido.",
+          "Compatible con USB.",
+        ],
+      },
+
+      {
+        title: "Consejos",
+        description:
+          "Buenas prácticas.",
+        items: [
+          "Mantener los núcleos actualizados.",
+          "Organizar ROMs por carpetas.",
+          "Usar núcleos recomendados.",
+          "Guardar configuraciones personalizadas.",
+        ],
+      },
+    ],
+  },
 },
+// Flash Player Store PS3
+{
+  console: "PS3",
+  name: "Flash Player Store PS3",
+  image: "img/PS3/flash-player-store.jpg",
 
+  description:
+    "Pequeña colección de juegos Flash para PlayStation 3 accesibles desde una interfaz integrada.",
 
+  website: "https://github.com/DropSonic0/Flash-Player-PS3-Store",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/DcAHCA4R#tvzwlRR1Y2USOddtNh-Obg",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/DropSonic0/Flash-Player-PS3-Store/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite acceder y ejecutar juegos Flash desde una interfaz preparada para PlayStation 3.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      Internet: "✅ Recomendado",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Flash Player Store PS3",
+      "Navegador de PS3",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Instalar FGP3.",
+      "Ejecutar la aplicación desde Juegos.",
+    ],
+
+    usage:
+      "Abrir FGP3, acceder a la sección FLASH y seleccionar el juego deseado.",
+
+    notes:
+      "Los juegos se ejecutan utilizando el navegador integrado de PlayStation 3.",
+
+    version: "Actual",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "Instalación",
+        description:
+          "Preparación inicial.",
+        items: [
+          "Copiar el PKG al USB.",
+          "Instalar desde Directorio estándar.",
+          "Abrir FGP3.",
+          "Acceder a FLASH.",
+        ],
+      },
+
+      {
+        title: "Catálogo de juegos",
+        description:
+          "Contenido disponible.",
+        items: [
+          "Juegos Flash clásicos.",
+          "Selección integrada.",
+          "Acceso desde una única interfaz.",
+        ],
+      },
+
+      {
+        title: "Carga de juegos",
+        description:
+          "Inicio de los títulos.",
+        items: [
+          "Seleccionar juego.",
+          "Abrir desde el catálogo.",
+          "Cargar en el navegador.",
+          "Comenzar a jugar.",
+        ],
+      },
+
+      {
+        title: "Navegador PS3",
+        description:
+          "Método de ejecución.",
+        items: [
+          "Uso del navegador integrado.",
+          "Sin aplicaciones adicionales.",
+          "Interfaz sencilla.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Características principales.",
+        items: [
+          "Instalación rápida.",
+          "Colección de juegos Flash.",
+          "Fácil utilización.",
+          "Compatible con PS3.",
+        ],
+      },
+
+      {
+        title: "Importante",
+        description:
+          "Aspectos a considerar.",
+        items: [
+          "La compatibilidad depende de cada juego.",
+          "Algunos títulos pueden cargar más lento.",
+          "La experiencia puede variar según el navegador de PS3.",
+        ],
+      },
+    ],
+  },
+},
+// PKGi
+{
+  console: "PS3",
+  name: "PKGi",
+  image: "img/PS3/pkgi.jpg",
+
+  description:
+    "Gestor de descargas para PlayStation 3 que permite descargar e instalar contenido directamente desde la consola.",
+
+  website: "https://github.com/bucanero/pkgi-ps3",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/rY5UnLoS#NomGm3D8AjZ6gx_NKls8OA",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/bucanero/pkgi-ps3/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite consultar una base de datos de contenido y descargar paquetes directamente desde la PlayStation 3.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      Internet: "✅ Requerido",
+    },
+
+    requirements: [
+      "PlayStation 3 con HEN o CFW",
+      "Conexión a Internet",
+      "PKGi",
+      "Base de datos configurada",
+    ],
+
+    installation: [
+      "Copiar PKGi.pkg al USB.",
+      "Instalar desde Administrador de archivos PKG.",
+      "Instalar Auto_DB_PKGi.pkg.",
+      "Ejecutar PKGi desde el menú Red.",
+    ],
+
+    usage:
+      "Permite navegar por la base de datos, buscar contenido y descargarlo directamente a la consola.",
+
+    notes:
+      "Para obtener los mejores resultados conviene mantener la base de datos actualizada mediante Auto_DB_PKGi.",
+
+    version: "Actual",
+    author: "bucanero",
+
+    details: [
+      {
+        title: "Primer inicio",
+        description:
+          "Configuración básica.",
+        items: [
+          "Abrir PKGi.",
+          "Esperar la carga de la base de datos.",
+          "Verificar conexión a Internet.",
+        ],
+      },
+
+      {
+        title: "Biblioteca",
+        description:
+          "Contenido disponible.",
+        items: [
+          "Juegos.",
+          "DLC.",
+          "Temas.",
+          "Avatares.",
+          "Demos.",
+        ],
+      },
+
+      {
+        title: "Filtros",
+        description:
+          "Opciones de búsqueda.",
+        items: [
+          "Filtrar por categoría.",
+          "Filtrar por región.",
+          "Ordenar por nombre.",
+          "Ordenar por tamaño.",
+        ],
+      },
+
+      {
+        title: "Regiones",
+        description:
+          "Filtrado por origen.",
+        items: [
+          "Europa.",
+          "USA.",
+          "Japón.",
+          "Asia.",
+        ],
+      },
+
+      {
+        title: "Información rápida",
+        description:
+          "Datos básicos del contenido.",
+        items: [
+          "CUADRADO para ver detalles.",
+          "Título.",
+          "Tamaño.",
+          "Información disponible.",
+        ],
+      },
+
+      {
+        title: "Juegos instalados",
+        description:
+          "Identificación rápida dentro de PKGi.",
+        items: [
+          "Los títulos con punto blanco ya están instalados en la consola.",
+          "Permite evitar descargas duplicadas.",
+        ],
+      },
+
+      {
+        title: "Opciones",
+        description:
+          "Menú de configuración.",
+        items: [
+          "TRIÁNGULO para abrir opciones.",
+          "Actualizar aplicación.",
+          "Cambiar método de descarga.",
+          "Configurar interfaz.",
+        ],
+      },
+
+      {
+        title: "Métodos de descarga",
+        description:
+          "Modos disponibles.",
+        items: [
+          "Direct DL.",
+          "Back. DL.",
+          "Gestor de descargas integrado.",
+        ],
+      },
+
+      {
+        title: "Direct DL",
+        description:
+          "Descarga e instalación directa.",
+        items: [
+          "Descarga automática.",
+          "Instalación automática.",
+          "Menos intervención del usuario.",
+        ],
+      },
+
+      {
+        title: "Back. DL",
+        description:
+          "Descarga mediante cola.",
+        items: [
+          "Descarga el paquete.",
+          "Utiliza Download Manager.",
+          "Instalación posterior.",
+        ],
+      },
+
+      {
+        title: "Instalar descargas",
+        description:
+          "Ubicación del contenido descargado.",
+        items: [
+          "Administrar archivos PKG.",
+          "Contenido de PlayStation Network.",
+          "Instalar individualmente.",
+          "Eliminar paquetes descargados.",
+        ],
+      },
+
+      {
+        title: "Licencias",
+        description:
+          "Información mostrada en el catálogo.",
+        items: [
+          "RAP not Required.",
+          "Contenido sin licencia adicional.",
+          "Información mostrada antes de descargar.",
+        ],
+      },
+
+      {
+        title: "Actualizar Base de Datos",
+        description:
+          "Mantener los listados actualizados.",
+        items: [
+          "Instalar Auto_DB_PKGi.pkg.",
+          "Actualizar información.",
+          "Mejorar compatibilidad.",
+          "Mantener el catálogo actualizado.",
+        ],
+      },
+
+      {
+        title: "Controles",
+        description:
+          "Accesos rápidos.",
+        items: [
+          "✕ Descargar.",
+          "□ Información.",
+          "△ Opciones.",
+          "○ Salir.",
+        ],
+      },
+    ],
+  },
+},
+// VIDEOSTORE
+{
+  console: "PS3",
+  name: "VIDEOSTORE",
+  image: "img/PS3/videostore.jpg",
+
+  description:
+    "Tienda para PlayStation 3 que permite acceder a juegos, aplicaciones, contenido retro y utilidades directamente desde la consola.",
+
+  website: "https://github.com/Videogamesscz/videostore",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/fQYwWQ5S#7J14xtM1HNFcVH_TpsPsZw",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/Videogamesscz/videostore/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite navegar y acceder a diferentes categorías de contenido desde una única aplicación instalada en la PS3.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      Internet: "✅ Requerido",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Conexión a Internet",
+      "VIDEOSTORE",
+      "HEN activo (si corresponde)",
+    ],
+
+    installation: [
+      "Copiar VIDEOSTORE.pkg al USB.",
+      "Instalar desde Administrador de archivos PKG.",
+      "Instalar FIX HEN si la versión lo requiere.",
+      "Reiniciar la consola.",
+    ],
+
+    usage:
+      "Abrir VIDEOSTORE desde el menú Juegos y navegar por las distintas categorías disponibles.",
+
+    notes:
+      "Es necesario activar HEN antes de utilizar la aplicación en sistemas compatibles.",
+
+    version: "2.x",
+    author: "Videogamesscz",
+
+    details: [
+      {
+        title: "Instalación",
+        description:
+          "Preparar la aplicación.",
+        items: [
+          "Instalar VIDEOSTORE.",
+          "Instalar FIX HEN.",
+          "Reiniciar la consola.",
+          "Activar HEN.",
+        ],
+      },
+
+      {
+        title: "Catálogo disponible",
+        description:
+          "Contenido accesible.",
+        items: [
+          "PlayStation 1",
+          "PlayStation 2",
+          "PlayStation 3",
+          "PSP",
+          "Retro",
+          "Homebrew",
+        ],
+      },
+
+      {
+        title: "Aplicaciones",
+        description:
+          "Herramientas adicionales.",
+        items: [
+          "Homebrew PS3.",
+          "Utilidades.",
+          "Herramientas del sistema.",
+          "Aplicaciones multimedia.",
+        ],
+      },
+
+      {
+        title: "Contenido retro",
+        description:
+          "Juegos clásicos.",
+        items: [
+          "Sistemas retro compatibles.",
+          "Selección organizada.",
+          "Acceso desde la aplicación.",
+        ],
+      },
+
+      {
+        title: "Uso diario",
+        description:
+          "Funcionamiento básico.",
+        items: [
+          "Abrir VIDEOSTORE.",
+          "Seleccionar categoría.",
+          "Explorar contenido.",
+          "Elegir elemento disponible.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Modelos soportados.",
+        items: [
+          "PS3 FAT",
+          "PS3 Slim",
+          "PS3 Super Slim",
+          "Compatible con HEN",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Puntos fuertes.",
+        items: [
+          "Interfaz sencilla.",
+          "Contenido organizado.",
+          "Varias categorías disponibles.",
+          "Instalación rápida.",
+          "Compatible con HEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones relacionadas",
+        description:
+          "Complementos recomendados.",
+        items: [
+          "PKGi",
+          "webMAN MOD",
+          "Apollo Save Tool",
+          "RetroArch",
+          "Movian",
+        ],
+      },
+    ],
+  },
+},
 ];
