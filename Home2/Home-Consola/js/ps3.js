@@ -4369,4 +4369,5024 @@ const ps3Apps = [
     ],
   },
 },
+// WebStore Comunidad (Obsoleto)
+{
+  console: "PS3",
+  name: "⚠️ WebStore Comunidad (Obsoleto)",
+  image: "img/PS3/webstore-comunidad.jpg",
+
+  description:
+    "Tienda clásica para PlayStation 3 que permitía acceder a juegos, aplicaciones y contenido retro. Actualmente el proyecto ya no dispone de soporte oficial.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/fJpg3ZSa#AZJ9cB3HFzhRd9Np__rCrQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permitía acceder a diferentes categorías de contenido directamente desde la consola.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      Internet: "✅ Requerido",
+      Estado: "⚠️ Obsoleto",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "HEN activo",
+      "Conexión a Internet",
+      "WebStore Comunidad",
+    ],
+
+    installation: [
+      "Copiar WebStore Comunidad.pkg al USB.",
+      "Instalar desde Administrador de archivos PKG.",
+      "Instalar el FIX HEN correspondiente.",
+      "Reiniciar la consola.",
+    ],
+
+    usage:
+      "Abrir la aplicación desde el menú Juegos y navegar por las categorías disponibles.",
+
+    notes:
+      "El proyecto ya no dispone de soporte activo, por lo que algunas funciones o enlaces pueden dejar de funcionar.",
+
+    version: "Legacy",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "Estado actual",
+        description:
+          "Situación del proyecto.",
+        items: [
+          "Proyecto sin soporte.",
+          "Funcionamiento variable.",
+          "Algunas funciones pueden no estar disponibles.",
+          "Uso principalmente histórico.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Proceso básico.",
+        items: [
+          "Instalar WebStore Comunidad.",
+          "Instalar FIX HEN.",
+          "Reiniciar la consola.",
+          "Activar HEN.",
+        ],
+      },
+
+      {
+        title: "Contenido disponible",
+        description:
+          "Categorías incluidas.",
+        items: [
+          "PlayStation 1",
+          "PlayStation 2",
+          "PlayStation 3",
+          "PSP",
+          "Retro",
+          "Homebrew",
+        ],
+      },
+
+      {
+        title: "Aplicaciones",
+        description:
+          "Herramientas y utilidades.",
+        items: [
+          "Homebrew.",
+          "Aplicaciones multimedia.",
+          "Herramientas PS3.",
+          "Utilidades del sistema.",
+        ],
+      },
+
+      {
+        title: "Uso",
+        description:
+          "Funcionamiento general.",
+        items: [
+          "Abrir la aplicación.",
+          "Entrar en una categoría.",
+          "Explorar contenido.",
+          "Seleccionar el elemento deseado.",
+        ],
+      },
+
+      {
+        title: "Alternativas actuales",
+        description:
+          "Opciones recomendadas actualmente.",
+        items: [
+          "PKGi",
+          "VIDEOSTORE",
+          "webMAN MOD",
+          "RetroArch",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Consolas compatibles.",
+        items: [
+          "PS3 FAT",
+          "PS3 Slim",
+          "PS3 Super Slim",
+          "Compatible con HEN.",
+        ],
+      },
+
+      {
+        title: "Advertencia",
+        description:
+          "Información importante.",
+        items: [
+          "No tiene mantenimiento activo.",
+          "Algunos enlaces pueden estar caídos.",
+          "El contenido disponible puede variar.",
+          "Se recomienda utilizar alternativas modernas cuando sea posible.",
+        ],
+      },
+    ],
+  },
+},
+// ZukoStore
+{
+  console: "PS3",
+  name: "ZukoStore",
+  image: "img/PS3/zukostore.jpg",
+
+  description:
+    "Tienda todo en uno para PlayStation 3 que permite acceder a juegos, aplicaciones, utilidades y contenido adicional directamente desde la consola.",
+
+  website: "https://thezukostore.com/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/zQogUaQS#li4NYPdF56k84wXMBOcJiQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite navegar por distintas categorías de contenido y acceder a recursos para PlayStation 3 desde una interfaz integrada.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      Internet: "✅ Requerido",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Conexión a Internet",
+      "ZukoStore instalado",
+      "HEN activo",
+    ],
+
+    installation: [
+      "Copiar ZukoStore.pkg al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Instalar la aplicación.",
+      "Reiniciar la consola si es necesario.",
+      "Activar HEN.",
+    ],
+
+    usage:
+      "Abrir ZukoStore desde el menú Juegos y navegar por las categorías disponibles.",
+
+    notes:
+      "El contenido disponible puede variar según la versión de la tienda y las actualizaciones recibidas.",
+
+    version: "Actual",
+    author: "ZukoStore Team",
+
+    details: [
+      {
+        title: "Primer inicio",
+        description:
+          "Configuración básica.",
+        items: [
+          "Abrir ZukoStore.",
+          "Esperar la carga inicial.",
+          "Verificar conexión a Internet.",
+          "Actualizar si existe una nueva versión.",
+        ],
+      },
+
+      {
+        title: "Juegos",
+        description:
+          "Contenido principal.",
+        items: [
+          "PlayStation 1",
+          "PlayStation 2",
+          "PlayStation 3",
+          "PSP",
+        ],
+      },
+
+      {
+        title: "Homebrew",
+        description:
+          "Aplicaciones disponibles.",
+        items: [
+          "Herramientas del sistema.",
+          "Multimedia.",
+          "Gestores de archivos.",
+          "Emuladores.",
+        ],
+      },
+
+      {
+        title: "Utilidades",
+        description:
+          "Funciones adicionales.",
+        items: [
+          "Aplicaciones para HEN.",
+          "Herramientas de mantenimiento.",
+          "Personalización del sistema.",
+          "Recursos para usuarios avanzados.",
+        ],
+      },
+
+      {
+        title: "Navegación",
+        description:
+          "Uso de la interfaz.",
+        items: [
+          "Moverse por categorías.",
+          "Abrir detalles del contenido.",
+          "Consultar información disponible.",
+          "Acceder rápidamente a recursos.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Sistemas compatibles.",
+        items: [
+          "PS3 FAT",
+          "PS3 Slim",
+          "PS3 Super Slim",
+          "Compatible con HEN",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Características destacadas.",
+        items: [
+          "Interfaz sencilla.",
+          "Contenido organizado.",
+          "Acceso rápido.",
+          "Instalación simple.",
+          "Compatible con PlayStation 3.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones relacionadas",
+        description:
+          "Complementos recomendados.",
+        items: [
+          "webMAN MOD",
+          "PKGi",
+          "VIDEOSTORE",
+          "WIKISTORE",
+          "RetroArch",
+        ],
+      },
+
+      {
+        title: "Recomendaciones",
+        description:
+          "Buenas prácticas.",
+        items: [
+          "Mantener espacio libre en el HDD.",
+          "Usar una conexión estable.",
+          "Mantener HEN actualizado.",
+          "Revisar actualizaciones de la tienda.",
+        ],
+      },
+    ],
+  },
+},
+// 9420 Carátulas
+{
+  console: "PS3",
+  name: "9420 Carátulas",
+  image: "img/PS3/9420-caratulas.jpg",
+
+  description:
+    "Pack de 9420 carátulas para juegos de PlayStation 3, PlayStation 2 y sistemas retro compatible con multiMAN y webMAN MOD.",
+
+  website: "https://github.com/aldostools/webMAN-MOD",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/GUhWlLwZ#jS2azbfM0SgouGR3mDHaJA",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/aldostools/webMAN-MOD/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite añadir miles de carátulas a la biblioteca de juegos utilizada por multiMAN y webMAN MOD.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      multiMAN: "✅ Compatible",
+      webMAN: "✅ Compatible",
+      PS3: "✅ Compatible",
+      PS2: "✅ Compatible",
+      Retro: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "USB FAT32",
+      "multiMAN o webMAN MOD",
+      "Pack de carátulas",
+    ],
+
+    installation: [
+      "Copiar los PKG al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Instalar los paquetes de carátulas.",
+      "Esperar a que finalice la instalación.",
+    ],
+
+    usage:
+      "Las carátulas se integran automáticamente en multiMAN y webMAN MOD para mostrar imágenes de los juegos.",
+
+    notes:
+      "Después de instalar el pack es recomendable actualizar la biblioteca de webMAN MOD para detectar las nuevas carátulas.",
+
+    version: "9420 Covers Pack",
+    author: "PS3 Community",
+
+    details: [
+      {
+        title: "Contenido del Pack",
+        description:
+          "Elementos incluidos.",
+        items: [
+          "Carátulas PS3.",
+          "Carátulas PS2.",
+          "Carátulas Retro.",
+          "Miles de juegos compatibles.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Preparación inicial.",
+        items: [
+          "Instalar el paquete principal.",
+          "Instalar el paquete Retro.",
+          "Completar la instalación.",
+          "Reiniciar la consola.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Aplicaciones soportadas.",
+        items: [
+          "multiMAN",
+          "webMAN MOD",
+          "Bibliotecas PS3.",
+          "Bibliotecas PS2.",
+          "Bibliotecas Retro.",
+        ],
+      },
+
+      {
+        title: "Actualizar multiMAN",
+        description:
+          "Verificar la instalación.",
+        items: [
+          "Abrir multiMAN.",
+          "Comprobar la biblioteca.",
+          "Verificar las nuevas imágenes.",
+        ],
+      },
+
+      {
+        title: "Actualizar webMAN MOD",
+        description:
+          "Refrescar la lista de juegos.",
+        items: [
+          "Entrar en Configuración webMAN.",
+          "Actualizar juegos de webMAN y XMB.",
+          "Actualizar Juegos de webMAN.",
+          "Actualizar lista web de juegos.",
+        ],
+      },
+
+      {
+        title: "Reiniciar consola",
+        description:
+          "Aplicar los cambios.",
+        items: [
+          "Salir al XMB.",
+          "Reiniciar la consola.",
+          "Volver a cargar la biblioteca.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+        items: [
+          "Biblioteca más visual.",
+          "Mayor organización.",
+          "Compatible con miles de juegos.",
+          "Integración con webMAN MOD.",
+          "Integración con multiMAN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones relacionadas",
+        description:
+          "Complementos recomendados.",
+        items: [
+          "webMAN MOD",
+          "multiMAN",
+          "IRISMAN",
+          "RetroArch",
+        ],
+      },
+    ],
+  },
+},
+// Iconos Personalizados
+{
+  console: "PS3",
+  name: "Iconos Personalizados",
+  image: "img/PS3/iconos-personalizados.jpg",
+
+  description:
+    "Colección de skins e iconos personalizados para aplicaciones populares de PlayStation 3 como Apollo, Artemis, File Manager, webMAN MOD y sMan.",
+
+  website: "https://www.psx-place.com/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/WQhjEAyC#7VYcdXfrhjoDqafUdHRhEQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite reemplazar iconos e imágenes de aplicaciones para dar una apariencia renovada al menú XMB.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      XMB: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "USB FAT32",
+      "Aplicaciones compatibles instaladas",
+    ],
+
+    installation: [
+      "Copiar los PKG al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Instalar los skins deseados.",
+      "Volver al XMB para comprobar los cambios.",
+    ],
+
+    usage:
+      "Instalar el skin correspondiente a cada aplicación para reemplazar automáticamente los iconos originales.",
+
+    notes:
+      "Los cambios son únicamente visuales y no modifican el funcionamiento de las aplicaciones.",
+
+    version: "Pack Personalización",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "Aplicaciones compatibles",
+        description:
+          "Skins incluidos en el pack.",
+        items: [
+          "Apollo Save Tool",
+          "Artemis",
+          "File Manager",
+          "webMAN MOD",
+          "sMan",
+        ],
+      },
+
+      {
+        title: "Apollo Skin",
+        description:
+          "Personalización de Apollo Save Tool.",
+        items: [
+          "Nuevo icono.",
+          "Nueva apariencia.",
+          "Integración con el XMB.",
+        ],
+      },
+
+      {
+        title: "Artemis Skin",
+        description:
+          "Nuevo aspecto visual para Artemis.",
+        items: [
+          "Icono personalizado.",
+          "Diseño alternativo.",
+          "Acceso desde Juegos.",
+        ],
+      },
+
+      {
+        title: "File Manager Skin",
+        description:
+          "Aspecto alternativo para File Manager.",
+        items: [
+          "Nuevo icono.",
+          "Mayor personalización.",
+          "Diseño renovado.",
+        ],
+      },
+
+      {
+        title: "webMAN MOD Skin",
+        description:
+          "Personalización para webMAN.",
+        items: [
+          "Iconos modificados.",
+          "Nuevos accesos visuales.",
+          "Diseño alternativo.",
+        ],
+      },
+
+      {
+        title: "sMan Skin",
+        description:
+          "Aspecto personalizado para sMan.",
+        items: [
+          "Nuevo icono.",
+          "Nueva imagen del XMB.",
+          "Integración automática.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Proceso básico.",
+        items: [
+          "Seleccionar el skin deseado.",
+          "Instalar el PKG.",
+          "Esperar la finalización.",
+          "Comprobar los cambios.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Características principales.",
+        items: [
+          "Personalización rápida.",
+          "No modifica funciones.",
+          "Instalación sencilla.",
+          "Compatible con HEN y CFW.",
+        ],
+      },
+    ],
+  },
+},
+// Logos HEN
+{
+  console: "PS3",
+  name: "Logos HEN",
+  image: "img/PS3/logos-hen.jpg",
+
+  description:
+    "Colección de logos personalizados para HEN que permiten cambiar la apariencia del icono de activación en PlayStation 3.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/TFZTja5B#wOoPNL0EjLS3N3xAJQ2hsg",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite instalar distintos diseños visuales para personalizar el logo de HEN en el XMB.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      XMB: "✅ Compatible",
+      Personalización: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3 con HEN",
+      "USB FAT32",
+      "Pack Logos HEN",
+    ],
+
+    installation: [
+      "Copiar Logos HEN.pkg al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Instalar el paquete principal.",
+      "Abrir Instalar archivos PKG.",
+      "Entrar en Almacenamiento del sistema PS3.",
+    ],
+
+    usage:
+      "Seleccionar uno de los logos incluidos en el pack e instalarlo desde el almacenamiento interno de la PS3.",
+
+    notes:
+      "Los cambios realizados son únicamente visuales y pueden reemplazarse instalando otro logo del mismo paquete.",
+
+    version: "Pack Logos HEN",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "¿Qué incluye?",
+        description:
+          "Contenido del paquete.",
+        items: [
+          "Múltiples logos HEN.",
+          "Diferentes estilos visuales.",
+          "Versiones alternativas.",
+          "Instalación individual.",
+        ],
+      },
+
+      {
+        title: "Instalación del Pack",
+        description:
+          "Preparar los logos.",
+        items: [
+          "Instalar Logos HEN.pkg.",
+          "Esperar la extracción.",
+          "Acceder a PKG Manager.",
+          "Abrir Almacenamiento del sistema PS3.",
+        ],
+      },
+
+      {
+        title: "Elegir un Logo",
+        description:
+          "Seleccionar el diseño deseado.",
+        items: [
+          "Revisar la imagen de referencia.",
+          "Buscar el mismo nombre en la consola.",
+          "Seleccionar el logo favorito.",
+          "Instalar el paquete correspondiente.",
+        ],
+      },
+
+      {
+        title: "Cambiar de Logo",
+        description:
+          "Modificar la apariencia cuando quieras.",
+        items: [
+          "Entrar nuevamente al almacenamiento del sistema.",
+          "Seleccionar otro logo.",
+          "Instalar el nuevo paquete.",
+          "Reemplazar el anterior.",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Aspectos visuales modificados.",
+        items: [
+          "Icono HEN.",
+          "Diseño del acceso.",
+          "Identidad visual.",
+          "Apariencia del XMB.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios del pack.",
+        items: [
+          "Personalización rápida.",
+          "Instalación sencilla.",
+          "Gran variedad de diseños.",
+          "Compatible con HEN.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones relacionadas",
+        description:
+          "Otras opciones de personalización.",
+        items: [
+          "Iconos Personalizados",
+          "webMAN MOD",
+          "Apollo Save Tool",
+          "Artemis",
+          "sMan",
+        ],
+      },
+
+      {
+        title: "Importante",
+        description:
+          "Información adicional.",
+        items: [
+          "Solo modifica la apariencia.",
+          "No altera funciones de HEN.",
+          "Se puede cambiar en cualquier momento.",
+          "Compatible con instalaciones HEN.",
+        ],
+      },
+    ],
+  },
+},
+// Monstruoso T-PACK
+{
+  console: "PS3",
+  name: "Monstruoso T-PACK",
+  image: "img/PS3/monstruoso-tpack.jpg",
+
+  description:
+    "Mega pack de personalización para PlayStation 3 que incluye logos PSN, imágenes de usuario y una colección de temas para el XMB.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/uNpk0JjR#aSceNXgBZtXKKsWLr050Aw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite personalizar distintos aspectos visuales de PlayStation 3 mediante logos, avatares e instalación de temas.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      XMB: "✅ Compatible",
+      Temas: "✅ Compatible",
+      Personalización: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "USB FAT32",
+      "Pack Monstruoso T-PACK",
+    ],
+
+    installation: [
+      "Descargar Monstruoso T-PACK.",
+      "Extraer el archivo T-PACK.rar.",
+      "Copiar el contenido a la raíz del USB.",
+      "Conectar el USB a la consola.",
+    ],
+
+    usage:
+      "Permite instalar logos PSN, cambiar imágenes de usuario e instalar temas personalizados desde una sola colección.",
+
+    notes:
+      "Los cambios realizados son visuales y pueden modificarse posteriormente instalando otros paquetes o temas.",
+
+    version: "T-PACK",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "Contenido del Pack",
+        description:
+          "Elementos incluidos.",
+        items: [
+          "Logos PSN.",
+          "Imágenes de usuario.",
+          "Temas para PS3.",
+          "Pack de personalización.",
+        ],
+      },
+
+      {
+        title: "Cambiar Logo PSN",
+        description:
+          "Personalizar el icono PSN.",
+        items: [
+          "Abrir Administrador de archivos PKG.",
+          "Instalar archivos PKG.",
+          "Seleccionar Directorio estándar.",
+          "Elegir el color deseado.",
+          "Instalar el paquete.",
+        ],
+      },
+
+      {
+        title: "Aplicar cambios PSN",
+        description:
+          "Finalizar la personalización.",
+        items: [
+          "Cerrar sesión PSN.",
+          "O reiniciar la consola.",
+          "Verificar el nuevo logo.",
+        ],
+      },
+
+      {
+        title: "Cambiar Imagen de Usuario",
+        description:
+          "Personalizar el perfil.",
+        items: [
+          "Abrir la categoría Foto.",
+          "Acceder al USB.",
+          "Copiar la imagen deseada.",
+          "Seleccionar el usuario.",
+          "Editar información del perfil.",
+        ],
+      },
+
+      {
+        title: "Instalar Temas",
+        description:
+          "Agregar nuevos temas al sistema.",
+        items: [
+          "Instalar Megalopack Themes.pkg.",
+          "Esperar la instalación.",
+          "Abrir Ajustes.",
+          "Entrar en Ajustes de tema.",
+          "Seleccionar Tema.",
+        ],
+      },
+
+      {
+        title: "Aplicar Tema",
+        description:
+          "Activar el diseño seleccionado.",
+        items: [
+          "Elegir un tema instalado.",
+          "Aplicar cambios.",
+          "Esperar la actualización visual.",
+          "Disfrutar el nuevo diseño.",
+        ],
+      },
+
+      {
+        title: "Personalización Completa",
+        description:
+          "Elementos modificables.",
+        items: [
+          "Logo PSN.",
+          "Imagen de usuario.",
+          "Tema XMB.",
+          "Aspecto general del sistema.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios del pack.",
+        items: [
+          "Gran variedad de opciones.",
+          "Instalación sencilla.",
+          "Todo en un solo paquete.",
+          "Compatible con PS3.",
+        ],
+      },
+
+      {
+        title: "Complementos Relacionados",
+        description:
+          "Más opciones de personalización.",
+        items: [
+          "Logos HEN",
+          "Iconos Personalizados",
+          "webMAN MOD",
+          "Temas PS3",
+        ],
+      },
+    ],
+  },
+},
+// Pack Avatares PS3
+{
+  console: "PS3",
+  name: "Pack Avatares PS3",
+  image: "img/PS3/pack-avatares.jpg",
+
+  description:
+    "Colección de 4330 avatares instalables para PlayStation 3 que permite personalizar el perfil de PlayStation Network con una gran variedad de diseños.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/DYY2mZIL#Yzd1jsy8X_r275f97J5v5Q",
+    },
+  ],
+
+  guide: {
+    function:
+      "Instala cientos de avatares en la consola para utilizarlos posteriormente en la cuenta de PlayStation Network.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      PSN: "✅ Compatible",
+      Personalización: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "USB FAT32",
+      "Pack Avatares PS3",
+      "Cuenta PlayStation Network",
+    ],
+
+    installation: [
+      "Descargar PACK AVATARES PS3.rar.",
+      "Descomprimir el archivo.",
+      "Copiar el contenido a la raíz del USB.",
+      "Conectar el USB a la consola.",
+      "Instalar los paquetes PKG incluidos.",
+    ],
+
+    usage:
+      "Una vez instalados los paquetes, los avatares estarán disponibles dentro de la configuración de la cuenta PSN.",
+
+    notes:
+      "Para visualizar los avatares instalados es necesario iniciar sesión en una cuenta de PlayStation Network.",
+
+    version: "4330 Avatares",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "Contenido del Pack",
+        description:
+          "Material incluido.",
+        items: [
+          "4330 avatares.",
+          "Instalación mediante PKG.",
+          "Gran variedad de diseños.",
+          "Compatible con PSN.",
+        ],
+      },
+
+      {
+        title: "Preparar el Pack",
+        description:
+          "Primeros pasos.",
+        items: [
+          "Descomprimir PACK AVATARES PS3.rar.",
+          "Copiar los archivos al USB.",
+          "Conectar el USB a la consola.",
+        ],
+      },
+
+      {
+        title: "Instalar Avatares",
+        description:
+          "Proceso de instalación.",
+        items: [
+          "Abrir Administrador de archivos PKG.",
+          "Seleccionar Directorio estándar.",
+          "Instalar los paquetes deseados.",
+          "Esperar la finalización.",
+        ],
+      },
+
+      {
+        title: "Iniciar Sesión PSN",
+        description:
+          "Acceder a la cuenta.",
+        items: [
+          "Abrir PlayStation Network.",
+          "Seleccionar Iniciar sesión.",
+          "Ingresar credenciales.",
+          "Acceder a la cuenta.",
+        ],
+      },
+
+      {
+        title: "Seleccionar Avatar",
+        description:
+          "Aplicar una nueva imagen.",
+        items: [
+          "Administración de cuentas.",
+          "Información de cuenta.",
+          "Avatar.",
+          "Elegir un nuevo avatar.",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Opciones disponibles.",
+        items: [
+          "Cambiar avatar las veces que desees.",
+          "Explorar miles de diseños.",
+          "Actualizar el perfil PSN.",
+          "Combinar con temas personalizados.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+        items: [
+          "Gran colección de avatares.",
+          "Instalación simple.",
+          "Compatible con PSN.",
+          "Personalización del perfil.",
+        ],
+      },
+
+      {
+        title: "Complementos Relacionados",
+        description:
+          "Otras opciones de personalización.",
+        items: [
+          "Monstruoso T-PACK",
+          "Logos HEN",
+          "Iconos Personalizados",
+          "Temas PS3",
+        ],
+      },
+    ],
+  },
+},
+// PS3 Extra Mods
+{
+  console: "PS3",
+  name: "PS3 Extra Mods",
+  image: "img/PS3/extra-mods.jpg",
+
+  description:
+    "Pack de personalización que incluye coldboots, logos PSN, fuentes y modificaciones visuales para PlayStation 3.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/bdhgXJaY#s4sYl0jP7tymVMkE2w8dLQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite instalar y aplicar diferentes modificaciones visuales para personalizar la apariencia de la consola.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      webMAN: "✅ Recomendado",
+      Coldboot: "✅ Compatible",
+      Personalización: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "USB FAT32",
+      "webMAN MOD",
+      "PS3 Extra Mods",
+    ],
+
+    installation: [
+      "Copiar PS3 EXTRA MODS.pkg al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Instalar el paquete.",
+      "Verificar que aparezca en el menú Juegos.",
+    ],
+
+    usage:
+      "Montar la ISO incluida y seleccionar los elementos visuales que deseas instalar en la consola.",
+
+    notes:
+      "Se recomienda reiniciar la consola después de aplicar cualquier modificación para visualizar correctamente los cambios.",
+
+    version: "Extra Mods Pack",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "Contenido del Pack",
+        description:
+          "Modificaciones incluidas.",
+        items: [
+          "Coldboots.",
+          "Logos de inicio.",
+          "Logos PSN.",
+          "Fuentes personalizadas.",
+          "Extras visuales.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Preparar el paquete.",
+        items: [
+          "Instalar PS3 EXTRA MODS.pkg.",
+          "Esperar la instalación.",
+          "Abrir el menú Juegos.",
+          "Localizar la ISO.",
+        ],
+      },
+
+      {
+        title: "Uso con webMAN MOD",
+        description:
+          "Acceso al contenido.",
+        items: [
+          "Actualizar webMAN si es necesario.",
+          "Montar la ISO.",
+          "Explorar las categorías disponibles.",
+          "Seleccionar la modificación deseada.",
+        ],
+      },
+
+      {
+        title: "Coldboots",
+        description:
+          "Animaciones y sonidos de inicio.",
+        items: [
+          "Múltiples estilos disponibles.",
+          "Selección desde la ISO.",
+          "Aplicación rápida.",
+          "Requiere reinicio para comprobar cambios.",
+        ],
+      },
+
+      {
+        title: "Logos PSN",
+        description:
+          "Cambios visuales para PSN.",
+        items: [
+          "Diferentes diseños.",
+          "Variantes de colores.",
+          "Instalación individual.",
+        ],
+      },
+
+      {
+        title: "Fuentes",
+        description:
+          "Tipografías personalizadas.",
+        items: [
+          "Fuentes alternativas.",
+          "Personalización del XMB.",
+          "Modificación estética.",
+        ],
+      },
+
+      {
+        title: "Aplicar Cambios",
+        description:
+          "Finalizar la personalización.",
+        items: [
+          "Instalar la modificación.",
+          "Cerrar aplicaciones.",
+          "Reiniciar la consola.",
+          "Verificar los resultados.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios del pack.",
+        items: [
+          "Todo en un solo paquete.",
+          "Gran variedad visual.",
+          "Compatible con webMAN.",
+          "Fácil instalación.",
+          "Personalización avanzada.",
+        ],
+      },
+
+      {
+        title: "Complementos Relacionados",
+        description:
+          "Otras herramientas de personalización.",
+        items: [
+          "Monstruoso T-PACK",
+          "Logos HEN",
+          "Pack Avatares PS3",
+          "Iconos Personalizados",
+          "webMAN MOD",
+        ],
+      },
+    ],
+  },
+},
+// PSN Icons Collection
+{
+  console: "PS3",
+  name: "PSN Icons Collection",
+  image: "img/PS3/psn-icons.jpg",
+
+  description:
+    "Colección de iconos PSN personalizables para PlayStation 3 que permite modificar el aspecto visual de PlayStation Network.",
+
+  website: "https://www.psx-place.com/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/bdhgXJaY#s4sYl0jP7tymVMkE2w8dLQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite cambiar el icono visual de PlayStation Network mediante una colección de diseños instalables.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      PSN: "✅ Compatible",
+      Personalización: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "USB FAT32",
+      "PSN Icons Collection Disc",
+    ],
+
+    installation: [
+      "Copiar el PKG al USB.",
+      "Abrir Administrador de archivos PKG.",
+      "Entrar en Directorio estándar.",
+      "Instalar PSN icons collection disc.pkg.",
+      "Verificar que aparezca en el menú Juegos.",
+    ],
+
+    usage:
+      "Abrir la colección de iconos, seleccionar el diseño deseado y aplicarlo directamente desde la consola.",
+
+    notes:
+      "La consola se reiniciará automáticamente después de aplicar algunos iconos para completar los cambios.",
+
+    version: "Collection Disc",
+    author: "PS3 Community",
+
+    details: [
+      {
+        title: "¿Qué incluye?",
+        description:
+          "Colección de personalización PSN.",
+        items: [
+          "Múltiples iconos PSN.",
+          "Distintos estilos visuales.",
+          "Selección desde la consola.",
+          "Aplicación automática.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Preparar la colección.",
+        items: [
+          "Instalar PSN icons collection disc.pkg.",
+          "Esperar la instalación.",
+          "Abrir desde Juegos.",
+          "Explorar los iconos disponibles.",
+        ],
+      },
+
+      {
+        title: "Elegir Icono",
+        description:
+          "Aplicar un nuevo diseño.",
+        items: [
+          "Seleccionar el icono deseado.",
+          "Presionar ✕.",
+          "Confirmar la instalación.",
+          "Esperar la aplicación de cambios.",
+        ],
+      },
+
+      {
+        title: "Reinicio Automático",
+        description:
+          "Finalizar la instalación.",
+        items: [
+          "Aceptar la confirmación.",
+          "Permitir el reinicio.",
+          "Esperar la carga del sistema.",
+          "Verificar el nuevo icono.",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Elementos visuales modificados.",
+        items: [
+          "Icono PSN.",
+          "Aspecto visual del acceso.",
+          "Diseño personalizado.",
+          "Identidad gráfica.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+        items: [
+          "Instalación sencilla.",
+          "Muchos diseños disponibles.",
+          "No modifica funciones.",
+          "Cambios rápidos.",
+        ],
+      },
+
+      {
+        title: "Complementos Relacionados",
+        description:
+          "Más opciones de personalización.",
+        items: [
+          "PS3 Extra Mods",
+          "Monstruoso T-PACK",
+          "Logos HEN",
+          "Pack Avatares PS3",
+          "Iconos Personalizados",
+        ],
+      },
+
+      {
+        title: "Importante",
+        description:
+          "Información a considerar.",
+        items: [
+          "Solo modifica la apariencia.",
+          "No altera PlayStation Network.",
+          "Se puede cambiar posteriormente.",
+          "Compatible con sistemas HEN.",
+        ],
+      },
+    ],
+  },
+},
+// Temas PS3 desde la WEB
+{
+  console: "PS3",
+  name: "Temas PS3 desde la WEB",
+  image: "img/PS3/temas-web.jpg",
+
+  description:
+    "Guía para descargar e instalar temas personalizados en PlayStation 3 utilizando páginas especializadas o archivos P3T desde USB.",
+
+  website: null,
+
+  downloads: [
+  ],
+
+  guide: {
+    function:
+      "Permite descargar e instalar temas personalizados para modificar la apariencia del XMB de PlayStation 3.",
+
+    compatibility: {
+      OFW: "✅ Compatible",
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      P3T: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Navegador de Internet",
+      "Conexión a Internet o USB FAT32",
+    ],
+
+    installation: [
+      "Abrir el navegador de Internet de la PS3.",
+      "Visitar la página de temas.",
+      "Descargar el tema deseado.",
+      "Instalar automáticamente o mediante USB.",
+    ],
+
+    usage:
+      "Permite descargar temas directamente desde Internet o instalarlos manualmente mediante archivos .p3t.",
+
+    notes:
+      "Los temas utilizan el formato oficial P3T, compatible con cualquier PlayStation 3.",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Descarga Directa",
+        description:
+          "Instalar temas desde la consola.",
+        items: [
+          "Abrir el navegador PS3.",
+          "Entrar en ps3-themes.com.",
+          "Buscar un tema.",
+          "Pulsar Download Here.",
+          "Esperar la descarga.",
+        ],
+      },
+
+      {
+        title: "Aplicación Automática",
+        description:
+          "Temas descargados desde la PS3.",
+        items: [
+          "Descargar el tema.",
+          "Instalación automática.",
+          "Abrir Ajustes de tema.",
+          "Aplicar el nuevo diseño.",
+        ],
+      },
+
+      {
+        title: "Instalación por USB",
+        description:
+          "Método alternativo desde ordenador.",
+        items: [
+          "Descargar archivo .p3t.",
+          "Copiar al USB.",
+          "Crear la ruta PS3/THEME.",
+          "Mover los temas a esa carpeta.",
+        ],
+      },
+
+      {
+        title: "Ruta Correcta",
+        description:
+          "Ubicación de los temas.",
+        items: [
+          "PS3/",
+          "PS3/THEME/",
+          "archivo.p3t",
+        ],
+      },
+
+      {
+        title: "Instalar desde USB",
+        description:
+          "Detección de temas.",
+        items: [
+          "Ajustes.",
+          "Ajustes de tema.",
+          "Tema.",
+          "Instalar.",
+          "Seleccionar USB.",
+        ],
+      },
+
+      {
+        title: "Aplicar Tema",
+        description:
+          "Activar un tema instalado.",
+        items: [
+          "Entrar en Temas.",
+          "Seleccionar el tema.",
+          "Aplicar.",
+          "Esperar la actualización visual.",
+        ],
+      },
+
+      {
+        title: "Formato P3T",
+        description:
+          "Formato oficial de Sony.",
+        items: [
+          "Compatible con PS3.",
+          "Fácil instalación.",
+          "No requiere homebrew.",
+          "Compatible con firmware oficial.",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Elementos modificados.",
+        items: [
+          "Fondos.",
+          "Iconos.",
+          "Colores.",
+          "Sonidos de algunos temas.",
+        ],
+      },
+
+      {
+        title: "Complementos Relacionados",
+        description:
+          "Más opciones de personalización.",
+        items: [
+          "Monstruoso T-PACK",
+          "PS3 Extra Mods",
+          "Pack Avatares PS3",
+          "Logos HEN",
+          "PSN Icons Collection",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+        items: [
+          "Instalación sencilla.",
+          "Miles de temas disponibles.",
+          "Compatible con cualquier PS3.",
+          "Sin modificar el sistema.",
+        ],
+      },
+    ],
+  },
+},
+// PkgView
+{
+  console: "PS3",
+  name: "PkgView",
+  image: "img/PS3/pkgview.jpg",
+
+  description:
+    "Herramienta para Windows que permite abrir, examinar y extraer el contenido de archivos PKG de PlayStation 3 mediante una interfaz gráfica.",
+
+  website: "https://github.com/ifcaro/PkgView",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/fEoTTChL#4aINzX4fQjif3FOgXDmJpA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite visualizar, extraer y analizar el contenido de paquetes PKG de PlayStation 3 desde el ordenador.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PKG: "✅ Compatible",
+      PS3: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "Archivo PKG",
+      "PkgView",
+    ],
+
+    installation: [
+      "Descargar PkgView.",
+      "Descomprimir el archivo .rar.",
+      "Extraer la carpeta del programa.",
+      "Ejecutar PkgView.exe.",
+    ],
+
+    usage:
+      "Abrir cualquier archivo PKG para inspeccionar su estructura interna y extraer archivos individuales o el paquete completo.",
+
+    notes:
+      "PkgView es una herramienta independiente y no incluye código propietario de Sony.",
+
+    version: "1.3",
+    author: "ifcaro",
+
+    details: [
+      {
+        title: "¿Qué es PkgView?",
+        description:
+          "Explorador de paquetes PKG.",
+        items: [
+          "Interfaz gráfica.",
+          "Visualización de archivos PKG.",
+          "Extracción de contenido.",
+          "Compatible con paquetes PS3.",
+        ],
+      },
+
+      {
+        title: "Instalación",
+        description:
+          "Preparación del programa.",
+        items: [
+          "Descargar PkgView.",
+          "Descomprimir el archivo.",
+          "Extraer la carpeta.",
+          "Ejecutar PkgView.exe.",
+        ],
+      },
+
+      {
+        title: "Abrir un PKG",
+        description:
+          "Examinar un paquete.",
+        items: [
+          "File.",
+          "Open.",
+          "Seleccionar archivo PKG.",
+          "Visualizar contenido.",
+        ],
+      },
+
+      {
+        title: "Explorar Contenido",
+        description:
+          "Visualización interna.",
+        items: [
+          "Archivos incluidos.",
+          "Carpetas internas.",
+          "Recursos del paquete.",
+          "Estructura completa.",
+        ],
+      },
+
+      {
+        title: "Extraer Archivos",
+        description:
+          "Recuperar contenido del paquete.",
+        items: [
+          "Extraer archivo individual.",
+          "Extraer carpeta específica.",
+          "Extraer paquete completo.",
+          "Guardar en PC.",
+        ],
+      },
+
+      {
+        title: "Análisis de PKG",
+        description:
+          "Verificar información.",
+        items: [
+          "Contenido interno.",
+          "Archivos incluidos.",
+          "Recursos gráficos.",
+          "Información del paquete.",
+        ],
+      },
+
+      {
+        title: "Usos Comunes",
+        description:
+          "Situaciones habituales.",
+        items: [
+          "Examinar homebrew.",
+          "Inspeccionar temas.",
+          "Analizar aplicaciones.",
+          "Verificar contenido PKG.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Características destacadas.",
+        items: [
+          "Interfaz sencilla.",
+          "Análisis rápido.",
+          "Extracción selectiva.",
+          "Compatible con PS3.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+        items: [
+          "PS3Tools Collection",
+          "TrueAncestor PKG Repacker",
+          "PS3 ISO Tools",
+          "Apollo Save Tool",
+        ],
+      },
+    ],
+  },
+},
+// Make Package Custom
+{
+  console: "PS3",
+  name: "Make Package Custom",
+  image: "img/PS3/make-package-custom.jpg",
+
+  description:
+    "Herramienta para Windows que permite crear archivos PKG personalizados para PlayStation 3 utilizando cualquier contenido compatible.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/zApxRCxI#rmixTPW63BzKXksAg_0MzwK_MEGA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite generar paquetes PKG con temas, licencias, música, aplicaciones o cualquier contenido destinado al sistema de archivos de PS3.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PKG: "✅ Compatible",
+      PS3: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "Make Package Custom",
+      "Contenido para empaquetar",
+    ],
+
+    installation: [
+      "Descargar Make Package Custom.",
+      "Descomprimir el archivo .rar.",
+      "Extraer la carpeta del programa.",
+      "Abrir el directorio principal.",
+    ],
+
+    usage:
+      "Organizar el contenido dentro de la carpeta custom siguiendo la estructura correcta y ejecutar make.bat para generar el archivo PKG.",
+
+    notes:
+      "La estructura de carpetas debe coincidir con la ubicación final donde se instalará el contenido en la PS3.",
+
+    version: "1.2",
+    author: "PS3 Development Tools",
+
+    details: [
+      {
+        title: "¿Qué es?",
+        description:
+          "Generador de paquetes PKG.",
+        items: [
+          "Creación de PKG personalizados.",
+          "Compatible con múltiples tipos de contenido.",
+          "Proceso automático.",
+          "Ideal para proyectos PS3.",
+        ],
+      },
+
+      {
+        title: "Preparar la carpeta Custom",
+        description:
+          "Organizar el contenido.",
+        items: [
+          "Abrir carpeta custom.",
+          "Crear la estructura necesaria.",
+          "Copiar archivos a empaquetar.",
+          "Verificar las rutas.",
+        ],
+      },
+
+      {
+        title: "Ejemplo Temas PS3",
+        description:
+          "Instalación de archivos P3T.",
+        items: [
+          "Crear carpeta dev_hdd0.",
+          "Crear carpeta theme.",
+          "Ruta: dev_hdd0/theme.",
+          "Copiar archivos .p3t.",
+        ],
+      },
+
+      {
+        title: "Contenido Compatible",
+        description:
+          "Tipos de archivos habituales.",
+        items: [
+          "Temas.",
+          "Licencias.",
+          "Aplicaciones.",
+          "Música.",
+          "Recursos personalizados.",
+        ],
+      },
+
+      {
+        title: "Crear el PKG",
+        description:
+          "Generar el paquete final.",
+        items: [
+          "Abrir make.bat.",
+          "Esperar el proceso.",
+          "Generar PKG automáticamente.",
+          "Verificar el resultado.",
+        ],
+      },
+
+      {
+        title: "Instalación en PS3",
+        description:
+          "Uso del paquete generado.",
+        items: [
+          "Copiar el PKG al USB.",
+          "Conectar el USB a la consola.",
+          "Abrir Administrador de archivos PKG.",
+          "Instalar normalmente.",
+        ],
+      },
+
+      {
+        title: "Usos Recomendados",
+        description:
+          "Proyectos habituales.",
+        items: [
+          "Temas personalizados.",
+          "Paquetes de licencias.",
+          "Archivos de configuración.",
+          "Distribución de contenido.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Puntos fuertes.",
+        items: [
+          "Proceso sencillo.",
+          "Creación rápida.",
+          "Compatible con PS3.",
+          "No requiere programación.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+        items: [
+          "PkgView",
+          "PS3Tools Collection",
+          "TrueAncestor PKG Repacker",
+          "PS3 ISO Tools",
+        ],
+      },
+    ],
+  },
+},
+// PS3 Game Updates
+{
+  console: "PS3",
+  name: "PS3 Game Updates",
+  image: "img/PS3/ps3-game-updates.jpg",
+
+  description:
+    "Herramienta para Windows que permite buscar y descargar actualizaciones de juegos de PlayStation 3 directamente al ordenador.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/LEpziQKZ#JtQwVBzfjHpXXIDZJpQZtA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite localizar, descargar y organizar actualizaciones de juegos PS3 utilizando el Game ID.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PS3: "✅ Compatible",
+      PKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "PS3 Game Updates",
+      "Game ID del juego",
+    ],
+
+    installation: [
+      "Descargar PS3 Game Updates.",
+      "Descomprimir el archivo .rar.",
+      "Extraer la carpeta del programa.",
+      "Ejecutar PS3GameUpdater.exe.",
+    ],
+
+    usage:
+      "Buscar el ID de un juego, seleccionar las actualizaciones deseadas y descargarlas al ordenador para instalarlas posteriormente en la consola.",
+
+    notes:
+      "Si una consola tiene una versión anterior instalada, solo es necesario descargar las actualizaciones posteriores.",
+
+    version: "Actual",
+    author: "PS3 Development Tools",
+
+    details: [
+      {
+        title: "Buscar Juego",
+        description:
+          "Localizar actualizaciones mediante Game ID.",
+        items: [
+          "Abrir PS3GameUpdater.exe.",
+          "Entrar en Import From.",
+          "Seleccionar Search Game ID.",
+          "Introducir el ID del juego.",
+        ],
+      },
+
+      {
+        title: "Seleccionar Actualizaciones",
+        description:
+          "Elegir versiones necesarias.",
+        items: [
+          "Ver lista de updates.",
+          "Revisar versiones disponibles.",
+          "Seleccionar las necesarias.",
+          "Preparar descarga.",
+        ],
+      },
+
+      {
+        title: "Actualizaciones Incrementales",
+        description:
+          "Instalar solo versiones faltantes.",
+        items: [
+          "Comprobar versión instalada.",
+          "Descargar versiones posteriores.",
+          "Evitar descargas innecesarias.",
+          "Ahorrar tiempo.",
+        ],
+      },
+
+      {
+        title: "Descargar Updates",
+        description:
+          "Obtener los archivos PKG.",
+        items: [
+          "Check updates for selected games.",
+          "Esperar las descargas.",
+          "Verificar completado.",
+          "Revisar la carpeta creada.",
+        ],
+      },
+
+      {
+        title: "Carpeta de Descargas",
+        description:
+          "Ubicación del contenido.",
+        items: [
+          "PS3 Game Updater Updates",
+          "Actualizaciones descargadas.",
+          "Archivos PKG listos para usar.",
+        ],
+      },
+
+      {
+        title: "Instalar en PS3",
+        description:
+          "Transferencia a la consola.",
+        items: [
+          "Copiar los PKG al USB.",
+          "Conectar el USB a la PS3.",
+          "Abrir Administrador de archivos PKG.",
+          "Instalar las actualizaciones.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+        items: [
+          "Descarga desde PC.",
+          "Control de versiones.",
+          "Actualizaciones organizadas.",
+          "Instalación manual sencilla.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+        items: [
+          "PkgView",
+          "Make Package Custom",
+          "webMAN MOD",
+          "multiMAN",
+        ],
+      },
+    ],
+  },
+},
+// PS3 NET Server
+{
+  console: "PS3",
+  name: "PS3 NET Server",
+  image: "img/PS3/ps3-net-server.jpg",
+
+  description:
+    "Servidor para PC que permite ejecutar juegos almacenados en un ordenador directamente desde PlayStation 3 mediante la red local.",
+
+  website:
+    "https://github.com/aldostools/webMAN-MOD/wiki/~-PS3-NET-Server",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/3JYymYKI#uknjaTuJnPQm-hA53TEmrw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite compartir juegos desde un ordenador hacia la PS3 utilizando webMAN MOD y la red local.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      webMAN: "✅ Requerido",
+      LAN: "✅ Requerido",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "PC o Notebook",
+      "webMAN MOD",
+      "Red local",
+      "PS3 NET Server",
+    ],
+
+    installation: [
+      "Descargar PS3 NET Server.",
+      "Descomprimir el archivo.",
+      "Ejecutar PS3_NET_Server.exe.",
+      "Seleccionar la carpeta donde estarán los juegos.",
+    ],
+
+    usage:
+      "Permite cargar juegos almacenados en el PC sin necesidad de copiarlos al disco duro interno o USB de la PS3.",
+
+    notes:
+      "La PS3 y el ordenador deben estar conectados a la misma red local para un funcionamiento correcto.",
+
+    version: "Actual",
+    author: "aldostools",
+
+    details: [
+      {
+        title: "¿Qué es PS3 NET Server?",
+        description:
+          "Servidor de juegos por red.",
+        items: [
+          "Streaming local.",
+          "Compatible con webMAN MOD.",
+          "Acceso desde PC.",
+          "No requiere copiar juegos.",
+        ],
+      },
+
+      {
+        title: "Configurar Carpeta",
+        description:
+          "Ubicación de los juegos.",
+        items: [
+          "Seleccionar carpeta principal.",
+          "Guardar configuración.",
+          "Iniciar servidor.",
+          "Verificar acceso.",
+        ],
+      },
+
+      {
+        title: "Estructura Recomendada",
+        description:
+          "Organización de contenidos.",
+        items: [
+          "GAMES",
+          "PS3ISO",
+          "PSXISO",
+        ],
+      },
+
+      {
+        title: "Juegos PS3",
+        description:
+          "Formatos compatibles.",
+        items: [
+          "GAMES (formato carpeta).",
+          "PS3ISO (formato ISO).",
+        ],
+      },
+
+      {
+        title: "Juegos PS1",
+        description:
+          "Compatibilidad retro.",
+        items: [
+          "PSXISO.",
+          "Imágenes ISO compatibles.",
+        ],
+      },
+
+      {
+        title: "Configurar webMAN MOD",
+        description:
+          "Conexión con el servidor.",
+        items: [
+          "Abrir Configuración webMAN.",
+          "Buscar contenido Juegos/Vídeos por LAN.",
+          "Introducir IP del ordenador.",
+          "Guardar cambios.",
+        ],
+      },
+
+      {
+        title: "Obtener IP del PC",
+        description:
+          "Configuración de red.",
+        items: [
+          "Abrir CMD.",
+          "Ejecutar ipconfig.",
+          "Anotar dirección IPv4.",
+        ],
+      },
+
+      {
+        title: "Actualizar Biblioteca",
+        description:
+          "Detectar nuevos juegos.",
+        items: [
+          "Actualizar juegos de webMAN y XMB.",
+          "Actualizar Juegos de webMAN.",
+          "Actualizar lista web de juegos.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+        items: [
+          "No ocupa espacio en la PS3.",
+          "Bibliotecas grandes.",
+          "Carga desde PC.",
+          "Compatible con webMAN MOD.",
+          "Gestión centralizada.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Complementos recomendados.",
+        items: [
+          "webMAN MOD",
+          "prepISO",
+          "multiMAN",
+          "IRISMAN",
+        ],
+      },
+    ],
+  },
+},
+// PARAM SFO Editor
+{
+  console: "PS3",
+  name: "PARAM SFO Editor",
+  image: "img/PS3/param-sfo-editor.png",
+
+  description:
+    "Herramienta para Windows que permite visualizar y modificar la información contenida en archivos PARAM.SFO de juegos y aplicaciones.",
+
+  website: "https://github.com/xXxTheDarkprogramerxXx/PS3Tools",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/vVZQCCxb#vxyJnPYvjYG2D2ItNX50tA",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/xXxTheDarkprogramerxXx/PS3Tools/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite consultar y editar la información almacenada en archivos PARAM.SFO de PlayStation 3 y otras plataformas compatibles.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PS3: "✅ Compatible",
+      PSVita: "✅ Compatible",
+      PS4: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "PARAM SFO Editor",
+      "Archivo PARAM.SFO",
+    ],
+
+    installation: [
+      "Descargar PARAM SFO Editor.",
+      "Descomprimir el archivo .rar.",
+      "Extraer la carpeta.",
+      "Ejecutar PARAM.SFO_Editor.exe.",
+    ],
+
+    usage:
+      "Abrir un archivo PARAM.SFO, revisar la información disponible, realizar modificaciones y guardar los cambios.",
+
+    notes:
+      "Se recomienda realizar una copia de seguridad del archivo original antes de guardar modificaciones.",
+
+    version: "1.2",
+    author: "PS3Tools Team",
+
+    details: [
+      {
+        title: "¿Qué es un PARAM.SFO?",
+        description:
+          "Archivo de información utilizado por juegos y aplicaciones.",
+
+        items: [
+          "Datos del juego.",
+          "Identificador del título.",
+          "Información de versión.",
+          "Configuración de la aplicación.",
+        ],
+      },
+
+      {
+        title: "Abrir un Archivo",
+        description:
+          "Cargar información para editar.",
+
+        items: [
+          "Iniciar PARAM SFO Editor.",
+          "Seleccionar Open.",
+          "Elegir PARAM.SFO.",
+          "Visualizar información.",
+        ],
+      },
+
+      {
+        title: "Información Visible",
+        description:
+          "Datos que se pueden consultar.",
+
+        items: [
+          "TITLE ID.",
+          "Nombre del juego.",
+          "Versión.",
+          "Información interna.",
+        ],
+      },
+
+      {
+        title: "Modificar Datos",
+        description:
+          "Edición de parámetros.",
+
+        items: [
+          "Editar valores.",
+          "Modificar campos compatibles.",
+          "Actualizar información.",
+          "Preparar cambios.",
+        ],
+      },
+
+      {
+        title: "Guardar Cambios",
+        description:
+          "Finalizar la edición.",
+
+        items: [
+          "Presionar Save.",
+          "Guardar PARAM.SFO.",
+          "Reemplazar el original.",
+          "Comprobar resultados.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Archivos soportados.",
+
+        items: [
+          "PlayStation 3",
+          "PlayStation Vita",
+          "PlayStation 4",
+          "Aplicaciones compatibles",
+        ],
+      },
+
+      {
+        title: "Usos Comunes",
+        description:
+          "Situaciones habituales.",
+
+        items: [
+          "Analizar juegos.",
+          "Ver información interna.",
+          "Modificar parámetros.",
+          "Preparar contenido personalizado.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Características destacadas.",
+
+        items: [
+          "Interfaz sencilla.",
+          "Edición rápida.",
+          "Compatible con múltiples plataformas.",
+          "Ligero y fácil de usar.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "PkgView",
+          "Make Package Custom",
+          "PS3 Game Updates",
+          "PS3 NET Server",
+        ],
+      },
+    ],
+  },
+},
+// RetroXMB
+{
+  console: "PS3",
+  name: "RetroXMB",
+  image: "img/PS3/retroxmb.jpg",
+
+  description:
+    "Herramienta para Windows que permite convertir juegos de PlayStation 2 en formato ISO a PKG instalables para PlayStation 3.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/CY4m1ZJD#N8pzVHpiIEF_nzYZDytlbQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear paquetes PKG de juegos PS2 para ser instalados directamente en PlayStation 3.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PS2ISO: "✅ Compatible",
+      PS3: "✅ Compatible",
+      PKG: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "Juego PS2 en formato ISO",
+      "RetroXMB",
+    ],
+
+    installation: [
+      "Descargar RetroXMB.",
+      "Extraer RetroXMB Convertidor PKG.rar.",
+      "Ejecutar RetroPS3.exe.",
+      "Aceptar la configuración inicial.",
+    ],
+
+    usage:
+      "Seleccionar una ISO de PS2, personalizar las imágenes opcionales y generar un PKG listo para instalar en PS3.",
+
+    notes:
+      "Los paquetes creados se guardan automáticamente en la carpeta created_pkgs/PS2.",
+
+    version: "Actual",
+    author: "Comunidad PS3",
+
+    details: [
+      {
+        title: "Seleccionar ISO",
+        description:
+          "Preparar el juego PS2.",
+
+        items: [
+          "Abrir RetroPS3.exe.",
+          "Ir a la pestaña PlayStation 2.",
+          "Pulsar Browse.",
+          "Seleccionar la ISO.",
+        ],
+      },
+
+      {
+        title: "Personalizar Carátulas",
+        description:
+          "Modificar la apariencia del PKG.",
+
+        items: [
+          "Change para el icono.",
+          "Add PIC1 para el fondo.",
+          "Usar imágenes compatibles.",
+          "Personalizar el XMB.",
+        ],
+      },
+
+      {
+        title: "Crear PKG",
+        description:
+          "Generar el paquete instalable.",
+
+        items: [
+          "Seleccionar Build Package.",
+          "Esperar la conversión.",
+          "Guardar el proyecto.",
+          "Generar archivo PKG.",
+        ],
+      },
+
+      {
+        title: "Carpeta de Salida",
+        description:
+          "Ubicación de los archivos creados.",
+
+        items: [
+          "created_pkgs/PS2",
+          "PKG generado",
+          "Archivos auxiliares",
+        ],
+      },
+
+      {
+        title: "Licencia RAP",
+        description:
+          "Archivo necesario para algunos procesos.",
+
+        items: [
+          "Abrir reactpsn_usb_exdata.",
+          "Localizar el archivo RAP incluido.",
+          "Copiar a USB/exdata.",
+          "Preparar instalación.",
+        ],
+      },
+
+      {
+        title: "Instalación en PS3",
+        description:
+          "Pasar el contenido a la consola.",
+
+        items: [
+          "Copiar el PKG al USB.",
+          "Usar FTP si supera 4 GB.",
+          "Abrir Administrar archivos PKG.",
+          "Instalar desde Directorio estándar.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad PS2",
+        description:
+          "Aspectos importantes.",
+
+        items: [
+          "No todos los juegos funcionan igual.",
+          "Depende del emulador PS2 de PS3.",
+          "Comprobar compatibilidad antes de convertir.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Proceso sencillo.",
+          "Conversión rápida.",
+          "Personalización visual.",
+          "PKG listo para instalar.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "PS2 Classics Manager",
+          "webMAN MOD",
+          "Make Package Custom",
+          "PARAM SFO Editor",
+        ],
+      },
+    ],
+  },
+},
+// PKG Linker
+{
+  console: "PS3",
+  name: "PKG Linker",
+  image: "img/PS3/pkg-linker.jpg",
+
+  description:
+    "Herramienta para Windows que permite instalar archivos PKG desde un ordenador hacia PlayStation 3 utilizando la red local.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/eF4wmCAR#tsUN1kgEUfbidDMmQWgcJw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite servir paquetes PKG desde un PC para descargarlos e instalarlos directamente en la consola.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      HAN: "✅ Compatible",
+      Windows: "✅ Compatible",
+      LAN: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "PC o Notebook",
+      "PKG Linker",
+      "Red local",
+      "Archivos PKG",
+    ],
+
+    installation: [
+      "Descargar PKG Linker.",
+      "Extraer PKG_Linker_V2.0_Installer.rar.",
+      "Ejecutar PKG Linker V2.0.exe.",
+      "Ejecutar como administrador si es necesario.",
+    ],
+
+    usage:
+      "Permite compartir archivos PKG almacenados en el PC para descargarlos directamente desde la consola.",
+
+    notes:
+      "Resulta especialmente útil con archivos PKG grandes que superan la limitación de FAT32.",
+
+    version: "2.0",
+    author: "PS3 Community",
+
+    details: [
+      {
+        title: "¿Qué es PKG Linker?",
+        description:
+          "Servidor de paquetes PKG.",
+
+        items: [
+          "Instalación por red local.",
+          "Compatible con HEN.",
+          "Compatible con HAN.",
+          "No requiere copiar archivos al USB.",
+        ],
+      },
+
+      {
+        title: "Preparar PKG",
+        description:
+          "Archivos utilizados por el servidor.",
+
+        items: [
+          "Copiar PKG a la carpeta del programa.",
+          "Abrir PKG Linker.",
+          "Seleccionar Rescan.",
+          "Actualizar la lista de paquetes.",
+        ],
+      },
+
+      {
+        title: "Configurar la Consola",
+        description:
+          "Verificar la conectividad.",
+
+        items: [
+          "Obtener IP de la PS3.",
+          "Ajustes.",
+          "Información del sistema.",
+          "Anotar dirección IP.",
+        ],
+      },
+
+      {
+        title: "Ping Tool",
+        description:
+          "Comprobación de conexión.",
+
+        items: [
+          "Introducir IP.",
+          "Pulsar Ping PS3.",
+          "Verificar Success.",
+          "Corregir configuración si aparece Timeout.",
+        ],
+      },
+
+      {
+        title: "Configuración HEN/HAN",
+        description:
+          "Preparación del listado.",
+
+        items: [
+          "Server Setup.",
+          "Create List.pkg for HAN.",
+          "Generar Package_List.pkg.",
+          "Preparar instalación.",
+        ],
+      },
+
+      {
+        title: "Iniciar Servidor",
+        description:
+          "Compartir los paquetes.",
+
+        items: [
+          "Start Server.",
+          "Esperar notificación.",
+          "Minimizar aplicación.",
+          "Mantenerla activa.",
+        ],
+      },
+
+      {
+        title: "Package_List.pkg",
+        description:
+          "Archivo generado automáticamente.",
+
+        items: [
+          "Instalar en la PS3.",
+          "USB o FTP.",
+          "Detectar paquetes compartidos.",
+          "Acceder a la lista.",
+        ],
+      },
+
+      {
+        title: "Descargar desde PS3",
+        description:
+          "Instalación remota.",
+
+        items: [
+          "Abrir la herramienta de instalación.",
+          "Acceder al servidor.",
+          "Seleccionar PKG.",
+          "Descargar directamente.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Sin límite FAT32.",
+          "Instalación por red.",
+          "Ideal para PKG grandes.",
+          "No requiere copiar varias veces.",
+          "Ahorro de tiempo.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "webMAN MOD",
+          "PS3 NET Server",
+          "PS3 Game Updates",
+          "PkgView",
+          "Make Package Custom",
+        ],
+      },
+    ],
+  },
+},
+// PS3Merge
+{
+  console: "PS3",
+  name: "PS3Merge",
+  image: "img/PS3/ps3merge.jpg",
+
+  description:
+    "Herramienta para Windows que permite unir archivos divididos utilizados por gestores de copias de seguridad de PlayStation 3.",
+
+  website: "http://karmian.org/projects/ps3merge",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/bUpDkDhB#vQpNvXO3lkWPjeq9mut5cg",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite reconstruir archivos divididos en múltiples partes para volver a obtener un único archivo PKG o juego completo.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PKG: "✅ Compatible",
+      FAT32: "✅ Compatible",
+      PS3: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "PS3Merge",
+      "Archivos divididos",
+    ],
+
+    installation: [
+      "Descargar PS3Merge.",
+      "Extraer ps3merge-1-0-1-0.rar.",
+      "Ejecutar ps3merge-1-0-1-0.exe.",
+      "Completar la instalación.",
+    ],
+
+    usage:
+      "Permite unir automáticamente archivos divididos en formato .666xx para recuperar el archivo original.",
+
+    notes:
+      "Es especialmente útil para archivos grandes que fueron divididos para poder almacenarse en dispositivos FAT32.",
+
+    version: "1.0.1.0",
+    author: "karmian",
+
+    details: [
+      {
+        title: "¿Qué es PS3Merge?",
+        description:
+          "Herramienta de reconstrucción.",
+
+        items: [
+          "Une archivos fragmentados.",
+          "Compatible con formato .666xx.",
+          "Proceso automático.",
+          "Ideal para PKG grandes.",
+        ],
+      },
+
+      {
+        title: "Preparar Archivos",
+        description:
+          "Organizar las partes.",
+
+        items: [
+          "Reunir todos los fragmentos.",
+          "Verificar que no falten partes.",
+          "Mantenerlos en una misma carpeta.",
+          "Preparar la reconstrucción.",
+        ],
+      },
+
+      {
+        title: "Formato Compatible",
+        description:
+          "Nombres reconocidos por la aplicación.",
+
+        items: [
+          "Nombre.66601",
+          "Nombre.66602",
+          "Nombre.66603",
+          "Nombre.66604",
+        ],
+      },
+
+      {
+        title: "Ejemplo",
+        description:
+          "Estructura correcta.",
+
+        items: [
+          "Beyond Two Souls.66601",
+          "Beyond Two Souls.66602",
+          "Beyond Two Souls.66603",
+          "Beyond Two Souls.66604",
+        ],
+      },
+
+      {
+        title: "Reconstrucción",
+        description:
+          "Proceso principal.",
+
+        items: [
+          "Abrir PS3Merge.",
+          "Pulsar Execute.",
+          "Seleccionar carpeta.",
+          "Esperar la finalización.",
+        ],
+      },
+
+      {
+        title: "Resultado",
+        description:
+          "Archivo reconstruido.",
+
+        items: [
+          "Archivo único.",
+          "Contenido completo.",
+          "Añadir extensión .pkg si corresponde.",
+          "Preparar instalación.",
+        ],
+      },
+
+      {
+        title: "Casos de Uso",
+        description:
+          "Situaciones habituales.",
+
+        items: [
+          "PKG divididos.",
+          "Backups PS3.",
+          "Transferencias FAT32.",
+          "Recuperación de archivos grandes.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Muy ligero.",
+          "Proceso sencillo.",
+          "Reconstrucción rápida.",
+          "Compatible con PS3.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "PKG Linker",
+          "PkgView",
+          "Make Package Custom",
+          "PS3 Game Updates",
+          "PARAM SFO Editor",
+        ],
+      },
+    ],
+  },
+},
+// PSN Stuff
+{
+  console: "PS3",
+  name: "PSN Stuff",
+  image: "img/PS3/psn-stuff.jpg",
+
+  description:
+    "Herramienta para Windows que permite cargar bases de datos, buscar contenido de PlayStation y descargar paquetes junto con sus archivos RAP.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/aMAzyAhT#6o7NR-V9OPJil0-jqUEqNQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite cargar una base de datos externa, localizar contenido y descargar paquetes junto a sus licencias RAP.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PS3: "✅ Compatible",
+      RAP: "✅ Compatible",
+      Legacy: "⚠️ Herramienta Antigua",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "PSN Stuff",
+      "Base de datos compatible",
+    ],
+
+    installation: [
+      "Descargar PSN Stuff.",
+      "Extraer los archivos .rar o .zip.",
+      "Ejecutar psnstuff_x64.exe o psnstuff.exe.",
+      "Cargar la base de datos correspondiente.",
+    ],
+
+    usage:
+      "Permite buscar contenido mediante una base de datos local, descargar paquetes y guardar los archivos RAP asociados.",
+
+    notes:
+      "Los archivos descargados se almacenan en las carpetas downloads y exdata para su posterior transferencia a la consola.",
+
+    version: "3.07.9",
+    author: "PSN Stuff Team",
+
+    details: [
+      {
+        title: "Versiones Disponibles",
+        description:
+          "Ejecutables incluidos.",
+
+        items: [
+          "psnstuff_x64.exe",
+          "psnstuff.exe",
+          "Compatible con 32 bits",
+          "Compatible con 64 bits",
+        ],
+      },
+
+      {
+        title: "Base de Datos",
+        description:
+          "Primer paso obligatorio.",
+
+        items: [
+          "Load Database",
+          "Seleccionar db_external",
+          "Cargar catálogo",
+          "Actualizar contenido",
+        ],
+      },
+
+      {
+        title: "Buscar Contenido",
+        description:
+          "Explorar la base de datos.",
+
+        items: [
+          "Juegos",
+          "Aplicaciones",
+          "Contenido adicional",
+          "Entradas compatibles",
+        ],
+      },
+
+      {
+        title: "Descargar Paquetes",
+        description:
+          "Obtener los archivos.",
+
+        items: [
+          "Seleccionar contenido.",
+          "Pulsar Download Package.",
+          "Esperar la descarga.",
+          "Guardar automáticamente.",
+        ],
+      },
+
+      {
+        title: "Guardar RAP",
+        description:
+          "Licencias compatibles.",
+
+        items: [
+          "Save RAP.",
+          "Guardar archivos RAP.",
+          "Preparar carpeta exdata.",
+          "Copiar a USB posteriormente.",
+        ],
+      },
+
+      {
+        title: "Ubicación de Archivos",
+        description:
+          "Carpetas generadas.",
+
+        items: [
+          "downloads",
+          "exdata",
+          "Paquetes descargados",
+          "Licencias RAP",
+        ],
+      },
+
+      {
+        title: "Transferir a PS3",
+        description:
+          "Instalación final.",
+
+        items: [
+          "Copiar PKG al USB.",
+          "Copiar RAP a exdata.",
+          "Conectar USB a la consola.",
+          "Instalar desde PKG Manager.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Puntos fuertes de la aplicación.",
+
+        items: [
+          "Gestión de bases de datos.",
+          "Descarga de paquetes.",
+          "Gestión de RAP.",
+          "Interfaz sencilla.",
+        ],
+      },
+
+      {
+        title: "Alternativas Modernas",
+        description:
+          "Opciones recomendadas actualmente.",
+
+        items: [
+          "PKGi",
+          "VIDEOSTORE",
+          "WIKISTORE",
+          "ZukoStore",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos para PC.",
+
+        items: [
+          "PKG Linker",
+          "PS3Merge",
+          "PS3 Game Updates",
+          "PARAM SFO Editor",
+        ],
+      },
+    ],
+  },
+},
+// Remote Play PS3
+{
+  console: "PS3",
+  name: "Remote Play PS3",
+  image: "img/PS3/remote-play.png",
+
+  description:
+    "Permite controlar y visualizar una PlayStation 3 desde un ordenador mediante la función Uso a Distancia (Remote Play).",
+
+  website: "https://www.sony.com/electronics/support/articles/00012677",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/CFoBCK5Z#0lP-XI9dffJj6bgRzhzVGQ",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/PS3-Pro/Remote-Play/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Conecta la PS3 al ordenador mediante la red local para visualizar y controlar la consola desde Windows.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PS3: "✅ Compatible",
+      LAN: "✅ Compatible",
+      HEN: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "PC o Notebook",
+      "Remote Play",
+      "Red local",
+    ],
+
+    installation: [
+      "Extraer Remoteplay 1.1 + patch.",
+      "Instalar EP0000248680.exe.",
+      "Copiar rmp_dll.dll a la carpeta del programa.",
+      "Copiar rmp_launcher.exe a la carpeta del programa.",
+      "Ejecutar rmp_launcher.exe.",
+    ],
+
+    usage:
+      "Permite registrar la PS3 en el ordenador y establecer una conexión remota a través de la red doméstica.",
+
+    notes:
+      "Se recomienda que la consola y el ordenador estén conectados a la misma red para obtener la mejor estabilidad.",
+
+    version: "1.1",
+    author: "Sony / Comunidad PS3",
+
+    details: [
+      {
+        title: "Instalación",
+        description:
+          "Preparar la aplicación.",
+
+        items: [
+          "Instalar Remote Play.",
+          "Copiar archivos del parche.",
+          "Ejecutar rmp_launcher.exe.",
+          "Crear acceso directo opcional.",
+        ],
+      },
+
+      {
+        title: "Registrar Dispositivo",
+        description:
+          "Emparejar la consola.",
+
+        items: [
+          "Ajustes.",
+          "Ajustes de uso a distancia.",
+          "Registrar dispositivo.",
+          "Obtener código de registro.",
+        ],
+      },
+
+      {
+        title: "Configurar el PC",
+        description:
+          "Completar el emparejamiento.",
+
+        items: [
+          "Seleccionar Conectar por red doméstica.",
+          "Introducir el código.",
+          "Guardar configuración.",
+          "Preparar la conexión.",
+        ],
+      },
+
+      {
+        title: "Conectar",
+        description:
+          "Acceso remoto a la consola.",
+
+        items: [
+          "Pulsar Conectar.",
+          "Ir a Red.",
+          "Abrir Uso a distancia.",
+          "Esperar el emparejamiento.",
+        ],
+      },
+
+      {
+        title: "Visualización",
+        description:
+          "Uso desde el ordenador.",
+
+        items: [
+          "Ver pantalla de PS3.",
+          "Navegar por el XMB.",
+          "Control remoto básico.",
+          "Administración desde PC.",
+        ],
+      },
+
+      {
+        title: "Consolas con HEN",
+        description:
+          "Recomendaciones adicionales.",
+
+        items: [
+          "Activar HEN antes de conectar.",
+          "Montar juegos previamente.",
+          "Comprobar conexión estable.",
+          "Evitar reinicios durante la sesión.",
+        ],
+      },
+
+      {
+        title: "Requisitos de Red",
+        description:
+          "Configuración recomendada.",
+
+        items: [
+          "Misma red local.",
+          "Router estable.",
+          "Preferible conexión cableada.",
+          "Buena cobertura Wi-Fi.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Control remoto.",
+          "Configuración sencilla.",
+          "Compatible con Windows.",
+          "Funciona en red local.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "PS3 NET Server",
+          "webMAN MOD",
+          "multiMAN",
+          "PS3 Game Updates",
+        ],
+      },
+    ],
+  },
+},
+// Desbloqueador de Trofeos
+{
+  console: "PS3",
+  name: "Desbloqueador de Trofeos",
+  image: "img/PS3/desbloquear-trofeos.jpg",
+
+  description:
+    "Herramienta antigua relacionada con la gestión de trofeos en PlayStation 3. Su uso puede implicar riesgos para cuentas y consolas.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/rM4hzZya#4oLUeacJvi789DACjgkEMw",
+    },
+  ],
+
+  guide: {
+    function:
+      "Proyecto histórico utilizado por algunos usuarios para realizar modificaciones relacionadas con trofeos.",
+
+    compatibility: {
+      HEN: "⚠️ Uso bajo responsabilidad",
+      CFW: "⚠️ Uso bajo responsabilidad",
+      Trofeos: "⚠️ Riesgo",
+      Estado: "⚠️ Legacy",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Conocimientos avanzados",
+      "Acceso FTP",
+    ],
+
+    usage:
+      "Aplicación de carácter histórico utilizada por parte de la escena PS3.",
+
+    notes:
+      "El tutorial original advierte sobre posibles sanciones, bloqueos o restricciones asociadas al uso de este tipo de herramientas.",
+
+    version: "Legacy",
+    author: "PS3 Scene",
+
+    details: [
+      {
+        title: "Estado del Proyecto",
+        description: "Información general.",
+        items: [
+          "Herramienta antigua.",
+          "Poco utilizada actualmente.",
+          "Proyecto histórico de la escena PS3.",
+          "No recomendada para usuarios nuevos.",
+        ],
+      },
+
+      {
+        title: "Advertencia",
+        description: "Riesgos indicados.",
+        items: [
+          "Posibles restricciones de cuenta.",
+          "Posibles restricciones de consola.",
+          "Uso bajo responsabilidad del usuario.",
+          "Se recomienda precaución.",
+        ],
+      },
+
+      {
+        title: "Requisitos",
+        description: "Elementos mencionados en el tutorial.",
+        items: [
+          "Acceso FTP.",
+          "PC con Windows.",
+          "Archivos adicionales.",
+          "Conocimientos avanzados.",
+        ],
+      },
+
+      {
+        title: "Alternativas Recomendadas",
+        description: "Opciones más útiles actualmente.",
+        items: [
+          "Apollo Save Tool",
+          "webMAN MOD",
+          "Artemis",
+          "Administrador de trofeos oficial de PS3",
+        ],
+      },
+
+      {
+        title: "Importante",
+        description: "Antes de utilizarla.",
+        items: [
+          "Realizar copias de seguridad.",
+          "Revisar compatibilidad.",
+          "Leer toda la documentación disponible.",
+          "Comprender los riesgos asociados.",
+        ],
+      },
+    ],
+  },
+},
+// PS3 ISO Tools
+{
+  console: "PS3",
+  name: "PS3 ISO Tools",
+  image: "img/PS3/ps3-iso-tools.jpg",
+
+  description:
+    "Herramienta para Windows que permite crear, extraer, dividir, unir y modificar imágenes ISO de PlayStation 3.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/uFxxnZZB#p-3HQvPscM2Tcd_mWvupKQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite gestionar imágenes ISO de PS3 desde el ordenador incluyendo conversión desde formato carpeta, extracción y división de archivos grandes.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PS3ISO: "✅ Compatible",
+      FAT32: "✅ Compatible",
+      CFW: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "PS3 ISO Tools",
+      "Juego PS3 en formato carpeta o ISO",
+    ],
+
+    installation: [
+      "Descargar PS3 ISO Tools.",
+      "Extraer PS3 ISO TOOLS V2.2.rar.",
+      "Ejecutar PS3_ISO_TOOLS V2.2.exe.",
+    ],
+
+    usage:
+      "Permite convertir juegos en formato carpeta a ISO, extraer ISOs existentes y administrar imágenes para su uso en PS3.",
+
+    notes:
+      "Es una de las herramientas más utilizadas para preparar juegos compatibles con webMAN MOD, IRISMAN y PS3 NET Server.",
+
+    version: "2.2",
+    author: "PS3 Scene",
+
+    details: [
+      {
+        title: "Create ISO",
+        description:
+          "Crear imágenes ISO.",
+
+        items: [
+          "Convertir juegos formato carpeta.",
+          "Generar ISO compatible.",
+          "Seleccionar carpeta origen.",
+          "Elegir carpeta destino.",
+        ],
+      },
+
+      {
+        title: "Extract ISO",
+        description:
+          "Extraer contenido.",
+
+        items: [
+          "Abrir ISO existente.",
+          "Extraer archivos.",
+          "Recuperar estructura original.",
+          "Guardar en el PC.",
+        ],
+      },
+
+      {
+        title: "Split ISO",
+        description:
+          "Dividir archivos grandes.",
+
+        items: [
+          "Compatible con FAT32.",
+          "División en segmentos.",
+          "Ideal para USB.",
+          "Archivos superiores a 4 GB.",
+        ],
+      },
+
+      {
+        title: "Join ISO",
+        description:
+          "Reconstruir imágenes divididas.",
+
+        items: [
+          "Unir partes divididas.",
+          "Recuperar ISO completa.",
+          "Compatible con archivos split.",
+          "Proceso automático.",
+        ],
+      },
+
+      {
+        title: "Modify ISO",
+        description:
+          "Editar una ISO existente.",
+
+        items: [
+          "Modificar contenido.",
+          "Actualizar estructura.",
+          "Preparar nuevas versiones.",
+          "Gestión avanzada.",
+        ],
+      },
+
+      {
+        title: "Patch ISO",
+        description:
+          "Aplicar modificaciones.",
+
+        items: [
+          "Parchear ISO.",
+          "Compatibilidad adicional.",
+          "Configuraciones avanzadas.",
+          "Proceso integrado.",
+        ],
+      },
+
+      {
+        title: "Crear una ISO",
+        description:
+          "Proceso básico.",
+
+        items: [
+          "Seleccionar Create ISO.",
+          "Elegir carpeta del juego.",
+          "Definir carpeta de salida.",
+          "Esperar la conversión.",
+        ],
+      },
+
+      {
+        title: "Resultado",
+        description:
+          "Archivos generados.",
+
+        items: [
+          "ISO lista para usar.",
+          "Registro del proceso.",
+          "Información de conversión.",
+          "Archivo compatible con PS3.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Funciones principales.",
+
+        items: [
+          "Todo en una sola aplicación.",
+          "Compatible con ISOs PS3.",
+          "Ideal para webMAN MOD.",
+          "Compatible con FAT32.",
+          "Conversión sencilla.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "PS3Merge",
+          "PS3 NET Server",
+          "PKG Linker",
+          "Make Package Custom",
+          "PARAM SFO Editor",
+        ],
+      },
+    ],
+  },
+},
+// PS2 en PS3 con PC
+{
+  console: "PS3",
+  name: "PS2 en PS3 con PC",
+  image: "img/PS3/ps2-ps3-con-pc.jpg",
+
+  description:
+    "Guía para preparar juegos de PlayStation 2 desde Windows y utilizarlos en consolas PS3 con HEN mediante PS2 Classics.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "TU_LINK_https://mega.nz/folder/uFxxnZZB#p-3HQvPscM2Tcd_mWvupKQMEGA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite convertir juegos de PS2, crear archivos compatibles con PS3 y generar paquetes instalables desde un ordenador.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      PS2ISO: "✅ Compatible",
+      Windows: "✅ Compatible",
+      PS2Classics: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3 con HEN",
+      "PC con Windows",
+      "Juego PS2 en formato ISO",
+      "PS2 Classics GUI",
+      "PS2 Classics Launcher",
+    ],
+
+    installation: [
+      "Descargar el pack del tutorial.",
+      "Extraer los archivos.",
+      "Instalar PS2 Classics Launcher en la PS3.",
+      "Preparar exdata si es necesario.",
+    ],
+
+    usage:
+      "Permite convertir juegos PS2 a formato compatible con PS3 y ejecutarlos mediante PS2 Classics Launcher.",
+
+    notes:
+      "Se recomienda comprobar la compatibilidad del juego antes de comenzar el proceso.",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Contenido del Pack",
+        description: "Herramientas incluidas.",
+        items: [
+          "PS2 Classics GUI",
+          "OpenSplit",
+          "PS2 Classics Launcher",
+          "Archivos exdata",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description: "Antes de convertir.",
+        items: [
+          "Revisar compatibilidad PS2 Classics.",
+          "No todos los juegos funcionan igual.",
+          "Algunos requieren configuraciones específicas.",
+        ],
+      },
+
+      {
+        title: "Cifrar ISO",
+        description: "Convertir la imagen de PS2.",
+        items: [
+          "Abrir PS2 Classics GUI.",
+          "Seleccionar ISO.",
+          "Configurar DVD5/DVD9.",
+          "Usar Encrypt.",
+          "Generar ISO.BIN.ENC.",
+        ],
+      },
+
+      {
+        title: "Crear PKG",
+        description: "Generar instalador para PS3.",
+        items: [
+          "Abrir pestaña Make PKG.",
+          "Seleccionar ISO.BIN.ENC.",
+          "Generar paquete.",
+          "Guardar PKG resultante.",
+        ],
+      },
+
+      {
+        title: "Personalizar Carátulas",
+        description: "Modificar apariencia.",
+        items: [
+          "ICON0.PNG",
+          "PIC0.PNG",
+          "Imágenes personalizadas.",
+          "Carátulas propias.",
+        ],
+      },
+
+      {
+        title: "Archivos Grandes",
+        description: "Compatibilidad FAT32.",
+        items: [
+          "Usar OpenSplit.",
+          "Dividir archivos grandes.",
+          "Crear partes .666xx.",
+          "Preparar USB FAT32.",
+        ],
+      },
+
+      {
+        title: "Transferencia a PS3",
+        description: "Mover archivos a la consola.",
+        items: [
+          "USB FAT32.",
+          "FTP.",
+          "webMAN MOD.",
+          "Copiar a PS2ISO.",
+        ],
+      },
+
+      {
+        title: "PS2 Classics Launcher",
+        description: "Ejecución de juegos.",
+        items: [
+          "Instalar Launcher.",
+          "Instalar exdata.",
+          "Montar juego.",
+          "Ejecutar desde PS3.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description: "Complementos recomendados.",
+        items: [
+          "webMAN MOD",
+          "PS2CONFIG",
+          "RetroXMB",
+          "PS3 ISO Tools",
+          "OpenSplit",
+        ],
+      },
+
+      {
+        title: "Consejos",
+        description: "Buenas prácticas.",
+        items: [
+          "Comprobar compatibilidad antes de convertir.",
+          "Mantener copia de la ISO original.",
+          "Configurar ventilación adecuada.",
+          "Usar nombres simples para los juegos.",
+        ],
+      },
+    ],
+  },
+},
+// Crear DVD o BD-R Juegos
+{
+  console: "PS3",
+  name: "Crear DVD o BD-R Juegos",
+  image: "img/PS3/crear-dvd-bdr.jpg",
+
+  description:
+    "Guía para crear copias de seguridad de juegos propios en formato ISO y grabarlas posteriormente en DVD o BD-R.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/7J4HCZTY#NuDJJAx4fnIEvYmzIabN5g",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear una imagen ISO de un juego propio y prepararla para grabación en un disco óptico.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      Windows: "✅ Compatible",
+      ISO: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "PC con Windows",
+      "multiMAN",
+      "PS3 ISO Tools",
+      "Cobra ODE GenPS3iso",
+      "DVD o BD-R",
+    ],
+
+    installation: [
+      "Instalar multiMAN en la consola.",
+      "Instalar las herramientas en el PC.",
+      "Preparar una unidad USB FAT32.",
+      "Disponer de un grabador compatible.",
+    ],
+
+    usage:
+      "Permite crear una imagen ISO de un juego y prepararla para grabación utilizando herramientas de PC.",
+
+    notes:
+      "Se recomienda utilizar velocidades de grabación bajas para mejorar la compatibilidad del disco.",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Crear Copia del Juego",
+        description:
+          "Volcar el contenido al USB.",
+
+        items: [
+          "Abrir multiMAN.",
+          "Seleccionar el disco original.",
+          "Usar la opción Copiar.",
+          "Guardar en USB externo.",
+        ],
+      },
+
+      {
+        title: "Carpeta Resultante",
+        description:
+          "Archivos obtenidos.",
+
+        items: [
+          "Carpeta GAMES.",
+          "Juego en formato carpeta.",
+          "Datos preparados para conversión.",
+        ],
+      },
+
+      {
+        title: "Crear ISO",
+        description:
+          "Conversión en el PC.",
+
+        items: [
+          "Abrir Cobra ODE GenPS3iso.",
+          "Seleccionar carpeta del juego.",
+          "Elegir carpeta de destino.",
+          "Generar imagen ISO.",
+        ],
+      },
+
+      {
+        title: "Configuración Recomendada",
+        description:
+          "Opciones utilizadas en el tutorial.",
+
+        items: [
+          "Cancelar IRD.",
+          "Cancelar Split.",
+          "Esperar la conversión completa.",
+        ],
+      },
+
+      {
+        title: "Grabar Disco",
+        description:
+          "Preparar DVD o BD-R.",
+
+        items: [
+          "Utilizar ImgBurn.",
+          "Utilizar Nero.",
+          "Seleccionar la ISO.",
+          "Grabar a velocidad baja.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Tipos de medios.",
+
+        items: [
+          "DVD compatibles.",
+          "BD-R compatibles.",
+          "ISO PS3.",
+          "Copias de seguridad propias.",
+        ],
+      },
+
+      {
+        title: "Primer Inicio",
+        description:
+          "Comprobaciones básicas.",
+
+        items: [
+          "Insertar el disco.",
+          "Verificar detección.",
+          "Comprobar instalación.",
+          "Actualizar datos si es necesario.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "multiMAN",
+          "PS3 ISO Tools",
+          "PS3 NET Server",
+          "webMAN MOD",
+          "PS3Merge",
+        ],
+      },
+
+      {
+        title: "Consejos",
+        description:
+          "Buenas prácticas.",
+
+        items: [
+          "Mantener el juego original.",
+          "Usar discos de buena calidad.",
+          "Grabar a baja velocidad.",
+          "Verificar la ISO antes de grabar.",
+        ],
+      },
+    ],
+  },
+},
+// PS3Dec
+{
+  console: "PS3",
+  name: "PS3Dec",
+  image: "img/PS3/ps3dec.jpg",
+
+  description:
+    "Utilidad histórica para Windows relacionada con el análisis y procesamiento de imágenes ISO de PlayStation 3.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/aBoSnIiD#IB8M7YbOF1ruPypEX5Af2w",
+    },
+  ],
+
+  guide: {
+    function:
+      "Herramienta utilizada tradicionalmente por usuarios avanzados para trabajar con determinadas imágenes ISO de PS3.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PS3ISO: "✅ Compatible",
+      Estado: "⚠️ Legacy",
+    },
+
+    requirements: [
+      "PC con Windows",
+      "PS3Dec",
+      "Conocimientos avanzados",
+    ],
+
+    usage:
+      "Herramienta orientada al análisis y procesamiento de imágenes ISO.",
+
+    notes:
+      "Actualmente suelen utilizarse herramientas más modernas y sencillas para la gestión de juegos y copias de seguridad.",
+
+    version: "Legacy",
+    author: "PS3 Scene",
+
+    details: [
+      {
+        title: "Estado del Proyecto",
+        description: "Información general.",
+        items: [
+          "Herramienta clásica de PC.",
+          "Uso avanzado.",
+          "Proyecto histórico.",
+          "Poco utilizada actualmente.",
+        ],
+      },
+
+      {
+        title: "Entorno de Trabajo",
+        description: "Requisitos generales.",
+        items: [
+          "Windows.",
+          "Línea de comandos.",
+          "Archivos ISO.",
+          "Gestión de imágenes.",
+        ],
+      },
+
+      {
+        title: "Casos de Uso",
+        description: "Utilización habitual.",
+        items: [
+          "Análisis de ISOs.",
+          "Verificación de archivos.",
+          "Procesamiento de imágenes.",
+          "Investigación técnica.",
+        ],
+      },
+
+      {
+        title: "Alternativas Actuales",
+        description: "Herramientas más utilizadas.",
+        items: [
+          "PS3 ISO Tools",
+          "webMAN MOD",
+          "IRISMAN",
+          "multiMAN",
+        ],
+      },
+
+      {
+        title: "Importante",
+        description: "Consideraciones.",
+        items: [
+          "Herramienta para usuarios avanzados.",
+          "Realizar copias de seguridad.",
+          "Verificar compatibilidad.",
+          "Mantener los archivos originales.",
+        ],
+      },
+    ],
+  },
+},
+// PS3 Disc Dumper
+{
+  console: "PS3",
+  name: "PS3 Disc Dumper",
+  image: "img/PS3/ps3-disc-dumper.png",
+
+  description:
+    "Herramienta para Windows que permite extraer juegos de PS3 a formato carpeta desde imágenes de disco compatibles.",
+
+  website: "https://github.com/13xforever/ps3-disc-dumper",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/aEpQCCrJ#8Lv2nlj9BKfR0F8vvmIDVA",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/13xforever/ps3-disc-dumper/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite convertir imágenes compatibles de PS3 a formato carpeta para utilizarlas posteriormente con herramientas como webMAN MOD o PS3 ISO Tools.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      PS3: "✅ Compatible",
+      ISO: "✅ Compatible",
+      FormatoCarpeta: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "PS3 Disc Dumper",
+      "Imagen ISO compatible",
+    ],
+
+    installation: [
+      "Descargar PS3 Disc Dumper.",
+      "Extraer el archivo ZIP.",
+      "Ejecutar ps3-disc-dumper.exe.",
+    ],
+
+    usage:
+      "Permite obtener una carpeta de juego compatible lista para copiar a USB, HDD o convertir nuevamente a ISO.",
+
+    notes:
+      "Los juegos extraídos pueden utilizarse posteriormente con PS3 ISO Tools o gestores compatibles.",
+
+    version: "Actual",
+    author: "13xforever",
+
+    details: [
+      {
+        title: "¿Qué es PS3 Disc Dumper?",
+        description:
+          "Conversión de imágenes a formato carpeta.",
+
+        items: [
+          "Lectura automática.",
+          "Extracción sencilla.",
+          "Salida en formato carpeta.",
+          "Compatible con Windows.",
+        ],
+      },
+
+      {
+        title: "Preparar la ISO",
+        description:
+          "Primer paso del proceso.",
+
+        items: [
+          "Montar la imagen ISO.",
+          "Verificar acceso al contenido.",
+          "Comprobar que la ISO sea reconocida.",
+        ],
+      },
+
+      {
+        title: "Detectar Juego",
+        description:
+          "Análisis automático.",
+
+        items: [
+          "Abrir ps3-disc-dumper.exe.",
+          "Detectar disco montado.",
+          "Verificar información.",
+          "Preparar extracción.",
+        ],
+      },
+
+      {
+        title: "Extraer Juego",
+        description:
+          "Proceso principal.",
+
+        items: [
+          "Pulsar Start.",
+          "Esperar extracción.",
+          "Crear carpeta del juego.",
+          "Generar estructura completa.",
+        ],
+      },
+
+      {
+        title: "Resultado",
+        description:
+          "Archivos obtenidos.",
+
+        items: [
+          "Juego formato carpeta.",
+          "Nombre + ID del juego.",
+          "Archivos listos para usar.",
+          "Compatible con gestores PS3.",
+        ],
+      },
+
+      {
+        title: "Convertir nuevamente a ISO",
+        description:
+          "Proceso opcional.",
+
+        items: [
+          "Usar PS3 ISO Tools.",
+          "Crear nueva ISO.",
+          "Guardar resultado.",
+          "Preparar para webMAN MOD.",
+        ],
+      },
+
+      {
+        title: "Compatibilidad",
+        description:
+          "Uso recomendado.",
+
+        items: [
+          "webMAN MOD",
+          "IRISMAN",
+          "multiMAN",
+          "PS3 ISO Tools",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Fácil utilización.",
+          "Conversión rápida.",
+          "Compatible con Windows.",
+          "Ideal para formato carpeta.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "PS3 ISO Tools",
+          "PS3Merge",
+          "PKG Linker",
+          "PS3 NET Server",
+        ],
+      },
+    ],
+  },
+},
+// Crear Coldboot Personalizado
+{
+  console: "PS3",
+  name: "Crear Coldboot Personalizado",
+  image: "img/PS3/coldboot.jpg",
+
+  description:
+    "Guía para crear e instalar un Coldboot personalizado en PlayStation 3 utilizando imágenes propias y herramientas de PC.",
+
+  website: "https://github.com/PS3Xploit/coldboot-installer",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/yFRXDKIR#EAkPPdyE48NVFJTjl5pyNA",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear una animación de inicio personalizada para modificar el logotipo mostrado durante el arranque de la consola.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      Windows: "✅ Compatible",
+      Personalización: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "PC con Windows",
+      "Make Package Custom",
+      "Easy Static RAF Converter",
+      "Imagen personalizada",
+    ],
+
+    installation: [
+      "Descargar el pack Coldboot.",
+      "Extraer los archivos.",
+      "Preparar la imagen personalizada.",
+      "Generar el archivo Coldboot.raf.",
+      "Crear el PKG personalizado.",
+    ],
+
+    usage:
+      "Permite reemplazar el logotipo de inicio de PlayStation 3 por una imagen personalizada.",
+
+    notes:
+      "Se recomienda conservar una copia del Coldboot original para restaurarlo si es necesario.",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Contenido del Pack",
+        description:
+          "Archivos incluidos.",
+
+        items: [
+          "Make Package Custom",
+          "COLDBOOT.png",
+          "COLDBOOT.psd",
+          "Easy Static RAF Converter",
+        ],
+      },
+
+      {
+        title: "Preparar Imagen",
+        description:
+          "Diseño del nuevo Coldboot.",
+
+        items: [
+          "Imagen PNG.",
+          "Resolución alta.",
+          "Preferiblemente 1920x1080.",
+          "Diseño personalizado.",
+        ],
+      },
+
+      {
+        title: "Convertir Imagen",
+        description:
+          "Generar archivo RAF.",
+
+        items: [
+          "Abrir Easy Static RAF Converter.",
+          "Seleccionar imagen.",
+          "Visualizar Preview.",
+          "Usar Convert.",
+        ],
+      },
+
+      {
+        title: "Archivos Generados",
+        description:
+          "Resultado de la conversión.",
+
+        items: [
+          "Coldboot.raf",
+          "Preview.png",
+          "Vista previa",
+          "Archivo final PS3",
+        ],
+      },
+
+      {
+        title: "HEN",
+        description:
+          "Ruta utilizada en tutorial.",
+
+        items: [
+          "custom/dev_rewrite/vsh/resource",
+          "Copiar Coldboot.raf",
+          "Preparar paquete final",
+        ],
+      },
+
+      {
+        title: "CFW",
+        description:
+          "Ruta utilizada en tutorial.",
+
+        items: [
+          "custom/dev_blind/vsh/resource",
+          "Copiar Coldboot.raf",
+          "Preparar paquete final",
+        ],
+      },
+
+      {
+        title: "Crear PKG",
+        description:
+          "Generar instalador.",
+
+        items: [
+          "Abrir make.bat",
+          "Esperar proceso",
+          "Generar custom.pkg",
+          "Preparar instalación",
+        ],
+      },
+
+      {
+        title: "Instalar en PS3",
+        description:
+          "Aplicar modificación.",
+
+        items: [
+          "Copiar PKG al USB",
+          "Instalar desde PKG Manager",
+          "Reiniciar consola",
+          "Verificar cambios",
+        ],
+      },
+
+      {
+        title: "Restaurar Original",
+        description:
+          "Volver al estado inicial.",
+
+        items: [
+          "Instalar Coldboot original.pkg",
+          "Reiniciar consola",
+          "Restaurar el diseño original",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "Make Package Custom",
+          "PS3 Extra Mods",
+          "Monstruoso T-PACK",
+          "Logos HEN",
+          "PSN Icons Collection",
+        ],
+      },
+    ],
+  },
+},
+// PS3 Toolset
+{
+  console: "PS3",
+  name: "PS3 Toolset",
+  image: "img/PS3/ps3-toolset.jpg",
+
+  description:
+    "Herramienta para Windows especializada en la creación de temas, coldboots, waves, avatares y otros elementos de personalización para PlayStation 3.",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/nFwXkS7A#zXI9YDNhirIoD9Vy_WXe8Q",
+    },
+    {
+      name: "Web Oficial",
+      url: "TU_WEB_OFICIAL",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite crear y personalizar distintos elementos visuales utilizados por PlayStation 3 desde una única aplicación.",
+
+    compatibility: {
+      Windows: "✅ Compatible",
+      Temas: "✅ Compatible",
+      Coldboot: "✅ Compatible",
+      Avatares: "✅ Compatible",
+      Personalizacion: "✅ Compatible",
+    },
+
+    requirements: [
+      "PC o Notebook",
+      "Windows 7 o superior",
+      "PS3 Toolset",
+    ],
+
+    installation: [
+      "Descargar PS3 Toolset.",
+      "Descomprimir el archivo ZIP.",
+      "Extraer la carpeta.",
+      "Ejecutar PS3 Toolset.exe.",
+    ],
+
+    usage:
+      "Permite acceder a distintas herramientas de personalización desde el menú Tools.",
+
+    notes:
+      "Es una de las herramientas más completas para personalización avanzada de PlayStation 3.",
+
+    version: "Actual",
+    author: "PS3 Toolset Team",
+
+    details: [
+      {
+        title: "Theme Builder",
+        description:
+          "Creación de temas personalizados.",
+
+        items: [
+          "Crear temas P3T.",
+          "Modificar iconos.",
+          "Agregar fondos.",
+          "Personalizar sonidos.",
+        ],
+      },
+
+      {
+        title: "Coldboot Builder",
+        description:
+          "Creación de logotipos de inicio.",
+
+        items: [
+          "Coldboots personalizados.",
+          "Vista previa.",
+          "Exportación de archivos.",
+          "Instalación mediante PKG.",
+        ],
+      },
+
+      {
+        title: "Wave Builder",
+        description:
+          "Personalización del fondo dinámico.",
+
+        items: [
+          "Modificar Waves.",
+          "Cambiar apariencia XMB.",
+          "Diseños personalizados.",
+        ],
+      },
+
+      {
+        title: "Avatar Maker",
+        description:
+          "Creación de avatares.",
+
+        items: [
+          "Diseño de avatares.",
+          "Imágenes personalizadas.",
+          "Exportación compatible.",
+        ],
+      },
+
+      {
+        title: "Theme Tools",
+        description:
+          "Herramientas para temas.",
+
+        items: [
+          "Editar temas existentes.",
+          "Crear nuevos diseños.",
+          "Modificar recursos visuales.",
+          "Compatibilidad P3T.",
+        ],
+      },
+
+      {
+        title: "Personalización",
+        description:
+          "Elementos compatibles.",
+
+        items: [
+          "Themes",
+          "Coldboot",
+          "Waves",
+          "Avatares",
+          "Fondos",
+          "Iconos",
+        ],
+      },
+
+      {
+        title: "Flujo de Trabajo",
+        description:
+          "Uso general del programa.",
+
+        items: [
+          "Abrir PS3 Toolset.",
+          "Entrar en Tools.",
+          "Seleccionar herramienta.",
+          "Crear recurso.",
+          "Exportar resultado.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Características principales.",
+
+        items: [
+          "Todo en una sola aplicación.",
+          "Interfaz sencilla.",
+          "Múltiples herramientas.",
+          "Orientado a PS3.",
+        ],
+      },
+
+      {
+        title: "Herramientas Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "Make Package Custom",
+          "Crear Coldboot Personalizado",
+          "PS3 Extra Mods",
+          "Monstruoso T-PACK",
+          "Iconos Personalizados",
+        ],
+      },
+    ],
+  },
+},
+// PS3netsrv Android
+{
+  console: "PS3",
+  name: "PS3netsrv Android",
+  image: "img/PS3/ps3netsrv-android.jpg",
+
+  description:
+    "Aplicación para Android que permite compartir juegos en formato ISO desde un teléfono móvil hacia PlayStation 3 mediante webMAN MOD.",
+
+  website: "https://github.com/jhonathanc/ps3netsrv-android",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/7domkI6C#BK0UpNdVJKYQ1EVWqFciOw",
+    },
+    {
+      name: "GitHub Releases",
+      url: "https://github.com/jhonathanc/ps3netsrv-android/releases",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite utilizar un dispositivo Android como servidor de juegos para PlayStation 3 mediante la red local.",
+
+    compatibility: {
+      Android: "✅ 4.0.1 o superior",
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      webMAN: "✅ Requerido",
+      LAN: "✅ Requerido",
+    },
+
+    requirements: [
+      "Android 4.0.1 o superior",
+      "PS3 con webMAN MOD",
+      "Red Wi-Fi local",
+      "Juegos en formato ISO",
+    ],
+
+    installation: [
+      "Instalar app-debug.apk.",
+      "Copiar las ISOs al teléfono.",
+      "Crear una carpeta GAMES.",
+      "Configurar la ruta de los juegos.",
+    ],
+
+    usage:
+      "Comparte las ISOs almacenadas en Android para que webMAN MOD las detecte y ejecute mediante la red local.",
+
+    notes:
+      "La PS3 y el teléfono deben estar conectados a la misma red Wi-Fi.",
+
+    version: "Actual",
+    author: "PS3 Scene",
+
+    details: [
+      {
+        title: "¿Qué es?",
+        description:
+          "Servidor PS3NETSRV para Android.",
+
+        items: [
+          "Streaming de ISOs.",
+          "Compatible con webMAN MOD.",
+          "No requiere PC.",
+          "Servidor desde el móvil.",
+        ],
+      },
+
+      {
+        title: "Preparar Juegos",
+        description:
+          "Organización recomendada.",
+
+        items: [
+          "Crear carpeta GAMES.",
+          "Copiar ISOs al teléfono.",
+          "Mantener nombres simples.",
+          "Verificar almacenamiento suficiente.",
+        ],
+      },
+
+      {
+        title: "Configurar Aplicación",
+        description:
+          "Seleccionar ubicación.",
+
+        items: [
+          "Abrir aplicación.",
+          "Entrar en Configuración.",
+          "Seleccionar ruta de juegos.",
+          "Guardar cambios.",
+        ],
+      },
+
+      {
+        title: "Iniciar Servidor",
+        description:
+          "Activar PS3NETSRV.",
+
+        items: [
+          "Volver a la pantalla principal.",
+          "Iniciar servidor.",
+          "Verificar IP mostrada.",
+          "Mantener aplicación abierta.",
+        ],
+      },
+
+      {
+        title: "Configurar webMAN MOD",
+        description:
+          "Conectar la PS3.",
+
+        items: [
+          "Abrir Configuración webMAN.",
+          "Buscar juegos por LAN.",
+          "Agregar IP del teléfono.",
+          "Guardar configuración.",
+        ],
+      },
+
+      {
+        title: "Actualizar Biblioteca",
+        description:
+          "Detectar juegos compartidos.",
+
+        items: [
+          "Actualizar juegos de webMAN.",
+          "Actualizar XMB.",
+          "Refrescar lista web.",
+          "Verificar detección.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "No requiere ordenador.",
+          "Configuración sencilla.",
+          "Compatible con Android.",
+          "Aprovecha almacenamiento del móvil.",
+        ],
+      },
+
+      {
+        title: "Aplicaciones Relacionadas",
+        description:
+          "Complementos recomendados.",
+
+        items: [
+          "webMAN MOD",
+          "PS3 NET Server",
+          "IRISMAN",
+          "multiMAN",
+        ],
+      },
+    ],
+  },
+},
+// Desinstalar HEN
+{
+  console: "PS3",
+  name: "Desinstalar HEN",
+  image: "img/PS3/desinstalar-hen.jpg",
+
+  description:
+    "Guía para eliminar HEN de una PlayStation 3 y restaurar la consola a un estado limpio mediante restauración y actualización del sistema.",
+
+  website: "https://www.playstation.com/es-cl/support/hardware/ps3/system-software/",
+
+  downloads: [
+    {
+      name: "Mirror MEGA",
+      url: "https://mega.nz/folder/mRRUySZJ#HZCB43qooux9ibJZdZWEKQ",
+    },
+  ],
+
+  guide: {
+    function:
+      "Permite eliminar la instalación de HEN y restaurar completamente la consola mediante una reinstalación del firmware.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      OFW: "✅ Compatible",
+      HFW: "✅ Compatible",
+      USB: "✅ FAT32",
+    },
+
+    requirements: [
+      "PlayStation 3 con HEN",
+      "USB FAT32",
+      "Archivo PS3UPDAT.PUP",
+    ],
+
+    installation: [
+      "Descargar el firmware PS3.",
+      "Preparar el USB.",
+      "Acceder al Modo Seguro.",
+      "Restablecer la consola.",
+      "Reinstalar el firmware.",
+    ],
+
+    usage:
+      "Permite eliminar configuraciones, aplicaciones y modificaciones asociadas a HEN.",
+
+    notes:
+      "Se recomienda realizar una copia de seguridad antes de comenzar, ya que el proceso elimina juegos, aplicaciones y configuraciones almacenadas en la consola.",
+
+    version: "Tutorial",
+    author: "MarcheBMPC",
+
+    details: [
+      {
+        title: "Antes de Empezar",
+        description:
+          "Preparación recomendada.",
+
+        items: [
+          "Respaldar partidas guardadas.",
+          "Respaldar juegos PSP.",
+          "Respaldar juegos PS1.",
+          "Respaldar juegos PS2.",
+          "Respaldar juegos PS3.",
+        ],
+      },
+
+      {
+        title: "Descargar Firmware",
+        description:
+          "Preparar la actualización.",
+
+        items: [
+          "Obtener PS3UPDAT.PUP.",
+          "Usar versión compatible.",
+          "Guardar el archivo original.",
+        ],
+      },
+
+      {
+        title: "Preparar USB",
+        description:
+          "Estructura correcta.",
+
+        items: [
+          "PS3",
+          "UPDATE",
+          "PS3UPDAT.PUP",
+          "USB FAT32",
+        ],
+      },
+
+      {
+        title: "Modo Seguro",
+        description:
+          "Acceso a Recovery Mode.",
+
+        items: [
+          "Apagar la consola.",
+          "Entrar al Modo Seguro.",
+          "Conectar mando por USB.",
+          "Acceder al menú Recovery.",
+        ],
+      },
+
+      {
+        title: "Restablecer Sistema",
+        description:
+          "Eliminar datos almacenados.",
+
+        items: [
+          "Opción 5.",
+          "Restablecer sistema PS3.",
+          "Eliminar contenido instalado.",
+          "Volver al estado inicial.",
+        ],
+      },
+
+      {
+        title: "Actualizar Sistema",
+        description:
+          "Instalar firmware limpio.",
+
+        items: [
+          "Opción 6.",
+          "Actualización del sistema.",
+          "Detectar USB.",
+          "Instalar firmware.",
+        ],
+      },
+
+      {
+        title: "Resultado Final",
+        description:
+          "Estado esperado.",
+
+        items: [
+          "Consola reiniciada.",
+          "Sistema actualizado.",
+          "Configuración inicial.",
+          "Sin aplicaciones instaladas.",
+        ],
+      },
+
+      {
+        title: "Importante",
+        description:
+          "Información adicional.",
+
+        items: [
+          "Realizar copia de seguridad antes de comenzar.",
+          "Mantener la consola conectada durante la actualización.",
+          "No interrumpir el proceso.",
+          "Verificar el firmware utilizado.",
+        ],
+      },
+
+      {
+        title: "Tutoriales Relacionados",
+        description:
+          "Guías recomendadas.",
+
+        items: [
+          "Instalar HEN",
+          "Actualizar PS3",
+          "Modo Seguro PS3",
+          "Recuperar Sistema PS3",
+        ],
+      },
+    ],
+  },
+},
+// Menú Secreto PS2
+{
+  console: "PS3",
+  name: "Menú Secreto PS2",
+  image: "img/PS3/menu-secreto-ps2.jpg",
+
+  description:
+    "Menú oculto del emulador de PlayStation 2 en PS3 que permite ajustar opciones gráficas, rendimiento y compatibilidad en determinados juegos.",
+
+  guide: {
+    function:
+      "Permite acceder a configuraciones avanzadas del emulador de PS2 integrado en PlayStation 3.",
+
+    compatibility: {
+      HEN: "✅ Compatible",
+      CFW: "✅ Compatible",
+      PS2Classics: "✅ Compatible",
+      PS2ISO: "✅ Compatible",
+    },
+
+    requirements: [
+      "PlayStation 3",
+      "Juego de PlayStation 2 ejecutándose",
+    ],
+
+    installation: [
+      "No requiere instalación.",
+      "No requiere aplicaciones adicionales.",
+      "Acceso desde el juego en ejecución.",
+    ],
+
+    usage:
+      "Permite modificar parámetros internos del emulador PS2 para mejorar compatibilidad o rendimiento en algunos títulos.",
+
+    notes:
+      "Los resultados pueden variar según cada juego. Algunos cambios pueden mejorar el rendimiento mientras que otros pueden no producir diferencias visibles.",
+
+    version: "Integrado",
+    author: "Sony",
+
+    details: [
+      {
+        title: "¿Qué es?",
+        description:
+          "Menú oculto del emulador PS2.",
+
+        items: [
+          "Opciones avanzadas.",
+          "Configuración interna.",
+          "Ajustes de compatibilidad.",
+          "Mejoras de rendimiento.",
+        ],
+      },
+
+      {
+        title: "Acceso al Menú",
+        description:
+          "Activación durante el juego.",
+
+        items: [
+          "Abrir menú PS durante un juego PS2.",
+          "Activar combinación especial.",
+          "Esperar varios segundos.",
+          "Acceder al menú avanzado.",
+        ],
+      },
+
+      {
+        title: "Configuración",
+        description:
+          "Opciones disponibles.",
+
+        items: [
+          "Ajustes gráficos.",
+          "Parámetros de compatibilidad.",
+          "Configuraciones de rendimiento.",
+          "Opciones del emulador.",
+        ],
+      },
+
+      {
+        title: "VSYNC DELAY",
+        description:
+          "Parámetro de sincronización.",
+
+        items: [
+          "Permite realizar pruebas.",
+          "Puede mejorar algunos juegos.",
+          "Configuración opcional.",
+        ],
+      },
+
+      {
+        title: "L2H Improvement",
+        description:
+          "Ajuste adicional del emulador.",
+
+        items: [
+          "Activar o desactivar.",
+          "Probar compatibilidad.",
+          "Evaluar rendimiento.",
+        ],
+      },
+
+      {
+        title: "Guardar Cambios",
+        description:
+          "Aplicar la configuración.",
+
+        items: [
+          "Guardar ajustes.",
+          "Salir del menú.",
+          "Reiniciar el juego.",
+          "Comprobar resultados.",
+        ],
+      },
+
+      {
+        title: "Casos de Uso",
+        description:
+          "Situaciones habituales.",
+
+        items: [
+          "Problemas gráficos.",
+          "Rendimiento irregular.",
+          "Compatibilidad PS2.",
+          "Pruebas avanzadas.",
+        ],
+      },
+
+      {
+        title: "Ventajas",
+        description:
+          "Beneficios principales.",
+
+        items: [
+          "Sin instalar aplicaciones.",
+          "Configuración avanzada.",
+          "Integrado en PS3.",
+          "Compatible con juegos PS2.",
+        ],
+      },
+
+      {
+        title: "Tutoriales Relacionados",
+        description:
+          "Herramientas para PS2 en PS3.",
+
+        items: [
+          "PS2 en PS3 con PC",
+          "Convertir ISO de PS2 sin PC",
+          "PS2CONFIG",
+          "PS2 Classics Manager",
+          "RetroXMB",
+        ],
+      },
+    ],
+  },
+},
+
+//Falta 
+//06- FTP - Retro Online - UMS
+//08- SABÍAS QUE EL SERIAL de tu PS3 TE PUEDE SERVIR PARA ALGO
+//SaveData Consolas PS1 a PS3
+//Compatividad PS1,PS2,PSP Revisar si es necesario
 ];
